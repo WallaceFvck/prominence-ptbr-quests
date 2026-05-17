@@ -10,6 +10,7 @@
 ## O que é isso?
 
 Um mod Fabric que instala automaticamente a tradução PT-BR de todas as **33 quests** do modpack [Prominence II: Hasturian Era](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era).
+> Mod não-oficial, sem afiliação com os criadores do Prominence II ou do FTB Quests.
 
 Basta colocar o `.jar` na pasta `mods/` e abrir o jogo - sem precisar substituir arquivos manualmente.
 
