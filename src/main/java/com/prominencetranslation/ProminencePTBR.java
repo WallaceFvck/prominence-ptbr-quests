@@ -72,8 +72,10 @@ public class ProminencePTBR implements ModInitializer {
                 throw new FileNotFoundException("Pasta /quests não encontrada dentro do .jar do mod!");
             }
 
-            // Copia por cima sem apagar — arquivos novos adicionados pelo modpack
-            // são preservados; apenas os arquivos traduzidos são substituídos
+            // Apaga o destino antigo e copia o novo
+            if (Files.exists(destino)) {
+                deletarDiretorio(destino);
+            }
             Files.createDirectories(destino);
 
             copiarDiretorioJar(questsNoJar, destino);
