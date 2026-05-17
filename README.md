@@ -1,7 +1,7 @@
 # Prominence II: Hasturian Era — Tradução PT-BR das Quests
 
 <p align="center">
-  <img src="https://cdn.modrinth.com/data/cW7lBf6c/images/2a4c79e2c9de9985dbbb74dcfa8e48c51e79a64d.png" width="600"/>
+  <img src="https://i.imgur.com/ZgOuvRC.png" width="600"/>
 </p>
 <p align="center"><em>Tradução completa das quests do Prominence II: Hasturian Era para Português do Brasil</em></p>
 
