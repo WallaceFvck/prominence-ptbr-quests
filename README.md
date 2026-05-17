@@ -1,4 +1,4 @@
-# Prominence II: Hasturian Era — Tradução PT-BR das Quests
+# Prominence II: Hasturian Era - Tradução PT-BR das Quests
 
 <p align="center">
   <img src="https://i.imgur.com/ZgOuvRC.png" width="600"/>
@@ -11,7 +11,7 @@
 
 Um mod Fabric que instala automaticamente a tradução PT-BR de todas as **33 quests** do modpack [Prominence II: Hasturian Era](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era).
 
-Basta colocar o `.jar` na pasta `mods/` e abrir o jogo — sem precisar substituir arquivos manualmente.
+Basta colocar o `.jar` na pasta `mods/` e abrir o jogo - sem precisar substituir arquivos manualmente.
 
 ---
 
@@ -19,7 +19,7 @@ Basta colocar o `.jar` na pasta `mods/` e abrir o jogo — sem precisar substitu
 
 1. Baixe o `.jar` na aba [Releases](../../releases/latest)
 2. Coloque na pasta `mods/` da sua instância do Prominence II no CurseForge
-3. Abra o jogo — a tradução é instalada automaticamente na primeira inicialização
+3. Abra o jogo - a tradução é instalada automaticamente na primeira inicialização
 
 > **Compatível com:** Prominence II: Hasturian Era · Minecraft 1.20.1 · Fabric
 
@@ -54,7 +54,7 @@ Na primeira vez que o jogo abre com o mod:
 - Enchanting
 - Getting Started
 - Gadgets
-- Gear — Marium's Soulslike Weaponry
+- Gear - Marium's Soulslike Weaponry
 - Hasturian Era
 - Industrial Revolution
 - Information & New Mechanics
