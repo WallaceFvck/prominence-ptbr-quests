@@ -1,0 +1,1285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archon"
+	group: "244F516C4853FD2F"
+	icon: {
+		Count: 1
+		id: "wizards:wand_fire"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "184A69F072ECA80E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "archon:grimoire"
+			id: "0AD9BE143D39268F"
+			rewards: [
+				{
+					id: "2009BAE85FB8319E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "14F1B61D053B0F18"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "Bem-vindo ao mundo das runas. É aqui que usamos runas e mana para criar feitiços mágicos, armas e até armaduras. Você está pronto para aprender o mundo da feitiçaria e das runas?"
+			tasks: [
+				{
+					id: "4A5671A5B0CD7CD3"
+					title: "Está pronto para se tornar um Feiticeiro?"
+					type: "checkmark"
+				}
+				{
+					id: "4613B914D39D4B45"
+					item: "archon:grimoire"
+					type: "item"
+				}
+			]
+			title: "Primeiros Passos na Magia"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "596D88086910FE78"
+			shape: "diamond"
+			subtitle: "Nas profundezas do mundo existem Essências da Terra; encontrá-las não será tarefa fácil, já que o subterrâneo é enorme."
+			tasks: [{
+				id: "166125A8F31A4AF4"
+				item: "archon:earth_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			description: [
+				"Preparando-se para Encontrar Meteoritos 2"
+			]
+			id: "01258A1B33747993"
+			shape: "diamond"
+			subtitle: "Além do vazio estão as Essências do End encontradas nas Ilhas do End; elas serão muito difíceis de achar, a menos que você esteja determinado o suficiente."
+			tasks: [{
+				id: "6811A109A2B99E71"
+				item: "archon:end_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			description: [
+				"Antes de sair para encontrar seu primeiro Meteorito, certifique-se de ter uma Picareta de Ferro ou melhor. Meteoritos são feitos de um material muito resistente chamado Pedra do Céu, que exige isso. Certifique-se de minerar até o centro do meteorito para coletar os Cristais de Quartzo Certus, Blocos de Quartzo Certus e suas Prensas de Inscrição!"
+			]
+			id: "1780D396DC014BA0"
+			rewards: [
+				{
+					id: "12C24B12F06DFF66"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "6A2EE2401F255A2B"
+					item: "archon:mana_berries"
+					type: "item"
+				}
+			]
+			subtitle: "O Canalizador é uma varinha capaz de infundir mana em certos blocos, criando sua versão fabricada ou um novo material mágico. Teste alguns materiais."
+			tasks: [{
+				id: "1F130DEA61749920"
+				item: "archon:channeler"
+				type: "item"
+			}]
+			title: "Alquimia em um Graveto"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "3225D08099FF42D1"
+			rewards: [{
+				id: "1D5ED91613D3C915"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Torres são estruturas altas encontradas em biomas de floresta e montanha que contêm certos tipos de saque. Cuidado com as sanguessugas!"
+			tasks: [{
+				id: "22D665001A85F2BD"
+				structure: "archon:spire"
+				title: "Quente ao toque"
+				type: "structure"
+			}]
+			title: "&4Troféus de Pedra Cinzenta"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3225D08099FF42D1"
+				"0C1026686D425091"
+			]
+			id: "572B7DC7185B8D61"
+			rewards: [{
+				id: "76A9DB8342C6E299"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Exagero"
+			tasks: [
+				{
+					id: "320435EC60BCA545"
+					item: "archon:capacity_scroll"
+					type: "item"
+				}
+				{
+					id: "311484D8F55C8CEB"
+					item: "archon:removal_scroll"
+					type: "item"
+				}
+			]
+			title: "&3Livros de Feitiços de Nível Superior"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "4CA7E7DA58B3B6C7"
+			rewards: [
+				{
+					id: "729F1DF03193454C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "2BA3C7E0CB49F240"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "&6&lColeção de Troféus"
+			tasks: [{
+				id: "202BB1E0C0815F14"
+				item: "archon:glisteel_ingot"
+				type: "item"
+			}]
+			title: "&7Esses Troféus podem ser obtidos ao completar Missões na história principal. Se você está vendo isso, então já conseguiu o seu primeiro! Parabéns!"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "498575A162B584BA"
+			subtitle: "&7Você usou a outra Receita, não foi?
+&7Este é principalmente um item utilitário usado apenas para colocar blocos. Ele não pode quebrar blocos. Esta Varinha pode ser usada para preencher grandes buracos que seus amigos ignoram ou construir muralhas enormes para manter seus amigos longe."
+			tasks: [{
+				id: "5398332BD46C3DD3"
+				item: {
+					Count: 1
+					id: "archon:mask_of_power"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7Igual à anterior, esta cobre uma área maior do que a varinha de pedra."
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "5065CA5BF502C166"
+			rewards: [{
+				id: "5E3F32BEDC7EBEE7"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "&7Cara, mas útil. Não recomendada se você ainda não conseguiu a Bússola do Explorador, pelo menos um Livro de Feitiços, a Bússola da Natureza e o Buraco de Minhoca de Bolso."
+			tasks: [{
+				id: "72B068BE05DD165D"
+				item: "archon:mana_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5065CA5BF502C166"]
+			id: "5902382AF39E025B"
+			rewards: [{
+				id: "1447F2852B46FD71"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Embora este item ofereça muito conforto, não se deve esquecer que no começo você pode acabar perdendo itens incrivelmente úteis por causa dele. Recomendado fabricar após o End."
+			tasks: [{
+				id: "3409F3F1F5E5F4CF"
+				item: "archon:diamond_mana_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5902382AF39E025B"]
+			id: "264F98EA94806BFD"
+			rewards: [{
+				id: "5FD88F7F5DA11A65"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "&7Este é o melhor item para fazer com Troféus, oferecendo muita utilidade. Extremamente recomendado assim que puder fabricá-lo. Vai economizar horas de procura."
+			tasks: [{
+				id: "1D13EB7516BA9670"
+				item: "archon:netherite_mana_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "7E60780B737DD1D2"
+			rewards: [{
+				id: "3F85D801A656AD77"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&7Esta bússola oferece muitas oportunidades, embora você ainda consiga encontrar a maioria dos biomas se souber se orientar pelas Estruturas usando a Bússola do Explorador. Altamente recomendada após o End."
+			tasks: [{
+				id: "54BBD82D93AC2563"
+				item: {
+					Count: 1
+					id: "archon:frost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "64A67185CA3803CB"
+			rewards: [{
+				id: "40612B57312756E5"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&7Este livro tem de tudo. E justamente por ter tudo, você praticamente precisaria de uma planilha só para acompanhar o que quer fazer. Escala com Arcano, Fogo e Gelo, dependendo da combinação de feitiços usada."
+			tasks: [{
+				id: "7C184EBE6A7E8369"
+				item: "archon:sea_master_charm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "3AF01B2FC9C43D67"
+			rewards: [{
+				id: "0E90D85B135F749A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&7Você está realmente com preguiça disso?"
+			tasks: [{
+				id: "3755E9409961A81F"
+				item: {
+					Count: 1
+					id: "archon:heat_ranger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "19AB079C58E4848F"
+			rewards: [{
+				id: "56D0CCB16F64A543"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&7Esses Livros de Feitiços são alternativas aos livros já existentes feitos na Mesa de Vinculação de Feitiços. &4Isso significa que eles não são melhores só porque foram feitos com um Troféu! &r"
+			tasks: [{
+				id: "26CAABD2CBC8B780"
+				item: {
+					Count: 1
+					id: "archon:wither_stave"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "76BF9FAE02BCBC4F"
+			rewards: [{
+				id: "69598316DE90F4BE"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&7Este Livro de Arqueiro foca principalmente em Poder de Feitiço de Fogo e Dano à Distância. Explosões, explosões, explosões!"
+			tasks: [{
+				id: "7045685A90496FF7"
+				item: {
+					Count: 1
+					id: "archon:infernal_coat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "1A05717ECF6DE912"
+			rewards: [{
+				id: "3CF19BEA90F6C152"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&7Pra que armas quando você pode atirar como uma? Este Livro de Feitiços de Arqueiro foca em atirar rápido e desaparecer antes que percebam."
+			tasks: [{
+				id: "1279B4ABCC1E83FA"
+				item: {
+					Count: 1
+					id: "archon:ender_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "4582AA8695D7C497"
+			rewards: [{
+				id: "491EA51F85C3E338"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&7Este Livro de Arqueiro é ótimo para qualquer arqueiro de gelo que precise esfriar seus inimigos. Com uma passiva de acúmulo de congelamento e muitos efeitos de lentidão, se irritar os outros é o que você quer fazer, este livro tem tudo."
+			tasks: [{
+				id: "2FB7594EC933F904"
+				item: {
+					Count: 1
+					id: "archon:void_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "3419E86BFC533271"
+			rewards: [{
+				id: "33ED7F7850D6E117"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&7Frio, frio até demais para a maioria. Escala com Gelo."
+			tasks: [{
+				id: "0279E54654D52F0B"
+				item: {
+					Count: 1
+					id: "archon:terrain_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "212337E36BE98725"
+			rewards: [{
+				id: "4ACD18EF8FF254E6"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "&7Às vezes você quer fazer seu oponente pensar: “Ele não lançou esse feitiço há um segundo atrás?” Então você vai precisar deste Livro de Feitiços Arcano."
+			tasks: [{
+				id: "16B48CF0C7179D07"
+				item: {
+					Count: 1
+					id: "archon:fist_of_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "1DFB92FFA9EA18FB"
+			rewards: [{
+				id: "7815BB588948D7F2"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "&7Tão gracioso quanto uma Fênix e tão estiloso quanto ela. Escala com Poder de Feitiço de Fogo."
+			tasks: [{
+				id: "7F83BC7E74B126C2"
+				item: {
+					Count: 1
+					id: "archon:terranean_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			description: [
+				"Seu Primeiro Meteorito"
+			]
+			id: "719EE06DB5C14C73"
+			rewards: [{
+				id: "3BB1615C5B551B58"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "A entrada para a &8Prisão &raparece aleatoriamente pelo &aMundo Superior&r."
+			tasks: [{
+				id: "25802A48A70C6EF9"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "75279E814DD9CC2B"
+			rewards: [{
+				id: "137FEC265144557B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Entre na Prisão"
+			tasks: [{
+				id: "380768867D8D8CF1"
+				item: {
+					Count: 1
+					id: "archon:soul_crusher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "3167EFF48EC07804"
+			rewards: [{
+				id: "7A8E7EF349CFD265"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "&8Entre na Prisão"
+			tasks: [
+				{
+					id: "38E3369502B92326"
+					item: {
+						Count: 1
+						id: "archon:soul_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E4968B9B17F4D10"
+					item: "archon:undead_staff"
+					type: "item"
+				}
+			]
+			title: "Aparece em &1O Covil&r, que pode ser encontrado no subsolo da dimensão da &8Prisão&r. Para causar dano ao &dConjunctivius&r, primeiro você deve matar os tentáculos."
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "63E59E2AF9E3212A"
+			rewards: [
+				{
+					id: "2A1BA180613A8708"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E3CE062120A9331"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Derrote Conjunctivius"
+			tasks: [{
+				id: "417F1BA3D82A6C67"
+				item: "archon:scripture_table"
+				type: "item"
+			}]
+			title: "&lLuta de Chefe: &d&lConjunctivius"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "1DBE4C392FA662F5"
+			rewards: [{
+				id: "2B4D6ED3F8B05FFA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "15C9B951455CCC64"
+				item: "archon:fire_essence"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "66AC80AD26AE6447"
+			rewards: [{
+				id: "296B168EF46E2A85"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00785D3C2C822EDB"
+				item: "archon:water_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "444BFAF1CC19067C"
+			rewards: [{
+				id: "55285A3584BF2A40"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "716F84648AE17DC4"
+				item: "archon:sky_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "21CE1961E26C1017"
+			rewards: [{
+				id: "3B5C53AF196F8618"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Passar pelo elevador encontrado no último andar da prisão levará você ao Calçadão.\\n \\n&eÉ sugerido levar uma waystone ou um buraco de minhoca de bolso para conseguir voltar para casa."
+			tasks: [{
+				id: "1035F0368F67CD69"
+				item: {
+					Count: 1
+					id: "archon:fire_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["444BFAF1CC19067C"]
+			id: "34DF5FBF5F85F328"
+			rewards: [{
+				id: "1419B4B332A0DA15"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Visite o Calçadão"
+			tasks: [{
+				id: "611F65B429A0DF07"
+				item: {
+					Count: 1
+					id: "archon:sky_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "2B493ED51109E97A"
+			rewards: [{
+				id: "51684706EF706DA4"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "&7Entre no &cCalçadão"
+			tasks: [{
+				id: "776C19E8B948579B"
+				item: {
+					Count: 1
+					id: "archon:water_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "71354BED076EFCB4"
+			rewards: [{
+				id: "673E42CCCF20E86E"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Criadores de Células permitem fabricar várias armas corpo a corpo e à distância para o seu arsenal nas Células da Mina."
+			tasks: [{
+				id: "72305223DA5927DF"
+				item: {
+					Count: 1
+					id: "archon:end_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "02986E00C637B71A"
+			rewards: [{
+				id: "2D3AF785AB1A149A"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Use um Criador de Células"
+			tasks: [{
+				id: "7AD3C9B9978B1421"
+				item: {
+					Count: 1
+					id: "archon:earth_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "5A4B01060EA8D976"
+			rewards: [{
+				id: "4ECA2B89E9396EF9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "0D5D68F88F6A7E70"
+					item: "archon:fireball_tome"
+					type: "item"
+				}
+				{
+					id: "11ADC10564759BAC"
+					item: "archon:incombustible_tome"
+					type: "item"
+				}
+				{
+					id: "06797709318995B4"
+					item: "archon:scorch_tome"
+					type: "item"
+				}
+				{
+					id: "658377934BEDDC14"
+					item: "archon:hellbeam_tome"
+					type: "item"
+				}
+			]
+			title: "Fabrique um &cCriador de Células"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "7C2CF79D5DABC617"
+			rewards: [{
+				id: "5AB2F55B892FFC62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "61E4E8EBCEC20ACA"
+					item: "archon:aqua_shield_tome"
+					type: "item"
+				}
+				{
+					id: "5B6A2C0487BC2719"
+					item: "archon:freeze_tome"
+					type: "item"
+				}
+				{
+					id: "73400EEED20273F7"
+					item: "archon:mend_tome"
+					type: "item"
+				}
+			]
+			title: "Células de Monstro caem de monstros na dimensão da &8Prisão&r."
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "72C391EA7497368D"
+			rewards: [{
+				id: "7204DDAB887D76D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "7E1DF19FBF750513"
+					item: "archon:propel_tome"
+					type: "item"
+				}
+				{
+					id: "7B4AFBDA5A363B2D"
+					item: "archon:gust_tome"
+					type: "item"
+				}
+				{
+					id: "6AEF118888731383"
+					item: "archon:thunder_strike_tome"
+					type: "item"
+				}
+				{
+					id: "2678D8B2CD455A2B"
+					item: "archon:cloudshot_tome"
+					type: "item"
+				}
+			]
+			title: "Obtenha uma Célula de Monstro"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "07DB2F535985042D"
+			rewards: [{
+				id: "22E28C53552D4750"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "57DC457D1FD6922F"
+					item: "archon:rumble_tome"
+					type: "item"
+				}
+				{
+					id: "157A713FEC88676E"
+					item: "archon:crush_tome"
+					type: "item"
+				}
+				{
+					id: "0C1219D57875AB0D"
+					item: "archon:spike_tome"
+					type: "item"
+				}
+				{
+					id: "6835905C9B2CF7C9"
+					item: "archon:terrain_toss_tome"
+					type: "item"
+				}
+			]
+			title: "Algumas armas que podem ser feitas no Criador de Células exigem Aço Infundido com Células. Tenha isso em mente."
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "562419B5DE97151B"
+			rewards: [{
+				id: "403F29B31E8236E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "509CBDECC38242AD"
+					item: "archon:darkball_tome"
+					type: "item"
+				}
+				{
+					id: "7921CF4A9A568076"
+					item: "archon:swap_tome"
+					type: "item"
+				}
+				{
+					id: "35A723D0DE04D8E5"
+					item: "archon:ender_tome"
+					type: "item"
+				}
+				{
+					id: "188FD28CADAE1579"
+					item: "archon:shadow_tome"
+					type: "item"
+				}
+			]
+			title: "Fabrique um pouco de Aço &bInfundido com Células&r"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C1026686D425091"]
+			id: "1346633DE684A124"
+			rewards: [{
+				id: "772AF4658152ECDE"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "O Frasco de Vida é um item extremamente útil que cura 10% da sua vida máxima e concede regeneração por alguns segundos."
+			tasks: [{
+				id: "2C0E35986C988B35"
+				item: "archon:lightning_bottle"
+				type: "item"
+			}]
+			title: "Cura Rápida!"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "0C1026686D425091"
+			rewards: [
+				{
+					id: "41388712788104DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "09CEA17274019A20"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: " &7A Prisão"
+			tasks: [{
+				id: "27236DE839F10DFA"
+				item: "archon:magical_bookshelf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "58C19792A4305FFE"
+			rewards: [{
+				id: "585BF431600D262D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: ""
+			tasks: [{
+				id: "44C69C4B62C5A18C"
+				item: "archon:pixie_leaves"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "4A2BB75BFAEAC38C"
+			rewards: [{
+				id: "5295CEA552170A92"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "&ePode ser fabricado em célula com Tripas e Células de Monstro."
+			tasks: [{
+				id: "56BEC1279C60C482"
+				item: "archon:spry_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58C19792A4305FFE"]
+			id: "2655A30B4B1130E7"
+			rewards: [
+				{
+					id: "553C0FA8C5025F26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "538623ECC8C3FDA0"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Derrote um dos dois primeiros chefes para reivindicar isto!"
+			tasks: [{
+				id: "292102AC8D26DBAB"
+				item: {
+					Count: 1
+					id: "archon:druid_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Presente de Natal - Primeira Luta de Chefe"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "6B1CB8B78FD963E5"
+			rewards: [{
+				id: "2F463BBF43A6C5BB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Feliz Natal!"
+			tasks: [{
+				id: "4245080FFBF7FAB8"
+				item: {
+					Count: 1
+					id: "archon:flaming_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["444BFAF1CC19067C"]
+			id: "4A14DF58C18FF4DD"
+			rewards: [{
+				id: "1A3B7297CE709A65"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Presente de Natal - Esperança de Iniciante"
+			tasks: [{
+				id: "322A63DA6ADF5CBB"
+				item: {
+					Count: 1
+					id: "archon:breezy_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "3B0A0F4B0F54AB22"
+			rewards: [{
+				id: "7F66E28149E92EAC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Derrote Magus para reivindicar este Presente"
+			tasks: [{
+				id: "38249728822F838A"
+				item: {
+					Count: 1
+					id: "archon:soaking_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "389D82938C93E56F"
+			rewards: [{
+				id: "5922D2BB5B77D399"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Presente de Natal - Magus Alegre"
+			tasks: [{
+				id: "2D176598582F1DDE"
+				item: {
+					Count: 1
+					id: "archon:warping_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "65CEB8D4AC52BF28"
+			rewards: [{
+				id: "6DBD88B655BDDCED"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Derrote Gu'mas para reivindicar este Presente!"
+			tasks: [{
+				id: "0ED01AE891B58E3D"
+				item: {
+					Count: 1
+					id: "archon:rocky_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "43804968CD10C39F"
+			rewards: [{
+				id: "500F869E0F44AF71"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Presente de Natal - Gu'mas e Biscoitos de Gengibre"
+			tasks: [{
+				id: "34872FD95C254318"
+				item: {
+					Count: 1
+					id: "archon:experience_pouch"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43804968CD10C39F"]
+			description: [
+				"Prensas de Inscrição são encontradas no Baú Celeste no centro de um Meteorito. Elas podem ser usadas para criar circuitos em uma Inscritora."
+			]
+			id: "50F46E32A29E3290"
+			rewards: [{
+				id: "79F40F1D32731339"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			subtitle: "Você mereceu isso, camarada!"
+			tasks: [{
+				id: "3733C69851295D5E"
+				item: {
+					Count: 1
+					id: "archon:super_experience_pouch"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "51A049502F5B868E"
+			rewards: [
+				{
+					id: "2DCACC98959E8C05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "20A8F94E43E23E72"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Estrela Derretida de Natal"
+			tasks: [{
+				entity: "archon:tar"
+				id: "64F464705D0CF636"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote Conjunctivius para reivindicar este Presente!"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "63A3A558A3BA0065"
+			rewards: [
+				{
+					id: "7EC17531EA3EA5A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "054D291C0F43FC5E"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Presente de Natal - Sob o Galho Tentacular"
+			tasks: [{
+				entity: "archon:ayla"
+				id: "393F2822E6349AA9"
+				type: "kill"
+				value: 1L
+			}]
+			title: " &bUm Feliz Natal!"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "0D40904111245F80"
+			rewards: [
+				{
+					id: "2E53A6D1AB9C8B5A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F7A7A90E5C8878D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "&7Espero que você não tenha alergia a nozes!"
+			tasks: [{
+				entity: "archon:inigo"
+				id: "096E0352AE193913"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7A Equipe Prominence agradece por jogar o Pack. Desejamos um Feliz Natal e um ótimo fim de ano!"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "21A154E44E6158F4"
+			rewards: [
+				{
+					id: "13B02C9D8EBE6518"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "372051982668460A"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "O Carregador oferece uma maneira de carregar ferramentas compatíveis através da Rede ME ou manualmente usando uma manivela. Também pode ser usado para criar Cristais de Quartzo Certus Carregados a partir de Cristais de Quartzo Certus e Bússolas de Meteorito a partir de bússolas."
+			tasks: [{
+				entity: "archon:leven"
+				id: "43D121342CCCEDE9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Preparando-se para Encontrar Meteoritos 1"
+			x: -1.0d
+			y: 11.5d
+		}
+	]
+	title: "Para fabricar uma bússola de meteorito, carregue uma bússola normal em um Carregador. Isso pode ser feito bem cedo usando uma Manivela de Madeira. A Bússola de Meteorito aponta na direção do meteorito mais próximo em um alcance de 2.700 blocos. Se a bússola estiver girando rapidamente, há Pedra do Céu no seu chunk! Se estiver girando lentamente, então você precisa explorar mais porque está fora do alcance do meteorito mais próximo."
+}

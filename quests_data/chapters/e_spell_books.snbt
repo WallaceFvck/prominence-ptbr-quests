@@ -1,0 +1,375 @@
+{
+	autofocus_id: "3D769BC0E31CF27B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_spell_books"
+	group: "5EA21B61C2E147CB"
+	id: "0A5ED3FF6297E59E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eAntes de começar a criar seu primeiro grimório, talvez você queira perguntar: o que significam os tiers?"
+				"&8A dificuldade ao lado deles define a complexidade de cada livro, o quão difícil é dominá-los."
+				""
+				"&eTier I: &7Livros de classe base que podem ser obtidos através da Mesa de Vinculação de Feitiços."
+				"&6Tier II: &7Livros de classe híbrida que exigem uma receita de criação usando um livro Tier I para serem obtidos."
+				"&cTier III: &7Livros avançados que expandem/evoluem livros Tier II ou possuem uma jogabilidade avançada. Eles exigem um Troféu de Cinderstone para serem feitos."
+				""
+				"&7Um livro de tier mais alto &cnão significa que ele é mais forte&7, mas sim que é obtido de uma forma diferente."
+			]
+			id: "2ACBF734342376E6"
+			shape: "hexagon"
+			subtitle: "&eA Mesa de Vinculação de Feitiços"
+			tasks: [{
+				id: "27A316975F783582"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "&8[Clique para ler as instruções]"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ACBF734342376E6"]
+			description: [
+				"- &eCódice do Guerreiro"
+				"&7Um livro básico para brutamontes ou protetores. Um ótimo meio-termo para builds de Dano Físico mais lentas."
+			]
+			id: "3D769BC0E31CF27B"
+			rewards: [{
+				count: 8
+				id: "63E0801C38149B0D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&eO Poder Dentro de Você"
+			tasks: [{
+				id: "5C2381C13E96EC72"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "&eTier I&7- &aFácil"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eManual do Ladino"
+				"&7Um grimório focado em fornecer utilidades para builds de ladino, desde aumento acumulativo de dano até teletransportes, atordoamentos e furtividade rápida."
+			]
+			id: "680CDC0CDDB2A1E7"
+			shape: "diamond"
+			subtitle: "&eUm Caminho Berserker"
+			tasks: [{
+				id: "0CC8838FD229F0D3"
+				item: "rogues:warrior_spell_book"
+				type: "item"
+			}]
+			title: "&eTier I &7- &aFácil"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eManual de Arquearia"
+				"&7O grimório básico para Arqueiros. Foca em melhorar a jogabilidade de arquearia com habilidades extras. Desde melhorias passivas nos tiros até controle de grupo e rajadas rápidas de flechas."
+			]
+			id: "78944A4B5A1CD1EA"
+			shape: "diamond"
+			subtitle: "&eSombras Letais"
+			tasks: [{
+				id: "420A3C82E6373505"
+				item: "rogues:rogue_spell_book"
+				type: "item"
+			}]
+			title: "&eTier I &7- &aFácil"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eLivro Sagrado"
+				"&7Canalize os poderes sagrados primordiais para curar seus aliados."
+			]
+			id: "39463E71A1709CE8"
+			shape: "diamond"
+			subtitle: "&eO Tiro Perfeito"
+			tasks: [{
+				id: "659C0887A14C58E8"
+				item: "archers:archer_spell_book"
+				type: "item"
+			}]
+			title: "&eTier I &7- &aFácil"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eTomo Arcano"
+				"&7Um grimório de conjuração à distância que usa magia Arcana para causar ataques extremamente poderosos com alto dano crítico."
+				""
+				"- &eTomo de Gelo"
+				"&7Um grimório de conjuração à distância que usa magia de Gelo para causar dano constante e rápido com utilidades como controle de grupo e feitiços defensivos."
+				""
+				"- &eTomo de Fogo"
+				"&7Um grimório de conjuração à distância que usa magia de Fogo para causar ataques fortes com alta chance crítica."
+			]
+			id: "420BD41EBB2FCBF2"
+			shape: "diamond"
+			subtitle: "&eUm Curandeiro Sagrado"
+			tasks: [{
+				id: "4A76EA93FA7EBA05"
+				item: "paladins:priest_spell_book"
+				type: "item"
+			}]
+			title: "&eTier I  &7- &aFácil"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eLibram do Paladino (Tank)"
+				"&7Uma combinação de Guerreiro e Sacerdote, um protetor que invoca o Sagrado para proteger seus aliados."
+				"- &eJuramento da Desafiança (Tank)"
+				"&7Uma combinação de Tank e Sacerdote, um defensor do que está atrás dele e um agressor contra o que estiver em seu caminho."
+				"- &eJuramento da Vingança (Tank)"
+				"&7Uma combinação de Tank com algumas técnicas usadas por antigos Monges. Feito para provocar os inimigos e mostrar a solidez da sua armadura, facilitando a proteção dos aliados."
+			]
+			id: "2FE046702FE7E363"
+			shape: "diamond"
+			subtitle: "&eMagia Elemental"
+			tasks: [
+				{
+					id: "767C8498E6F73BF4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "1645A1DF79B0CC8F"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "0AC2E4E46CF093ED"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+			]
+			title: "&6Tier II &7- &eMédio"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"680CDC0CDDB2A1E7"
+				"420BD41EBB2FCBF2"
+			]
+			description: [
+				"&7Existem três tipos de Cavaleiros da Morte"
+				""
+				"- &eTomo do Inverno Eterno (Gelo - DPS)"
+				"&7Focado em causar dano a múltiplos alvos, fácil de entender, mas o mais difícil dos três para dominar."
+				""
+				"- &eTomo dos Ensinamentos Profanos (Profano - DPS)"
+				"&7Focado em causar alto dano a um único alvo, especialmente bom com o talento de destino Devoção Decadente."
+				""
+				"- &eTomo do Conhecimento Vampírico (Sangue - Tank)"
+				"&7Focado em autossustento, com feitiços voltados para autocura baseada na vida máxima."
+			]
+			id: "55D2E1055E762E33"
+			shape: "pentagon"
+			subtitle: "&eUm Guerreiro Sagrado"
+			tasks: [
+				{
+					id: "1B0545C60E16399F"
+					item: "paladins:paladin_spell_book"
+					type: "item"
+				}
+				{
+					id: "4EC5F01ABFBED7BA"
+					item: "spellbladenext:defiance_spell_book"
+					type: "item"
+				}
+				{
+					id: "0F29E2EE6A65CD5B"
+					item: "spellbladenext:vengeance_spell_book"
+					type: "item"
+				}
+			]
+			title: "&6Tier II &7- &eMédio"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["680CDC0CDDB2A1E7"]
+			description: [
+				"&eSpellblades combinam os ladinos letais com o uso de magia."
+				""
+				"- &eLivros de Técnicas"
+				"&7Uma série de livros com feitiços corpo a corpo elementais."
+			]
+			id: "12369F6ACB62CBC1"
+			shape: "pentagon"
+			subtitle: "&eCavaleiros da Morte"
+			tasks: [
+				{
+					id: "7F6EA37603A11140"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+				{
+					id: "4A010BC27744790E"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "5022B3CA9933DD1B"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+			]
+			title: "&6Tier II &7- &aFácil"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FE046702FE7E363"
+				"78944A4B5A1CD1EA"
+			]
+			description: [
+				"&eMagia astral é a combinação das magias Arcana, de Fogo e de Gelo."
+				""
+				"- &eInvocações Astrais"
+				"&7Use o poder dos elementos astrais para conjurar três feitiços diferentes de cada elemento. Você pode usar um feitiço supremo que mudará de acordo com os elementos utilizados."
+				""
+				"&cCom um total de &l39&r&c feitiços possíveis, este é o grimório mais difícil."
+			]
+			id: "2D6DC01DD507C1EC"
+			shape: "pentagon"
+			subtitle: "&eOs Spellblades"
+			tasks: [
+				{
+					id: "17F3314D40F30CEE"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "7BABA4105E09F7BE"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6CFA154E9DDFAF6B"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+			]
+			title: "&cTier III &7- &cDifícil"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FE046702FE7E363"]
+			description: [
+				"- &ePavor de Mintaka"
+				"&7Um livro de arquearia que combina arquearia com magia de gelo, focando em controle de grupo com atordoamentos."
+				""
+				"- &eVisão de Alnilam"
+				"&7Um livro de arquearia feito para arqueiros ladinos letais, focado em jogabilidade rápida."
+				""
+				"- &ePoder de Alnitak"
+				"&7Um livro de arquearia que combina arquearia com magia de fogo, focando em alto dano com queimaduras e explosões."
+			]
+			id: "6EBA56E6576665E2"
+			shape: "hexagon"
+			subtitle: "&eMagia Astral"
+			tasks: [{
+				id: "6FF598197E4A5471"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "&cTier III &7- &eMédio"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39463E71A1709CE8"]
+			description: [
+				"&eEvoluções dos livros de técnicas, um pouco mais avançadas."
+				""
+				"- &eEcos Liberados"
+				"&7Uma evolução enigmática das Técnicas Arcanas."
+				""
+				"- &eTomo da Frioletal"
+				"&7Uma evolução congelada das Técnicas de Gelo."
+				""
+				"- &eRitos da Fênix"
+				"&7Uma evolução piromântica das Técnicas de Fogo."
+			]
+			id: "24588E0C17F50C15"
+			shape: "pentagon"
+			subtitle: "&eOs Três Caçadores"
+			tasks: [
+				{
+					id: "362CF726EC9049D2"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					type: "item"
+				}
+				{
+					id: "3BDCCF2AA3A70E04"
+					item: "archers_expansion:deadeye_spell_book"
+					type: "item"
+				}
+				{
+					id: "09E48B2921BFBA96"
+					item: "archers_expansion:war_archer_spell_book"
+					type: "item"
+				}
+			]
+			title: "&cTier III &7- &eMédio"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D6DC01DD507C1EC"]
+			description: [
+				"Melhorando ainda mais seu equipamento"
+			]
+			id: "54865C68BCE9863A"
+			shape: "hexagon"
+			subtitle: "&eConhecimento do Magister"
+			tasks: [
+				{
+					id: "0C0195D29CA499EE"
+					item: "spellbladenext:runic_echoes_spell_book"
+					type: "item"
+				}
+				{
+					id: "1822DD768F03A89D"
+					item: "spellbladenext:deathchill_spell_book"
+					type: "item"
+				}
+				{
+					id: "61E0031395517090"
+					item: "spellbladenext:phoenix_spell_book"
+					type: "item"
+				}
+			]
+			title: "&e Desbloqueando Habilidades"
+			x: -3.0d
+			y: -5.0d
+		}
+	]
+	title: "&eA Mesa de Vinculação de Feitiços é a fonte de criação dos grimórios Tier I. Ela também permite anexar feitiços a todos os grimórios, independentemente do tier.
+
+&7Para maximizar seu desempenho e permitir desbloquear todos os feitiços, você deve cercá-la com &eEstantes de Livros&7 de forma semelhante a uma Mesa de Encantamentos. &n&l&4Você precisará de 18 Estantes para obter todos os quatro Feitiços.&r&r&r"
+}

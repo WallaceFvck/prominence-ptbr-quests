@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "prominence_ptbr",
+  "version": "1.0.0",
+  "name": "Prominence II PT-BR Quests",
+  "description": "Instala automaticamente a tradução PT-BR das quests do Prominence II: Hasturian Era.",
+  "authors": ["Você"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.prominencetranslation.ProminencePTBR"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}

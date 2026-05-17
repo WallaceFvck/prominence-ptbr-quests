@@ -1,0 +1,1025 @@
+{
+	autofocus_id: "6AD67E7C8CD78371"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifact_reforging"
+	group: "3DBADFFDA1FDAD84"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "prominent:item/molten_core"
+		}
+	}
+	id: "13D4D78DE7B38A80"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependency: "3453FD3CA0E3233A"
+			height: 1.0d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.0357142857142847d
+			y: 1.8642857142857139d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/blank"
+			rotation: 0.0d
+			width: 0.1d
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  "
+				"&ePode ser forjado usando uma Essência da Ira e uma Lichblade Desperta, junto com o Núcleo Fundido."
+				""
+				""
+				"&8Este item é uma homenagem à Frostmourne de World of Warcraft.  "
+			]
+			icon: "prominent:molten_core"
+			id: "6AD67E7C8CD78371"
+			rewards: [
+				{
+					id: "5562501929CD8443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "369B6883C30000A8"
+					item: "prominent:encased_remnant"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			subtitle: "Prensas de Inscrição"
+			tasks: [
+				{
+					id: "035441107821B3C1"
+					item: "prominent:molten_core"
+					type: "item"
+				}
+				{
+					id: "56A625D024CDB2DE"
+					item: "things:hardening_catalyst"
+					title: "Agora que você possui alguns Cristais de Quartzo Certus, é hora de carregá-los. Jogue um no Carregador que você fez antes e comece a girar a manivela!"
+					type: "item"
+				}
+			]
+			title: "Este cristal possui a habilidade única de absorver e converter energia de uma forma para outra, sendo a base de toda tecnologia ME. O Cristal Fluix é criado colocando Cristal de Quartzo Certus Carregado, Quartzo do Nether e Pó de Redstone na água. Ele rapidamente começará a reagir e resultará em um Cristal Fluix."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando duas Lâminas Fundidas junto com o Núcleo Fundido."
+				""
+				""
+				"&8Este item é uma homenagem à Fyr'alath de World of Warcraft.  "
+			]
+			id: "341DB238063321BF"
+			shape: "hexagon"
+			subtitle: "Para fabricar os processadores necessários para máquinas mais avançadas, você precisará da Inscritora. Cada tipo de processador possui uma prensa associada, encontrada em meteoritos. Cada operação requer 1k AE carregado."
+			tasks: [{
+				id: "7F239D03EBB09534"
+				item: {
+					Count: 1
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando uma Essência Demoníaca e uma Soulrender, junto com o Núcleo Fundido.  "
+			]
+			id: "6D1B83D633AB7558"
+			shape: "hexagon"
+			subtitle: "Uma chave inglesa feita de Cristal de Quartzo Certus ou Quartzo do Nether. Útil para girar blocos e remover partes individuais de cabos."
+			tasks: [{
+				id: "52D24DAEDFD19F9A"
+				item: {
+					Count: 1
+					id: "prominent:fyralath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando a Essência da Glória e uma Starforge, junto com o Núcleo Fundido.  "
+			]
+			id: "5D03084D09D2A997"
+			shape: "hexagon"
+			subtitle: "Girando Suas Máquinas"
+			tasks: [{
+				id: "43F5AAA9405EE27D"
+				item: {
+					Count: 1
+					id: "prominent:azhar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando uma Essência da Ira e um Punho da Fúria, junto com o Núcleo Fundido.  "
+			]
+			id: "1CE7763C1889255C"
+			shape: "hexagon"
+			subtitle: "Uma fornalha modificada capaz de gerar Energia AE em vez de fundir minérios. Quando colocada em uma Rede ME, ela carregará Células de Energia ou alimentará outros dispositivos da Rede. A Câmara de Vibração queimará praticamente qualquer combustível sólido para gerar energia. Ela desacelerará ou acelerará a queima dependendo de quanta energia consegue armazenar versus o quanto é desperdiçado. Gera entre 1 e 10 AE/t dependendo da velocidade da queima."
+			tasks: [{
+				id: "6B6E9C04C7D69E89"
+				item: {
+					Count: 1
+					id: "prominent:supernova"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando uma Essência Demoníaca e uma Thunderbrand, junto com o Núcleo Fundido.  "
+			]
+			id: "211326D6B6C33A25"
+			shape: "hexagon"
+			subtitle: "Alimentando sua Rede 2"
+			tasks: [{
+				id: "3D838C3D611886A5"
+				item: {
+					Count: 1
+					id: "prominent:fury_of_a_thousand_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando a Essência da Glória e uma Essência da Ira. Para liberar as espadas gêmeas, deve-se usar a Essência de Ash'edar.  "
+			]
+			id: "50EB37F863EA810B"
+			shape: "hexagon"
+			subtitle: "Armazena até 200.000 AE. Elas não aceitam energia diretamente, mas são usadas para adicionar armazenamento extra de energia a uma Rede ME já existente."
+			tasks: [{
+				id: "22CACA94593603A7"
+				item: {
+					Count: 1
+					id: "prominent:thunderwrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&ePode ser forjado usando a Essência da Glória e um Cajado de Mago, junto com o Núcleo Fundido."
+				""
+				"&cEvolui para uma de 5 versões mais fortes para magos Arcanos, de Fogo, Gelo, Sagrados ou Astrais dentro da Árvore de Aprimoramento.  "
+			]
+			id: "29425DCD7396CE49"
+			shape: "hexagon"
+			subtitle: "Armazenando Energia 1"
+			tasks: [{
+				id: "37DE8677AEA5721E"
+				item: "prominent:ashedar_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				""
+			]
+			icon: {
+				Count: 1
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6313DD656A95E8C0"
+			shape: "hexagon"
+			subtitle: "Armazena energia AE até 1,6 milhão de unidades. Elas não aceitam energia diretamente, mas são usadas para adicionar armazenamento extra de energia a uma Rede ME já existente."
+			tasks: [{
+				id: "133C7DC53BD48F85"
+				item: {
+					Count: 1
+					id: "prominent:ekavar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&7Todos os artefatos podem ser aprimorados usando sua &6Árvore de Aprimoramento&7."
+				""
+				"&7Assim que você forjar seu próprio Artefato, desbloqueará sua Árvore de Aprimoramento. Você pode acessá-la pressionando &6N&7 e clicando no ícone do Núcleo Fundido no canto superior esquerdo."
+				""
+				"&7Todas as Árvores de Aprimoramento possuem até &67 nós&7 que você pode selecionar, com diferentes caminhos a seguir."
+				""
+				"&7Para desbloquear nós, você precisará fortalecer seu artefato usando &6Remanescentes Fundidos&7, que são recompensados em missões ou fabricáveis usando Essências Míticas.  "
+			]
+			icon: "prominent:orion"
+			id: "4C2EFCB93288D047"
+			shape: "hexagon"
+			subtitle: "Armazenando Energia 2"
+			tasks: [{
+				id: "3068576CA6850BF1"
+				item: "prominent:orion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&8Você forjou todas as Armas de Artefato e desbloqueou sua Maestria. Você já empunhou todos os tipos de poder. Então me diga, o que fará com esse conhecimento?  "
+			]
+			icon: "prominent:molten_remnant"
+			id: "3453FD3CA0E3233A"
+			rewards: [{
+				id: "76103A7FBD55037B"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
+			subtitle: "O Aceitador de Energia converte energia de sistemas externos em AE e a armazena na rede. Os seguintes sistemas de energia são suportados: Forge Energy / Redstone Flux. 2 FE = 1 AE."
+			tasks: [
+				{
+					id: "559B1BA85C721A6D"
+					title: "Alimentando sua Rede 1"
+					type: "checkmark"
+				}
+				{
+					id: "7F2A2E7F3E7BF665"
+					item: "prominent:infused_molten_remnant"
+					title: "Uma peça projetada para compartilhar energia entre duas Redes ME sem compartilhar mais nada, também usada para fabricar Cabos de Vidro ME Fluix."
+					type: "item"
+				}
+			]
+			title: "Compartilhando Energia Entre Redes"
+			x: 0.0d
+			y: 2.475d
+		}
+		{
+			dependencies: [
+				"29425DCD7396CE49"
+				"50EB37F863EA810B"
+				"211326D6B6C33A25"
+				"6313DD656A95E8C0"
+				"3453FD3CA0E3233A"
+				"4C2EFCB93288D047"
+				"341DB238063321BF"
+				"5D03084D09D2A997"
+				"6AD67E7C8CD78371"
+				"6D1B83D633AB7558"
+				"1CE7763C1889255C"
+				"077B4D52C71E918E"
+				"6999531248BA0AB3"
+				"3310DA8006063D56"
+				"3D8ECB6FDDF81AD9"
+				"61CEEB526443BFBE"
+				"0B892A8A2394EB7C"
+				"1D001B61D62F0C01"
+				"78AAA28EC532AD64"
+				"0B7839A1622323AE"
+				"7E00ACC74ECC5E1D"
+				"5D6E6FEA75B80066"
+				"5B27C3D3E677563D"
+				"0ACF3A88C52C2F6E"
+				"36916D6575BB39B7"
+			]
+			description: [
+				""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/essence/knowing"
+				}
+			}
+			id: "6357A4EEEB4B98EF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
+					}
+				}
+				id: "0EED6BD5D17E433F"
+				title: "Usado na criação de Processadores de Cálculo em uma Inscritora."
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Usado na criação de Processadores de Engenharia em uma Inscritora."
+			tasks: [{
+				id: "46488029B9E64840"
+				title: "Usado na criação de Processadores Lógicos em uma Inscritora."
+				type: "checkmark"
+			}]
+			title: "Usado na criação de todos os Processadores."
+			x: 0.0d
+			y: -17.25d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&eOh Vovó, isso está delicioso!  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:item/artifacts/vaazkar/vaazkar_item"
+				}
+			}
+			id: "077B4D52C71E918E"
+			shape: "hexagon"
+			subtitle: "Silício pode ser fabricado fundindo Pó de Quartzo Certus. Ele é usado junto com uma Inscritora e uma Prensa de Silício para criar Silício Impresso."
+			tasks: [{
+				id: "4FA80A031C7448BD"
+				item: "prominent:vaazkar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Supernova derrotando 10 Desafios Míticos  "
+			]
+			icon: {
+				Count: 1
+				id: "prominent:skillet"
+				tag: {
+					Damage: 0
+					boundArtifact: [I;
+						-509841217
+						1799570245
+						-1395779439
+						-155772242
+					]
+				}
+			}
+			id: "6999531248BA0AB3"
+			invisible: true
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:item/cinderstone_trophy"
+					}
+				}
+				id: "74C384DBFEA6CF28"
+				title: "Usado para acelerar o crescimento de cristais, permitindo criar Cristais de Quartzo Certus e Cristais Fluix a partir de pó de cristal. Deve ser alimentado por uma Rede ME pela parte superior ou inferior e consome constantemente 8 ae/t enquanto conectado. Sementes de Cristal devem estar em um bloco de água adjacente para serem afetadas; as sementes brilharão mais rapidamente quando estiverem na presença de um Acelerador de Crescimento de Cristal energizado. Só pode conectar-se a cabos ou outras máquinas em rede pela parte superior e inferior da máquina."
+				type: "custom"
+			}]
+			shape: "hexagon"
+			subtitle: "Usado junto com uma Inscritora e uma Placa Lógica para criar um Circuito Lógico Impresso."
+			tasks: [{
+				id: "5E0FF5030814F464"
+				item: {
+					Count: 1
+					id: "prominent:skillet"
+					tag: {
+						Damage: 0
+						boundArtifact: [I;
+							-509841217
+							1799570245
+							-1395779439
+							-155772242
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CE7763C1889255C"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Thunderwrath derrotando 10 Desafios Míticos  "
+			]
+			id: "7E00ACC74ECC5E1D"
+			invisible: true
+			rewards: [{
+				id: "7AB2264D08A2B514"
+				item: "prominent:illusion_of_supernova"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Usado junto com uma Inscritora e uma Placa de Cálculo para criar um Circuito de Cálculo Impresso."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "689F97A82495BC11"
+				stat: "prominent:hck_supernova"
+				title: "Usado junto com uma Inscritora e uma Placa de Engenharia para criar um Circuito de Engenharia Impresso."
+				type: "stat"
+				value: 10
+			}]
+			title: "Qualquer #c:ender_pearl_dusts"
+			x: 3.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50EB37F863EA810B"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Ekavar derrotando 10 Desafios Míticos  "
+			]
+			id: "1D001B61D62F0C01"
+			invisible: true
+			rewards: [{
+				id: "6874C841A9DBA8C8"
+				item: "prominent:illusion_of_thunderwrath"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Qualquer #c:certus_quartz"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "3A9375419742883C"
+				stat: "prominent:hck_thunderwrath"
+				title: "Quartzo Certus"
+				type: "stat"
+				value: 10
+			}]
+			title: "Processador de nível médio."
+			x: 2.625d
+			y: -2.625d
+		}
+		{
+			dependencies: ["6313DD656A95E8C0"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Frostmourne derrotando 10 Desafios Míticos  "
+			]
+			id: "0B7839A1622323AE"
+			invisible: true
+			rewards: [{
+				id: "7F85E2A737B11837"
+				item: "prominent:illusion_of_ekavar_staff"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Processador mais avançado."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "114FC153EA628253"
+				stat: "prominent:hck_ekavar"
+				title: "Processador mais básico."
+				type: "stat"
+				value: 10
+			}]
+			title: "Redstone é um componente na criação de Processadores."
+			x: -1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["341DB238063321BF"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Fury of a Thousand Fists derrotando 10 Desafios Míticos  "
+			]
+			id: "0B892A8A2394EB7C"
+			invisible: true
+			rewards: [{
+				id: "37FC16AE87800195"
+				item: "prominent:illusion_of_frostmourne"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Um componente necessário para criar células de armazenamento de itens. Células de Armazenamento são uma das mecânicas centrais de armazenamento no Applied Energistics 2; existem três tipos: um para itens, um para fluidos e um para regiões do espaço. Estas armazenam apenas itens."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "34D1DFEFC3811ACF"
+				stat: "prominent:hck_frostmourne"
+				title: "O Baú ME é a maneira mais simples de usar uma Célula de Armazenamento; ele fornecerá acesso direto ao conteúdo da célula colocada dentro dele. Pode ser alimentado de forma independente com energia externa ou como parte de uma Rede ME. Quando conectado a uma rede, o armazenamento do baú ficará disponível para qualquer outro dispositivo da mesma rede usando um Canal atribuído. Quando usado sem uma rede, o baú não transferirá pilhas completas de uma vez, limitando as transferências a 38 itens."
+				type: "stat"
+				value: 10
+			}]
+			title: "Usado para exibir inventários de Baús ME e para armazenar Drives de Armazenamento."
+			x: -2.625d
+			y: -2.625d
+		}
+		{
+			dependencies: ["211326D6B6C33A25"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Vaazkar derrotando 10 Desafios Míticos  "
+			]
+			id: "61CEEB526443BFBE"
+			invisible: true
+			rewards: [{
+				id: "5F1AB87437C9214A"
+				item: "prominent:illusion_of_fury_of_a_thousand_fists"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Um componente usado para criar um Terminal ME."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "2D509079109121BC"
+				stat: "prominent:hck_fury_of_a_thousand_fists"
+				title: "O Cabo de Vidro ME Fluix é o cabo mais simples de fabricar, transfere energia e até 8 Canais. Ele vem em 17 cores diferentes, sendo Fluix a padrão, e pode ser tingido com qualquer uma das 16 tintas."
+				type: "stat"
+				value: 10
+			}]
+			title: "Um componente usado para criar um Terminal ME."
+			x: -3.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["077B4D52C71E918E"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Orion derrotando 10 Desafios Míticos  "
+			]
+			id: "78AAA28EC532AD64"
+			invisible: true
+			rewards: [{
+				id: "2D37907A06C8F7C3"
+				item: "prominent:illusion_of_vaazkar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Um componente usado na criação de um Terminal ME."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "174961978515852E"
+				stat: "prominent:hck_vaazkar"
+				title: "Um componente usado na criação de um painel iluminado."
+				type: "stat"
+				value: 10
+			}]
+			title: "O Controlador ME é o centro de roteamento de uma Rede ME. Sem ele, apenas até 8 dispositivos podem interagir; qualquer número acima disso faz tudo parar de funcionar. Não é possível ter 2 Controladores ME em uma mesma Rede ME. Diferente da maioria dos dispositivos de Rede ME, o Controlador ME não requer canais; em vez disso, ele emite 8 ou 32 por lado, dependendo de quantos canais o dispositivo suporta."
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4C2EFCB93288D047"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Ash'edar derrotando 10 Desafios Míticos  "
+			]
+			id: "5B27C3D3E677563D"
+			invisible: true
+			rewards: [{
+				id: "532ED5976A9851CC"
+				item: "prominent:illusion_of_orion"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Blocos de Pedra do Céu são fabricados fundindo Pedra do Céu em uma fornalha."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "362AF7764A395640"
+				stat: "prominent:hck_orion"
+				title: "Um bloco projetado para fazer apenas uma coisa: armazenar Células de Armazenamento. Este bloco comporta 10 células de armazenamento, permitindo compactar muito armazenamento em um espaço pequeno."
+				type: "stat"
+				value: 10
+			}]
+			title: "Células de Fluido são iguais às Células de Itens, mas em vez de armazenarem itens, armazenam fluidos."
+			x: 3.75d
+			y: -0.375d
+		}
+		{
+			dependencies: ["29425DCD7396CE49"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Fyr'alath derrotando 10 Desafios Míticos  "
+			]
+			id: "3310DA8006063D56"
+			invisible: true
+			rewards: [
+				{
+					id: "4CDC2FBE0C91D9E9"
+					item: "prominent:illusion_of_ash"
+					type: "item"
+				}
+				{
+					id: "2CEC30568A5F85E4"
+					item: "prominent:illusion_of_edar"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Componentes de armazenamento são a base de qualquer célula que você fizer no AE2."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "4AE9CB829D6B6111"
+				stat: "prominent:hck_ashedar"
+				title: "Células portáteis são células normais, mas você pode abri-las como uma mochila (menos o atalho de tecla). Elas ainda exigem energia, mas podem ser ótimas no início do jogo se sua mochila não estiver dando conta."
+				type: "stat"
+				value: 10
+			}]
+			title: "Sobre Células Portáteis"
+			x: 3.375d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6D1B83D633AB7558"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com A'zhar derrotando 10 Desafios Míticos  "
+			]
+			id: "3D8ECB6FDDF81AD9"
+			invisible: true
+			rewards: [{
+				id: "4F2B8D07B90C58EE"
+				item: "prominent:illusion_of_fyralath"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Alimentando sua Rede 3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "6F71CF32ABA0F784"
+				stat: "prominent:hck_fyralath"
+				title: "&9Applied Energistics 2"
+				type: "stat"
+				value: 10
+			}]
+			title: "Já sentiu como se estivesse se afogando em um oceano sem fim? Não? Só eu? Bem, agora você pode de qualquer forma."
+			x: -3.75d
+			y: -0.375d
+		}
+		{
+			dependencies: ["5D03084D09D2A997"]
+			description: [
+				""
+			]
+			id: "5D6E6FEA75B80066"
+			invisible: true
+			rewards: [{
+				id: "2F8ADED4DAA330BE"
+				item: "prominent:illusion_of_azhar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Este item é ótimo para qualquer automação, economiza muito trabalho e é fácil de fabricar. Um item indispensável para qualquer entusiasta de tecnologia!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "7D91B899C686279C"
+				stat: "prominent:hck_azhar"
+				title: "A Câmara de Ressonância de Cristal talvez não forneça energia infinita, mas para sistemas extremamente simples ela é mais do que suficiente. Qualquer um que só queira algum armazenamento ou automatizar certus adora essa pequena câmara engraçada que parece um dissipador de calor."
+				type: "stat"
+				value: 10
+			}]
+			title: "Bem-vindo ao mundo das runas. É aqui que usamos runas e mana para criar feitiços mágicos, armas e até armaduras. Você está pronto para aprender o mundo da feitiçaria e das runas?"
+			x: -3.375d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Gh'aj derrotando 10 Desafios Míticos  "
+			]
+			id: "4775EFD3B854946E"
+			shape: "hexagon"
+			subtitle: "Está pronto para se tornar um Feiticeiro?"
+			tasks: [{
+				id: "319EB24C08B33386"
+				item: {
+					Count: 1
+					id: "prominent:ghaj"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4775EFD3B854946E"]
+			description: [
+				""
+			]
+			id: "1E19147A29D45714"
+			invisible: true
+			rewards: [{
+				id: "6B472DCCE8D7F329"
+				item: "prominent:illusion_of_ghaj"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "Primeiros Passos na Magia"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "6A182FF8D6012B23"
+				stat: "prominent:hck_ghaj"
+				title: "Nas profundezas do mundo existem Essências da Terra; encontrá-las não será tarefa fácil, já que o subterrâneo é enorme."
+				type: "stat"
+				value: 10
+			}]
+			title: "Além do vazio estão as Essências do End encontradas nas Ilhas do End; elas serão muito difíceis de achar, a menos que você esteja determinado o suficiente."
+			x: 0.0d
+			y: -4.267857142857146d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			id: "1DE119EAC2B8E757"
+			shape: "hexagon"
+			tasks: [{
+				id: "0EDBBD5EC242CAAA"
+				title: "O Canalizador é uma varinha capaz de infundir mana em certos blocos, criando sua versão fabricada ou um novo material mágico. Teste alguns materiais."
+				type: "custom"
+			}]
+			title: "Alquimia em um Graveto"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"  "
+				"&eVocê provou seu valor com Apophis derrotando 10 Desafios Míticos  "
+			]
+			id: "0ACF3A88C52C2F6E"
+			shape: "hexagon"
+			subtitle: "Torres são estruturas altas encontradas em biomas de floresta e montanha que contêm certos tipos de saque. Cuidado com as sanguessugas!"
+			tasks: [{
+				id: "1E3C6D4ED246A31F"
+				item: {
+					Count: 1
+					id: "prominent:apophis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ACF3A88C52C2F6E"]
+			description: [
+				"  "
+				"&7Você atualizou de uma versão anterior e sua &bÁrvore de Habilidades da Frostmourne&7 recebeu um atributo que você não queria?"
+				""
+				"&6Sem preocupações! Você pode redefinir sua árvore de habilidades uma vez, gratuitamente.  "
+			]
+			id: "36916D6575BB39B7"
+			invisible: true
+			rewards: [{
+				id: "652ADD700A1DAFCF"
+				item: "prominent:illusion_of_apophis"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&dDesafios Míticos Concluídos com Apophis  "
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "404CB33532E2BFA8"
+				stat: "prominent:hck_apophis"
+				title: "  
+&dMaestria de Apophis  "
+				type: "stat"
+				value: 10
+			}]
+			title: "  
+Redefina sua árvore de habilidades!  "
+			x: -2.857142857142854d
+			y: 2.1964285714285765d
+		}
+		{
+			can_repeat: false
+			dependencies: ["341DB238063321BF"]
+			description: [
+				"  "
+				"Está na hora de brincar com a natureza. O que veremos é como usar o mana natural e o solo para obter artefatos poderosos e talvez fazendas. Está pronto?  "
+			]
+			icon: {
+				Count: 1
+				id: "prominent:infused_molten_remnant"
+				tag: { }
+			}
+			id: "751FAEF8C64D4FEF"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/puffish_skills skills reset @s puffish_skills:frostmourne"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2DB6B9CADE1B3EA7"
+				silent: true
+				title: "  
+Clique em mim! :)  "
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			tasks: [{
+				id: "1C11339F345F5C87"
+				title: "  
+Erro na Árvore de Habilidades do Artefato?  "
+				type: "checkmark"
+			}]
+			title: "  
+&c&l Forja de S'kellak  "
+			x: -1.982142857142854d
+			y: -2.892857142857139d
+		}
+	]
+	title: "  
+&6Requer a conclusão do &nCapítulo I&r&6 da Invasão do Vazio.
+
+&7O Núcleo Fundido é um artefato poderoso feito das profundezas do Vulcão de Cinderstone; &cVaaz&7.  
+&7Com ele, você pode forjar armas de artefato poderosas e únicas que possuem habilidades especiais e são ligadas à sua alma, tornando-as utilizáveis apenas por quem as forjou.
+
+&bRemanescentes Encapsulados&7 podem ser usados para reparar e reforjar essas armas. Você também deve criar um &6Catalisador de Endurecimento&7 para torná-las inquebráveis.  "
+}

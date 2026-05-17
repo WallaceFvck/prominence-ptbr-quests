@@ -1,0 +1,2037 @@
+{
+	autofocus_id: "6F6196A606D3A8EF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "modern_industrialization"
+	group: "49D52BD6447C5CC0"
+	icon: "modern_industrialization:guidebook"
+	id: "5BB4D2FC1908D3D1"
+	images: [{
+		height: 1.0d
+		image: "ftbteams:textures/add.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -42.0d
+		y: -15.5d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Lembre-se: este livro-guia é muito, muito importante para progredir caso você esteja perdido sobre o que fazer. Por favor, reserve um tempo e leia quando necessário."
+			]
+			icon: "modern_industrialization:guidebook"
+			id: "6F6196A606D3A8EF"
+			rewards: [{
+				id: "30114C4833A34014"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "¿Escuela de Ingeniería?!"
+			tasks: [
+				{
+					id: "3E45F701C61708E1"
+					type: "checkmark"
+				}
+				{
+					id: "0C23DC9B228035CD"
+					item: "modern_industrialization:guidebook"
+					type: "item"
+				}
+			]
+			title: "¡Seguro que este tipo de equipo será importante para nuestros usos! ¡Se siente como si estuviéramos haciendo trabajo de herrería!"
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "385079198388468C"
+			rewards: [
+				{
+					id: "22EDAF043A96FEEF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15EDC42C4703B53F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7F9340B38EA75839"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "¿Somos herreros?"
+			tasks: [
+				{
+					id: "1B769C345EAF942C"
+					item: "modern_industrialization:forge_hammer"
+					type: "item"
+				}
+				{
+					id: "6302ACABBC6AEA42"
+					item: {
+						Count: 1
+						id: "modern_industrialization:iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "¡A toda máquina! Has llegado a este punto de aprender cómo funciona la tecnología, ¿estás listo para más?"
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["385079198388468C"]
+			description: [
+				"As máquinas a vapor aceitam entradas por qualquer lado, sejam itens, vapor ou outro fluido. Você pode travar seus slots clicando no cadeado na interface. Slots travados só aceitam um tipo de item ou fluido."
+			]
+			icon: "modern_industrialization:bronze_ingot"
+			id: "4661838E492BDE53"
+			rewards: [{
+				id: "48BE059E717F3B88"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "Lingotes de bronce"
+			tasks: [{
+				count: 32L
+				id: "393032946BC049BC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:bronze_ingots"
+					}
+				}
+				title: "&6¡Tu primer bronce!"
+				type: "item"
+			}]
+			title: "Esta es probablemente la primera máquina que querrás construir, ya que evita que tu martillo pierda durabilidad a fuerza de golpear."
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			id: "7F96B49412F52611"
+			rewards: [
+				{
+					count: 5
+					id: "7001E0BE6F705515"
+					item: "techreborn:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "12C276B1044FCBB4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "¡Prensa mecánica, pero más moderna!"
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			title: "¡Oh, eso está caliente! Recuerda que la caldera es una máquina avanzada capaz de alimentar varias máquinas a la vez y ahorrar combustible de forma eficiente. No olvides darle agua o el combustible se desperdiciará convirtiéndose en cenizas."
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"Máquinas a vapor precisam de vapor para funcionar, e é exatamente isso que a caldeira fornece. Ela vai consumir combustível lentamente para aquecer. Quando estiver quente o suficiente, começará a produzir vapor. Não se esqueça de abastecê-la com água ou seu combustível será queimado em vão."
+				""
+				"Você também pode fundir baldes de água em baldes de vapor. Faça seu primeiro Compactador de Bronze antes da caldeira para economizar bastante nas placas!"
+				""
+				"Provavelmente isso parece caro para você agora, mas não se esqueça de que você pode triplicar minérios com o Martelo de Forja. Além disso, assim que você tiver suas duas primeiras máquinas, tudo ficará mais de duas vezes mais barato!"
+				""
+				"A caldeira produzirá automaticamente e enviará vapor para máquinas adjacentes, até 8 milibuckets por tick."
+				""
+				"Máquinas de bronze só conseguem processar receitas de até 2 EU/t, o que significa que a receita usará 2 Unidades de Energia por Tick. Como 1 milibucket de vapor = 1 EU, uma caldeira na temperatura máxima pode alimentar 4 máquinas simultaneamente!"
+			]
+			id: "0BAB52BE15CE157F"
+			rewards: [
+				{
+					count: 3
+					id: "48FE673386EA9DF8"
+					item: "modern_industrialization:steam_bucket"
+					type: "item"
+				}
+				{
+					id: "50EE9ECCB68BB9FD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "¡A toda máquina!"
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			title: "El horno de alto horno de vapor tiene una estructura similar al horno de coque, pero este se usa para crear acero. Quizá aquí comienza la siguiente etapa."
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"748D2241F66FF644"
+				"0DD703B94D202B68"
+				"4AD93229344EA0BE"
+			]
+			description: [""]
+			icon: "modern_industrialization:steam_blast_furnace"
+			id: "586CB8FEAA0A50C6"
+			rewards: [{
+				id: "48C41FC140863B6B"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Sauna pero para metales"
+			tasks: [
+				{
+					count: 29L
+					id: "34C10A32EE244F3F"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+				{
+					id: "49215E965FF25243"
+					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "343625490325E9E0"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1F0ABBBFABD188C2"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6056045338C6DD46"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "El macerador es una máquina interesante que permite reciclar materiales y pulverizarlos en polvo para reutilizarlos."
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "5A27B361EF71A4DF"
+			rewards: [{
+				id: "66BB04E6CA8C33E5"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "Reducir, Reutilizar, Reforjar"
+			tasks: [{
+				id: "7799145BACA36D6A"
+				item: "modern_industrialization:bronze_macerator"
+				type: "item"
+			}]
+			title: "Esta es una herramienta confiable del minero que excava túneles en un área de 3x3. Recuerda recargarla siempre con agua y carbón como una máquina de vapor."
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["385079198388468C"]
+			description: [""]
+			id: "70CD9F0D26A75E13"
+			rewards: [
+				{
+					id: "77CB2BB7884957A3"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D21EBE1D2B67222"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+			]
+			subtitle: "¡Mi taladro atravesará los cielos!"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				item: "modern_industrialization:steam_mining_drill"
+				type: "item"
+			}]
+			title: "El mezclador te ayudará a mezclar polvos o fluidos a menor costo. Solo no pongas ingredientes de comida ahí o olerá mal."
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			dependency_requirement: "one_started"
+			id: "4575644C7E5F2DEE"
+			rewards: [
+				{
+					id: "3BF5F814E7572F46"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "5C18906AE0E461D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "¿Es para hornear?"
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			title: "Ahora esta es una máquina perfecta para evitar desperdiciar materiales. Úsala para cortar cualquier pieza de máquina que necesites, a costa de algo de lubricante."
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			icon: "modern_industrialization:bronze_cutting_machine"
+			id: "68E8311AC3140A56"
+			rewards: [{
+				id: "562C0214B1418055"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "¡Te cortaré!"
+			tasks: [{
+				icon: "modern_industrialization:bronze_cutting_machine"
+				id: "05C1EB3A2AEB99EF"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			title: "¡De polvo a polvo! ¡De arcilla a ladrillos! Hacer estos ladrillos no es particularmente difícil: solo convierte ladrillos normales en polvo, mézclalos con algo de arcilla y funde."
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "39FADF9C0442304F"
+			rewards: [
+				{
+					count: 16
+					id: "12FF8CCB7F2657F8"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "1A047D17FD23D1EF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "¿Dónde está el fuego en el ladrillo de fuego?"
+			tasks: [{
+				count: 12L
+				id: "5FB4F9E06ED83BA2"
+				item: "modern_industrialization:fire_clay_brick"
+				type: "item"
+			}]
+			title: "El horno de bronce es tan lento como un horno normal, pero usa vapor en lugar de cualquier otro combustible, y además es más barato."
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39FADF9C0442304F"]
+			description: [""]
+			id: "4AD93229344EA0BE"
+			rewards: [{
+				id: "2D513299E81DDA0D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "¿Es para cocinar al vapor?"
+			tasks: [{
+				id: "747A0D40FA945748"
+				item: "modern_industrialization:bronze_furnace"
+				type: "item"
+			}]
+			title: "El horno de coque sirve para hacer combustible de coque, no refrescos. Recuerda alimentarlo con vapor mediante la entrada y obtendrás coque por la salida. Lleva siempre una llave inglesa para ver la estructura multibloque."
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"O coque será muito útil para o aço, mas também é um combustível poderoso."
+				""
+				"Espero que você consiga encontrar um local conveniente para suas hatches de entrada e saída para que ele funcione sem problemas."
+			]
+			icon: "modern_industrialization:coke_oven"
+			id: "36ECD7C06649DE78"
+			rewards: [
+				{
+					count: 32
+					id: "28752E436B412354"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "6C440A2969E906B9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "¡Esto no es Coca Cola!"
+			tasks: [
+				{
+					id: "217D2448551C324A"
+					item: "modern_industrialization:coke_oven"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "2418D8560CE16E75"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "1EC4B2642DBB8127"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "510058C68DBCD031"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "267A96FED5F44276"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "092B490D68ACEA49"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
+				}
+			]
+			title: "El coque es una fuente de combustible muy útil que es mucho más potente que cualquier otra, y es un pequeño requisito para lo que viene."
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["36ECD7C06649DE78"]
+			description: [""]
+			id: "748D2241F66FF644"
+			rewards: [
+				{
+					id: "5D4B74FC7E1B82E1"
+					item: "modern_industrialization:coke_block"
+					type: "item"
+				}
+				{
+					id: "44DF7C8EB7213352"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "La bomba de bronce es buena para introducir agua en la maquinaria que la necesita, especialmente las calderas. Asegúrate de que estén cerca de una fuente de agua para que funcione automáticamente."
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					item: "modern_industrialization:coke_dust"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BAB52BE15CE157F"]
+			description: [""]
+			id: "0DD703B94D202B68"
+			rewards: [
+				{
+					count: 5
+					id: "5C2F3FDE9BA07D12"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "1607CABFFD8D45E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "¡Bombea tus pistones!"
+			tasks: [{
+				id: "510DB26BFE950469"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			title: "¡Perfecto! Ahora podemos mover nuestros fluidos correctamente. Aunque solo funciona con un tipo de fluido a la vez."
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "75608EDF99965533"
+			rewards: [
+				{
+					count: 8
+					id: "1E311CE091051941"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "2C38E0BDB85FF28F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Transporte de fluidos"
+			tasks: [{
+				count: 16L
+				id: "2E9298C2FC478FF5"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			title: "El acero es la siguiente mejora de maquinaria avanzada, ya que no solo es complicado llegar a este punto, sino que también demuestra tu capacidad de pensar con anticipación."
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["586CB8FEAA0A50C6"]
+			description: [""]
+			id: "7C5C1CA5A7954896"
+			rewards: [{
+				id: "583024642A669E0B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			subtitle: "Lingotes de acero"
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:steel_ingots"
+					}
+				}
+				title: "&8¿Un kilogramo de plumas o un kilogramo de acero?"
+				type: "item"
+			}]
+			title: "Es hora de mejorar tu maquinaria de bronce a sus variantes de acero, han evolucionado aún más de lo que puedes imaginar."
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			rewards: [{
+				id: "1AD889DB628B5A42"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Vives, aprendes, mejoras"
+			tasks: [{
+				count: 2L
+				id: "763B45889C554D7E"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
+			title: "Aquí estamos, es hora de construir una excavadora de vapor, una maquinaria avanzada que usa taladros de bronce para extraer minerales. Será una maquinaria costosa, pero será una de tus mejores inversiones."
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [
+				"A Steam Quarry é uma máquina multiblock a vapor que consome brocas de bronze, usa elas para cavar mais fundo do que a bedrock e te devolve alguns minérios, como você pode ver no REI."
+				""
+				"É recomendado que você tenha vários SBFs em funcionamento antes de tentar construí-la, porque ela requer muito aço."
+			]
+			icon: "modern_industrialization:steam_quarry"
+			id: "26E587E34810A8FE"
+			rewards: [
+				{
+					count: 5
+					id: "21D56C8F919971F6"
+					item: "modern_industrialization:bronze_drill_head"
+					type: "item"
+				}
+				{
+					id: "204170409FA28596"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "¿Recursos infinitos?"
+			tasks: [
+				{
+					id: "0B829B6C4987D67B"
+					item: "modern_industrialization:steam_quarry"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "3FA8E3781E4BF9AE"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4AEC4A5817CF1493"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05F5685C54F12B88"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Ahora sí, quizá haya más en esta excavadora que solo este taladro; tal vez podamos avanzar aún más."
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "74A278B57EF76B3B"
+			rewards: [{
+				id: "3AF9B328CED1A5BF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Taladro de bronce"
+			tasks: [{
+				count: 4L
+				id: "624F6E6D7A45923D"
+				item: "modern_industrialization:bronze_drill"
+				type: "item"
+			}]
+			title: "Una laminadora de alambre de acero será útil para crear maquinaria aún más sofisticada, pero recuerda que necesitas algo de aceite sintético crudo y papel para hacer láminas de caucho y más."
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [""]
+			id: "43F43FB0B9ED0818"
+			rewards: [
+				{
+					count: 4
+					id: "1E9D18D104CA30EC"
+					item: { Count: 4, id: "techreborn:steel_plate" }
+					type: "item"
+				}
+				{
+					id: "35629DF69C5A56D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "No enredes los cables, ¿vale?"
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			title: "Empecemos poco a poco. Nunca sabes cómo resultará esto."
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "2F5A88568154E986"
+			rewards: [{
+				id: "113170A0A2F1E4A1"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Has llegado lejos. Ahora que hemos pasado del vapor, estamos usando maquinaria aún más compleja con electricidad, pero los resultados son gratificantes."
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				item: "modern_industrialization:copper_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "19E5E31614FE485E"
+			rewards: [{
+				id: "749148FEAC43A349"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "&6¡Quiero un teléfono Nokia ahora!"
+			tasks: [{
+				count: 2L
+				id: "33A196551A047E54"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			title: "Ahora podemos forzar el transporte de objetos. Recuerda forzar una conexión con las tuberías en las máquinas para que transporten los objetos cuando sea necesario."
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [""]
+			id: "38F9192F665742BA"
+			rewards: [
+				{
+					count: 8
+					id: "0B0E01C14DDDB67F"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "54FAEED00879D52F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Transporte de objetos"
+			tasks: [{
+				count: 16L
+				id: "52537690D3281DBF"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			title: "El ensamblador es una máquina sofisticada que automatiza casi todas las piezas de maquinaria, pero recuerda hacer más para facilitar el proceso."
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "79F4B68189C05A25"
+			rewards: [
+				{
+					count: 2
+					id: "2E44F161981497D4"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+				{
+					id: "2453759A75AEE3D5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "rsquare"
+			subtitle: "¡Piezas de máquina, ENSAMBLAR!"
+			tasks: [{
+				id: "651D4E443F87E715"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			title: "Eu sinto que estamos criando uma Máquina a Vapor com o quanto essas caldeiras estão ficando maiores. Enfim, esta é uma versão aprimorada das suas caldeiras já conhecidas, elas consomem mais combustível, mas sua produção é tremenda."
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			icon: "modern_industrialization:large_steam_boiler"
+			id: "2F6ED192CC3A9AF4"
+			rewards: [
+				{
+					count: 16
+					id: "66C0E34F6FD976C3"
+					item: "modern_industrialization:white_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "7234354A2DB717F6"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Podemos ferver nossa comida agora? Não?"
+			tasks: [
+				{
+					id: "7D1063975B5EA66E"
+					item: "modern_industrialization:large_steam_boiler"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13C71839379B60DA"
+					item: "modern_industrialization:bronze_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "32E98789AE243D6A"
+					item: "modern_industrialization:bronze_plated_bricks"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "27E2509D1BD44B95"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			title: "A Turbina a Vapor usa vapor para produzir eletricidade. Mas haverá mais melhorias para essa certa turbina, então lembre-se de fazer muitas delas para alimentar suas máquinas elétricas."
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "55ED05A197F8D24A"
+			rewards: [{
+				id: "596B76D1A8846CD9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Isso é o meu ventilador elétrico?"
+			tasks: [{
+				id: "0497A2F2D5A65B0C"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "O Polarizador é uma máquina única que adiciona propriedades tipo ímã a certas peças de máquinas, o que será essencial."
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55ED05A197F8D24A"]
+			id: "5F52B24FFE2DDD86"
+			rewards: [
+				{
+					count: 4
+					id: "36D19E83ED7A2C1B"
+					item: "modern_industrialization:steel_rod_magnetic"
+					type: "item"
+				}
+				{
+					id: "34537E4DA898574A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Podemos criar Magnemite?"
+			tasks: [{
+				id: "796F845AA4E8F271"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			title: "A versão elétrica do Alto-forno a Vapor, nada mais, nada menos. Mas ele adiciona mais receitas que só podem ser feitas com esse forno."
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F52B24FFE2DDD86"]
+			description: [""]
+			icon: "modern_industrialization:electric_blast_furnace"
+			id: "796F33AE4A9CF30C"
+			rewards: [
+				{
+					id: "242165A5743BEA2A"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5969D12E96E787AE"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "3651BB07120D0AD5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Fogão de indução?"
+			tasks: [
+				{
+					id: "39EB9EA6FC93093F"
+					item: "modern_industrialization:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3AD3F002BEB84710"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "431CC13936EFB564"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
+			]
+			title: "Oh céus, isso foi uma dor de cabeça, mas agora estamos indo ainda mais além? Espero não ficar com dor de cabeça.."
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "6BEB4461CA08633F"
+			rewards: [{
+				id: "0F79198782678260"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "gear"
+			subtitle: "&bQuero um carro agora!"
+			tasks: [{
+				id: "36962E06671E364F"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			title: "Transformará vários fluidos em suas partes mais leves. Então é assim que conseguimos água destilada?"
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "036292964BDE4944"
+			rewards: [{
+				id: "3305918FD4754EE6"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Essas ferramentas serão poderosas e potencialmente substituirão sua picareta e pá. O jetpack também voará mais rápido com melhor combustível, use com cuidado."
+			tasks: [{
+				id: "25449DE629548BDF"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["036292964BDE4944"]
+			description: [""]
+			id: "6D0310EF6A259AC8"
+			rewards: [{
+				id: "6FD4B8C610F5ED57"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "&bÉ um motor a jato ou um motor a diesel?"
+			tasks: [
+				{
+					id: "67C570594E13FA80"
+					item: "modern_industrialization:diesel_mining_drill"
+					type: "item"
+				}
+				{
+					id: "7E63F544E1AF7DC1"
+					item: "modern_industrialization:diesel_chainsaw"
+					type: "item"
+				}
+				{
+					id: "13107B90179730F8"
+					item: "modern_industrialization:diesel_jetpack"
+					type: "item"
+				}
+			]
+			title: "Um Mundo Digital! Finalmente chegamos a este estágio, onde as coisas ficam ainda mais ridiculamente complexas. Lembre-se de ler com atenção."
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"036292964BDE4944"
+				"64BACF5B60AD2406"
+			]
+			id: "7CE18D246F01445D"
+			rewards: [{
+				id: "12A8A25898D36CAF"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			subtitle: "&9Quero um console agora!"
+			tasks: [{
+				id: "096259C009D8AFC1"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
+			title: "Um enorme multiblocos que pode perfurar petróleo bruto abaixo da bedrock usando tubos de fluidos. Espero que possamos vender todo esse petróleo por dinheiro... espere, temos dinheiro mesmo?"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			description: [""]
+			icon: "modern_industrialization:oil_drilling_rig"
+			id: "33BF21CF8232FD35"
+			rewards: [{
+				id: "3D028FD471613B8A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Hora de ficar rico!"
+			tasks: [
+				{
+					id: "26F6DB1C04F1CF93"
+					item: "modern_industrialization:oil_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 38L
+					id: "0BC5972EF14E4DA5"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0FF841D00CE1829C"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "0806B1D850EDDACE"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Pode fazer itens e fluidos reagirem entre si."
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "6B11B8A209763B36"
+			rewards: [{
+				id: "418FD62C77FE7890"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Esta é uma maquinaria muito avançada que é bem alta, já que eles são capazes de se montar em uma maquinaria ainda mais alta. Se quiser mudar a altura, clique com o botão direito com uma chave de fenda e isso se aplica a outros multiblocos com múltiplas formas como o Forno Elétrico de Nível Kanthal!"
+			tasks: [{
+				id: "4405859846ECFE0E"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "2AE689F6495C83A6"
+			rewards: [{
+				id: "3B83F18D0F1A5394"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Você pode usar um Trocador de Calor para recuperar a água HP para outro ciclo."
+			tasks: [{
+				id: "54C9073262B25D06"
+				item: "modern_industrialization:distillation_tower"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "7F41EEF87B3A8B84"
+			rewards: [{
+				id: "6F2C95E5F5B98B7E"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Melhorias Turbo serão úteis para acelerar suas máquinas ao clicar com o botão direito nelas, enquanto os Casulos de Máquina Avançados serão usados em máquinas para aceitar apenas MV, já que são de nível mais alto. Ambos podem ser removidos usando um pé de cabra quando necessário."
+			tasks: [{
+				id: "4223D53BFBB35DEF"
+				item: "modern_industrialization:heat_exchanger"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B522DC6845DB558"]
+			description: [""]
+			id: "65CB5CA13FBD010E"
+			rewards: [{
+				id: "177817FBCF270434"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Mais melhorias!"
+			tasks: [
+				{
+					id: "5625CE2C5AF1194F"
+					item: "modern_industrialization:turbo_upgrade"
+					type: "item"
+				}
+				{
+					id: "08B66500C8E9F4CE"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+			]
+			title: "Separa itens girando-os muito rapidamente."
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "693E05A909195578"
+			rewards: [{
+				id: "2B562E202B3E2FC4"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "O equivalente elétrico da Escavadeira a Vapor."
+			tasks: [{
+				id: "68D837AA6DE85D6F"
+				item: "modern_industrialization:centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			description: [
+				"Forneça itens e energia a ela, e veja seus recursos IREM BRRR!"
+				""
+				"Sua estrutura é exatamente a mesma da Steam Quarry."
+			]
+			icon: "modern_industrialization:electric_quarry"
+			id: "3DC21B6F47A253E4"
+			rewards: [{
+				id: "789C3CC47EFFAF36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Uma das brocas da Escavadeira."
+			tasks: [
+				{
+					id: "1004292AA09E90E0"
+					item: "modern_industrialization:electric_quarry"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "530C5BAAAE5874C2"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2CAD989D39D01AD6"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "773643F90F9A7B82"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "381693770EF21108"
+			rewards: [{
+				id: "74C349AA8684AA58"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "&6Broca de Ouro"
+			tasks: [{
+				id: "7B1FED6BDC3FB1FA"
+				item: "modern_industrialization:gold_drill"
+				type: "item"
+			}]
+			title: "Uma das brocas da Escavadeira."
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "01BBE636EBB71416"
+			rewards: [{
+				id: "040558025CE54280"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "&3Broca de Aço Inoxidável"
+			tasks: [{
+				id: "6A35321C6F3D7D64"
+				item: "modern_industrialization:stainless_steel_drill"
+				type: "item"
+			}]
+			title: "Uma das brocas da Escavadeira."
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "04B4FB69D88D1C76"
+			rewards: [{
+				id: "318007A8654AD93F"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "&8Broca de Aço"
+			tasks: [{
+				id: "758EB0D2CB85F803"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
+			title: "Você está quase lá! Com o processamento de petróleo, você está a alguns passos de fazer máquinas ainda mais avançadas."
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["036292964BDE4944"]
+			description: [""]
+			id: "6B522DC6845DB558"
+			rewards: [{
+				id: "42A6BE7F8466142A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Melhorias!"
+			tasks: [{
+				id: "71B5428A94930A18"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			title: "Será que essa turbina a vapor pode nos jogar para longe? Nah."
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "7D4B8F84394B1B35"
+			rewards: [{
+				id: "18F80756296C9C71"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Outra opção para configurações pequenas é usar uma turbina a vapor HV, elas não são brincadeira com sua produção."
+			tasks: [{
+				id: "16E814CBBEE5F8AB"
+				item: "modern_industrialization:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "2B0219B675E3820F"
+			rewards: [{
+				id: "7259BDAB5CDCB430"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "O Congelador a Vácuo é exatamente o que parece, ele resfria ou congela sólidos e líquidos para torná-los utilizáveis."
+			tasks: [{
+				id: "54B31CE72767D4C6"
+				item: "modern_industrialization:hv_steam_turbine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			icon: "modern_industrialization:vacuum_freezer"
+			id: "0A0931D04AE50D4B"
+			rewards: [
+				{
+					id: "670918DB54A59B14"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "7322BEDD2D7C61E3"
+					item: "modern_industrialization:annealed_copper_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Espero que seja seguro colocar sorvete aqui."
+			tasks: [
+				{
+					id: "2D292B2E8511A84D"
+					item: "modern_industrialization:vacuum_freezer"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "43D4C2C2AB9CAA35"
+					item: "modern_industrialization:frostproof_machine_casing"
+					type: "item"
+				}
+			]
+			title: "Pode dividir materiais em suas diferentes partes usando correntes elétricas fortes."
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "68BD457258EC8CBF"
+			rewards: [{
+				id: "57D249639CB0DD0E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Aço inoxidável, outro lingote necessário usado para coisas novas. Espera.. vejo uma mancha aqui!"
+			tasks: [{
+				id: "4ECD4D66C0DAB6AC"
+				item: "modern_industrialization:electrolyzer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A0931D04AE50D4B"]
+			description: [
+				"Fundir pó de aço inoxidável em um EBF vai te dar lingotes quentes, que podem ser resfriados de volta em lingotes normais com um Vacuum Freezer."
+			]
+			id: "64BACF5B60AD2406"
+			rewards: [{
+				id: "16BD1A2AE7B30382"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Limpeza total"
+			tasks: [{
+				id: "37EE6FA75FA9D21D"
+				item: "modern_industrialization:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "Bobinas de Kanthal são usadas pelo Forno Elétrico de Alto-forno para produzir mais materiais, pois são poderosas o suficiente para isso."
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64BACF5B60AD2406"]
+			id: "6B15091EC1B119B0"
+			rewards: [
+				{
+					id: "1820D9BCBE47DF52"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 10
+					id: "51E2F19F88B5020E"
+					item: "modern_industrialization:kanthal_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Este não é um metal fácil de trabalhar, lembre-se de que você precisa de máquinas para até mesmo dobrá-lo, mas ele mostra sua durabilidade."
+			tasks: [{
+				count: 16L
+				id: "2BD708AAF08C5905"
+				item: "modern_industrialization:kanthal_coil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B15091EC1B119B0"]
+			id: "7D3D156BE9C9E150"
+			rewards: [{
+				id: "47D7E1DF8030D3AD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Qualquer #c:titanium_ingots"
+			tasks: [{
+				id: "040031047A05E0AE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:titanium_ingots"
+					}
+				}
+				title: "Titânio"
+				type: "item"
+			}]
+			title: "Uma Unidade de Processamento é usada para criar peças de máquinas altamente sofisticadas e até brocas altamente avançadas que já são difíceis de usar."
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B15091EC1B119B0"
+				"7CE18D246F01445D"
+			]
+			id: "5310B93F2821826A"
+			rewards: [{
+				id: "09F0E3FEF88A4E55"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Cérebro de Computador"
+			tasks: [{
+				id: "5D18FA4D68318732"
+				item: "modern_industrialization:processing_unit"
+				type: "item"
+			}]
+			title: "Irídio Bruto"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "6B05C72FF31E104D"
+			rewards: [{
+				id: "04E110046D2E9DF1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7103DFB1F1EF3828"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:raw_iridium_ores"
+					}
+				}
+				title: "Irídio Bruto"
+				type: "item"
+			}]
+			title: "Esta placa de liga à prova de explosão será especialmente importante em um processo específico que vai bombar."
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "1EACE9E49BA4B753"
+			rewards: [{
+				id: "4D5F114F8BFAC71D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Podemos fazer um escudo disso?"
+			tasks: [{
+				id: "072C3C5C4355E8DF"
+				item: "modern_industrialization:blastproof_alloy_plate"
+				type: "item"
+			}]
+			title: "Um novo multiblocos feito de titânio que pode transformar água em HP (alta pressão), vapor em vapor HP, e o contrário também."
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7D3D156BE9C9E150"
+				"7CE18D246F01445D"
+			]
+			icon: "modern_industrialization:pressurizer"
+			id: "46319F2AE2F90532"
+			rewards: [
+				{
+					id: "24AE87D5D3E02EDB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10F2E622F3B1EE3A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Pare de me dar pressão social!"
+			tasks: [
+				{
+					id: "34D13E49CD76D0E5"
+					item: "modern_industrialization:pressurizer"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "406C11A88083444C"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "44B6C74129ADE260"
+					item: "modern_industrialization:titanium_machine_casing_pipe"
+					type: "item"
+				}
+			]
+			title: "Um peitoral especializado que concede ao usuário proteção contra dano de queda e voo no modo criativo, mas não protege contra nenhum dano externo. Ele deve ser alimentado para funcionar."
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B05C72FF31E104D"]
+			id: "18949581A0F3E28B"
+			rewards: [{
+				id: "41162E317076EB09"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "119D5B764A8F7E09"
+				item: "modern_industrialization:superconductor_cable"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18949581A0F3E28B"]
+			description: [""]
+			id: "6C1822FED0613FAF"
+			rewards: [
+				{
+					id: "41ECB8916CEA5AF0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A6A0ADDC3AD8899"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Homem de Ferro"
+			tasks: [{
+				id: "4AEAA8FA55EA9B82"
+				item: "modern_industrialization:gravichestplate"
+				type: "item"
+			}]
+			title: "Um Compressor de Implosão é uma máquina interessante que contém explosões dentro dele. Usando TNT Industrial, ele é capaz de comprimir os materiais mais resistentes."
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EACE9E49BA4B753"]
+			icon: "modern_industrialization:implosion_compressor"
+			id: "0F7CE2BA2A295A4D"
+			rewards: [{
+				id: "5C077C4D2DE7FCAE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Usando este material muito delicado, ele será usado para criar o melhor dos melhores maquinários para PODER ILIMITADO!!"
+			tasks: [
+				{
+					id: "459C20F94BC31393"
+					item: "modern_industrialization:implosion_compressor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "36704F63596BB959"
+					item: "modern_industrialization:blastproof_casing"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "1D26B3532226028F"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F7CE2BA2A295A4D"]
+			id: "46D1B0C583A57B12"
+			rewards: [{
+				id: "56D32E4289136DC7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "36161A69190A900D"
+				item: "modern_industrialization:mixed_ingot_iridium"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46D1B0C583A57B12"]
+			id: "363455215C23E84E"
+			rewards: [{
+				id: "7B97711A7833FA13"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&dO Endgame"
+			tasks: [{
+				id: "7E4D849D6F611B94"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
+			title: "A melhoria de máquina mais poderosa de todos os tempos. Olhe para si mesmo: Valeu a pena?"
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["363455215C23E84E"]
+			id: "4847BA675A04852F"
+			rewards: [{
+				id: "75608929A229D94D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "O Reator de Fusão é a fonte de energia definitiva; para fazê-lo funcionar, requer uma grande quantidade de energia e pode combinar Deutério, Trítio e/ou Hélio-3 em Plasma de Hélio."
+			tasks: [{
+				id: "4CD547671372F659"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["363455215C23E84E"]
+			icon: "modern_industrialization:fusion_reactor"
+			id: "208DE0E29C636F41"
+			rewards: [{
+				id: "4A2AF8D770E54116"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Não subestime a CIÊNCIA! Sem ela, não teríamos conseguido criar o melhor produtor de energia do mod!"
+			tasks: [
+				{
+					id: "3F8F140654BCBDCA"
+					item: "modern_industrialization:fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "0ED2032159A96066"
+					item: "modern_industrialization:fusion_chamber"
+					type: "item"
+				}
+				{
+					count: 203L
+					id: "64AE82C5CFDBF6D2"
+					item: "modern_industrialization:highly_advanced_machine_hull"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["208DE0E29C636F41"]
+			id: "370EE225E8140570"
+			rewards: [{
+				id: "09F1818CD1B04036"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Um grande multiblocos cujo propósito é gerar enormes quantidades de energia consumindo combustível nuclear."
+			tasks: [
+				{
+					id: "414FC59A3998C675"
+					item: "modern_industrialization:plasma_turbine"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "2B841E64FB2F9D5D"
+					item: "modern_industrialization:iridium_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "553244F087ECF3CA"
+					item: "modern_industrialization:plasma_handling_iridium_machine_casing"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0F7CE2BA2A295A4D"]
+			description: [
+				"Ela pode produzir centenas de vezes mais EU/t do que diesel. Ela vem em vários tamanhos, de pequeno a grande."
+				""
+				"Como ela funciona internamente pode ser um pouco esmagador, no entanto, você não precisa entender os detalhes para conseguir projetar um reator poderoso. Recomendamos que você experimente vários designs no modo criativo até encontrar um que se adeque a você."
+				""
+				"Observe que o Reator Nuclear não pode explodir, emitir radiação ou de outra forma danificar o mapa. A única coisa que ele pode danificar são os itens que você colocar nele se a temperatura ficar muito alta (mais sobre isso depois). Sinta-se à vontade para experimentar e aproveitar sua nova vida como cientista nuclear!"
+				""
+				"O componente principal é o Nuclear Casing, que é feito com Nuclear Alloy: uma mistura de cádmio, berílio e liga à prova de explosão."
+				""
+				"A parte superior da estrutura aceita Nuclear Item ou Fluid Hatches (ou cascas simples). Essas são as entradas e saídas do reator."
+				""
+				"Cada hatch tem uma entrada (item ou fluido) e duas saídas. Os slots de entrada formarão uma grade, exibida na interface do reator (acessível ao clicar com o botão direito no controlador)."
+				""
+				"Cada hatch possui uma temperatura e armazena calor que pode ser dissipado de várias formas. O calor se moverá naturalmente para um hatch adjacente ou para o exterior se o hatch estiver na borda (o calor é então perdido). A velocidade desse processo é igual ao coeficiente de transferência de calor do conteúdo dos hatches (mostrado no REI) vezes a diferença de temperatura. O calor também pode ser extraído em um hatch de fluido, produzindo vapor. Uma temperatura acima da temperatura máxima de um item irá destruí-lo."
+				""
+				"Os elementos centrais de um reator nuclear são nêutrons. Eles são produzidos pelo combustível nuclear. Existem dois tipos de nêutrons, rápidos e térmicos: os rápidos carregam energia enquanto os térmicos não. Os nêutrons se movem em linha reta até encontrarem um elemento ou saírem do reator (para nêutrons rápidos, sua energia é então perdida). O fluxo de nêutrons é mostrado na interface do reator."
+				""
+				"Quando um nêutron encontra um hatch não vazio, duas coisas podem acontecer: o nêutron é absorvido ou espalhado. Um nêutron espalhado mudará aleatoriamente de direção. Se o nêutron espalhado for rápido, ele tem a chance de desacelerar, tornando-se térmico. Isso transfere a energia do nêutron para o hatch na forma de calor. Um nêutron absorvido interrompe seu percurso e também transfere sua energia se for um nêutron rápido."
+				""
+				"O número de nêutrons absorvidos em um único hatch pode ser visto na interface. A probabilidade de cada processo é mostrada no REI. Isso dependerá fortemente do conteúdo do hatch e do tipo de nêutron (rápido ou térmico). Combustíveis nucleares absorvem nêutrons térmicos muito melhor."
+				""
+				"Quando um nêutron, seja rápido ou térmico, é absorvido no combustível nuclear, mais nêutrons são gerados. Esses são sempre nêutrons rápidos e têm direção aleatória. Sua geração é acompanhada pela liberação direta de energia na forma de calor adicional no hatch."
+				""
+				"Acima de um certo limite, o número de nêutrons gerados diminuirá com a temperatura até chegar a zero. Esse processo desperdiça parte da energia, mas garante a estabilidade do reator. O número de nêutrons gerados (e a eficiência efetiva), a energia direta e o limite de temperatura estão no REI."
+				""
+				"Cada componente nuclear tem um número máximo de absorções. Quando atingido, o item é destruído ou transformado em uma versão esgotada. Isso é particularmente útil para combustível nuclear, pois parte do U238 é transformada em Plutônio na versão esgotada, o que significa que parte dele pode ser transformada novamente em combustível."
+				""
+				"A mesma coisa acontece com fluidos: um pouco do fluido é transformado após cada absorção de nêutron. Isso pode ser usado para produzir em massa isótopos úteis como deutério e trítio. Em ambos os casos, o resultado é mostrado no REI."
+			]
+			id: "03896D148D7B4E3B"
+			rewards: [{
+				id: "36615F6544892129"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Não, ele não explode nem causa dano externo, mas só funciona dentro de máquinas, desculpe estragar sua expectativa."
+			tasks: [
+				{
+					id: "6539BC5A7D008ABE"
+					item: "modern_industrialization:nuclear_reactor"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "453E60CB97E09F53"
+					item: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 77L
+					id: "6A65032810E039AA"
+					item: "modern_industrialization:nuclear_casing"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03896D148D7B4E3B"]
+			id: "04FAF93691F0BD9C"
+			rewards: [{
+				id: "7944381BFE9F2996"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "OGIVA TÁTICA! CHEGANDO!! "
+			tasks: [{
+				id: "562F6128B9E139A8"
+				item: "modern_industrialization:nuke"
+				type: "item"
+			}]
+			title: ""
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["04FAF93691F0BD9C"]
+			id: "6314525E36DEA54B"
+			rewards: [
+				{
+					id: "7585ED4813069C75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "136D111C9638282F"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Eu me pergunto se criar um buraco negro em miniatura é seguro? Ah bem, isso será útil para a física quântica."
+			tasks: [{
+				id: "1A5C0F0D73190307"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			title: "Vamos consertar a história para a humanidade?"
+			x: 18.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6314525E36DEA54B"]
+			id: "79802A9D4A83E757"
+			rewards: [
+				{
+					id: "35F90BA880FF48B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "392AB02FBCD2F27C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Este é um balde difícil de usar. Com um eletrólisador e uma singularidade, grandes quantidades de energia serão transformadas em Radiação de Hawking, em Matéria UU, a própria estrutura do universo!!"
+			tasks: [{
+				id: "15325EFF41DA3891"
+				item: "modern_industrialization:uu_matter_bucket"
+				type: "item"
+			}]
+			title: "Matéria UwU"
+			x: 18.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5310B93F2821826A"]
+			id: "60A05C52ACCBE35D"
+			rewards: [{
+				id: "38A91AF5616D43B4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "537CE70D027A8B77"
+				item: "modern_industrialization:highly_advanced_upgrade"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "419F7B74E30C2AF4"
+			rewards: [
+				{
+					id: "695F346DFC3362DE"
+					item: "modern_industrialization:crude_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "2DC7DD622E6FC4FD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "Uma broca especializada usada para perfurar petróleo bruto e útil apenas em uma plataforma de perfuração de petróleo."
+			tasks: [{
+				count: 4L
+				id: "5F35CE6C3C6BAEF9"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
+			title: "&bBroca de Alumínio"
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "24535DA01189CC75"
+			rewards: [{
+				id: "4C22D23C96F1C508"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Uma das brocas mais caras de se fabricar, mas é útil para extrair minérios de irídio e urânio."
+			tasks: [{
+				id: "6448D47D73DD3726"
+				item: "modern_industrialization:titanium_drill"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"Não quebre com a wrench, use uma picareta."
+			]
+			id: "2DB9C3C383C91BC0"
+			rewards: [{
+				id: "2975DAD665501B19"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "É um macaco ou uma chave inglesa? De qualquer forma, isso será útil para girar a máquina ou alterar suas entradas e saídas."
+			tasks: [{
+				id: "68063DD59C50E1A7"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			title: "Brinquedo do Engenheiro"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "1B0A4271FCBD581F"
+			rewards: [
+				{
+					id: "0CFB0E3E504A70F7"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					id: "5EC9EA78055ED67E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Esta peça de máquina será necessária para que máquinas elétricas mais avançadas funcionem, então lembre-se de fabricar algumas delas."
+			tasks: [{
+				id: "13C4EB4423DBF2B5"
+				item: "modern_industrialization:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "Onde está o plugue?"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26E587E34810A8FE"]
+			description: [""]
+			id: "2050D2FF42E29F6D"
+			rewards: [
+				{
+					id: "54AF33022467EEBE"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4CF31744EC697161"
+					item: "modern_industrialization:copper_drill_head"
+					type: "item"
+				}
+				{
+					id: "3DD0D4DAE02EF45C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Conseguir essas escotilhas de aço será essencial para sua pedreira usar suas brocas e entregar seus resultados."
+			tasks: [
+				{
+					id: "7A4F57CDD12A6800"
+					item: "modern_industrialization:steel_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5D7622FC67473FA0"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A27BBE015E4B476"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Avance, avance, avance!"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [
+				"Agora você pode automatizar duplos lingotes e tubos, por exemplo! Novamente, verifique o REI."
+			]
+			id: "324B15844FC6C305"
+			rewards: [{
+				id: "06CDD11D0F136DDC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "O Empacotador de Aço é uma máquina autoexplicativa que automatiza a combinação de certas peças de máquinas, o irmão do Desempacotador de Aço."
+			tasks: [{
+				id: "52306C6F2E77D371"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			title: "Faça as malas, pessoal!"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "2D320F78629CC719"
+			rewards: [{
+				id: "228B42F539A2DAFC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "O Desempacotador de Aço é uma máquina autoexplicativa que desmonta peças de máquinas em outras partes menores como uma espécie de sistema de reciclagem, e o irmão do Empacotador de Aço."
+			tasks: [{
+				id: "58691A4447512CEE"
+				item: "modern_industrialization:steel_unpacker"
+				type: "item"
+			}]
+			title: "Desfaçam as malas, pessoal!"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "4DCFE7721417E669"
+			rewards: [{
+				id: "09EC6A5EC9AD5AF6"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "As redes de cabos têm limitações na quantidade de energia que elas vão puxar para a rede dependendo do nível."
+			tasks: [{
+				id: "2E9730BA35730C4B"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			title: "Transferência de Energia"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "31BCEF301071F67C"
+			subtitle: "Minhas costas estão me matando! Mais caldeiras?! Vou ter uma insolação nesse ritmo!"
+			tasks: [{
+				id: "5A4042280D8835FB"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+	]
+	title: " &6Modern Industrialization"
+}

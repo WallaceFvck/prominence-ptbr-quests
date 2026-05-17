@@ -1,0 +1,5423 @@
+{
+	autofocus_id: "61C05AE305488DF5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "einformation_7new_mechanics"
+	group: "5EA21B61C2E147CB"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tiered:textures/gui/anvil_tab_icon.png"
+		}
+	}
+	id: "701CA1F978CFB569"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/emberblade_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/blank"
+			rotation: 0.0d
+			width: 0.1d
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			dependency: "5728EF143DC9B7DB"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 5.017857142857146d
+			y: 0.142857142857153d
+		}
+		{
+			dependency: "080F23071FA8CFC9"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependency: "01F49526727B35F1"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 0.017857142857153008d
+			y: 6.142857142857153d
+		}
+		{
+			dependency: "0DFD6849156C0709"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependency: "1079F098AE98FCF6"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.982142857142854d
+			y: 0.10714285714286831d
+		}
+		{
+			dependency: "1F1202929D2C5195"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.1678571428571445d
+			y: -2.892857142857146d
+		}
+		{
+			dependency: "53391B7A86496FCB"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -5.017857142857132d
+			y: 1.8571428571428683d
+		}
+		{
+			dependency: "6A594976300D5DCC"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.982142857142847d
+			y: -1.6428571428571317d
+		}
+		{
+			dependency: "74BA5C6954FEFCE8"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "59C45FA337989B0C"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "059B370119A41869"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependency: "42068E429EB7B74F"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "4898E3ED8141DAFC"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 3.75d
+		}
+		{
+			dependency: "40C4C4072277E160"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: 2.17d
+		}
+		{
+			dependency: "22E0D946A9D81F02"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependency: "34D8C4E35FD1D7A4"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "3B1F2D1CFA02F922"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.12d
+			y: -2.53d
+		}
+		{
+			dependency: "0F83B1AC3CB766C9"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "43C641771CB69C88"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependency: "4898E3ED8141DAFC"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: 2.17d
+		}
+		{
+			dependency: "75E616FE0AAF9EF5"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.12d
+			y: -2.53d
+		}
+		{
+			dependency: "4CF644BC0920C177"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "2A4B84F063C78B09"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "6399A78B0AF2BCAE"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "71EDD24DAB210B44"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "51595E88AF1F475E"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"  "
+				"&7As mecânicas de combate foram alteradas pelo mod &eBetter Combat&7."
+				""
+				"- &6&lArmas &r&7Cada arma tem sua própria animação e tempo de ataque."
+				""
+				"- &6&lCombos &r&7Ataques consecutivos realizarão combos."
+				""
+				"- &6&lSegurar para atacar &r&7Você pode segurar o botão de ataque para continuar atacando continuamente.  "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51595E88AF1F475E"
+			rewards: [{
+				id: "73FEF9863E4C5F38"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "Continuar"
+			tasks: [{
+				id: "7AAEF7553C3616AE"
+				title: "&eNovas Mecânicas Defensivas"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"  "
+				"&7Esta linha de missões de tutorial explica como o combate funciona, desde mecânicas alteradas até como se construir."
+				""
+				"&eEmbora este seja um tutorial inicial, ele se estende até builds de fim de jogo. Mais missões aparecerão conforme você progride."
+				""
+				"&7A maior parte desta linha de missões é apenas leitura, &cpor favor, certifique-se de ler&7 se quiser realmente entender as coisas, pois são informações importantes.  "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B8B4323E13AB3E9"
+			rewards: [{
+				id: "475CDA6694C41230"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "Continuar"
+			tasks: [{
+				id: "3589A9BB969BA94E"
+				title: "&eNovas Mecânicas de Combate"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"  "
+				"&7Os seguintes guias irão direcionar você sobre o que procurar dependendo de tipos específicos de build. Estas não são builds totalmente desenvolvidas, são apenas guias para você seguir sobre quais equipamentos escolher dependendo do seu estilo de jogo."
+				""
+				"&eA dificuldade mostrada se aplica tanto à dificuldade de jogar quanto à dificuldade de fazer a build &7(Embora a dificuldade de gameplay tenha mais prioridade)&7."
+				""
+				"&6Como os tiers funcionam?"
+				""
+				"&7Tier I: &eEquipamento Inicial &8(Mundo superior)  "
+				"&eTier II: &eInício de jogo &8(Pós Nether)  "
+				"&6Tier III: &eMeio de jogo &8(Pós End)  "
+				"&cTier IV: &eFim de jogo / Endgame &8(Pós Artefatos)  "
+				"&dTier V: &e&kPrimordial&r &8(Desconhecido)"
+				""
+				"&eEsta parte da linha de missões pode ficar complexa! Para aprender mais sobre como obter Livros de Habilidade, leia a linha de missões de Conjuração."
+				""
+				"&6Para guias completos sobre builds específicas, consulte o wiki oficial!  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "6930C77988A640AF"
+			shape: "hexagon"
+			subtitle: "Continuar"
+			tasks: [{
+				id: "4B87D5A81113B3B8"
+				title: "&eComo funciona o Combate \\& Equipamentos?"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"51595E88AF1F475E"
+				"6B8B4323E13AB3E9"
+			]
+			description: [
+				"  "
+				"&7Estatísticas, também conhecidas como atributos, são uma série de números associados ao seu personagem que permitem que outras coisas escalem a partir deles."
+				""
+				"&7Por exemplo, Pressa define a velocidade de ataque, enquanto vida define quanta vida você tem, etc."
+				""
+				"&7As próximas missões irão explicar as principais estatísticas e por que cada uma é importante para usos específicos."
+				""
+				"&eAs estatísticas são uma parte central do seu equipamento, é importante entender quais estatísticas você precisa e quais não precisa dependendo de como você quer montar sua build.  "
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/anvil_tab_icon.png"
+				}
+			}
+			id: "61C05AE305488DF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "317E2316EEFC9AAE"
+					table_id: 3737891217858354553L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F8556F47340107"
+					table_id: 5228678659320885423L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			subtitle: "Continuar"
+			tasks: [{
+				id: "22AD24EC0678727A"
+				title: "&eComo sei quais equipamentos pegar?"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"  "
+				"&eEstatísticas principais são aquelas que todos usam em certa medida."
+				""
+				"&7Seja porque você já tem uma quantidade padrão (como Vida) ou porque qualquer peça de equipamento concede a estatística (como Pressa e Armadura)  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "fwaystones:item/empty_waystone_scroll"
+				}
+			}
+			id: "44D9519561FE2D1B"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "30BD1DF965773137"
+				title: "&eComo os atributos funcionam?"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44D9519561FE2D1B"]
+			description: [
+				"  "
+				"&eVárias estatísticas são projetadas para opções à distância."
+				""
+				"&7Enquanto Dano Físico é usado por todos, builds à distância preferirão outras estatísticas dependendo do caminho que seguirem; &eArquearia&7 (Físico à distância) ou &eConjuração &7(Mágico à distância)"
+				""
+				"&7Magia também pode ser usada corpo a corpo, com builds de Lâmina Mágica.  "
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/hud/heart/frozen_hardcore_full.png"
+				}
+			}
+			id: "3F794C7D175F14C0"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "6F23FA02C5CA4AD2"
+				title: "&eAtributos Principais"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44D9519561FE2D1B"]
+			description: [
+				"  "
+				"&ePressa aumenta sua velocidade de ataque físico."
+				""
+				"&7Fazendo você atacar ou trocar de armas mais rápido. Também escala com certas armas e itens. Foco particular para builds de \"Ladino\" ou qualquer build de ataque rápido.  "
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ranged_weapon:textures/mob_effect/damage.png"
+				}
+			}
+			id: "479F0EDD5681A06D"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "5C9AFBF0E99AE7AC"
+				title: "&eAtributos de Longo Alcance \\& Magia"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"  "
+				"&eAumenta a quantidade de dano que seus golpes/socos causam."
+				""
+				"&7A principal estatística para builds corpo a corpo, pois aumenta o dano que você causa e escala com qualquer coisa que cause dano físico, como armas corpo a corpo e habilidades corpo a corpo.  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/attack_speed.png"
+				}
+			}
+			id: "3EFD57AABC3D44EF"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "696BC3B958325A55"
+				title: "&eAceleração"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"  "
+				"- &eArmadura  "
+				"&7Reduz o &6Dano Físico &7recebido."
+				""
+				"&7É obtida a partir de peças de armadura, mas inimigos e chefes também terão uma quantidade de armadura por padrão."
+				""
+				"- &eResistência de Armadura  "
+				"&7Reduz o &6Dano Físico&7 em um alcance maior. É mais eficaz em golpes de alto dano, por isso é conhecida como a estatística de \"Anti One Shot\".  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/attack.png"
+				}
+			}
+			id: "401B24F826A490C3"
+			shape: "circle"
+			size: 0.754d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "019217B93D9FE657"
+				title: "&6Dano Físico"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"  "
+				"- &eVida  "
+				"&7Aumenta a quantidade máxima de dano que você pode receber até morrer."
+				""
+				"- &eEstamina  "
+				"&7Diminui a quantidade de Energia (Fome) que você perde passivamente.  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/defense.png"
+				}
+			}
+			id: "2B31C767E6C37F28"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "4B50250B4FEBFB6B"
+				title: "&eArmadura \\& Resistência"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"  "
+				"&ePoderes elementais são os terceiros mais fortes que existem, também conhecidos como poderes &oterciários&r&e."
+				""
+				"&7Embora existam outros poderes terciários, os elementais vêm da Criação, do Sagrado e da Alma."
+				""
+				"&eArcano, Gelo e Fogo&7 podem ser usados por vários Livros de Magia, sozinhos ou juntos; todos os três fazem parte do poder híbrido &eAstral&7."
+				""
+				"&eRelâmpago&7 é usado por algumas armas como o artefato Thunderwrath, sendo um poder importante para Valquírias.  "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/health.png"
+				}
+			}
+			id: "07C8B808DB85CC35"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "716906C7C1D596AA"
+				title: "&cVida \\& Vigor"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"  "
+				"&ePoderes Primordiais são os segundos mais fortes, também conhecidos como poderes Secundários."
+				""
+				"&eSagrado&7 é usado por Sacerdotes e Paladinos para dar suporte aos aliados."
+				""
+				"&eAlma&7 é usada em combinação com poderes elementais para formar poderes híbridos como &eSoulfire&7 e &eSoulfrost&7, usados principalmente por alguns Artefatos.  "
+			]
+			id: "5CF52770623E5963"
+			size: 0.75d
+			subtitle: "Obtenha uma Runa Arcana"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/arcane.png"
+						}
+					}
+					id: "27531CFF0334076B"
+					item: "runes:arcane_stone"
+					title: "Obtenha uma Runa de Fogo"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/fire.png"
+						}
+					}
+					id: "6346BAE143CD3A00"
+					item: "runes:fire_stone"
+					title: "Obtenha uma Runa de Gelo"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/frost.png"
+						}
+					}
+					id: "1D167D542A786C4A"
+					item: "runes:frost_stone"
+					title: "&bPoderes Elementais"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/lightning.png"
+						}
+					}
+					id: "43DBCF7B9A526165"
+					item: "runes:lightning_stone"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&8[Clique para ler mais]"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"  "
+				"&ePoderes em decomposição são os poderes da Morte."
+				""
+				"&eSangue&7 é usado por Cavaleiros da Morte de Sangue, uma especialização tanque que se sustenta."
+				""
+				"&eProfano&7 é usado por Cavaleiros da Morte Profanos, lutadores que trazem doenças aos inimigos.  "
+			]
+			id: "59E36C0233C961CA"
+			size: 0.75d
+			subtitle: "Obtenha uma Runa de Cura"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/holy.png"
+						}
+					}
+					id: "177735B2E5DEF39C"
+					item: "runes:healing_stone"
+					title: "Obtenha uma Runa da Alma"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/soul.png"
+						}
+					}
+					id: "34B70513418F7A19"
+					item: "runes:soul_stone"
+					optional_task: true
+					title: "&6Poderes Primordiais"
+					type: "item"
+				}
+			]
+			title: "&8[Clique para ler mais]"
+			x: 2.510714285714286d
+			y: -4.482142857142854d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"  "
+				"&eEstatísticas híbridas são aquelas que são uma mistura de duas estatísticas, ou uma estatística que se aplica globalmente tanto a classes corpo a corpo quanto à distância.  "
+			]
+			id: "7613069D73E7B2A3"
+			size: 0.75d
+			subtitle: "Obtenha uma Runa Profana"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/unholy.png"
+						}
+					}
+					id: "58AADDF3A7EE5E43"
+					item: "death_knights:unholy_stone"
+					title: "Obtenha uma Runa de Sangue"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/blood.png"
+						}
+					}
+					id: "1D53ECD1AE853804"
+					item: "death_knights:blood_stone"
+					title: "&cPoderes Decadentes"
+					type: "item"
+				}
+			]
+			title: "&8[Clique para ler mais]"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"401B24F826A490C3"
+				"5CF52770623E5963"
+				"3F794C7D175F14C0"
+				"479F0EDD5681A06D"
+			]
+			description: [
+				"  "
+				"&eLetalidade e Penetração Mágica são a mesma estatística com nomes diferentes. Elas ignoram uma porcentagem da Armadura ou Proteção Mágica do alvo."
+				""
+				"&7Por exemplo, se você tiver 16% de Letalidade e seu inimigo tiver 100 de Armadura, você o atingirá como se ele tivesse 84 de Armadura (pois isso reduz a armadura dele em -16%)."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:textures/mob_effect/magic_circle.png"
+				}
+			}
+			id: "085E3F53A333AA9F"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "6C6C8542F3C9ED71"
+				title: "&eAtributos Híbridos"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"401B24F826A490C3"
+			]
+			description: [
+				"&ePoder Astral é a combinação de 3 poderes elementais: &dArcano, &cFogo&e e &bGelo&e."
+				""
+				"&7Esse poder híbrido é usado por Magos Astrais ou por Lâminas de Feitiço Astrais. Com artefatos como &dSingularity&8 (de Ekavar)&7 e &dSupernova&7 escalando com esses atributos."
+				""
+				"&7Existem livros de feitiços que também usam Poder Astral, como o livro &dInvocações Rúnicas&7."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/lethality.png"
+				}
+			}
+			id: "597F9C69DBB37F71"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "0CDC6263F513E17C"
+				title: "&cLetalidade &7\\& &bPenetração Mágica"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"5CF52770623E5963"
+			]
+			description: [
+				"- &eAtaque para X (Poder de Feitiço)"
+				"&7Aumenta o poder de feitiço específico em uma porcentagem do seu Dano Físico."
+				""
+				"- &eX (Poder de Feitiço) para Ataque"
+				"&7Aumenta seu Dano Físico em uma porcentagem da quantidade do poder de feitiço especificado."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:icons/prom_compat/rune_of_stars"
+				}
+			}
+			id: "13907450E40B1069"
+			size: 0.75d
+			subtitle: "Obtenha um Cajado de Mago"
+			tasks: [{
+				id: "593697F7F7CB984A"
+				item: {
+					Count: 1
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&dPoder Astral"
+				type: "item"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["085E3F53A333AA9F"]
+			description: [
+				"&eDano à Distância"
+				""
+				"&7Este atributo escala o dano causado por armas à distância que lançam projéteis, como arcos, bestas ou armas de fogo. Ele é obtido através de Talentos, Joias e das próprias armas à distância."
+				""
+				"&eVelocidade de Nock"
+				""
+				"&7Este atributo aumenta a velocidade de nock de um arco/besta ou a cadência de tiro de armas de fogo/canhões."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/supernova/speed.png"
+				}
+			}
+			id: "2078987E5DF94CE7"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "5848C781F4984B12"
+				title: "&ePoderes Físico-Mágicos"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eEsses poderes fortalecem o processo de conjuração dos Magos conjuradores."
+				""
+				"&eChance de Crítico de Feitiço&7 aumenta a chance de seus feitiços causarem dano crítico."
+				""
+				"&eDano Crítico de Feitiço&7 aumenta o dano dos seus feitiços críticos em uma porcentagem."
+				""
+				"&eAceleração de Feitiço&7 aumenta a velocidade das suas conjurações, tornando-as mais curtas."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/archery.png"
+				}
+			}
+			id: "332E1D21030C2367"
+			size: 0.75d
+			subtitle: "Obtenha qualquer Arma de Longo Alcance"
+			tasks: [{
+				id: "537674E6436DC13B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "archers:auto_fire_hook_attachables"
+					}
+				}
+				title: "&aDano à Distância \\& Velocidade de Disparo"
+				type: "item"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 2.546428571428571d
+			y: -5.517857142857139d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eAumenta a sua velocidade de movimento."
+				""
+				"&7Também escala com outras coisas como Rolamento."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/spell_critical.png"
+				}
+			}
+			id: "7F974354502FF51C"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "630C257E4DE95118"
+				title: "&bCrítico de Feitiços \\& Aceleração"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: 2.4750000000000014d
+			y: -6.517857142857146d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&eEncantamentos são uma parte essencial do seu equipamento, eles aumentam muito a eficiência dele."
+				""
+				"&7Você pode conferir o guia completo de encantamentos na wiki, o tutorial de Encantamento ainda está sendo construído <3"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/boot.png"
+				}
+			}
+			id: "513B18C3E0E74C91"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "79F2CDF32DF422CE"
+				title: "&eVelocidade de Movimento"
+				type: "checkmark"
+			}]
+			title: "&8[Clique para ler mais]"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6930C77988A640AF"
+				"61C05AE305488DF5"
+			]
+			description: [
+				"&6Dificuldade:&a Fácil &7/ &eMédio"
+				""
+				"&eProtetores (também chamados de Tanques) são suportes que focam em proteger os outros ao receber o dano dos inimigos."
+				""
+				"&7Protetores focam em ser os primeiros a atacar os inimigos ou provocá-los usando talentos ativos como &9Armadura de Ossos&7."
+				""
+				"- &eO que construir como Protetor/Tanque?"
+				"&7Como protetor, sua prioridade principal deve ser &cMáxima Vida&7 e &eArmadura&7. As melhores peças com esses atributos são a &eArmadura de Diamante&7 e suas melhorias, pois fornecem o máximo de pontos de Armadura (e Tenacidade) possível, e mais tarde também Vida Máxima."
+				""
+				"&eLembre-se de que o dano de um tanque é medíocre em comparação com outras builds. Seu propósito é tankar, não causar dano."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bewitchment:textures/mob_effect/enchanted.png"
+				}
+			}
+			id: "7CFDF35E5158679E"
+			rewards: [{
+				id: "0B449E6D557CA067"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			subtitle: "Crie uma Mesa de Encantamentos"
+			tasks: [{
+				id: "261E71FE0BF26DD9"
+				item: "minecraft:enchanting_table"
+				title: "&eEncantamentos"
+				type: "item"
+			}]
+			title: "&dFragmento de Conhecimento Eterno"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"59E36C0233C961CA"
+				"13907450E40B1069"
+				"332E1D21030C2367"
+				"401B24F826A490C3"
+				"3EFD57AABC3D44EF"
+				"44D9519561FE2D1B"
+				"7613069D73E7B2A3"
+				"513B18C3E0E74C91"
+				"479F0EDD5681A06D"
+				"7F974354502FF51C"
+				"07C8B808DB85CC35"
+				"597F9C69DBB37F71"
+				"5CF52770623E5963"
+				"2078987E5DF94CE7"
+				"3F794C7D175F14C0"
+				"2B31C767E6C37F28"
+				"7CFDF35E5158679E"
+				"073F2420FA2EF9B1"
+				"0A1F7985832C6DB2"
+				"71EDD24DAB210B44"
+				"6399A78B0AF2BCAE"
+				"43C641771CB69C88"
+				"1079F098AE98FCF6"
+				"76196F8D435E0E5A"
+				"0F83B1AC3CB766C9"
+				"0DFD6849156C0709"
+				"57B71888F2B87995"
+				"0002A96D1F886FB3"
+				"09CE7EB3045D5136"
+				"32AF5CAD14B2C8A7"
+				"01F49526727B35F1"
+				"2D18A81E45594603"
+				"4DEDEC176C36CFD0"
+				"61C05AE305488DF5"
+				"74B7050CA824F281"
+				"36B7ACAA73589366"
+				"4B450D0E26363D54"
+				"080F23071FA8CFC9"
+				"5728EF143DC9B7DB"
+				"4250485195720E02"
+				"18899F26D6DB2F47"
+				"59C45FA337989B0C"
+				"2A4B84F063C78B09"
+				"3D78B8D241B53C2A"
+				"22E0D946A9D81F02"
+				"42068E429EB7B74F"
+				"5814C5C80022A343"
+				"51595E88AF1F475E"
+				"4CF644BC0920C177"
+				"0A4309730B50D9FF"
+				"3B1F2D1CFA02F922"
+				"1F1202929D2C5195"
+				"6930C77988A640AF"
+				"53391B7A86496FCB"
+				"75E616FE0AAF9EF5"
+				"4898E3ED8141DAFC"
+				"34D8C4E35FD1D7A4"
+				"40C4C4072277E160"
+				"5F05B907376828B4"
+				"3A72E538D2A5B20C"
+				"6A594976300D5DCC"
+				"6B8B4323E13AB3E9"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/essence/knowing"
+				}
+			}
+			id: "5F2C69EC6928676F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
+					}
+				}
+				id: "71028E3F756D85C9"
+				title: "&8Conhecimento Secreto"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Aprendi o Conhecimento."
+			tasks: [{
+				id: "7E66AB385C03B775"
+				title: "&dConhecimento Eterno: &eDe Combate \\& Equipamentos"
+				type: "checkmark"
+			}]
+			title: "&eDesbloquear Guia de Nível II"
+			x: 9.0d
+			y: -21.75d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade: &aFácil &7/ &eMédio &7/ &cDifícil"
+				""
+				"&eGuerreiros são builds corpo a corpo que atacam devagar, mas com força."
+				""
+				"&7Eles são a definição de uma classe de "Burst"; embora ataquem devagar, seu dano será alto, mas não tão constante quanto uma build de DPS."
+			]
+			id: "57B71888F2B87995"
+			rewards: [
+				{
+					count: 8
+					id: "05B3B066FCB41150"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "57134CB7E8FDF0E0"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eComo um Protetor"
+			tasks: [
+				{
+					id: "0FD8935EA9C1F668"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "171B6CE657EE7A18"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "267A79D48739B564"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B0E79F0989DD746"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "373563C79A1DDD0E"
+					item: {
+						Count: 1
+						id: "paladins:diamond_kite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CCC18493C98B5E5"
+					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "310BF2BA24D12FC1"
+					item: "paladins:paladin_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível II"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade:&a Fácil&7 /&e Médio &7/ &cDifícil&7"
+				""
+				"&eMagos são builds versáteis à distância que usam magia de certos elementos como Arcano, Fogo e Gelo."
+				""
+				"&7O trabalho de um Mago é causar dano à distância usando magia lançada de um Livro de Feitiços."
+				""
+				"- &eO que construir como Mago?"
+				"&7Sua prioridade dependerá do caminho que você escolher; o elemento em que deseja focar. Como equipamento inicial, você pode pegar um &eCajado de Feiticeiro&7 (ou qualquer cajado do elemento específico) e &eRoupas de Feiticeiro&7."
+			]
+			id: "36B7ACAA73589366"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "46C8B41599DEEF3A"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "69AB60577E3BE252"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eComo um Guerreiro"
+			tasks: [
+				{
+					id: "0312CC52D893C4BE"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D24437AC6703538"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "768A5105FC2B8FD8"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0471DE5E9038FA84"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72B8245645ACDA0E"
+					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E21A277D16B449A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Runas de sua Escolha"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil"
+				""
+				"&eLadinos são builds corpo a corpo que focam em atacar rápido, causando dano constante aos alvos."
+				""
+				"&7Eles são a definição de uma classe de "DPS"; o foco é dano constante, diferente de builds de Burst que focam em alto dano sem constância."
+				""
+				"- &eO que construir como Ladino?"
+				"&7Em termos de atributos, a principal prioridade é &eAceleração&7, depois &6Dano Físico&7. Em relação ao equipamento, procure armas rápidas de uma mão para poder usar duas ao mesmo tempo."
+			]
+			id: "32AF5CAD14B2C8A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E55BD0560991CA3"
+					table_id: 3850066978152658360L
+					title: "&eDesbloquear Guias de Nível II para Elementos Específicos"
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "6758587085DB0764"
+					title: "&eGuia de Lâmina Arcana &c(Requer Ladino Nível I)"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "399A90F153F28F25"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eComo um Mago"
+			tasks: [
+				{
+					id: "0A2AEE5ACC8E1059"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465444467D38732D"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB4C1BD0A49F9E2"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCD2493ECE81DD2"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3178F744F0C11E2F"
+					item: {
+						Count: 1
+						id: "wizards:wand_novice"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível II"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade:&a Fácil &7/ &eMédio"
+				""
+				"&eRangers são builds à distância que usam armas como Arcos, Bestas ou Armas de Fogo para causar dano com projéteis."
+				""
+				"&7Eles podem ser construídos como DPS ou Burst, dependendo do equipamento e dos atributos que você priorizar."
+				""
+				"- &eO que construir como Ranger?"
+				"&7A prioridade principal é &2Dano à Distância&7, obtido através de talentos e do equipamento que você usa. Se quiser uma cadência de tiro mais rápida, também priorize &aVelocidade de Nock&7."
+				""
+				"&eLembre-se de que arqueiros são mais frágeis."
+			]
+			id: "4250485195720E02"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "2ADE97391AC00735"
+					title: "&eGuia de Lâmina Arcana &c(Requer Mago Nível I)"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "36E9C272253470BC"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "2F110B9AD6FAAC11"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eComo um Ladino"
+			tasks: [
+				{
+					id: "7FD3F530C813C541"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B521BBBA93DDE6"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC809698CC254EE"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EFB811C612051F1"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399C7A3B5D5526B7"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C1F0A6134AE788F"
+					item: "rogues:rogue_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível II"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil &7(Como Ash'edar)"
+				""
+				"&eUm caminho alternativo que combina Ladinos e Magos."
+				""
+				"&7Com lâminas de feitiço você pode ser um ladino corpo a corpo que usa habilidades mágicas. Você pode começar com uma Lâmina de Feitiço de qualquer elemento que quiser, e seu livro de feitiços de Técnicas para as habilidades."
+				""
+				"&eEscolhas de Talentos"
+				"&7As prioridades devem ser uma mistura de Dano Físico e do poder elemental de sua escolha. A escolha de destino pode ser o destino do seu elemento, ou &9Técnicas das Sombras&7 se focar mais em atacar do que em feitiços."
+			]
+			id: "76196F8D435E0E5A"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "7562B7F450DBA5BA"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "477222A9321415FE"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eComo um Arqueiro"
+			tasks: [
+				{
+					id: "16DE019B98CAF8D3"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "793BB7A4760C94DD"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C63C0147F3D6706"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F824AD15BE13D42"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E94B5EC060B408A"
+					item: "archers:archer_spell_book"
+					type: "item"
+				}
+				{
+					id: "5157A50DDC652D9F"
+					item: {
+						Count: 1
+						id: "archers:mechanic_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível III"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4250485195720E02"
+				"32AF5CAD14B2C8A7"
+			]
+			description: [
+				"&6Dificuldade:&c Difícil"
+				""
+				"&eAs Invocações Rúnicas usam Magia Astral, poder de três elementos: Arcano, Fogo e Gelo."
+				""
+				"&7As Invocações Rúnicas são muito fortes quando usadas corretamente, mas são os magos mais difíceis."
+				""
+				"- &eEscolhas de Talentos"
+				"&7Agora que você atingiu nível suficiente para obter um Talento de Destino, você deve escolher &9Conhecimento de Runas e Estrelas &7pois ele fornece &ePoder Astral&7."
+			]
+			hide_until_deps_visible: true
+			id: "09CE7EB3045D5136"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "120E0D545968C087"
+					title: "&eNível II &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+				{
+					id: "2A8DE7EF0E237285"
+					item: "spellbladenext:runeblaze_ingot"
+					type: "item"
+				}
+				{
+					id: "602F56C398CA3F9D"
+					item: "spellbladenext:runegleam_ingot"
+					type: "item"
+				}
+				{
+					id: "0B8E50A473351F5D"
+					item: "spellbladenext:runefrost_ingot"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eAs Lâminas Arcanas"
+			tasks: [
+				{
+					id: "2A530311ACA52655"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "523F4479E33CBEAC"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "1E28B8ADF2732666"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6B00CF76A118782A"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F63DDEA6A420F6E"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7907391AD4491937"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A98B39FF71CA47C"
+					item: {
+						Count: 1
+						id: "spellbladenext:fire_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77C1C17602E87F0A"
+					item: {
+						Count: 1
+						id: "spellbladenext:arcane_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3197451530F7213B"
+					item: {
+						Count: 1
+						id: "spellbladenext:frost_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível IV"
+			x: -2.625d
+			y: 2.625d
+		}
+		{
+			dependencies: ["0A4309730B50D9FF"]
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil &7(Como Bardo)"
+				""
+				"&eCurandeiros são suportes que protegem seus aliados curando e fornecendo escudos mágicos temporários."
+				""
+				"- &eO que construir como Curandeiro?"
+				"&7Seu foco principal é &ePoder Sagrado&7, obtido através de talentos e equipamentos. Você pode usar o &6Livro Sagrado&7 para lançar feitiços de cura."
+				"&7Você também pode focar um pouco em defesa, como vida máxima ou velocidade de movimento para escapar de inimigos, já que seu dano não será tão alto."
+				""
+				"&eLembre-se de que o dano de um curandeiro é medíocre em comparação com outras builds. Seu propósito é curar, não causar dano."
+			]
+			hide_until_deps_visible: true
+			id: "2A4B84F063C78B09"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7F4526EB70A3DCBF"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eConhecimento Astral"
+			tasks: [{
+				id: "4292524ED18FE585"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "&eDesbloquear Guia de Nível II"
+			x: -1.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil"
+				""
+				"&eBardos são suportes que fortalecem aliados com dano, aceleração, cura e outros buffs."
+				""
+				"&cVocê precisa estar em um grupo com seus aliados para dar buffs! &8(/openpac-parties comando)"
+				""
+				"&7Bardos são especiais, pois não têm um equipamento ou atributo específico. O único requisito é ter o talento de destino &9Uma História de Bardo&7. Eles podem usar instrumentos específicos para fornecer buffs conforme descrito no talento."
+				""
+				"- &eO que construir como Bardo?"
+				"&7A resposta curta é híbrido. Você pode misturar Bardo com outra build como quiser. Por exemplo, você pode ser suporte com dano indo para arqueiro, mago ou curandeiro! Depende de você."
+			]
+			id: "073F2420FA2EF9B1"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "34F17089080BE301"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "3A88662548C17265"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eComo um Curandeiro"
+			tasks: [
+				{
+					id: "73D7F38F58340891"
+					item: {
+						Count: 1
+						id: "paladins:diamond_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE76C4201E0ABCB"
+					item: "paladins:priest_spell_book"
+					type: "item"
+				}
+				{
+					id: "650032F5E71EC47A"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7081002E04CCE384"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19808ADC01DD9E2D"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "191102B94E38E735"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível II de Gelo e Curandeiro"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6Dificuldade:&a Fácil &7/&e Médio &7(Como Bardo)"
+				""
+				"&eGelo foca em causar dano moderado enquanto fornece utilidade, como reduzir a velocidade dos inimigos."
+				""
+				"&7Além do Poder de Gelo, seu foco principal é &eAceleração de Feitiço&7 para conjurar o mais rápido possível. &eChance Crítica e Dano Crítico&7 também são bons atributos, embora não sejam prioridade."
+			]
+			id: "0A1F7985832C6DB2"
+			rewards: [
+				{
+					id: "58D18BB26C19FBAF"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "035B72E43504597B"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eOpção de Arma&7: Balestra Harpa"
+			tasks: [
+				{
+					id: "0EF87BC5330A4760"
+					item: {
+						Count: 1
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C099415129268AA"
+					item: {
+						Count: 1
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F64C7463D5F83C8"
+					item: {
+						Count: 1
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "796B72159F06686E"
+					item: {
+						Count: 1
+						id: "immersive_melodies:lute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09D0B07619A6FAC9"
+					item: {
+						Count: 1
+						id: "immersive_melodies:piano"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "60A440DEC33D7227"
+					item: {
+						Count: 1
+						id: "immersive_melodies:triangle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "65A88890B2679DF5"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "108EB0F5CA0F59BC"
+					item: {
+						Count: 1
+						id: "mcdw:crossbow_harp_crossbow"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:multishot"
+								lvl: 2s
+							}]
+						}
+					}
+					optional_task: true
+					title: "&eComo um Bardo"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível III"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32AF5CAD14B2C8A7"
+				"0A1F7985832C6DB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"&eArcano é um elemento de alto dano focado em feitiços mais lentos, porém mais fortes."
+				""
+				"&7É o mais explosivo dos 3. Foca em &eDano Crítico&7 para maximizar o dano causado por feitiços críticos. &eChance Crítica&7 também é importante, equilibrar ambos é uma boa ideia."
+			]
+			hide_until_deps_visible: true
+			id: "5814C5C80022A343"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7B8A00D9A6E321DC"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eNo Gelo"
+			tasks: [
+				{
+					id: "758C69335DA5851B"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "4C2AD845F237C2B6"
+					item: {
+						Count: 1
+						id: "wizards:staff_netherite_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61E8F8B8CD2AF605"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "763CB6FE9DE2F74D"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "334E3B659B2CD4EE"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "663E2B44F64512D4"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível III"
+			x: 1.125d
+			y: 3.375d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6Dificuldade:&e Médio"
+				""
+				"&7Sua próxima melhoria se você escolher ir como Ladino de Aceleração. O conjunto Assassino fornece +5% de Aceleração por peça, tornando-o ideal para sua build."
+				""
+				"&eEscolhas de Talentos"
+				"&7Os nós de Dano Físico e Aceleração devem ser a prioridade. Para destino, escolha &9Técnicas das Sombras&7 pois aumenta muito sua Aceleração."
+			]
+			hide_until_deps_visible: true
+			id: "74B7050CA824F281"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "009652D33213EA69"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eNo Arcano"
+			tasks: [
+				{
+					id: "2E1A77BDFBBFA6D4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "132ACD232230B79B"
+					item: {
+						Count: 1
+						id: "wizards:staff_netherite_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35767BCFF531FD94"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36E36DE73E38C02A"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61AB07E54E960DB0"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77C619D2734ED9C5"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível III"
+			x: -0.375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4250485195720E02"]
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"&7Sua próxima melhoria é a Armadura de Ranger, pois ela fornece o maior Dano à Distância, útil para sua build."
+				""
+				"&7Arcos Curtos ou Bestas Rápidas são as melhores opções para DPS devido à sua baixa velocidade de nock."
+				""
+				"&eOpções de Talentos"
+				"&7Escolha todas as opções de Dano à Distância e como Destino, obtenha &9Herança Sin'dorei"
+			]
+			hide_until_deps_visible: true
+			id: "0002A96D1F886FB3"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "1F2BC88A66254928"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eUm Assassino Sutil"
+			tasks: [
+				{
+					id: "6CBFCA994BCDE8F3"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60B452A91AB80D2A"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B3122964C40D5C0"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6554A462C34F2D01"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível III"
+			x: -2.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["76196F8D435E0E5A"]
+			description: [
+				"&6Dificuldade:&e Médio"
+				""
+				"&7Sua próxima melhoria é a Armadura de Ranger, pois ela fornece o maior Dano à Distância, útil para sua build."
+				""
+				"&7Arcos Longos ou Bestas Pesadas são as melhores opções para Burst devido ao seu alto dano. Alternativamente, você pode usar uma Besta Velada para velocidades de nock um pouco mais rápidas."
+				""
+				"&eOpções de Talentos"
+				"&7Escolha todas as opções de Dano à Distância e como Destino, obtenha &9Herança Sin'dorei"
+			]
+			hide_until_deps_visible: true
+			id: "18899F26D6DB2F47"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0A18E91ECC49CC06"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eUma Evolução Rápida"
+			tasks: [
+				{
+					id: "2313360072A422CA"
+					item: {
+						Count: 1
+						id: "archers:netherite_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E8281191A6CF13A"
+					item: {
+						Count: 1
+						id: "archers:netherite_rapid_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00711CCC7DD7B0B7"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC053A70ECDE946"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501ADF7426D3B28B"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E42C1DF6ABAF7D4"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível III"
+			x: -3.0d
+			y: 1.125d
+		}
+		{
+			dependencies: ["76196F8D435E0E5A"]
+			description: [
+				"&eA próxima melhoria vem ao matar um Esqueleto Mutante para obter sua peitoral."
+				""
+				"&7No lado da arma, você também pode melhorar seu Arco Curto/Besta Rápida. No lado dos acessórios, pegue o colar e os anéis correspondentes."
+			]
+			hide_until_deps_visible: true
+			id: "2D18A81E45594603"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "41D13D855A8D00B9"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eUma Evolução Lenta, Mas Forte"
+			tasks: [
+				{
+					id: "19346C903BB29B45"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B5696718E0BA10E"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BC538B6D6436F3"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "644442AE295ED11E"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F45D33474D2FC08"
+					item: {
+						Count: 1
+						id: "archers:netherite_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11CA4D0FDFF886C8"
+					item: {
+						Count: 1
+						id: "archers:netherite_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "459D7828B7778F5A"
+					item: {
+						Count: 1
+						id: "mcdw:crossbow_veiled_crossbow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:shadow_shot"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:shadow_barb"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível IV"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18899F26D6DB2F47"]
+			description: [
+				"&eA próxima melhoria é obter uma arma melhor focada em burst."
+				""
+				"&7Você deve evoluir para um Arco Longo de Cristal / Besta Pesada de Rubi. No lado dos acessórios, pegue o colar e os anéis correspondentes."
+			]
+			hide_until_deps_visible: true
+			id: "22E0D946A9D81F02"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "3361E447E08820C7"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eEvolução Mutante (DPS)"
+			tasks: [
+				{
+					id: "0A97E4FEECF57F0E"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32939CDB080A22B8"
+					item: {
+						Count: 1
+						id: "archers:crystal_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "585D70DC4C15A36C"
+					item: {
+						Count: 1
+						id: "archers:ruby_rapid_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28008F9D8EA90506"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+				{
+					id: "3CCB709F3C6092A6"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível IV"
+			x: -4.125d
+			y: 1.125d
+		}
+		{
+			dependencies: ["2D18A81E45594603"]
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil &7(Como Bardo)"
+				""
+				"&7Como melhoria, você pode obter o conjunto Prior, que aumenta seu poder sagrado em porcentagem em vez de valor fixo, melhorando o Poder Sagrado do seu Cajado."
+			]
+			hide_until_deps_visible: true
+			id: "43C641771CB69C88"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "36C8B0067D57D0B4"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eEvolução Pesada (Burst)"
+			tasks: [
+				{
+					id: "3D597CEF74187A82"
+					item: {
+						Count: 1
+						id: "archers:crystal_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26453CB050FF0316"
+					item: {
+						Count: 1
+						id: "archers:ruby_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "726A625237182553"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+				{
+					id: "4108AA9D320D75B1"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível III"
+			x: -4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"073F2420FA2EF9B1"
+				"0A1F7985832C6DB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&dQue as estrelas te guiem, caçador."
+				""
+				"&7No Tier IV, você deve obter o artefato &6Orion &7pois ele é o único artefato de arco."
+				""
+				"&eOpções de Livros de Feitiços"
+				"&7Você também pode seguir três diferentes livros de feitiços que interagem diretamente com Orion dependendo da sua árvore de melhorias;"
+				"- &bMedo de Mintaka"
+				"- &cVisão de Alnilam"
+				"- &6Poder de Alnitak"
+			]
+			hide_until_deps_visible: true
+			id: "3D78B8D241B53C2A"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "4A533E3437729B92"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eO Prior"
+			tasks: [
+				{
+					id: "65FCDBF3D31E3A54"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3578246741F3AF01"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B9D0760A4DE911C"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "359D43F1FDCB0A65"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10C3DF770B3C85BE"
+					item: {
+						Count: 1
+						id: "paladins:netherite_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: 3.0d
+			y: 1.12d
+		}
+		{
+			dependencies: [
+				"22E0D946A9D81F02"
+				"43C641771CB69C88"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"&eFogo é um elemento de alto dano que não fornece utilidade, mas oferece dano muito alto com foco em alta chance crítica."
+				""
+				"&7Como mago de Fogo você causa alto dano constante, mas com falta de opções de burst alto; para mitigar isso, você pode focar mais em &eDano Crítico&7, mas sua principal prioridade deve ser &eChance Crítica&7 para manter críticos o mais constantes possível."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:orion"
+				tag: {
+					nebula: { }
+				}
+			}
+			id: "1079F098AE98FCF6"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "23D1791923D2A96C"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&6Opção de Artefato: &eOrion, Caçador de Estrelas"
+			tasks: [
+				{
+					id: "1B154C7824A4877A"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543E865FF18CF317"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F344081EA393881"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6605EB1DB10EE660"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12E8E2647965891C"
+					item: "prominent:orion"
+					title: "&6O Legado do Caçador"
+					type: "item"
+				}
+				{
+					id: "67E86244246E6A0C"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E9F222F8A68F062"
+					item: "archers_expansion:deadeye_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "702A8F0BFE4AF1E2"
+					item: "archers_expansion:war_archer_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível III"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6Dificuldade:&a Fácil &7/ &eMédio"
+				""
+				"&7Sua próxima melhoria como tanque é trocar de Diamante para Netherite."
+				""
+				"&eEscolhas de Talentos"
+				"&7Você pode escolher &9Martelos Justos &7para um foco mais em DPS, ou &9Armadura de Ossos&7 para pura resistência com provocação."
+				""
+				"&7Como Destino, seu foco principal deve ser sempre &9Bênção de S'kellak&7."
+			]
+			hide_until_deps_visible: true
+			id: "4DEDEC176C36CFD0"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "05CA9018461B5A4B"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eNo Fogo"
+			tasks: [
+				{
+					id: "56952CF559FE81DF"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+				{
+					id: "7C69DACDA816EE79"
+					item: {
+						Count: 1
+						id: "wizards:staff_netherite_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "459BBBAB550600AC"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D33E13D41AA3314"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEED45BC95596FB"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38ACB00D4A357F20"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível III"
+			x: 0.375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["57B71888F2B87995"]
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"&7Netherite-Diamante será sua melhoria preferida de Netherite para que você possa evoluir para Safira depois."
+			]
+			hide_until_deps_visible: true
+			id: "4B450D0E26363D54"
+			rewards: [
+				{
+					count: 16
+					id: "7C2026ED6CAC4D58"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "1664C3677A95C8A1"
+					title: "&eNível II &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eChave da Resistência"
+			tasks: [
+				{
+					id: "0610720EC628217C"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29535C21FB9F6FC4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DCC25069B4DF0C6"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1F49743156A5F4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2837E131ADC9C3C7"
+					item: {
+						Count: 1
+						id: "paladins:netherite_kite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível IV"
+			x: 2.62d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4B450D0E26363D54"]
+			description: [
+				"&7Armadura de Safira é a melhoria direta de Netherite-Diamante, ela tem menos armadura total, mas fornece +20 de Vida Máxima por peça e um passivo que reflete o dano causado a você. Isso significa que você recebe 30% menos dano do que com qualquer outra armadura desde o início."
+				""
+				"&7Tank é uma classe muito versátil e possui muitos outros artefatos, mas a armadura é um pilar fundamental para qualquer jogador tanque."
+			]
+			hide_until_deps_visible: true
+			id: "42068E429EB7B74F"
+			rewards: [
+				{
+					count: 16
+					id: "04DF88CA29FA1498"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "309783E783EB0E8B"
+					title: "&6Nível III &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eAinda Mais Endurecido?"
+			tasks: [
+				{
+					id: "02099611A2B1A294"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D09F2F7F67BB211"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BD3CCF50342D71B"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03FC14F28F5D6914"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0DEDC13254DF93"
+					item: "jewelry:unique_tank_ring"
+					type: "item"
+				}
+				{
+					id: "5D9069FA94D2EEE4"
+					item: "jewelry:unique_tank_necklace"
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: 4.12d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"42068E429EB7B74F"
+				"4CF644BC0920C177"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil &7(Como Bardo)"
+				""
+				"&7Melhorar seu Cajado Sagrado é um passo essencial antes de avançar para sua Arma Artefato."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "paladins:iron_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "080F23071FA8CFC9"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "6F7AA60792E047F5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.0d
+			subtitle: "&eOpção de Artefato: &6Fyr'alath &e(Brutamontes)"
+			tasks: [
+				{
+					id: "3B9A27A979E70E11"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65443C59FC715DF0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31ED630D7CF605E0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72187D782F7CAD6C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BDBEBA46642A85A"
+					item: {
+						Count: 1
+						id: "prominent:fyralath"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eOpção de Artefato: &6Frostmourne &e(Sustentação - Cavaleiro da Morte)"
+					type: "item"
+				}
+				{
+					id: "1519A8729A6F8854"
+					item: {
+						Count: 1
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eOpção de Artefato: &6Vaazkar &e(Tanque)"
+					type: "item"
+				}
+				{
+					id: "60B3A4B08E3A36A6"
+					item: "prominent:vaazkar"
+					optional_task: true
+					title: "&6Quase Mais Difícil"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia de Nível IV"
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependencies: ["3D78B8D241B53C2A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Obtenha a Arma Artefato &9Ekavar&7 e use sua Árvore de Melhorias para evoluí-la para &eAd'anel, Segredo de Ain&7."
+			]
+			hide_until_deps_visible: true
+			id: "59C45FA337989B0C"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7553FEA7E0612654"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eO Rubi Sagrado"
+			tasks: [
+				{
+					id: "0C642D20C079F5C7"
+					item: {
+						Count: 1
+						id: "paladins:ruby_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DC29E0CB3D1AA7"
+					item: "jewelry:unique_healing_ring"
+					type: "item"
+				}
+				{
+					id: "405FE4976810273E"
+					item: "jewelry:unique_healing_necklace"
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: 4.125d
+			y: 1.12d
+		}
+		{
+			dependencies: ["59C45FA337989B0C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&a Fácil &7/&e Médio &7(Como Bardo)"
+				""
+				"- &eEscolhas de Talentos"
+				"&7Agora que você atingiu nível suficiente para obter um Talento de Destino, você deve escolher &9Arquimago de Gelo &7acima de qualquer coisa."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+					Phase: 4
+				}
+			}
+			id: "5728EF143DC9B7DB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "1A808A37E17EACEF"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.0d
+			subtitle: "&6O Segredo de Ain"
+			tasks: [
+				{
+					id: "3D7208463E97F22F"
+					item: {
+						Count: 1
+						id: "prominent:ekavar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A22AC684642D5D3"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AACD44289F7CC03"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CE5FAEC767F8D97"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD15B397B162AE0"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível IV"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5814C5C80022A343"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"- &eEscolhas de Talentos"
+				"&7Agora que você atingiu nível suficiente para obter um Talento de Destino, você deve escolher &9Arquimago de Fogo &7acima de qualquer coisa."
+			]
+			hide_until_deps_visible: true
+			id: "71EDD24DAB210B44"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "5567D2897EB9E780"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eO Smaragdant"
+			tasks: [
+				{
+					id: "3ED62E8F96814510"
+					item: {
+						Count: 1
+						id: "wizards:staff_smaragdant_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0175551E00536B1A"
+					item: "jewelry:unique_frost_ring"
+					type: "item"
+				}
+				{
+					id: "00B0D161FFBB6BB0"
+					item: "jewelry:unique_frost_necklace"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível IV"
+			x: 1.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DEDEC176C36CFD0"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"- &eEscolhas de Talentos"
+				"&7Agora que você atingiu nível suficiente para obter um Talento de Destino, você deve escolher &9Arquimago Arcano &7acima de qualquer coisa."
+			]
+			hide_until_deps_visible: true
+			id: "0F83B1AC3CB766C9"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "627F3071A8CB5709"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eUm Rubi que Queima"
+			tasks: [
+				{
+					id: "7BF684560B170F7C"
+					item: {
+						Count: 1
+						id: "wizards:staff_ruby_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73AEA1630F2A905F"
+					item: "jewelry:unique_fire_ring"
+					type: "item"
+				}
+				{
+					id: "04E4F646F30E2E8A"
+					item: "jewelry:unique_fire_necklace"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível IV"
+			x: 0.375d
+			y: 4.875d
+		}
+		{
+			dependencies: ["74B7050CA824F281"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil &7(Como Ash'edar)"
+				""
+				"&7O Conjunto Magus é sua próxima melhoria de armadura, criado a partir dos drops do Magus, recomendado para nível 50 ou superior, já que o Magus é um chefe do Capítulo II da Invasão do Vazio."
+				""
+				"&7Um Chapéu de Caçador de Magos pode ser usado se você quiser priorizar dano crítico."
+				""
+				"&eEscolhas de Artefatos"
+				"&7Muitos artefatos podem ser usados como Lâminas de Feitiço, pois a maioria também concede algum tipo de poder de feitiço. Para fogo, você tem &6A'zhar&7. Para Gelo, você tem &6Frostmourne&7. Para Fogo & Arcano, você tem &6Ash'edar&7, e por fim, para Astral você tem &6Supernova&7."
+			]
+			hide_until_deps_visible: true
+			id: "6399A78B0AF2BCAE"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0F50E6150CD7445F"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&eCristais Enigmáticos"
+			tasks: [
+				{
+					id: "2ADC7596FC7E13CC"
+					item: {
+						Count: 1
+						id: "wizards:staff_crystal_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E0848B1DD65A59"
+					item: "jewelry:unique_arcane_ring"
+					type: "item"
+				}
+				{
+					id: "741600F9A41BCE51"
+					item: "jewelry:unique_arcane_necklace"
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: -0.375d
+			y: 4.875d
+		}
+		{
+			dependencies: ["4898E3ED8141DAFC"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eA escolha final para todos os magos é Ekavar, o Grande Cajado de Pedra de Cinzas."
+				""
+				"&7A dificuldade vai depender do livro de feitiços anterior que você escolheu no Tier III."
+			]
+			hide_until_deps_visible: true
+			id: "0DFD6849156C0709"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "780BEB98A98EEC11"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&eOpção de Artefato: &6Supernova &e(Astral)"
+			tasks: [
+				{
+					id: "2BD7D9868A4DE3C5"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4868CA287BD86545"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A636C23E9F492B1"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C35C7599985640B"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40508F32A11A73AD"
+					item: {
+						Count: 1
+						id: "prominent:supernova"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eOpção de Artefato: &6Ash'edar &e(Fogo \& Arcano)"
+					type: "item"
+				}
+				{
+					id: "390C7D7FD95CDD00"
+					item: "prominent:ashedar_essence"
+					match_nbt: false
+					optional_task: true
+					title: "&eOpção de Artefato: &6A'zhar &e(Fogo da Alma)"
+					type: "item"
+				}
+				{
+					id: "658142AF4622B6D9"
+					item: {
+						Count: 1
+						id: "prominent:azhar"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eOpção de Artefato: &6Frostmourne &e(Gelo)"
+					type: "item"
+				}
+				{
+					id: "68FEBA665489253A"
+					item: {
+						Count: 1
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eChapéu Alternativo: &7Chapéu Caçador de Magos &e(Feitiços Críticos)"
+					type: "item"
+				}
+				{
+					id: "28C2343C4343EC34"
+					item: {
+						Count: 1
+						id: "spellbladenext:frozen_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&6Forjado nas Estrelas"
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: -5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"0F83B1AC3CB766C9"
+				"71EDD24DAB210B44"
+				"2A4B84F063C78B09"
+				"6399A78B0AF2BCAE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Médio &7/ &cDifícil &7(Como Ash'edar)"
+				""
+				"&7Sua próxima melhoria para Lâminas de Feitiço são os conjuntos de armadura Rúnica, junto com livros de feitiço alternativos para Lâmina de Feitiço."
+			]
+			hide_until_deps_visible: true
+			id: "01F49526727B35F1"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "0F7C0A36A72724D5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&6O Grande Cajado"
+			tasks: [
+				{
+					id: "5E7CDB8B53AE46A6"
+					item: {
+						Count: 1
+						id: "prominent:ekavar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02932AA3D096AABA"
+					item: {
+						Count: 1
+						id: "wizards:netherite_arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79D1A56FFB55E37F"
+					item: {
+						Count: 1
+						id: "wizards:netherite_fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A5B42DEFF31212E"
+					item: {
+						Count: 1
+						id: "wizards:netherite_frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível IV"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["09CE7EB3045D5136"]
+			description: [
+				"&6Dificuldade:&c Difícil"
+				""
+				"&eFeiticeiros Elementais são proficientes em três elementos: Fogo, Gelo e Arcano."
+				""
+				"&7Seu dano não será tão alto quanto o de um mago dedicado, mas você será muito versátil e, mais tarde, obterá os meios de lançar múltiplos elementos ao mesmo tempo, conhecido como &dMagia Astral&7."
+			]
+			hide_until_deps_visible: true
+			id: "4898E3ED8141DAFC"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "2CA26DA2B863BBDB"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eUma Chama Brilhante, porém Congelada"
+			tasks: [
+				{
+					id: "39938277BAE69746"
+					item: {
+						Count: 1
+						id: "spellbladenext:runegleaming_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388A94E4FC7172E6"
+					item: {
+						Count: 1
+						id: "spellbladenext:runefrosted_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63CB1C58C68ED7B6"
+					item: {
+						Count: 1
+						id: "spellbladenext:runeblazing_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "277C70D4B38B811F"
+					item: "spellbladenext:phoenix_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AFF23EEB391A75B"
+					item: "spellbladenext:runic_echoes_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28D8605EB4070B4D"
+					item: "spellbladenext:deathchill_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Nível III"
+			x: -4.125d
+			y: 2.625d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6Dificuldade:&a Fácil"
+				""
+				"&eGuerreiros são builds corpo a corpo que atacam lentamente, mas com força."
+				""
+				"&7Eles são a definição de uma classe de \"Burst\"; pois, embora ataquem lentamente, seu dano será alto, apenas não tão constante quanto o de uma build de DPS."
+			]
+			hide_until_deps_visible: true
+			id: "0A4309730B50D9FF"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "593E54EFAB17BCD2"
+				title: "&eNível II &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eUm Mago Elemental"
+			tasks: [{
+				id: "7A736CD3205D2748"
+				item: {
+					Count: 1
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eDesbloquear Guia do Nível II"
+			x: -1.125d
+			y: 3.375d
+		}
+		{
+			dependencies: ["36B7ACAA73589366"]
+			description: [
+				"&eGuerreiros são builds corpo a corpo que atacam lentamente, mas com força."
+				""
+				"&7Eles são a definição de uma classe de \"Burst\"; pois, embora ataquem lentamente, seu dano será alto, apenas não tão constante quanto o de uma build de DPS."
+			]
+			hide_until_deps_visible: true
+			id: "5F05B907376828B4"
+			rewards: [
+				{
+					id: "238E240A6DF2EAA5"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "244D909F51F1F588"
+					title: "&7Nível I &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eCaminho do Berserker"
+			tasks: [
+				{
+					id: "10858C192A21EF7E"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01B796C89163927E"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427A6F6C8E418C1C"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AC0768320EC60FE"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível II"
+			x: -2.625d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5F05B907376828B4"]
+			description: [
+				"&6Dificuldade:&e Média"
+				""
+				"&7Souldancer se torna sua próxima evolução após Assassin, pois fornece o maior Haste de qualquer conjunto de armadura deste tier."
+				""
+				"&eAlternativa"
+				"&7Um caminho alternativo do Rogue é o Monk, que usa armas de Punho. Você pode obter uma Fist of Fury para essas builds."
+			]
+			hide_until_deps_visible: true
+			id: "34D8C4E35FD1D7A4"
+			rewards: [
+				{
+					id: "387374FEB26537C7"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "6AE781C23ABEE36A"
+					title: "&6Nível III &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eEm breve Senhor das Trevas"
+			tasks: [
+				{
+					id: "13FB88C958CFAD8B"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4587A1C14998CCBA"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A03A0F74DFE9B50"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03A675FA7C32C98F"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43994E81B4A1DCAB"
+					item: "jewelry:unique_attack_ring"
+					type: "item"
+				}
+				{
+					id: "4438AE699E6E8E72"
+					item: "jewelry:unique_attack_necklace"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível III"
+			x: -4.125d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0002A96D1F886FB3"]
+			description: [
+				"&6Dificuldade:&e Média &7/ &cDifícil&7"
+				""
+				"&eCavaleiros da Morte são guerreiros que sucumbiram ao Chamado da Morte."
+				""
+				"&7Eles podem ser focados em DPS de alta velocidade de ataque (Frost), ou em Burst e AoE (Unholy)."
+				"&7Sua arma principal são as Runeblades, pois elas fornecem todos os três poderes de Cavaleiro da Morte."
+				""
+				"&eQuem é o terceiro?"
+				"&7O terceiro tipo de Cavaleiro da Morte é Blood. É uma classe tanque, por isso não está incluída neste caminho. Se você estiver interessado nela, siga o Caminho do Protetor em vez disso."
+			]
+			hide_until_deps_visible: true
+			id: "40C4C4072277E160"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "331708492CC28876"
+				title: "&6Nível III &8- [Clique para ler o guia]"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eCaminho do Monge: Punho da Fúria"
+			tasks: [
+				{
+					consume_items: false
+					id: "19EF118E1C05D21C"
+					item: {
+						Count: 1
+						id: "archon:fist_of_fury"
+						tag: {
+							Damage: 0
+							archon: { }
+						}
+					}
+					optional_task: true
+					title: "&eUma Dança Acelerada"
+					type: "item"
+				}
+				{
+					id: "14BCCCCFF5596C12"
+					item: "jewelry:unique_dex_ring"
+					type: "item"
+				}
+				{
+					id: "428E616B56EB901E"
+					item: "jewelry:unique_dex_necklace"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível II"
+			x: -4.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["36B7ACAA73589366"]
+			description: [
+				"&6Dificuldade:&e Média &7/ &cDifícil&7 (Horseman)"
+				""
+				"&eCavaleiros da Morte Unholy são uma classe focada em Burst e AoE."
+				""
+				"&7Suas armas preferidas são Great Runeblades de duas mãos. Para armadura, escolha o conjunto Plaguebringer, que você manterá para os próximos tiers."
+			]
+			hide_until_deps_visible: true
+			id: "3A72E538D2A5B20C"
+			rewards: [
+				{
+					id: "0C6B22AE469862B0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "7589CF9AA012B9BC"
+					title: "&eNível II &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eCavaleiro da Morte"
+			tasks: [
+				{
+					id: "301E199F256584F4"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F19462FB1D6A522"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33FEFD41EF618745"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C498B05ED087681"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4759AEDE88114156"
+					item: {
+						Count: 1
+						id: "death_knights:diamond_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33381AFD51B1899E"
+					item: {
+						Count: 1
+						id: "death_knights:great_diamond_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível II"
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A72E538D2A5B20C"]
+			description: [
+				"&6Dificuldade:&e Média &7/ &cDifícil &7(Breath)"
+				""
+				"&eCavaleiros da Morte Frost são builds de DPS que causam uma mistura de dano físico e de gelo."
+				""
+				"&7Suas armas preferidas são Runeblades de uma mão, e o conjunto de armadura Frozen Chamption, que você manterá para os próximos tiers."
+			]
+			hide_until_deps_visible: true
+			id: "75E616FE0AAF9EF5"
+			rewards: [
+				{
+					id: "03DE2BE0C439DE80"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "73A40314C407F28B"
+					title: "&6Nível III &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eDevoção Profana"
+			tasks: [
+				{
+					id: "11E55B3701983086"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "1323F85F0824F095"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "169E5257AA5DF53C"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE453EC1DDD06D4"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A6E81A0A9254B68"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79D75260EA6D5804"
+					item: "death_knights:unholy_dk_ring"
+					type: "item"
+				}
+				{
+					id: "4619573E4498BEF1"
+					item: "death_knights:unholy_dk_necklace"
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível II"
+			x: -3.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3A72E538D2A5B20C"]
+			description: [
+				"&7Para armadura, faça upgrade para o tier de netherite, pois será o melhor para dano e proteção."
+				""
+				"&eOpções de Artefato"
+				"&6Frostmourne&7 é feita para Cavaleiros da Morte, sendo a melhor escolha para qualquer build de Cavaleiro da Morte."
+			]
+			hide_until_deps_visible: true
+			id: "3B1F2D1CFA02F922"
+			rewards: [
+				{
+					id: "693641A763B1318C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "0B62C850AEED495B"
+					title: "&6Nível III &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eDevoção Congelada"
+			tasks: [
+				{
+					id: "16242E0DE37D3E2A"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "413979489FB1F99F"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "438DC5CBDE64E489"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39356F2DBCA12691"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE0821B7E16CC9C"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05519A6AEB9F52B6"
+					item: {
+						Count: 1
+						id: "death_knights:aeternium_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77A66DAA796DBF82"
+					item: "death_knights:frost_dk_ring"
+					type: "item"
+				}
+				{
+					id: "6D4A98968A46AC3D"
+					item: "death_knights:frost_dk_necklace"
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: -3.375d
+			y: -1.875d
+		}
+		{
+			dependencies: [
+				"75E616FE0AAF9EF5"
+				"3B1F2D1CFA02F922"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Média"
+				""
+				"&eCavaleiros da Morte Blood têm menos proteção, mas alta vida e sustentação própria."
+				""
+				"&7Este é um caminho alternativo ao de proteção total, e em vez disso foca em se sustentar usando o Tome of Vampiric Knowledge."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:frostmourne"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F1202929D2C5195"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5C9320E15A5F1B66"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&6A Lâmina do Luto"
+			tasks: [
+				{
+					id: "7B49C7D7CEA608F9"
+					item: {
+						Count: 1
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F860E7A21105E90"
+					item: {
+						Count: 1
+						id: "death_knights:icebound_knight_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E0BB9D906AA006A"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eDesbloquear Guia do Nível IV"
+			x: -4.124999999999993d
+			y: -2.5357142857142705d
+		}
+		{
+			dependencies: ["06DFB0682D1B98E9"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Média"
+				""
+				"&eEscolhas de Artefato"
+				"&7Para escolha de artefato, você tem &6Fury of a Thousand Fists&7 para builds de monk, ou &6Ash'edar&7 para builds de espadachim. Um artefato de adaga está chegando no futuro."
+			]
+			hide_until_deps_visible: true
+			id: "4CF644BC0920C177"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 16
+					id: "75214764AF713411"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "2E6A420A1EE4E09D"
+					title: "&6Nível III &8- [Clique para ler o guia]"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "7AFA2A2C3FEBDB01"
+					item: "death_knights:blood_stone"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eDevoção Sangrenta"
+			tasks: [
+				{
+					id: "3817D7122445295D"
+					item: {
+						Count: 1
+						id: "death_knights:great_ruby_runeaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "448F68013E78AF6F"
+					item: "death_knights:blood_dk_ring"
+					type: "item"
+				}
+				{
+					id: "165411CEF4A0190C"
+					item: "death_knights:blood_dk_necklace"
+					type: "item"
+				}
+				{
+					id: "7F877107BCC2176A"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094B106B9F770F30"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B86CE99AD823295"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525C7DEFBB9650A6"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: 4.125d
+			y: -1.875d
+		}
+		{
+			dependencies: [
+				"40C4C4072277E160"
+				"4898E3ED8141DAFC"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eTitan's Shroud &7é sua armadura preferida porque possui o maior atributo de &6Dano Físico&7, que é sua prioridade principal."
+				""
+				"&7Para escolha de artefato, &6Thunderwrath&7 é a melhor opção pois interage diretamente com o destino &9Warrior's Devotion&7."
+				""
+				"- &eAlternativa"
+				"&7Você também pode fazer a &eHero's Armor&7 como alternativa, pois ela fornece &ePoder de Raio&7, que dependendo da sua melhoria em Thunderwrath pode ser útil para você."
+			]
+			hide_until_deps_visible: true
+			id: "53391B7A86496FCB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "34AFE2440701E126"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&eOpção de Artefato: &6Fúria de Mil Punhos &e(Caminho do Monge)"
+			tasks: [
+				{
+					id: "6D9D9481130AA919"
+					item: {
+						Count: 1
+						id: "prominent:fury_of_a_thousand_fists"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eOpção de Artefato: &6Ash'edar &e(Ladino Espadachim)"
+					type: "item"
+				}
+				{
+					id: "07CAC3E8AAA5C765"
+					item: "prominent:ashedar_essence"
+					optional_task: true
+					title: "&6O Fora da Lei"
+					type: "item"
+				}
+				{
+					id: "1095B6816693242F"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25A44A4646F5754A"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E986DBE97C6A526"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12F59EBA7E872C0C"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71B2A84EC7CC961B"
+					item: {
+						Count: 1
+						id: "prominent:ghaj"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&cNível IV &8- [Clique para ler o guia]"
+			x: -4.982142857142854d
+			y: 2.1785714285714377d
+		}
+		{
+			dependencies: ["34D8C4E35FD1D7A4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eConhecimento suficiente para entender todas as Builds do Tier IV. Bom trabalho."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:thunderwrath"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A594976300D5DCC"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "3C6BCB52D195EE75"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&6O Titã"
+			tasks: [
+				{
+					id: "0ADE139E6E4D04D6"
+					item: {
+						Count: 1
+						id: "prominent:thunderwrath"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5057F08B49B2BCD2"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20F8871AA234CF03"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F50DDDE1D6F5E08"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "149F950ED33D3C10"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eDica:&7 Você dominou as builds, mas e quanto aos seus artefatos? Tente fazer alguns Desafios Míticos com eles."
+			x: -4.982142857142854d
+			y: -1.3214285714285552d
+		}
+		{
+			dependencies: [
+				"53391B7A86496FCB"
+				"0DFD6849156C0709"
+				"01F49526727B35F1"
+				"1F1202929D2C5195"
+				"080F23071FA8CFC9"
+				"6A594976300D5DCC"
+				"5728EF143DC9B7DB"
+				"1079F098AE98FCF6"
+			]
+			description: [
+				"&6Dificuldade:&a Fácil &7/ &eMédia"
+				""
+				"&7Sua próxima evolução como off-tank é criar a Crimson Guard Armor."
+				""
+				"&eEscolhas de Talentos"
+				"&7Você pode escolher &9Decaying Devotion &7para um foco maior em DPS, ou &9Bone Armor&7 para resistência pura com provocação (taunt)."
+				""
+				"&7Quanto ao Destino (Fate), você pode escolher o que preferir mais."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/sword_diamond.png"
+				}
+			}
+			id: "74BA5C6954FEFCE8"
+			invisible: true
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftblibrary:icons/info"
+					}
+				}
+				id: "56AA5E5504D0E336"
+				title: "&6Desafio Eterno"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.35d
+			subtitle: "Continuar"
+			tasks: [{
+				id: "1D0941FC33737AEB"
+				title: "&dMestre de Todas as Builds"
+				type: "checkmark"
+			}]
+			title: "&eGuia de Desbloqueio do Tier III  "
+			x: 4.05d
+			y: 2.7d
+		}
+		{
+			dependencies: ["57B71888F2B87995"]
+			description: [
+				"&7Obtenha a arma artefato &9Apophis&7 e use sua Árvore de Melhoria para ir mais defensivo (recomendado com outros jogadores) com o juramento de proteção ou ir totalmente ofensivo com o juramento de cura. A escolha é sua."
+			]
+			id: "06DFB0682D1B98E9"
+			rewards: [
+				{
+					count: 16
+					id: "2140EBAD5929B496"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: "ironchests:lock"
+					id: "016312526BD448A4"
+					title: "  
+&eTier II &8- [Clique para ler o guia]  "
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "  
+&eChave para Sangue  "
+			tasks: [
+				{
+					id: "49E7A57B77B185B6"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DD2959FC883993B"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B49D14C702B088C"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6383255663BF0F3B"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04287363FA4D6838"
+					item: {
+						Count: 1
+						id: "death_knights:great_diamond_runeaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "384805A50AF85B1F"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+			]
+			title: "  
+&cTier IV &8- [Clique para ler o guia]  "
+			x: 2.625d
+			y: -1.875d
+		}
+		{
+			dependencies: ["059B370119A41869"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Média &7"
+				""
+				"&7Melhorar sua Arma Sagrada não só aumentará seu dano geral, mas também há uma grande variedade de Armas Sagradas que você pode escolher, até mesmo simples espadas!"
+				""
+				"&7Usar qualquer Juramento também é uma ótima forma de definir seu estilo de jogo; embora sejam mais focados em defesa, você precisa decidir se deseja ofensiva ou defesa."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:apophis"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "184216BC651DD776"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "2AC17FEC5841708A"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.0d
+			subtitle: "  
+&6A Mão Divina  "
+			tasks: [
+				{
+					id: "383F53B47A78DF4C"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B669ADB0E7015A"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E93A17FDFB6FC65"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3927CECE44F35C79"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D7C6E87A43679F"
+					item: {
+						Count: 1
+						id: "prominent:apophis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "  
+&eGuia de Desbloqueio do Tier IV  "
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F92D56DE42A2FA5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Média "
+				""
+				"&7Tecnicamente uma evolução lateral do conjunto anterior, este conjunto de armadura é ótimo por ser um pouco mais tanque, sem perder muito dano, sendo recomendado combiná-lo com peças da armadura Prior."
+			]
+			hide_until_deps_visible: true
+			id: "059B370119A41869"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0DC4C5038A0F23FA"
+				title: "  
+&6Tier III &8- [Clique para ler o guia]  "
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "  
+&eO Paladino Sagrado  "
+			tasks: [
+				{
+					id: "0948F01AB38DBC5A"
+					item: {
+						Count: 1
+						id: "paladins:ruby_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "323AB15B1CCE6F37"
+					item: {
+						Count: 1
+						id: "paladins:ruby_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77849519557423FE"
+					item: {
+						Count: 1
+						id: "paladins:ruby_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F5AE48ED23DD5D0"
+					item: "spellbladenext:defiance_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E855830CCDD98EB"
+					item: "spellbladenext:vengeance_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "  
+&eGuia de Desbloqueio do Tier III  "
+			x: 4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["073F2420FA2EF9B1"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Dificuldade:&e Média/Difícil"
+				""
+				"&7Uma evolução lateral divertida e muito interessante são as Armas de Fogo de Marium!"
+				""
+				"&7Aqui está uma lista das armas atuais:"
+				""
+				"&dMetralhadora:&r &7Tempo de rotação quase infinito, DPS decente, mas vai te deixar mais lento e é um pouco imprecisa"
+				"&dCanhão Hunter:&r &7Explosão grande! Esta arma tem o maior dano de alvo único entre todas, com um grande tempo de recarga!"
+				"&dBacamarte Hunter:&r &7Um coringa: dispara 3 projéteis, cada um causando dano decente e com a maior velocidade entre todos, não é o mais preciso"
+				"&dPistola Hunter:&r &7O irmão menor do Bacamarte é ótimo para quem gosta de atirar rápido e ter algo para fazer enquanto os outros estão recarregando"
+			]
+			hide_until_deps_visible: true
+			id: "4F92D56DE42A2FA5"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "47563093D39D5F31"
+				title: "  
+&eTier II &8- [Clique para ler o guia]  "
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "  
+&eO Cruzado  "
+			tasks: [
+				{
+					id: "1C99146A1626A363"
+					item: {
+						Count: 1
+						id: "paladins:netherite_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3053898D6DFE8CC0"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "115372EFAEC1965E"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54091523B8C1FC01"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B0E0656078C84AD"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53BD83ECEAE2725C"
+					item: "paladins:paladin_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "  
+&eTier II &8- [Clique para ler o guia]  "
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2D18A81E45594603"
+				"18899F26D6DB2F47"
+			]
+			description: [
+				"&eDesbloqueio de Nível 51-65"
+			]
+			icon_scale: 1.3d
+			id: "6C01A4BB169520D8"
+			rewards: [{
+				count: 44
+				id: "6746F744F7640193"
+				item: "soulsweapons:silver_bullet"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "  
+&eUma melhoria lateral carregada, mas difícil  "
+			tasks: [
+				{
+					id: "6444EA3BD07D133D"
+					item: {
+						Count: 1
+						id: "soulsweapons:gatling_gun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "067536C866F28003"
+					item: {
+						Count: 1
+						id: "soulsweapons:blunderbuss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0E4C3F75661E25"
+					item: {
+						Count: 1
+						id: "soulsweapons:hunter_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B60E694546E4F44"
+					item: {
+						Count: 1
+						id: "soulsweapons:hunter_pistol"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4E66C81B58133B"
+					item: {
+						Count: 1
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F529BCDC1C8632D"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "  
+ &eCombate \\& Equipamento  "
+			x: -3.5d
+			y: 0.5d
+		}
+	]
+	title: "  
+&7Todos os escudos têm novas mecânicas do mod &eShield Overhaul&7.
+
+- &e&lInvestida &r&7Ataque enquanto estiver bloqueando para realizar uma investida com o escudo. &7Isso atordoará o alvo por 1 segundo, a menos que seja um chefe.  "
+}
