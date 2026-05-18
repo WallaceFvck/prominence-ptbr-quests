@@ -32,13 +32,15 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "O Carregador oferece uma maneira de carregar ferramentas compatíveis através da Rede ME ou manualmente usando uma manivela. Também pode ser usado para criar Cristais de Quartzo Certus Carregados a partir de Cristais de Quartzo Certus e Bússolas de Meteorito a partir de bússolas."
+			subtitle: "  
+O Carregador fornece uma maneira de carregar ferramentas compatíveis através da Rede ME ou manualmente usando uma manivela. Ele também pode ser usado para criar Cristal de Quartzo Certus Carregado a partir de Cristal de Quartzo Certus, e Bússola de Meteorito a partir de uma Bússola.  "
 			tasks: [{
 				id: "26755D4A4B6D447D"
 				item: "ae2:charger"
 				type: "item"
 			}]
-			title: "Preparando-se para Encontrar Meteoritos 1"
+			title: "  
+Preparando-se para Encontrar Meteoritos 1  "
 			x: -1.0d
 			y: 0.0d
 		}
@@ -50,13 +52,15 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Para fabricar uma bússola de meteorito, carregue uma bússola normal em um Carregador. Isso pode ser feito bem cedo usando uma Manivela de Madeira. A Bússola de Meteorito aponta na direção do meteorito mais próximo em um alcance de 2.700 blocos. Se a bússola estiver girando rapidamente, há Pedra do Céu no seu chunk! Se estiver girando lentamente, então você precisa explorar mais porque está fora do alcance do meteorito mais próximo."
+			subtitle: "  
+Para criar uma bússola de meteorito, carregue uma bússola normal em um Carregador. Isso pode ser feito bem cedo usando uma Manivela de Madeira. A Bússola de Meteorito aponta na direção do Meteorito mais próximo dentro de um alcance de 2.700 blocos. Se a bússola estiver girando rapidamente, há Pedra Celeste no seu chunk! Se a bússola estiver girando lentamente, então você precisa explorar mais porque está fora do alcance do Meteorito mais próximo.  "
 			tasks: [{
 				id: "78C149237D81A6C9"
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			title: "Preparando-se para Encontrar Meteoritos 2"
+			title: "  
+Preparando-se para Encontrar Meteoritos 2  "
 			x: 0.5d
 			y: 0.0d
 		}
@@ -76,7 +80,8 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Antes de sair para encontrar seu primeiro Meteorito, certifique-se de ter uma Picareta de Ferro ou melhor. Meteoritos são feitos de um material muito resistente chamado Pedra do Céu, que exige isso. Certifique-se de minerar até o centro do meteorito para coletar os Cristais de Quartzo Certus, Blocos de Quartzo Certus e suas Prensas de Inscrição!"
+			subtitle: "  
+Antes de sair para encontrar seu primeiro Meteorito, certifique-se de ter uma Picareta de Ferro ou melhor. Meteoritos são feitos de um material muito duro chamado Pedra Celeste, que exige isso. Certifique-se de minerar até o centro do meteorito para coletar os Cristais de Quartzo Certus, Blocos de Quartzo Certus e suas Prensas de Inscrição!  "
 			tasks: [
 				{
 					id: "48E8D095ECE464DA"
@@ -89,7 +94,8 @@
 					type: "item"
 				}
 			]
-			title: "Seu Primeiro Meteorito"
+			title: "  
+Seu Primeiro Meteorito  "
 			x: 2.0d
 			y: 0.0d
 		}
@@ -101,7 +107,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Prensas de Inscrição são encontradas no Baú Celeste no centro de um Meteorito. Elas podem ser usadas para criar circuitos em uma Inscritora."
+			subtitle: "  
+As Prensas de Inscrição são encontradas no Baú Celeste no centro de um Meteorito. Elas podem ser usadas para criar circuitos em uma Inscritora.  "
 			tasks: [
 				{
 					id: "16939C6D195B1127"
@@ -124,7 +131,8 @@
 					type: "item"
 				}
 			]
-			title: "Prensas de Inscrição"
+			title: "  
+Prensas de Inscrição  "
 			x: 3.5d
 			y: 1.0d
 		}
@@ -144,7 +152,8 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Agora que você possui alguns Cristais de Quartzo Certus, é hora de carregá-los. Jogue um no Carregador que você fez antes e comece a girar a manivela!"
+			subtitle: "  
+Agora que você tem alguns Cristais de Quartzo Certus, é hora de carregá-los. Jogue um no Carregador que você fez anteriormente e comece a girar a manivela!  "
 			tasks: [{
 				id: "1281175EA867EDB4"
 				item: "ae2:charged_certus_quartz_crystal"
@@ -162,7 +171,8 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			subtitle: "Este cristal possui a habilidade única de absorver e converter energia de uma forma para outra, sendo a base de toda tecnologia ME. O Cristal Fluix é criado colocando Cristal de Quartzo Certus Carregado, Quartzo do Nether e Pó de Redstone na água. Ele rapidamente começará a reagir e resultará em um Cristal Fluix."
+			subtitle: "  
+Este cristal possui a habilidade única de absorver e converter energia de uma forma para outra, sendo a base de toda a tecnologia ME. O Cristal Fluix é criado colocando Cristal de Quartzo Certus Carregado, Quartzo do Nether e Pó de Redstone na água. Ele rapidamente começará a reagir, resultando em um Cristal Fluix.  "
 			tasks: [{
 				id: "13A7FC8BE40D58E0"
 				item: "ae2:fluix_crystal"
@@ -180,7 +190,8 @@
 				xp_levels: 2
 			}]
 			shape: "gear"
-			subtitle: "Para fabricar os processadores necessários para máquinas mais avançadas, você precisará da Inscritora. Cada tipo de processador possui uma prensa associada, encontrada em meteoritos. Cada operação requer 1k AE carregado."
+			subtitle: "  
+Para criar os processadores necessários para máquinas mais avançadas, você precisará da Inscritora. Cada tipo de processador possui uma prensa associada, que você encontrará em meteoritos. Cada operação requer 1k AE carregado.  "
 			tasks: [{
 				id: "16BB9E2C20ACE60D"
 				item: "ae2:inscriber"
@@ -210,7 +221,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Uma chave inglesa feita de Cristal de Quartzo Certus ou Quartzo do Nether. Útil para girar blocos e remover partes individuais de cabos."
+			subtitle: "  
+Uma chave inglesa feita de Cristal de Quartzo Certus ou Quartzo do Nether. Útil para girar blocos e remover partes individuais de cabos.  "
 			tasks: [{
 				id: "5EA3D64A96FA7D0D"
 				item: {
@@ -231,7 +243,8 @@
 				}
 				type: "item"
 			}]
-			title: "Girando Suas Máquinas"
+			title: "  
+Girando Suas Máquinas  "
 			x: 6.5d
 			y: 1.0d
 		}
@@ -251,13 +264,15 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Uma fornalha modificada capaz de gerar Energia AE em vez de fundir minérios. Quando colocada em uma Rede ME, ela carregará Células de Energia ou alimentará outros dispositivos da Rede. A Câmara de Vibração queimará praticamente qualquer combustível sólido para gerar energia. Ela desacelerará ou acelerará a queima dependendo de quanta energia consegue armazenar versus o quanto é desperdiçado. Gera entre 1 e 10 AE/t dependendo da velocidade da queima."
+			subtitle: "  
+Um forno modificado capaz de gerar Energia AE em vez de fundir minérios. Quando colocado em uma Rede ME, ele carregará Células de Energia ou alimentará outros Dispositivos da Rede. A Câmara de Vibração queimará quase qualquer combustível sólido inflamável para gerar energia. Ela diminuirá ou acelerará a queima dependendo de quanta energia consegue armazenar versus quanta é desperdiçada. Gera entre 1 e 10 AE/t dependendo da velocidade de queima.  "
 			tasks: [{
 				id: "25A5962657B80ED5"
 				item: "ae2:vibration_chamber"
 				type: "item"
 			}]
-			title: "Alimentando sua Rede 2"
+			title: "  
+Alimentando Sua Rede 2  "
 			x: 0.5d
 			y: -3.0d
 		}
@@ -276,7 +291,8 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Armazena até 200.000 AE. Elas não aceitam energia diretamente, mas são usadas para adicionar armazenamento extra de energia a uma Rede ME já existente."
+			subtitle: "  
+Armazena até 200.000 AE. Eles não aceitam energia diretamente, mas são usados para adicionar armazenamento extra de energia a uma Rede ME já existente.  "
 			tasks: [{
 				id: "6F08AD378A0958C5"
 				item: {
@@ -286,7 +302,8 @@
 				}
 				type: "item"
 			}]
-			title: "Armazenando Energia 1"
+			title: "  
+Armazenando Energia 1  "
 			x: 2.0d
 			y: -3.0d
 		}
@@ -309,7 +326,8 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Armazena energia AE até 1,6 milhão de unidades. Elas não aceitam energia diretamente, mas são usadas para adicionar armazenamento extra de energia a uma Rede ME já existente."
+			subtitle: "  
+Armazena energia AE até 1,6 milhão de unidades. Eles não aceitam energia diretamente, mas são usados para adicionar armazenamento extra de energia a uma Rede ME já existente.  "
 			tasks: [{
 				id: "3D4139F14C804ED4"
 				item: {
@@ -319,7 +337,8 @@
 				}
 				type: "item"
 			}]
-			title: "Armazenando Energia 2"
+			title: "  
+Armazenando Energia 2  "
 			x: 2.0d
 			y: -1.5d
 		}
@@ -331,13 +350,15 @@
 				xp_levels: 1
 			}]
 			shape: "gear"
-			subtitle: "O Aceitador de Energia converte energia de sistemas externos em AE e a armazena na rede. Os seguintes sistemas de energia são suportados: Forge Energy / Redstone Flux. 2 FE = 1 AE."
+			subtitle: "  
+O Aceitador de Energia converte energia de sistemas externos em AE e a armazena na rede. Os seguintes sistemas de energia são suportados: Forge Energy / Redstone Flux. 2 FE = 1 AE.  "
 			tasks: [{
 				id: "362E208A454BEBF4"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			title: "Alimentando sua Rede 1"
+			title: "  
+Alimentando Sua Rede 1  "
 			x: -1.0d
 			y: -3.0d
 		}
@@ -350,13 +371,15 @@
 				item: "ae2:certus_quartz_dust"
 				type: "item"
 			}]
-			subtitle: "Uma peça projetada para compartilhar energia entre duas Redes ME sem compartilhar mais nada, também usada para fabricar Cabos de Vidro ME Fluix."
+			subtitle: "  
+Uma peça projetada para compartilhar energia entre duas Redes ME sem compartilhar mais nada, também usada para criar Cabo de Vidro ME Fluix.  "
 			tasks: [{
 				id: "2B2D067EEDAE889D"
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			title: "Compartilhando Energia Entre Redes"
+			title: "  
+Compartilhando Energia Entre Redes  "
 			x: 3.5d
 			y: -3.0d
 		}
@@ -379,7 +402,8 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Usado na criação de Processadores de Cálculo em uma Inscritora."
+			subtitle: "  
+Usado na criação de Processadores de Cálculo em uma Inscritora.  "
 			tasks: [{
 				id: "730C6C0DFD9ED426"
 				item: "ae2:printed_calculation_processor"
@@ -407,7 +431,8 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Usado na criação de Processadores de Engenharia em uma Inscritora."
+			subtitle: "  
+Usado na criação de Processadores de Engenharia em uma Inscritora.  "
 			tasks: [{
 				id: "5F7A54FA2EF9E9AA"
 				item: "ae2:printed_engineering_processor"
@@ -435,7 +460,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Usado na criação de Processadores Lógicos em uma Inscritora."
+			subtitle: "  
+Usado na criação de Processadores Lógicos em uma Inscritora.  "
 			tasks: [{
 				id: "0F0C927B0578FE62"
 				item: "ae2:printed_logic_processor"
@@ -460,7 +486,8 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Usado na criação de todos os Processadores."
+			subtitle: "  
+Usado na criação de todos os Processadores.  "
 			tasks: [{
 				id: "3B4ABFDA13975AB3"
 				item: "ae2:printed_silicon"
@@ -478,7 +505,8 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Silício pode ser fabricado fundindo Pó de Quartzo Certus. Ele é usado junto com uma Inscritora e uma Prensa de Silício para criar Silício Impresso."
+			subtitle: "  
+Silício pode ser criado fundindo Pó de Quartzo Certus. Ele é usado junto com uma Inscritora e uma Prensa de Silício para criar Silício Impresso.  "
 			tasks: [{
 				id: "24324D7D876CB420"
 				item: "ae2:silicon"
@@ -504,7 +532,8 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Usado para acelerar o crescimento de cristais, permitindo criar Cristais de Quartzo Certus e Cristais Fluix a partir de pó de cristal. Deve ser alimentado por uma Rede ME pela parte superior ou inferior e consome constantemente 8 ae/t enquanto conectado. Sementes de Cristal devem estar em um bloco de água adjacente para serem afetadas; as sementes brilharão mais rapidamente quando estiverem na presença de um Acelerador de Crescimento de Cristal energizado. Só pode conectar-se a cabos ou outras máquinas em rede pela parte superior e inferior da máquina."
+			subtitle: "  
+Usado para acelerar o crescimento de cristais, permitindo criar Cristal de Quartzo Certus e Cristal Fluix a partir de pó de cristal. Deve ser alimentado por uma Rede ME pela parte superior ou inferior, e consome continuamente 8 ae/t enquanto conectado. As Sementes de Cristal devem estar em um bloco de água adjacente para serem afetadas; as sementes brilharão mais rapidamente quando estiverem na presença de um Acelerador de Crescimento de Cristais energizado. Só pode se conectar a cabos ou outras máquinas da rede pela parte superior e inferior da máquina.  "
 			tasks: [{
 				id: "392757001D259FB4"
 				item: "ae2:growth_accelerator"
@@ -516,7 +545,8 @@
 		{
 			id: "0EDC1CB91ADAC3DB"
 			shape: "circle"
-			subtitle: "Usado junto com uma Inscritora e uma Placa Lógica para criar um Circuito Lógico Impresso."
+			subtitle: "  
+Usado junto com uma Inscritora e uma Placa Lógica da Inscritora para criar um Circuito Lógico Impresso.  "
 			tasks: [{
 				id: "51A800BB297FD52A"
 				item: "minecraft:gold_ingot"
@@ -528,7 +558,8 @@
 		{
 			id: "4A041E600B41F4C3"
 			shape: "circle"
-			subtitle: "Usado junto com uma Inscritora e uma Placa de Cálculo para criar um Circuito de Cálculo Impresso."
+			subtitle: "  
+Usado junto com uma Inscritora e uma Placa de Cálculo da Inscritora para criar um Circuito de Cálculo Impresso.  "
 			tasks: [{
 				id: "66148600F741E743"
 				item: "ae2:certus_quartz_crystal"
@@ -540,7 +571,8 @@
 		{
 			id: "4329D355F5B2E80D"
 			shape: "circle"
-			subtitle: "Usado junto com uma Inscritora e uma Placa de Engenharia para criar um Circuito de Engenharia Impresso."
+			subtitle: "  
+Usado junto com uma Inscritora e uma Placa de Engenharia da Inscritora para criar um Circuito de Engenharia Impresso.  "
 			tasks: [{
 				id: "554F62ED2C0E58EF"
 				item: "minecraft:diamond"
@@ -570,7 +602,8 @@
 						value: "c:ender_pearl_dusts"
 					}
 				}
-				title: "Qualquer #c:ender_pearl_dusts"
+				title: "  
+Qualquer #c:ender_pearl_dusts  "
 				type: "item"
 			}]
 			x: 4.5d
@@ -648,10 +681,12 @@
 						value: "c:certus_quartz"
 					}
 				}
-				title: "Qualquer #c:certus_quartz"
+				title: "  
+Qualquer #c:certus_quartz  "
 				type: "item"
 			}]
-			title: "Quartzo Certus"
+			title: "  
+Quartzo Certus  "
 			x: 3.5d
 			y: 5.5d
 		}
@@ -708,7 +743,8 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Processador de nível médio."
+			subtitle: "  
+Processador de nível médio.  "
 			tasks: [{
 				id: "04010B4761D37E97"
 				item: "ae2:calculation_processor"
@@ -737,7 +773,8 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Processador mais avançado."
+			subtitle: "  
+Processador mais avançado.  "
 			tasks: [{
 				id: "672ED8F45A5EA6CD"
 				item: "ae2:engineering_processor"
@@ -766,7 +803,8 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Processador mais básico."
+			subtitle: "  
+Processador mais básico.  "
 			tasks: [{
 				id: "5A4D826E9A34C2AB"
 				item: "ae2:logic_processor"
@@ -778,7 +816,8 @@
 		{
 			id: "3D5BF7E05FE7FF71"
 			shape: "circle"
-			subtitle: "Redstone é um componente na criação de Processadores."
+			subtitle: "  
+Redstone é um componente na criação de Processadores.  "
 			tasks: [{
 				id: "738D2517D2F6BF15"
 				item: "minecraft:redstone"
@@ -795,7 +834,8 @@
 				xp_levels: 1
 			}]
 			shape: "diamond"
-			subtitle: "Um componente necessário para criar células de armazenamento de itens. Células de Armazenamento são uma das mecânicas centrais de armazenamento no Applied Energistics 2; existem três tipos: um para itens, um para fluidos e um para regiões do espaço. Estas armazenam apenas itens."
+			subtitle: "  
+Um componente necessário para criar células de armazenamento de itens. As Células de Armazenamento são uma das mecânicas centrais de armazenamento no Applied Energistics 2; existem três tipos: uma para itens, uma para fluidos e uma para regiões do espaço. Estas armazenam apenas itens.  "
 			tasks: [{
 				id: "5B56842ACD469029"
 				item: "ae2:item_cell_housing"
@@ -812,7 +852,8 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "O Baú ME é a maneira mais simples de usar uma Célula de Armazenamento; ele fornecerá acesso direto ao conteúdo da célula colocada dentro dele. Pode ser alimentado de forma independente com energia externa ou como parte de uma Rede ME. Quando conectado a uma rede, o armazenamento do baú ficará disponível para qualquer outro dispositivo da mesma rede usando um Canal atribuído. Quando usado sem uma rede, o baú não transferirá pilhas completas de uma vez, limitando as transferências a 38 itens."
+			subtitle: "  
+O Baú ME é a maneira mais simples de usar uma Célula de Armazenamento; ele fornecerá acesso direto ao conteúdo da célula colocada dentro dele. Ele pode ser alimentado de forma independente com energia externa ou como parte de uma Rede ME. Quando em uma rede, o armazenamento do baú estará disponível para quaisquer outros dispositivos na mesma rede usando um Canal atribuído. Quando usado sem uma rede, o baú não transferirá pilhas completas de uma vez, limitando as transferências a 38 itens.  "
 			tasks: [{
 				id: "0799E1752E0725D9"
 				item: "ae2:chest"
@@ -833,7 +874,8 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Usado para exibir inventários de Baús ME e para armazenar Drives de Armazenamento."
+			subtitle: "  
+Usado para exibir inventários de Baús ME e para segurar Unidades de Armazenamento.  "
 			tasks: [{
 				id: "76A1D105E526A568"
 				item: "ae2:terminal"
@@ -850,7 +892,8 @@
 				xp_levels: 1
 			}]
 			shape: "diamond"
-			subtitle: "Um componente usado para criar um Terminal ME."
+			subtitle: "  
+Um componente usado para criar um Terminal ME."
 			tasks: [{
 				id: "749DBDC7DEFE6313"
 				item: "ae2:formation_core"
@@ -871,7 +914,7 @@
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			subtitle: "O Cabo de Vidro ME Fluix é o cabo mais simples de fabricar, transfere energia e até 8 Canais. Ele vem em 17 cores diferentes, sendo Fluix a padrão, e pode ser tingido com qualquer uma das 16 tintas."
+			subtitle: "O Cabo de Vidro Fluix ME é o cabo mais simples de fazer, transfere energia e até 8 Canais. Ele vem em 17 cores diferentes, sendo a padrão Fluix, e pode ser tingido de qualquer cor usando qualquer um dos 16 corantes."
 			tasks: [{
 				id: "430D87ABC96168C8"
 				item: "ae2:fluix_glass_cable"
@@ -958,7 +1001,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "O Controlador ME é o centro de roteamento de uma Rede ME. Sem ele, apenas até 8 dispositivos podem interagir; qualquer número acima disso faz tudo parar de funcionar. Não é possível ter 2 Controladores ME em uma mesma Rede ME. Diferente da maioria dos dispositivos de Rede ME, o Controlador ME não requer canais; em vez disso, ele emite 8 ou 32 por lado, dependendo de quantos canais o dispositivo suporta."
+			subtitle: "O Controlador ME é o centro de roteamento de uma Rede ME. Sem ele, apenas até 8 dispositivos podem interagir; qualquer quantidade acima disso e tudo para de funcionar. Não é possível ter 2 Controladores ME em uma mesma Rede ME. Diferente da maioria dos dispositivos de Rede ME, o Controlador ME não requer canais; em vez disso, ele os emite, 8 ou 32 por lado, dependendo de quantos canais o dispositivo suporta."
 			tasks: [{
 				id: "340A427B8E9BBE08"
 				item: "ae2:controller"
@@ -975,7 +1018,7 @@
 				item: "ae2:sky_stone_block"
 				type: "item"
 			}]
-			subtitle: "Blocos de Pedra do Céu são fabricados fundindo Pedra do Céu em uma fornalha."
+			subtitle: "Blocos de Pedra do Céu são criados derretendo Pedra do Céu em uma fornalha."
 			tasks: [{
 				id: "777BB83C3E8E0FB5"
 				item: "ae2:smooth_sky_stone_block"
@@ -992,7 +1035,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Um bloco projetado para fazer apenas uma coisa: armazenar Células de Armazenamento. Este bloco comporta 10 células de armazenamento, permitindo compactar muito armazenamento em um espaço pequeno."
+			subtitle: "Um bloco projetado para fazer uma única coisa: armazenar Células de Armazenamento. Este bloco comporta 10 células de armazenamento para que você possa compactar seu armazenamento em um espaço muito pequeno."
 			tasks: [{
 				id: "5203A4E286C6629B"
 				item: "ae2:drive"
@@ -1033,7 +1076,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Componentes de armazenamento são a base de qualquer célula que você fizer no AE2."
+			subtitle: "Componentes de armazenamento são a base de qualquer célula que você fará no AE2."
 			tasks: [{
 				id: "5AA14A1CAB53D12F"
 				item: "ae2:cell_component_1k"
@@ -1709,7 +1752,7 @@
 			}
 			id: "6AA5455AAC85BB9A"
 			shape: "circle"
-			subtitle: "Células portáteis são células normais, mas você pode abri-las como uma mochila (menos o atalho de tecla). Elas ainda exigem energia, mas podem ser ótimas no início do jogo se sua mochila não estiver dando conta."
+			subtitle: "Células portáteis são células comuns, mas você pode abri-las como uma mochila (menos a tecla de atalho). Elas ainda requerem energia, mas podem ser ótimas no início do jogo se sua mochila não estiver sendo suficiente para você."
 			tasks: [{
 				id: "499196DA5227D9E6"
 				title: "Sobre Células Portáteis"
@@ -1733,7 +1776,7 @@
 		}
 		{
 			description: [
-				"Já sentiu como se estivesse se afogando em um oceano sem fim? Não? Só eu? Bem, agora você pode de qualquer forma."
+				"Já teve a sensação de estar se afogando em um oceano infinito? Não? Só eu? Bem, agora você pode de qualquer forma."
 			]
 			id: "3CDD62549F889825"
 			rewards: [
@@ -1767,7 +1810,7 @@
 		}
 		{
 			description: [
-				"Este item é ótimo para qualquer automação, economiza muito trabalho e é fácil de fabricar. Um item indispensável para qualquer entusiasta de tecnologia!"
+				"Este item é ótimo para qualquer automação, ele economiza muito trabalho e é fácil de fabricar. Um item indispensável para qualquer entusiasta de tecnologia!"
 			]
 			id: "6C334F83DD405381"
 			rewards: [
@@ -1802,7 +1845,7 @@
 		{
 			dependencies: ["4795979571F1FAEA"]
 			description: [
-				"A Câmara de Ressonância de Cristal talvez não forneça energia infinita, mas para sistemas extremamente simples ela é mais do que suficiente. Qualquer um que só queira algum armazenamento ou automatizar certus adora essa pequena câmara engraçada que parece um dissipador de calor."
+				"A Câmara de Ressonância de Cristal talvez não forneça quantidades infinitas de Energia, mas para sistemas incrivelmente simples ela é mais do que suficiente. Qualquer um que só queira algum armazenamento ou automatizar certus adora essa pequena e engraçada Câmara que parece um dissipador de calor."
 			]
 			id: "42149F10B97E7874"
 			rewards: [
@@ -1823,11 +1866,11 @@
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			title: "Alimentando sua Rede 3"
+			title: "Energizando sua Rede 3"
 			x: 0.5d
 			y: -4.5d
 		}
 	]
 	subtitle: ["This Questline will get you familiarized with the basics of AE2. You should be able to get basic power generation as well as a storage system started here!"]
-	title: "&9Applied Energistics 2"
+	title: "&9 Applied Energistics 2"
 }

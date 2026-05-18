@@ -16,8 +16,15 @@
 	quests: [
 		{
 			description: [
-				"&7Para continuar sua jornada, seu próximo passo é conseguir Estantes Marinhas ou Infernais, isso dará seus primeiros atributos para Encantamento. Você precisará de 15 no total ou uma mistura das duas para começar de verdade. "
-				"&7Crie mais algumas de qualquer uma delas para infundi-las!"
+				"&7 Para começar sua jornada de Encantamento, você conhece o básico, consiga uma Mesa de Encantamento."
+				""
+				"&7 Ao usar uma mesa de encantamentos, você verá 3 barras na parte inferior dela; Eterna, Quanta e Arcana"
+				""
+				"&7 &aEterna&7 - Controla em que nível sua Mesa de Encantamentos está, isso muda o custo mas também quais encantamentos você pode obter. O nível de EXP é 2x a Eterna, então 50 de Eterna significa 100 níveis necessários para encantar."
+				""
+				"&7 &4Quanta&7 - Caos puro, quanto mais você tiver, mais aleatório tudo fica, não é recomendado maximizar isso."
+				""
+				"&7 &5Arcana&7 - Esta estatística muda a raridade e quantidade de encantamentos. Você não quer maximizar isso para conseguir coisas como Proteção ou Sunfire."
 			]
 			id: "2F8B1BF5905F954D"
 			rewards: [{
@@ -26,21 +33,21 @@
 				xp_levels: 10
 			}]
 			shape: "pentagon"
-			subtitle: "A Mesa de Encantamentos"
+			subtitle: "Melhorando ainda mais seu equipamento"
 			tasks: [{
 				id: "29BBF4C4493B2D31"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "Vamos começar!"
+			title: "A Mesa de Encantamentos"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Para continuar sua jornada, seu próximo passo é conseguir Estantes Marinhas ou Infernais, isso dará seus primeiros atributos para Encantamento. Você precisará de 15 no total ou uma mistura das duas para começar de verdade. "
-				"&7Crie mais algumas de qualquer uma delas para infundi-las!"
+				"&7Para continuar sua jornada, o próximo passo é conseguir Seashelves ou Hellshelves. Isso vai te dar algumas das primeiras estatísticas para seus encantamentos. Você precisará de 15 no total ou uma mistura dos dois para começar de verdade. "
+				"&7Fabrique mais alguns de cada para infundi-los!"
 			]
 			hide_until_deps_complete: true
 			id: "379C7E6854F4F226"
@@ -49,21 +56,22 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Primeiros Passos, Seashelves"
+			subtitle: "Vamos começar isso!"
 			tasks: [{
 				count: 5L
 				id: "7CFE22664BFEA884"
 				item: "zenith:seashelf"
 				type: "item"
 			}]
-			title: "Vamos começar!"
+			title: "Começando, Seashelves"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Você vai precisar fazer muitas dessas também, &45-10&7, embora mais sempre seja bom, melhor sobrar do que faltar."
+				"&7Para continuar sua jornada, o próximo passo é conseguir Seashelves ou Hellshelves. Isso vai te dar algumas das primeiras estatísticas para seus encantamentos. Você precisará de 15 no total ou uma mistura dos dois para começar de verdade. "
+				"&7Fabrique mais alguns de cada para infundi-los!"
 			]
 			hide_until_deps_complete: true
 			id: "52D4F78DE9C64FF3"
@@ -72,14 +80,14 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Primeiros Passos, Hellshelves"
+			subtitle: "Vamos começar isso!"
 			tasks: [{
 				count: 5L
 				id: "3945BAB14D78B572"
 				item: { Count: 5, id: "zenith:hellshelf" }
 				type: "item"
 			}]
-			title: "Não tão quente quanto Vaaz"
+			title: "Começando, Hellshelves"
 			x: 0.5d
 			y: -2.0d
 		}
@@ -90,7 +98,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Crie algumas dessas, talvez mais algumas para depois, &45-10&7 devem ser suficientes para o futuro."
+				"&7Você vai precisar fazer muitos desses também, &45-10&7, embora mais sempre seja okay, melhor passar do que não ter o suficiente."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -100,14 +108,14 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Mais quente do que antes"
+			subtitle: "Não tão quente quanto o Vaaz"
 			tasks: [{
 				count: 5L
 				id: "44D305E5285AAEE1"
 				item: { Count: 5, id: "zenith:infused_hellshelf" }
 				type: "item"
 			}]
-			title: "Sei lá, eu sou só o estagiário"
+			title: "Mais quente do que antes"
 			x: 1.0d
 			y: -3.5d
 		}
@@ -118,8 +126,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes Estantes: Estantes Marinhas Cristalinas, Estantes Marinhas Forjadas em Coração, Estantes Infernais Flamejantes ou Estantes Infernais Brilhantes."
-				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve levá-lo a 30 de Eterna, desde que tenha seguido isso."
+				"&7Fabrique alguns desses, talvez mais alguns para depois, &45-10&7 deve ser suficiente para o futuro."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -129,22 +136,22 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Seashelves ou Seashells?"
+			subtitle: "Sei lá, eu sou só o estagiário"
 			tasks: [{
 				count: 5L
 				id: "4C5147D7218117A8"
 				item: "zenith:infused_seashelf"
 				type: "item"
 			}]
-			title: "Feito com amor <3"
+			title: "Seashelves ou Seashells?"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["75D6FF466F4DA932"]
 			description: [
-				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes Estantes: Estantes Marinhas Cristalinas, Estantes Marinhas Forjadas em Coração, Estantes Infernais Flamejantes ou Estantes Infernais Brilhantes."
-				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve levá-lo a 30 de Eterna, desde que tenha seguido isso."
+				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes estantes: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves ou Glowing Hellshelves."
+				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve te levar a 30 de Eterna, desde que você tenha seguido isso."
 			]
 			id: "55DC0E4792D27682"
 			rewards: [{
@@ -152,7 +159,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Brilhante!!!"
+			subtitle: "Feito com amor <3"
 			tasks: [{
 				id: "39013B63D1996B34"
 				item: "zenith:heart_seashelf"
@@ -165,8 +172,8 @@
 			dependencies: ["75D6FF466F4DA932"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes Estantes: Estantes Marinhas Cristalinas, Estantes Marinhas Forjadas em Coração, Estantes Infernais Flamejantes ou Estantes Infernais Brilhantes."
-				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve levá-lo a 30 de Eterna, desde que tenha seguido isso."
+				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes estantes: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves ou Glowing Hellshelves."
+				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve te levar a 30 de Eterna, desde que você tenha seguido isso."
 			]
 			id: "4011B9F44111D91E"
 			rewards: [{
@@ -174,7 +181,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Está ficando quente!"
+			subtitle: "Brilhante!!!"
 			tasks: [{
 				id: "0250CC346A0DD595"
 				item: "zenith:crystal_seashelf"
@@ -187,8 +194,8 @@
 			dependencies: ["2B99DDA42BB7716C"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes Estantes: Estantes Marinhas Cristalinas, Estantes Marinhas Forjadas em Coração, Estantes Infernais Flamejantes ou Estantes Infernais Brilhantes."
-				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve levá-lo a 30 de Eterna, desde que tenha seguido isso."
+				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes estantes: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves ou Glowing Hellshelves."
+				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve te levar a 30 de Eterna, desde que você tenha seguido isso."
 			]
 			hide_dependent_lines: true
 			id: "760BEB0339ED65A9"
@@ -197,7 +204,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Espero que não seja radiação"
+			subtitle: "Está ficando quente!"
 			tasks: [{
 				id: "15378E2783A5AAB3"
 				item: "zenith:blazing_hellshelf"
@@ -210,7 +217,8 @@
 			dependencies: ["2B99DDA42BB7716C"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Esses são seu próximo passo, você vai aprender a odiá-los ou amá-los, dependendo se ainda está viciado ou não. Certifique-se de pegar tudo de uma Cidade Antiga, confie em mim, você vai precisar. Fragmentos de eco serão bem importantes na próxima etapa."
+				"&7Você precisará de pelo menos 2 de qualquer uma das seguintes estantes: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves ou Glowing Hellshelves."
+				"&7 Isso fará 15 Estantes Infundidas e duas das superiores, isso deve te levar a 30 de Eterna, desde que você tenha seguido isso."
 			]
 			hide_dependent_lines: true
 			id: "7F5414CC388648FC"
@@ -219,7 +227,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Dormindo, mas não morto"
+			subtitle: "Espero que não seja radiação"
 			tasks: [{
 				id: "65876EEF7C4D9EA6"
 				item: "zenith:glowing_hellshelf"
@@ -237,7 +245,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Não se preocupe, eles não mordem, são seu próximo passo, usados principalmente para criação, então faça o máximo que puder até conseguir fazer cerca de 8!"
+				"&7Esses são seu próximo passo, você vai aprender a odiá-los ou amá-los, dependendo se ainda está viciado ou não. Certifique-se de pegar tudo de uma Cidade Antiga, confia em mim, você vai precisar. Echo Shards serão bem importantes no próximo passo."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -248,21 +256,21 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "ZZZZZZZZZZZZZZZ"
+			subtitle: "Dormindo, mas não morto"
 			tasks: [{
 				count: 5L
 				id: "21B4339658E55FEF"
 				item: { Count: 5, id: "zenith:dormant_deepshelf" }
 				type: "item"
 			}]
-			title: "DESPERTO!"
+			title: "ZZZZZZZZZZZZZZZ"
 			x: 1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3638B82292E58322"]
 			description: [
-				"&7Você vai precisar de 8 desses, esses e/ou os outros para chegar onde quer chegar, infusões e bons encantamentos. "
+				"&7Não se preocupe, eles não mordem, eles são seu próximo passo, usados principalmente para crafting, então faça o máximo que puder até conseguir fazer cerca de 8!"
 			]
 			id: "181E4D8DC20A161F"
 			rewards: [{
@@ -270,21 +278,21 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Quanto mais profunda a estante, mais fundos seus bolsos"
+			subtitle: "DESPERTADO!"
 			tasks: [{
 				count: 5L
 				id: "7DA53A17D1F442CF"
 				item: { Count: 5, id: "zenith:deepshelf" }
 				type: "item"
 			}]
-			title: "Um som distante, como se um coração estivesse pulsando em algum lugar..."
+			title: "Quanto mais profunda a estante, mais fundo o bolso"
 			x: 2.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["181E4D8DC20A161F"]
 			description: [
-				"&7Você vai precisar de 8 desses, esses e/ou os outros para chegar onde quer chegar, infusões e bons encantamentos. "
+				"&7Você precisará de 8 desses, esses e/ou os outros para chegar onde você quer chegar, infusões e bons encantamentos. "
 			]
 			id: "14688027AF83AD58"
 			rewards: [{
@@ -292,7 +300,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Como se tivesse tocado em algo que não deveria..."
+			subtitle: "Um som distante, como se um coração estivesse batendo em algum lugar..."
 			tasks: [{
 				id: "415BC1C4DB113498"
 				item: "zenith:echoing_deepshelf"
@@ -304,11 +312,7 @@
 		{
 			dependencies: ["181E4D8DC20A161F"]
 			description: [
-				"&7Muitos Tomos fazem muitas coisas. Aqui vai um pequeno resumo:"
-				""
-				"&7Tomos de desmontagem e extração são usados principalmente para remover encantamentos de itens."
-				""
-				"&7Os diferentes Tomos de equipamento podem ser usados para obter certos encantamentos possíveis apenas em alguns conjuntos de equipamentos ou peças de armadura, como Passos Leves."
+				"&7Você precisará de 8 desses, esses e/ou os outros para chegar onde você quer chegar, infusões e bons encantamentos. "
 			]
 			id: "7BE41C566915CAC0"
 			rewards: [{
@@ -316,7 +320,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Tomos"
+			subtitle: "Como se tivesse tocado algo que não deveria..."
 			tasks: [{
 				id: "79ED4BC5C5C5D852"
 				item: "zenith:soul_touched_deepshelf"
@@ -328,7 +332,11 @@
 		{
 			dependencies: ["1B0F69F532F25CED"]
 			description: [
-				"&7&4Você pode infundir Tomos&7, Tomos são ótimos para extrair Encantamentos de equipamentos, separando-os, por exemplo com uma &eBigorna encantada com Separação&7, isso fará o livro se dividir em seus componentes, super útil se você encontrou algo legal mas a arma é ruim! Certifique-se de LÊ-los antes de usar, alguns podem fazer você perder o item em que está usando."
+				"&7Muitos Tomos fazem muitas coisas. Aqui vai um resumo rápido:"
+				""
+				"&7Tomos de sucateamento e extração são usados principalmente para tirar encantamentos de itens."
+				""
+				"&7Os diferentes Tomos de equipamento podem ser usados para obter certos encantamentos só possíveis em alguns conjuntos de equipamentos ou peças de armadura, como Featherfalling."
 			]
 			id: "3DCC7DFC27102E56"
 			rewards: [
@@ -350,12 +358,12 @@
 					xp: 100
 				}
 			]
-			subtitle: "O que são Tomos?"
+			subtitle: "Tomos"
 			tasks: [{
 				id: "67A155F5E166C842"
 				type: "checkmark"
 			}]
-			title: "Parece divertido, o que é isso?"
+			title: "O que são Tomos?"
 			x: 4.5d
 			y: -12.0d
 		}
@@ -363,7 +371,7 @@
 			dependencies: ["5D65F9ABAFC04598"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Melhore as Estantes que acabou de fazer, você precisará delas para o próximo passo!"
+				"&7&4Você pode infundir Tomos&7. Tomos são ótimos para extrair Encantamentos de equipamentos, separando-os, por exemplo com uma &eBigorna encantada com Splitting&7. Isso fará o livro se dividir em seus componentes, super útil se você encontrou algo legal mas a arma é horrível! Certifique-se de LÊ-LOS antes de usar, alguns podem fazer você perder o item em que está usando."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -375,7 +383,7 @@
 				xp_levels: 20
 			}]
 			shape: "pentagon"
-			subtitle: "Sua Primeira Configuração de Infusão"
+			subtitle: "Parece divertido, o que é isso?"
 			tasks: [
 				{
 					count: 3L
@@ -396,14 +404,14 @@
 					type: "item"
 				}
 			]
-			title: "Um zumbido..."
+			title: "Sua Primeira Configuração de Infusão"
 			x: 4.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["14688027AF83AD58"]
 			description: [
-				"&7Às vezes você encontra itens com maldições, essas maldições não podem ser removidas de maneiras normais, mas exigem uma Teia Especial, caso contrário elas não saem."
+				"&7Melhore as Estantes que você acabou de fazer, você vai precisar delas para o próximo passo!"
 			]
 			id: "5D65F9ABAFC04598"
 			rewards: [{
@@ -411,27 +419,21 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Os ecos das Profundezas."
+			subtitle: "Um zumbido..."
 			tasks: [{
 				count: 8L
 				id: "0195AEE90B3A28AD"
 				item: "zenith:echoing_sculkshelf"
 				type: "item"
 			}]
-			title: "Droga!"
+			title: "Os ecos das Profundezas."
 			x: 3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Conseguir Sopro do Dragão sem ser dentista é difícil, há duas maneiras:"
-				""
-				"&7&9Pegando do dragão durante a luta&7. Simples, basta levar muitas garrafas e capturar o sopro dele."
-				""
-				"&7&9Aldeões Alquimistas&7 também podem vendê-lo, embora seja uma troca de nível mais alto"
-				""
-				"&7Uma forma muito pouco confiável também é saquear masmorras, como Shiraz, as chances existem, mas nunca são zero."
+				"&7Às vezes você encontra itens que concedem maldições, essas maldições não podem ser removidas de formas normais, mas requerem uma Teia Especial, caso contrário elas não saem."
 			]
 			id: "39501B35F8A9520C"
 			rewards: [
@@ -447,13 +449,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "Maldições!"
+			subtitle: "Droga!"
 			tasks: [{
 				id: "1DD01687EDBB66CA"
 				item: "zenith:prismatic_web"
 				type: "item"
 			}]
-			title: "Minty!"
+			title: "Maldições!"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -461,9 +463,13 @@
 			dependencies: ["1B0F69F532F25CED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7 Este é de longe &4o melhor item&r que você pode imaginar para seus encantamentos! &4Todos os encantamentos, armazenados&r em um único bloco, ainda compatível com AE2! O que mais você quer? Basta deixar um Barramento de Armazenamento apontado para ele e você terá acesso a todos os seus Encantamentos e Maldições favoritos!"
+				"&7Conseguir Hálito de Dragão sem ser Dentista é difícil, existem duas formas:"
 				""
-				"&7 &4PODE SER MINERADO&r"
+				"&7&9Pegando do dragão durante a luta&7. Simples, apenas leve muitas garrafas e capture o hálito dele."
+				""
+				"&7&9Aldeões Alquimistas&7 também podem vender, embora seja uma troca de Tier mais alta"
+				""
+				"&7Uma forma muito pouco confiável também é saquear dungeons, como Shiraz, as chances existem, mas nunca são zero."
 			]
 			id: "3CC8482AB27413C3"
 			rewards: [{
@@ -471,13 +477,13 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Expedição: Sopro do Dragão"
+			subtitle: "Mentolado!"
 			tasks: [{
 				id: "306E3015FF1A27CA"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			title: "AINDA MAIS MINTY"
+			title: "Excursão: Hálito de Dragão"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -490,14 +496,14 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			subtitle: "Sopro do Dragão Infundido"
+			subtitle: "AINDA MAIS MENTOLADO"
 			tasks: [{
 				count: 3L
 				id: "0F2CE0A37D163724"
 				item: { Count: 3, id: "zenith:infused_breath" }
 				type: "item"
 			}]
-			title: "Cabe muita coisa!"
+			title: "Hálito de Dragão Infundido"
 			x: 3.0d
 			y: -12.0d
 		}
@@ -509,7 +515,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Isso faz a mesma coisa, mas maior, mais elegante também, se quer saber."
+				"&7 Este é de longe &4o melhor item&r que você pode imaginar para seus encantamentos! &4Todos os encantamentos, armazenados&r em um bloco, até compatível com AE2! O que mais você poderia querer? Basta deixar um Storage Bus apontado para ele e você terá acesso a todos os seus Encantamentos e Maldições favoritos!"
+				""
+				"&7 &4PODE SER MINERADO&r"
 			]
 			hide_dependency_lines: true
 			id: "01683B1B161E67AB"
@@ -528,7 +536,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "E eu achei que tinha queimado..."
+			subtitle: "Guarda muita coisa!"
 			tasks: [{
 				id: "1F1F4DA2AB2D3456"
 				item: "zenith:library"
@@ -540,16 +548,16 @@
 		{
 			dependencies: ["01683B1B161E67AB"]
 			description: [
-				"&7Você vai precisar disso para a Biblioteca de Alexandria, a maioria, senão todos, também são necessários para a próxima etapa, não se preocupe."
+				"&7Isso faz a mesma coisa, mas maior, mais elegante também se você me perguntar."
 			]
 			id: "6E555092C38226CC"
-			subtitle: "A Biblioteca de Alexandria"
+			subtitle: "E eu achei que tinha queimado..."
 			tasks: [{
 				id: "1B100A9D48825486"
 				item: "zenith:ender_library"
 				type: "item"
 			}]
-			title: "Você está TÃO perto de terminar!"
+			title: "A Biblioteca de Alexandria"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -560,7 +568,7 @@
 				"286D2A30B3320935"
 			]
 			description: [
-				"&7Semelhante às Estantes Dracônicas do End, você precisará de mais dessas também, é melhor sempre fazer algumas extras. Bastões do End podem ser criados e encontrados em Cidades do End, você não deve ter problemas para encontrar nenhum!"
+				"&7Você vai precisar disso para a Biblioteca de Alexandria, a maioria, senão todos, também serão necessários para o próximo passo, não se preocupe."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -572,7 +580,7 @@
 				xp_levels: 30
 			}]
 			shape: "pentagon"
-			subtitle: "Como encantar *quase* tão forte quanto os grandões"
+			subtitle: "Você está Tão perto de terminar!"
 			tasks: [
 				{
 					count: 5L
@@ -593,7 +601,7 @@
 					type: "item"
 				}
 			]
-			title: "Caótico por natureza"
+			title: "Como encantar *quase* tão forte quanto os grandões"
 			x: 11.5d
 			y: -9.0d
 		}
@@ -607,21 +615,21 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "A reta final - Estantes do End"
+			subtitle: "Caótico por natureza"
 			tasks: [{
 				count: 5L
 				id: "7CAD7E899B740A3C"
 				item: { Count: 5, id: "zenith:endshelf" }
 				type: "item"
 			}]
-			title: "Branco perolado!"
+			title: "A última milha - Estantes do Fim"
 			x: 6.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
 			description: [
-				"&7Cabeças do Dragão do End podem ser encontradas em navios, você precisará de algumas dessas estantes depois, é melhor fazer cerca de 5-6 se puder gastar as cabeças."
+				"&7Similar às Estantes Dracônicas do Fim, você vai precisar de mais dessas também, o melhor é sempre fazer algumas extras. Bastões do End podem ser fabricados e encontrados em Cidades do End, você não deve ter problemas para encontrar alguns!"
 			]
 			id: "5CC063470E38D1AA"
 			rewards: [{
@@ -629,7 +637,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Estantes Dracônicas do End"
+			subtitle: "Branco perolado!"
 			tasks: [{
 				count: 4L
 				id: "168712189D4FFCD1"
@@ -642,7 +650,7 @@
 		{
 			dependencies: ["2684EE4739B501F6"]
 			description: [
-				"&7Elas são caras, mas você não vai conseguir evitá-las, seus atributos são ótimos e seu efeito também. Faça algumas delas também se puder gastar os recursos."
+				"&7Cabeças do Dragão do End podem ser encontradas em navios, você vai precisar de algumas dessas estantes depois, é melhor fazer umas 5-6 se puder gastar as cabeças."
 			]
 			id: "286D2A30B3320935"
 			rewards: [{
@@ -656,14 +664,14 @@
 				item: "zenith:draconic_endshelf"
 				type: "item"
 			}]
-			title: "Bling Bling!"
+			title: "Estantes Dracônicas do Fim"
 			x: 9.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
 			description: [
-				"&7Use qualquer uma das configurações para infundir charmes."
+				"&7Elas são caras, mas você não vai conseguir evitá-las, seus atributos são ótimos e o efeito também. Faça algumas também se puder gastar os recursos"
 			]
 			id: "3CBCFFD3B30E10E0"
 			rewards: [{
@@ -671,21 +679,21 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Brilhante!"
+			subtitle: "Bling Bling!"
 			tasks: [{
 				count: 2L
 				id: "79D4CEE65DF64B8D"
 				item: { Count: 2, id: "zenith:treasure_shelf" }
 				type: "item"
 			}]
-			title: "Finalmente!"
+			title: "Brilhante!"
 			x: 9.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["56C00181CBB95EB0"]
 			description: [
-				"&7Use qualquer uma das configurações para conseguir infundir charmes!"
+				"&7Use qualquer configuração para infundir amuletos."
 			]
 			icon: "minecraft:enchanting_table"
 			id: "379E8A63DC6E5A5C"
@@ -694,7 +702,7 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
-			subtitle: "Infusão de Charmes: Como torná-los Inquebráveis I"
+			subtitle: "Finalmente!"
 			tasks: [
 				{
 					count: 7L
@@ -720,14 +728,14 @@
 					type: "item"
 				}
 			]
-			title: "Finalmente!"
+			title: "Infusão de Amuletos: Como torná-los Inquebráveis I"
 			x: 11.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["56C00181CBB95EB0"]
 			description: [
-				"&7Isso é tudo que você precisa, maximize tudo. Filtre com a Estante Marinha de Filtragem Aquática, você pode ter quantas quiser, certifique-se de diminuir a Arcana se quiser coisas como Proteção ou encantamentos de classe como Sunfire. O melhor é encantar em massa e jogar tudo em uma Biblioteca de Encantamentos."
+				"&7Use qualquer configuração para conseguir infundir amuletos!"
 			]
 			icon: "minecraft:enchanting_table"
 			id: "049AF60D64091458"
@@ -736,7 +744,7 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
-			subtitle: "Qualquer #minecraft:candles"
+			subtitle: "Finalmente!"
 			tasks: [
 				{
 					count: 5L
@@ -764,18 +772,18 @@
 							value: "minecraft:candles"
 						}
 					}
-					title: "Infusão de Charmes: Como torná-los Inquebráveis II"
+					title: "Qualquer #minecraft:candles"
 					type: "item"
 				}
 			]
-			title: "ENCANTAMENTO MÁXIMO"
+			title: "Infusão de Amuletos: Como torná-los Inquebráveis II"
 			x: 13.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["01B622F25CE780AF"]
 			description: [
-				"&7Este é o momento em que você finalmente pode torná-los inquebráveis, como prometido antes, as próximas duas missões mostram suas melhores opções."
+				"&7Isso é tudo que você precisa, tudo no máximo. Filtre com a Seashelf of Aquatic Filtration, você pode ter quantas quiser, certifique-se de diminuir Arcana se quiser coisas como Proteção ou encantamentos de Classe como Sunfire. O melhor é encantar em massa e jogar tudo em uma Biblioteca de Encantamentos."
 			]
 			icon: "minecraft:enchanting_table"
 			id: "6D36893D5374B38B"
@@ -791,7 +799,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Qualquer #minecraft:candles"
+			subtitle: "ENCANTAMENTO MÁXIMO"
 			tasks: [
 				{
 					count: 5L
@@ -825,7 +833,7 @@
 							value: "minecraft:candles"
 						}
 					}
-					title: "&eA MÃE DE TODOS OS ENCANTAMENTOS"
+					title: "Qualquer #minecraft:candles"
 					type: "item"
 				}
 				{
@@ -846,20 +854,14 @@
 					type: "item"
 				}
 			]
-			title: "Agora torne-os inquebráveis!"
+			title: "&eA MÃE DE TODOS OS ENCANTAMENTOS"
 			x: 15.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["01B622F25CE780AF"]
 			description: [
-				"&7 Charmes são uma ótima maneira de conseguir efeitos de Poção mais duradouros. Tenha em mente que alguns estão desativados, mas a maioria existe. Eles são sempre criados com 3 da mesma Poção, têm durabilidade, isso significa que você tem algumas opções para impedir que quebrem:"
-				""
-				"&7 - Inquebrável, combinado com Remendo, pode fazê-los durar bastante."
-				""
-				"&7 - Catalisador de Endurecimento, eu sei que eles são caros para você agora, então tenha um para seu charme, escolha sabiamente se quer usá-lo no atual"
-				""
-				"&7 - Infusão, você aprenderá sobre isso mais tarde. Continue seguindo a linha de missões até estar preparado! "
+				"&7Este é o momento em que você finalmente pode torná-los inquebráveis, como prometido antes, as próximas duas missões mostram suas melhores opções."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -870,7 +872,7 @@
 				xp_levels: 5
 			}]
 			shape: "square"
-			subtitle: "Qualquer #trinkets:hand/charm"
+			subtitle: "Agora torne-os inquebráveis!"
 			tasks: [{
 				id: "4D5C7C609F415DBB"
 				item: {
@@ -880,17 +882,23 @@
 						value: "trinkets:hand/charm"
 					}
 				}
-				title: "Charmes II: Electric Boogaloo"
+				title: "Qualquer #trinkets:hand/charm"
 				type: "item"
 			}]
-			title: "Encantador!"
+			title: "Amuletos II: Electric Boogaloo"
 			x: 12.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Com a Guia do Ender você &4pode capturar a maioria, senão todos os mobs passivos&r, &ehostis e outros jogadores não funcionam&7, para isso você precisará de SpatialIO. Use isso para seu amado pet, algumas ovelhas que quer trazer para sua base ou talvez até para encher seu aquário."
+				"&7 Amuletos são uma ótima forma de obter efeitos de Poção mais duradouros. Tenha em mente que alguns estão desativados, mas a maioria existe. Eles sempre são fabricados a partir de 3 da mesma Poção, eles têm durabilidade, isso significa que você tem algumas opções para evitar que quebrem:"
+				""
+				"&7 - Inquebrável, combinado com Remendo, pode fazê-los durar bastante tempo."
+				""
+				"&7 - Catalisador de Endurecimento, eu sei que eles são caros para você agora, então tenha um para seu amuleto, escolha com sabedoria se quer usar no atual"
+				""
+				"&7 - Infusão, você aprenderá sobre isso mais tarde. Siga a linha de missões um pouco mais até estar preparado! "
 			]
 			id: "0D3EA083E83FE6AF"
 			rewards: [{
@@ -899,7 +907,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Qualquer #trinkets:hand/charm"
+			subtitle: "Encantador!"
 			tasks: [{
 				id: "10EBBFF3F2982BD8"
 				item: {
@@ -909,29 +917,17 @@
 						value: "trinkets:hand/charm"
 					}
 				}
-				title: "Charmes I"
+				title: "Qualquer #bugigangas:mão/amuleto"
 				type: "item"
 			}]
-			title: "Isso NÃO é uma Pokébola!"
+			title: "Amuletos I"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Existem alguns itens que você pode usar para conseguir mais níveis, aqui vai uma lista deles:"
-				""
-				"&7&9Armadura&7: Dançarino de Almas, totalmente aparada com Aparagem de Quartzo (Template de ferraria aleatório + Quartzo)."
-				""
-				"&7&9Acessórios&7: Gancho Dourado e Chapéu Supersticioso "
-				""
-				"&7&9Mochila&7: Mochila de Lápis-Lazúli"
-				""
-				"&7&9Encantamentos de arma que ajudam&7: Saque, Catador, Devorador de Almas e Conhecimento das Eras(ESSE CONVERTE ITENS EM XP, NÃO USE EM CHEFES)"
-				""
-				"&7&9Encantamento de armadura&7: Bolsa de Almas"
-				""
-				"&7Você não precisa de tudo isso, existem outras maneiras de conseguir XP, você pode escolher quais dessas coisas consegue fazer e realmente vai precisar."
+				"&7Com o Ender Lead você &4pode capturar a maioria, senão todos os mobs passivos&r, &ejá hostis e outros jogadores não funcionam&7, para isso você precisará de SpatialIO. Use isso para seu amado pet, algumas ovelhas que você quer levar de volta para sua base ou talvez até para encher seu Aquário."
 			]
 			id: "7E791BE2C0D74016"
 			rewards: [{
@@ -946,7 +942,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Pokébola é marca registrada"
+			subtitle: "Isso NÃO é uma Pokébola!"
 			tasks: [{
 				id: "0313B2BB589AD702"
 				item: {
@@ -959,14 +955,26 @@
 				}
 				type: "item"
 			}]
-			title: "Você vai precisar de um monte!"
+			title: "Pokébola é marca registrada"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Bigornas podem ser encantadas com Obliteração e Separação, a última é incrivelmente útil para dividir um livro encantado maior em menores, uma das únicas formas de extrair apenas alguns encantamentos de uma arma ou livro inclui isso."
+				"&7Existem alguns itens que você pode usar para conseguir mais níveis, aqui vai uma lista deles:"
+				""
+				"&7&9Armadura&7: Souldancer, totalmente adornada com Quartz Trim (Molde de ferraria aleatório + Quartzo)."
+				""
+				"&7&9Acessórios&7: Golden Hook e Superstitious Hat "
+				""
+				"&7&9Mochila&7: Lapis Backpack"
+				""
+				"&7&9Encantamentos de arma que ajudam&7: Looting, Scavenger, Soul Devourer e Knowledge of the Ages(ESSE AQUI CONVERTE ITENS EM XP, NÃO USE EM CHEFES)"
+				""
+				"&7&9Encantamento de armadura&7: Bag of Souls"
+				""
+				"&7Você não precisa de tudo isso, existem outras formas de conseguir XP, você pode escolher quais dessas coisas consegue fazer e realmente vai precisar."
 			]
 			id: "15AF68754CE02E4A"
 			rewards: [{
@@ -974,10 +982,10 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Como conseguir Níveis"
+			subtitle: "Você vai precisar de um monte!"
 			tasks: [{
 				id: "09987381BB96DE43"
-				title: "CLANK!"
+				title: "Como conseguir níveis"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -986,7 +994,7 @@
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7Lágrimas de Ghast podem ser trocadas com o Alquimista Oficial, às vezes encontradas em masmorras do Nether. Ghasts tendem a ter uma taxa de surgimento menor, então boa sorte. "
+				"&7Bigornas podem ser encantadas com Obliteration e Splitting, sendo o último extremamente útil para dividir um livro encantado maior que você conseguiu em menores, uma das únicas formas de extrair apenas alguns encantamentos de uma arma ou livro inclui isso."
 			]
 			id: "5D62225195633904"
 			rewards: [{
@@ -994,13 +1002,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Encantamento de Bigorna"
+			subtitle: "CLANG!"
 			tasks: [{
 				id: "31F16606F96454B7"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			title: "Por que chorar?"
+			title: "Encantando Bigornas"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -1008,7 +1016,7 @@
 			dependencies: ["52D4F78DE9C64FF3"]
 			dependency_requirement: "one_started"
 			description: [
-				"&7Esses dois podem surgir de assombração em massa com um ventilador enclausurado e alguma forma de obter Força Rotacional, como uma Manivela, na frente de fogo das almas. Esse método também pode ser usado para assombrar cavalos em massa para conseguir a Alma Morta-viva."
+				"&7Lágrimas de Ghast podem ser trocadas com o Alquimista Journeyman, às vezes encontradas em masmorras do Nether. Ghasts tendem a ter uma taxa de spawn menor, então boa sorte. "
 			]
 			id: "65967FFB6D25BD30"
 			rewards: [{
@@ -1016,13 +1024,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Obtendo Lágrimas de Ghast"
+			subtitle: "Por que chorar?"
 			tasks: [{
 				id: "3EC1DC3EF9D96059"
 				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
-			title: "Quando o monumento está longe demais"
+			title: "Obtendo Lágrimas de Ghast"
 			x: 2.0d
 			y: -1.0d
 		}
@@ -1030,7 +1038,7 @@
 			dependencies: ["379C7E6854F4F226"]
 			dependency_requirement: "all_started"
 			description: [
-				"&8[Clique para ler mais]"
+				"&7Esses dois podem surgir de assombrações em massa com um encased fan e alguma forma de gerar Força Rotacional, como uma Hand crank, em frente ao fogo das almas. Esse método também pode ser usado para assombrar cavalos em massa para conseguir a Undead Soul."
 			]
 			id: "0AACB9207417BB72"
 			rewards: [{
@@ -1038,7 +1046,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Prismarinho "
+			subtitle: "Quando o monumento está longe demais"
 			tasks: [
 				{
 					id: "1EE29D15B252AEDB"
@@ -1051,18 +1059,10 @@
 					type: "item"
 				}
 			]
-			title: " &eEncantamento"
+			title: "Prismarina "
 			x: -2.0d
 			y: -3.5d
 		}
 	]
-	title: "&7 Para começar sua jornada de Encantamento, você já sabe o básico, consiga uma Mesa de Encantamento.
-
-&7 Ao usar uma mesa de encantamento, você verá 3 barras na parte inferior dela; Eterna, Quanta e Arcana
-
-&7 &aEterna&7 - Controla o nível da sua Mesa de Encantamento, isso altera o custo mas também quais encantamentos você pode obter, o nível de EXP é 2x a Eterna, então 50 de Eterna exigem 100 níveis para encantar.
-
-&7 &4Quanta&7 - Puro caos, quanto mais você tiver, mais aleatório tudo fica, não é recomendado maximizar isso.
-
-&7 &5Arcana&7 - Esse atributo altera a raridade e a quantidade de encantamentos. Você não vai querer maximizá-lo para conseguir coisas como Proteção ou Sunfire."
+	title: " &eEncantamento"
 }

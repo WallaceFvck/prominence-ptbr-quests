@@ -34,29 +34,27 @@
 	quests: [
 		{
 			description: [
-				"&7Para começar, você deve fabricar uma &dMesa de Transmogrificação&7. Essa magia é alimentada por &dAmetista&7, então você precisará obter algumas sempre que quiser transformar qualquer item."
-				""
-				"Nenhum item será consumido, mas para mudar a forma você precisará possuir o item desejado."
+				"&dTransmogrificação&7 é um tipo de magia que permite &emudar a forma de qualquer objeto sem alterar sua função&7, permitindo disfarçar seus itens como outro, incluindo armas e armaduras. Ela não concede nenhum benefício além de ser puramente cosmética."
 			]
 			icon: "minecraft:amethyst_cluster"
 			id: "1F3A415DDF6355EE"
 			shape: "hexagon"
-			subtitle: "A Arte da Transmogrificação"
+			subtitle: "&8[Clique para ler informações]"
 			tasks: [{
 				id: "138402A5BE9F444A"
-				title: "&eA Arte da Transmogrificação"
+				title: "A Arte da Transmogrificação"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler informações]"
+			title: "&eA Arte da Transmogrificação  "
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1F3A415DDF6355EE"]
 			description: [
-				"&7Se você não quiser exibir uma peça de armadura ou uma arma, pode esconder os itens!"
+				"&7Para começar, você deve criar uma &dMesa de Transmogrificação&7. Essa magia é alimentada com &dAmetista&7, então você precisará conseguir algumas toda vez que quiser transformar qualquer item."
 				""
-				"&7Usando um &dFragmento do Vazio&7 como material transmogrificável"
+				"Nenhum item será consumido, mas para mudar a forma você precisará possuir o item desejado.  "
 			]
 			id: "09C318161E20A39E"
 			rewards: [{
@@ -65,20 +63,22 @@
 				xp: 90
 			}]
 			shape: "diamond"
-			subtitle: "&dTransmogs!"
+			subtitle: "&8[Clique para ler informações]  "
 			tasks: [{
 				id: "07DDEFBFD93B4F74"
 				item: "transmog:transmogrification_table"
 				type: "item"
 			}]
-			title: "&8[Clique para ler informações]"
+			title: "&dTransmogs!  "
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["09C318161E20A39E"]
 			description: [
-				"Encontrado no subterrâneo do &aOverworld&r."
+				"&7Se você não quiser exibir uma peça de armadura ou uma arma, você pode ocultar os itens!"
+				""
+				"&7Usando um &dFragmento do Vazio&7 como material transmoggável  "
 			]
 			id: "6A69BEA7C1E7E1FD"
 			rewards: [{
@@ -87,16 +87,16 @@
 				xp: 120
 			}]
 			shape: "diamond"
-			subtitle: "&dA Ilusão do Nada"
+			subtitle: "&8[Clique para ler informações]  "
 			tasks: [{
 				id: "0D1D91DEF701EFDA"
 				item: "transmog:void_fragment"
 				type: "item"
 			}]
-			title: "&d Transmogrificação"
+			title: "&dA Ilusão do Nada  "
 			x: 0.0d
 			y: -3.0d
 		}
 	]
-	title: "&dTransmogrificação&7 é um tipo de magia que permite &ealterar a forma de qualquer objeto sem modificar sua função&7, permitindo mascarar seus itens como outro, incluindo armas e armaduras. Não concede nenhum benefício além de ser puramente cosmético."
+	title: "&d Transmogrificação  "
 }

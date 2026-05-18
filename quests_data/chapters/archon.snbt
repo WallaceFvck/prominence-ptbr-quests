@@ -30,11 +30,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bem-vindo ao mundo das runas. É aqui que usamos runas e mana para criar feitiços mágicos, armas e até armaduras. Você está pronto para aprender o mundo da feitiçaria e das runas?"
+			subtitle: "Bem-vindo ao mundo das runas. É aqui que usamos runas e mana para criar feitiços mágicos, armamentos e até armaduras. Você está pronto para aprender o mundo da feitiçaria e das runas?"
 			tasks: [
 				{
 					id: "4A5671A5B0CD7CD3"
-					title: "Está pronto para se tornar um Feiticeiro?"
+					title: "Você está pronto para se tornar um Feiticeiro?"
 					type: "checkmark"
 				}
 				{
@@ -51,7 +51,7 @@
 			dependencies: ["0AD9BE143D39268F"]
 			id: "596D88086910FE78"
 			shape: "diamond"
-			subtitle: "Nas profundezas do mundo existem Essências da Terra; encontrá-las não será tarefa fácil, já que o subterrâneo é enorme."
+			subtitle: "Nas profundezas do mundo estão as Essências da Terra; encontrá-las não será tarefa fácil, pois o subterrâneo do mundo é enorme."
 			tasks: [{
 				id: "166125A8F31A4AF4"
 				item: "archon:earth_essence"
@@ -62,12 +62,10 @@
 		}
 		{
 			dependencies: ["0AD9BE143D39268F"]
-			description: [
-				"Preparando-se para Encontrar Meteoritos 2"
-			]
+			description: [""]
 			id: "01258A1B33747993"
 			shape: "diamond"
-			subtitle: "Além do vazio estão as Essências do End encontradas nas Ilhas do End; elas serão muito difíceis de achar, a menos que você esteja determinado o suficiente."
+			subtitle: "Além do vazio estão as Essências do End encontradas nas Ilhas do End; elas serão muito difíceis de encontrar, a menos que você seja determinado o suficiente."
 			tasks: [{
 				id: "6811A109A2B99E71"
 				item: "archon:end_essence"
@@ -79,7 +77,7 @@
 		{
 			dependencies: ["0AD9BE143D39268F"]
 			description: [
-				"Antes de sair para encontrar seu primeiro Meteorito, certifique-se de ter uma Picareta de Ferro ou melhor. Meteoritos são feitos de um material muito resistente chamado Pedra do Céu, que exige isso. Certifique-se de minerar até o centro do meteorito para coletar os Cristais de Quartzo Certus, Blocos de Quartzo Certus e suas Prensas de Inscrição!"
+				"Você também pode segurar o canalizador na mão secundária e um bloco do metal escolhido para funcionar."
 			]
 			id: "1780D396DC014BA0"
 			rewards: [
@@ -95,7 +93,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "O Canalizador é uma varinha capaz de infundir mana em certos blocos, criando sua versão fabricada ou um novo material mágico. Teste alguns materiais."
+			subtitle: "O Canalizador é uma varinha que pode infundir mana em certos blocos, criando sua versão fabricada ou um novo material mágico. Teste alguns materiais."
 			tasks: [{
 				id: "1F130DEA61749920"
 				item: "archon:channeler"
@@ -113,14 +111,14 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Torres são estruturas altas encontradas em biomas de floresta e montanha que contêm certos tipos de saque. Cuidado com as sanguessugas!"
+			subtitle: "Torres são estruturas altas encontradas em biomas de floresta e montanha que contêm certos espólios encontrados lá. Cuidado com as sanguessugas!"
 			tasks: [{
 				id: "22D665001A85F2BD"
 				structure: "archon:spire"
-				title: "Quente ao toque"
+				title: "Encontre uma Torre"
 				type: "structure"
 			}]
-			title: "&4Troféus de Pedra Cinzenta"
+			title: "Encontre uma Torre"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -135,7 +133,7 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Exagero"
+			subtitle: "Esses Pergaminhos Antigos são usados para ajudar a aprimorar a mana de uma pessoa, seja aumentando sua capacidade ou sua regeneração de mana."
 			tasks: [
 				{
 					id: "320435EC60BCA545"
@@ -148,7 +146,7 @@
 					type: "item"
 				}
 			]
-			title: "&3Livros de Feitiços de Nível Superior"
+			title: "Será que são feitos de papiro?"
 			x: 9.0d
 			y: 0.5d
 		}
@@ -168,21 +166,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6&lColeção de Troféus"
+			subtitle: "Parece que você descobriu como usar o Canalizador. Talvez você possa fazer mais com este material?"
 			tasks: [{
 				id: "202BB1E0C0815F14"
 				item: "archon:glisteel_ingot"
 				type: "item"
 			}]
-			title: "&7Esses Troféus podem ser obtidos ao completar Missões na história principal. Se você está vendo isso, então já conseguiu o seu primeiro! Parabéns!"
+			title: "Metal do Feiticeiro"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4CA7E7DA58B3B6C7"]
 			id: "498575A162B584BA"
-			subtitle: "&7Você usou a outra Receita, não foi?
-&7Este é principalmente um item utilitário usado apenas para colocar blocos. Ele não pode quebrar blocos. Esta Varinha pode ser usada para preencher grandes buracos que seus amigos ignoram ou construir muralhas enormes para manter seus amigos longe."
+			subtitle: "A Máscara do Poder aumenta a regeneração de mana para 4 Mana por segundo enquanto estiver sendo usada."
 			tasks: [{
 				id: "5398332BD46C3DD3"
 				item: {
@@ -194,7 +191,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7Igual à anterior, esta cobre uma área maior do que a varinha de pedra."
+			title: "Capacete do Feiticeiro"
 			x: -1.0d
 			y: 5.5d
 		}
@@ -206,7 +203,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "&7Cara, mas útil. Não recomendada se você ainda não conseguiu a Bússola do Explorador, pelo menos um Livro de Feitiços, a Bússola da Natureza e o Buraco de Minhoca de Bolso."
+			subtitle: "Um Catalisador de Mana aumenta a capacidade de mana de todos os jogadores em 50 Mana extras dentro de um raio de 16 blocos."
 			tasks: [{
 				id: "72B068BE05DD165D"
 				item: "archon:mana_catalyst"
@@ -223,7 +220,7 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "&7Embora este item ofereça muito conforto, não se deve esquecer que no começo você pode acabar perdendo itens incrivelmente úteis por causa dele. Recomendado fabricar após o End."
+			subtitle: "Um Catalisador de Mana aprimorado que aumenta a capacidade de mana para 100 dentro de um raio de 22 blocos."
 			tasks: [{
 				id: "3409F3F1F5E5F4CF"
 				item: "archon:diamond_mana_catalyst"
@@ -240,7 +237,7 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "&7Este é o melhor item para fazer com Troféus, oferecendo muita utilidade. Extremamente recomendado assim que puder fabricá-lo. Vai economizar horas de procura."
+			subtitle: "Um poderoso Catalisador de Mana que aumenta a capacidade de mana para 200 dentro de um alcance de 34 blocos."
 			tasks: [{
 				id: "1D13EB7516BA9670"
 				item: "archon:netherite_mana_catalyst"
@@ -257,7 +254,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&7Esta bússola oferece muitas oportunidades, embora você ainda consiga encontrar a maioria dos biomas se souber se orientar pelas Estruturas usando a Bússola do Explorador. Altamente recomendada após o End."
+			subtitle: "A Espada permite ao usuário lançar uma pequena nuvem de lentidão em alvos próximos."
 			tasks: [{
 				id: "54BBD82D93AC2563"
 				item: {
@@ -280,7 +277,7 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "&7Este livro tem de tudo. E justamente por ter tudo, você praticamente precisaria de uma planilha só para acompanhar o que quer fazer. Escala com Arcano, Fogo e Gelo, dependendo da combinação de feitiços usada."
+			subtitle: "O Amuleto permite ao portador andar sobre a água quando segurado na mão principal e respirar debaixo d’água quando estiver no inventário."
 			tasks: [{
 				id: "7C184EBE6A7E8369"
 				item: "archon:sea_master_charm"
@@ -297,7 +294,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&7Você está realmente com preguiça disso?"
+			subtitle: "O Arco lança uma bola de fogo de Ghast e aumenta a velocidade do disparo quanto mais tempo o arco é tensionado."
 			tasks: [{
 				id: "3755E9409961A81F"
 				item: {
@@ -320,7 +317,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&7Esses Livros de Feitiços são alternativas aos livros já existentes feitos na Mesa de Vinculação de Feitiços. &4Isso significa que eles não são melhores só porque foram feitos com um Troféu! &r"
+			subtitle: "Assim como o Wither, o Cajado concede ao usuário a habilidade de lançar caveiras do wither contra alvos."
 			tasks: [{
 				id: "26CAABD2CBC8B780"
 				item: {
@@ -343,7 +340,7 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "&7Este Livro de Arqueiro foca principalmente em Poder de Feitiço de Fogo e Dano à Distância. Explosões, explosões, explosões!"
+			subtitle: "O Casaco concede ao usuário resistência ao fogo e a habilidade de implosão para causar dano explosivo; quanto mais mana, maior o dano."
 			tasks: [{
 				id: "7045685A90496FF7"
 				item: {
@@ -366,7 +363,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&7Pra que armas quando você pode atirar como uma? Este Livro de Feitiços de Arqueiro foca em atirar rápido e desaparecer antes que percebam."
+			subtitle: "A Lâmina concede ao portador a habilidade de se teletransportar 8 blocos na direção para a qual está olhando."
 			tasks: [{
 				id: "1279B4ABCC1E83FA"
 				item: {
@@ -389,7 +386,7 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "&7Este Livro de Arqueiro é ótimo para qualquer arqueiro de gelo que precise esfriar seus inimigos. Com uma passiva de acúmulo de congelamento e muitos efeitos de lentidão, se irritar os outros é o que você quer fazer, este livro tem tudo."
+			subtitle: "O Cetro concede ao portador a habilidade de se teletransportar 10 blocos na direção para a qual está olhando, mas sempre causará dano de implosão."
 			tasks: [{
 				id: "2FB7594EC933F904"
 				item: {
@@ -412,7 +409,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&7Frio, frio até demais para a maioria. Escala com Gelo."
+			subtitle: "A Maça golpeia o chão, arremessando alvos próximos ao usuário para o ar e causando dano de queda. Não causa dano a pets."
 			tasks: [{
 				id: "0279E54654D52F0B"
 				item: {
@@ -435,7 +432,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&7Às vezes você quer fazer seu oponente pensar: “Ele não lançou esse feitiço há um segundo atrás?” Então você vai precisar deste Livro de Feitiços Arcano."
+			subtitle: "Este punho antigo... talvez S'kellak possa ajudar a aprimorá-lo."
 			tasks: [{
 				id: "16B48CF0C7179D07"
 				item: {
@@ -458,7 +455,7 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "&7Tão gracioso quanto uma Fênix e tão estiloso quanto ela. Escala com Poder de Feitiço de Fogo."
+			subtitle: "O Machado concede ao usuário alguns segundos de resistência e a habilidade de desviar projéteis para longe dele."
 			tasks: [{
 				id: "7F83BC7E74B126C2"
 				item: {
@@ -476,7 +473,7 @@
 		{
 			dependencies: ["4CA7E7DA58B3B6C7"]
 			description: [
-				"Seu Primeiro Meteorito"
+				"Os ingredientes para invocar os chefes estão no seu Grimório."
 			]
 			id: "719EE06DB5C14C73"
 			rewards: [{
@@ -484,7 +481,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "A entrada para a &8Prisão &raparece aleatoriamente pelo &aMundo Superior&r."
+			subtitle: "O Pedestal é usado para invocar chefes usando os ingredientes corretos. Você pode clicar com Shift para remover todos os ingredientes. Clique com o botão direito segurando os ingredientes sobre o pedestal, já que não há interface gráfica."
 			tasks: [{
 				id: "25802A48A70C6EF9"
 				item: "archon:summoning_pedestal"
@@ -501,7 +498,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Entre na Prisão"
+			subtitle: "O Triturador transforma todas as almas dos alvos em mana. 20 de mana por matar mobs, 30 de mana por matar jogadores e 50 de mana por matar chefes."
 			tasks: [{
 				id: "380768867D8D8CF1"
 				item: {
@@ -524,7 +521,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "&8Entre na Prisão"
+			subtitle: "A Foice concede ao portador uma chance de colher almas de seu alvo preferido. O Cajado dos Mortos-Vivos é usado para invocar lacaios quando recebe um núcleo."
 			tasks: [
 				{
 					id: "38E3369502B92326"
@@ -543,7 +540,7 @@
 					type: "item"
 				}
 			]
-			title: "Aparece em &1O Covil&r, que pode ser encontrado no subsolo da dimensão da &8Prisão&r. Para causar dano ao &dConjunctivius&r, primeiro você deve matar os tentáculos."
+			title: "Brinquedos do Ceifador  "
 			x: -2.0d
 			y: 6.5d
 		}
@@ -562,13 +559,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "Derrote Conjunctivius"
+			subtitle: "  
+A Mesa das Escrituras concede ao jogador a habilidade de criar tomos de feitiços usando vários ingredientes. Semelhante à alquimia.  "
 			tasks: [{
 				id: "417F1BA3D82A6C67"
 				item: "archon:scripture_table"
 				type: "item"
 			}]
-			title: "&lLuta de Chefe: &d&lConjunctivius"
+			title: "  
+Alquimia, mas para Grimórios  "
 			x: 3.5d
 			y: 1.0d
 		}
@@ -630,7 +629,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Passar pelo elevador encontrado no último andar da prisão levará você ao Calçadão.\\n \\n&eÉ sugerido levar uma waystone ou um buraco de minhoca de bolso para conseguir voltar para casa."
+			subtitle: "  
+A Varinha de Fogo só pode usar feitiços de fogo encontrados no Nether.  "
 			tasks: [{
 				id: "1035F0368F67CD69"
 				item: {
@@ -653,7 +653,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Visite o Calçadão"
+			subtitle: "  
+A Varinha do Céu só pode usar feitiços celestiais encontrados em vilas.  "
 			tasks: [{
 				id: "611F65B429A0DF07"
 				item: {
@@ -676,7 +677,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "&7Entre no &cCalçadão"
+			subtitle: "  
+A Varinha da Água só pode usar feitiços de água encontrados em estruturas oceânicas e pescaria.  "
 			tasks: [{
 				id: "776C19E8B948579B"
 				item: {
@@ -699,7 +701,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Criadores de Células permitem fabricar várias armas corpo a corpo e à distância para o seu arsenal nas Células da Mina."
+			subtitle: "  
+A Varinha do End só pode usar feitiços do End encontrados em Cidades do End ou Fortalezas.  "
 			tasks: [{
 				id: "72305223DA5927DF"
 				item: {
@@ -722,7 +725,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Use um Criador de Células"
+			subtitle: "  
+A Varinha da Terra só pode usar feitiços da terra encontrados em templos e minas abandonadas.  "
 			tasks: [{
 				id: "7AD3C9B9978B1421"
 				item: {
@@ -767,7 +771,8 @@
 					type: "item"
 				}
 			]
-			title: "Fabrique um &cCriador de Células"
+			title: "  
+Feitiços de Fogo  "
 			x: 5.5d
 			y: 1.0d
 		}
@@ -796,7 +801,8 @@
 					type: "item"
 				}
 			]
-			title: "Células de Monstro caem de monstros na dimensão da &8Prisão&r."
+			title: "  
+Feitiços de Água  "
 			x: 5.0d
 			y: 3.5d
 		}
@@ -830,7 +836,8 @@
 					type: "item"
 				}
 			]
-			title: "Obtenha uma Célula de Monstro"
+			title: "  
+Feitiços do Céu  "
 			x: 6.0d
 			y: 2.0d
 		}
@@ -864,7 +871,8 @@
 					type: "item"
 				}
 			]
-			title: "Algumas armas que podem ser feitas no Criador de Células exigem Aço Infundido com Células. Tenha isso em mente."
+			title: "  
+Feitiços da Terra  "
 			x: 4.0d
 			y: 3.0d
 		}
@@ -898,7 +906,8 @@
 					type: "item"
 				}
 			]
-			title: "Fabrique um pouco de Aço &bInfundido com Células&r"
+			title: "  
+Feitiços do End  "
 			x: 6.0d
 			y: 3.0d
 		}
@@ -910,13 +919,15 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "O Frasco de Vida é um item extremamente útil que cura 10% da sua vida máxima e concede regeneração por alguns segundos."
+			subtitle: "  
+Como o nome sugere, contém relâmpagos que podem ser liberados no chão quando arremessado. Também pode ser criado quando uma garrafa vazia é atingida por um raio.  "
 			tasks: [{
 				id: "2C0E35986C988B35"
 				item: "archon:lightning_bottle"
 				type: "item"
 			}]
-			title: "Cura Rápida!"
+			title: "  
+Sopro de Thor  "
 			x: 9.0d
 			y: -1.0d
 		}
@@ -936,7 +947,8 @@
 					type: "item"
 				}
 			]
-			subtitle: " &7A Prisão"
+			subtitle: "  
+Estantes Mágicas não servem apenas para decoração, mas são usadas por Aldeões Magos para permitir trocas com bugigangas mágicas.  "
 			tasks: [{
 				id: "27236DE839F10DFA"
 				item: "archon:magical_bookshelf"
@@ -953,7 +965,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: ""
+			subtitle: "  
+Folhas de Pixie são criadas com blocos de folhas e um canalizador.  "
 			tasks: [{
 				id: "44C69C4B62C5A18C"
 				item: "archon:pixie_leaves"
@@ -970,7 +983,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&ePode ser fabricado em célula com Tripas e Células de Monstro."
+			subtitle: "  
+Pó Spry é criado ao infundir areia com mana usando o Canalizador.  "
 			tasks: [{
 				id: "56BEC1279C60C482"
 				item: "archon:spry_dust"
@@ -995,7 +1009,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Derrote um dos dois primeiros chefes para reivindicar isto!"
+			subtitle: "  
+Usar essas botas concede ao portador a habilidade de fertilizar plantas e plantações usando mana e agachando.  "
 			tasks: [{
 				id: "292102AC8D26DBAB"
 				item: {
@@ -1007,7 +1022,8 @@
 				}
 				type: "item"
 			}]
-			title: "Presente de Natal - Primeira Luta de Chefe"
+			title: "  
+Fazendeiro Mágico  "
 			x: 1.0d
 			y: 4.0d
 		}
@@ -1019,7 +1035,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Feliz Natal!"
+			subtitle: "  
+O Ceifador Ígneo aumenta a chance de saque de mobs relacionado ao fogo.  "
 			tasks: [{
 				id: "4245080FFBF7FAB8"
 				item: {
@@ -1042,7 +1059,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Presente de Natal - Esperança de Iniciante"
+			subtitle: "  
+O Ceifador Ventoso aumenta a chance de saque de mobs relacionado ao vento ou ar.  "
 			tasks: [{
 				id: "322A63DA6ADF5CBB"
 				item: {
@@ -1065,7 +1083,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Derrote Magus para reivindicar este Presente"
+			subtitle: "  
+O Ceifador Encharcado aumenta a chance de saque de mobs relacionado à água.  "
 			tasks: [{
 				id: "38249728822F838A"
 				item: {
@@ -1088,7 +1107,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Presente de Natal - Magus Alegre"
+			subtitle: "  
+O Ceifador Distorcido aumenta a chance de saque de mobs relacionado ao End.  "
 			tasks: [{
 				id: "2D176598582F1DDE"
 				item: {
@@ -1111,7 +1131,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Derrote Gu'mas para reivindicar este Presente!"
+			subtitle: "  
+O Ceifador Rochoso aumenta a chance de saque de mobs relacionado à terra.  "
 			tasks: [{
 				id: "0ED01AE891B58E3D"
 				item: {
@@ -1134,7 +1155,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Presente de Natal - Gu'mas e Biscoitos de Gengibre"
+			subtitle: "  
+Pequenas bolsas usadas para armazenar XP quando necessário. A bolsa pode armazenar 550 XP.  "
 			tasks: [{
 				id: "34872FD95C254318"
 				item: {
@@ -1151,9 +1173,7 @@
 		}
 		{
 			dependencies: ["43804968CD10C39F"]
-			description: [
-				"Prensas de Inscrição são encontradas no Baú Celeste no centro de um Meteorito. Elas podem ser usadas para criar circuitos em uma Inscritora."
-			]
+			description: [""]
 			id: "50F46E32A29E3290"
 			rewards: [{
 				id: "79F40F1D32731339"
@@ -1161,7 +1181,8 @@
 				xp: 50
 			}]
 			shape: "pentagon"
-			subtitle: "Você mereceu isso, camarada!"
+			subtitle: "  
+Uma bolsa aprimorada que pode armazenar até 2920 XP.  "
 			tasks: [{
 				id: "3733C69851295D5E"
 				item: {
@@ -1191,14 +1212,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Estrela Derretida de Natal"
+			subtitle: "  
+Você deve derrotar esta criatura para conseguir dominar a essência da terra.  "
 			tasks: [{
 				entity: "archon:tar"
 				id: "64F464705D0CF636"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Derrote Conjunctivius para reivindicar este Presente!"
+			title: "  
+Derrote o Elemental da Terra  "
 			x: 1.0d
 			y: 9.5d
 		}
@@ -1217,14 +1240,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Presente de Natal - Sob o Galho Tentacular"
+			subtitle: "  
+Você deve derrotar esta criatura para conseguir dominar a essência dos céus.  "
 			tasks: [{
 				entity: "archon:ayla"
 				id: "393F2822E6349AA9"
 				type: "kill"
 				value: 1L
 			}]
-			title: " &bUm Feliz Natal!"
+			title: "  
+Derrote o Elemental do Céu  "
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1243,14 +1268,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7Espero que você não tenha alergia a nozes!"
+			subtitle: "  
+Você deve derrotar esta criatura para conseguir dominar a essência das chamas.  "
 			tasks: [{
 				entity: "archon:inigo"
 				id: "096E0352AE193913"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&7A Equipe Prominence agradece por jogar o Pack. Desejamos um Feliz Natal e um ótimo fim de ano!"
+			title: "  
+Derrote o Elemental do Fogo  "
 			x: 1.0d
 			y: 11.5d
 		}
@@ -1269,17 +1296,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "O Carregador oferece uma maneira de carregar ferramentas compatíveis através da Rede ME ou manualmente usando uma manivela. Também pode ser usado para criar Cristais de Quartzo Certus Carregados a partir de Cristais de Quartzo Certus e Bússolas de Meteorito a partir de bússolas."
+			subtitle: "  
+Você deve derrotar esta criatura para conseguir dominar a essência dos mares.  "
 			tasks: [{
 				entity: "archon:leven"
 				id: "43D121342CCCEDE9"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Preparando-se para Encontrar Meteoritos 1"
+			title: "  
+Derrote o Elemental da Água  "
 			x: -1.0d
 			y: 11.5d
 		}
 	]
-	title: "Para fabricar uma bússola de meteorito, carregue uma bússola normal em um Carregador. Isso pode ser feito bem cedo usando uma Manivela de Madeira. A Bússola de Meteorito aponta na direção do meteorito mais próximo em um alcance de 2.700 blocos. Se a bússola estiver girando rapidamente, há Pedra do Céu no seu chunk! Se estiver girando lentamente, então você precisa explorar mais porque está fora do alcance do meteorito mais próximo."
+	title: "  
+ &bConjuração de Feitiços  "
 }

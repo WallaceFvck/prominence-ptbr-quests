@@ -82,7 +82,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Gerador de bloco único de basalto!"
+			subtitle: "Gerador de bloco único de Pedra!"
 			tasks: [{
 				id: "019C6F0E4943EE76"
 				item: "kibe:cobblestone_generator_mk1"
@@ -164,7 +164,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Esta linha de missão trata de descobrir os itens/blocos únicos e peculiares em Prominence, que podem até ajudar com alguns dos mods de tecnologia!"
+			subtitle: "Gerador de bloco único de Basalto!"
 			tasks: [{
 				id: "7FE15890CCD21465"
 				item: "kibe:basalt_generator_mk1"
@@ -243,10 +243,10 @@
 			id: "01BF1397DC5B4906"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Bem-vindo!"
+			subtitle: "Esta linha de missões trata de descobrir os itens/blocos únicos e peculiares da Prominence, que podem até ajudar com alguns mods de tecnologia!"
 			tasks: [{
 				id: "3EE7C97623ACE6EA"
-				title: "Placas em branco são a base das Placas de Efeito. Ao pisar em uma Placa de Efeito, você receberá o efeito designado."
+				title: "Bem-vindo!"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -260,7 +260,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Filtros de mobs são blocos pelos quais apenas algumas entidades selecionadas podem passar."
+			subtitle: "Placas em branco são a base para as Placas de Efeito. Pisando em uma Placa de Efeito você recebe o efeito designado."
 			tasks: [{
 				id: "1A0EDE59F7165D1D"
 				item: "darkutils:blank_plate"
@@ -320,7 +320,7 @@
 		{
 			dependencies: ["51186DDE3C82D092"]
 			description: [
-				"(há mais do que apenas filtros de jogador)"
+				"&7Essas placas podem ser feitas ao serem atingidas por relâmpago."
 			]
 			id: "4C73E9CCD2C8DEFC"
 			optional: true
@@ -372,7 +372,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7As placas não aplicam encantamentos, mas sua arma sim. Esta placa causa dano aos mobs até que fiquem com 1 HP, perfeita para aquela espada com Saque 4."
+				"(tem mais do que apenas filtros de jogador)"
 			]
 			id: "105CE0D106AEF623"
 			rewards: [{
@@ -380,7 +380,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Panelas de cobre são uma alternativa de início de jogo às fazendas de minérios comumente encontradas em mods de tecnologia como Create. Ao colocar areia/cascalho embaixo e água acima, elas raramente geram pepitas de minério, cascalho, esmeraldas e alguns outros itens variados."
+			subtitle: "Filtros de mobs são blocos pelos quais apenas alguns seres podem passar."
 			tasks: [{
 				id: "16497AA38411B191"
 				item: "darkutils:filter_player"
@@ -397,7 +397,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Blocos de engrenagem são basicamente redstone, mas podem ser colocados no ar."
+			subtitle: "Panos de cobre são uma alternativa de início de jogo às fazendas de minérios comumente encontradas em mods de tecnologia como o Create. Ao colocar areia/cascalho embaixo e água acima, eles raramente geram pepitas de minério, cascalho, esmeraldas e alguns outros itens diversos."
 			tasks: [{
 				id: "2F7AA5CAC5265F1A"
 				item: "oxidized:copper_pan"
@@ -414,7 +414,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Para quando você quer machucar mobs, mas quer matá-los você mesmo"
+			subtitle: "Blocos de engrenagem são basicamente redstone, mas podem ser colocados no ar."
 			tasks: [{
 				id: "1C16C5D041D713A7"
 				item: "supplementaries:cog_block"
@@ -426,7 +426,7 @@
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
 			description: [
-				"&7Não gosta de alimentar seus animais manualmente? O Comedouro fará esse trabalho por você."
+				"&7As placas não aplicam Encantamentos, mas sua arma aplica. Esta placa causa dano aos mobs até que eles fiquem com 1 de vida, perfeito para aquela espada com Saque 4."
 			]
 			id: "218B8D291E7E03CC"
 			rewards: [{
@@ -434,7 +434,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Eu sei o que você está pensando."
+			subtitle: "Para quando você quer ferir mobs, mas quer dar o golpe final você mesmo"
 			tasks: [{
 				id: "049FC1F5C63F58BC"
 				item: "darkutils:damage_plate_maim"
@@ -446,7 +446,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Ótima maneira de descobrir se aquela parede é 1 bloco mais longa duas horas tarde demais."
+				"&7Cansado de alimentar seus animais manualmente? O Cocho vai tirar esse trabalho de você."
 			]
 			id: "0752F260D9482517"
 			rewards: [{
@@ -465,7 +465,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Os planadores são uma das melhores formas de voar antes de ir para o End. Eles são baratos e incrivelmente úteis para atravessar grandes áreas de terra."
+				"&7Ótima maneira de descobrir se aquela parede tem 1 bloco a mais só 2 horas tarde demais."
 			]
 			id: "76126702A53ACAD5"
 			rewards: [{
@@ -473,7 +473,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Não exatamente voando, não exatamente caindo"
+			subtitle: "Eu sei o que você está pensando."
 			tasks: [{
 				id: "1A3E7383C61AC7C9"
 				item: "kibe:measuring_tape"
@@ -485,7 +485,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7A Lixeira é o ápice de uma base desorganizada. Não precisa de 4000 espadas de pedra? O Lixinho vai adorar a refeição!"
+				"&7Planadores são uma das melhores formas de voar antes de ir para o End. Esses itens são baratos e incrivelmente úteis para atravessar grandes áreas de terra."
 			]
 			icon: {
 				Count: 1
@@ -500,7 +500,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Crie um planador!"
+			subtitle: "Não exatamente voar, não exatamente cair"
 			tasks: [{
 				id: "6CD8FAD59A12D810"
 				item: {
@@ -510,17 +510,17 @@
 						value: "the_bumblezone:bee_queen/dedicated_trade_tags/modded/kibe_gliders"
 					}
 				}
-				title: "Planadores"
+				title: "Crie um planador!"
 				type: "item"
 			}]
-			title: "Grudento!"
+			title: "Planadores"
 			x: 2.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Este bastão pode ser usado para encerar certos blocos, em vez de fazer isso manualmente."
+				"&7A Lixeira é o predador supremo de uma base desorganizada. Não precisa de 4000 espadas de pedra? O Lixinho vai gostar da refeição!"
 			]
 			id: "32C20FDE9BB4F43C"
 			rewards: [{
@@ -540,7 +540,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Este bloco concede uma área muito limitada de voo no modo criativo. Outras alternativas são a Tiara Flügel e a Gravipeitoral."
+				"&7Este cajado pode ser usado para encerar certos blocos, em vez de fazer isso manualmente."
 			]
 			id: "47AD2D244D3DB9AC"
 			rewards: [{
@@ -548,7 +548,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Já se sentindo mais velho?"
+			subtitle: "Grudento!"
 			tasks: [{
 				id: "099916A3C850E989"
 				item: "derelict:waxing_staff"
@@ -565,7 +565,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Cansado de mobs?"
+			subtitle: "Já se sentindo mais velho?"
 			tasks: [{
 				id: "5BB5450E3CBFF848"
 				item: "derelict:aging_staff"
@@ -582,7 +582,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: " &eGadgets"
+			subtitle: "Cansado de mobs?"
 			tasks: [{
 				id: "3CC03DEB8ADEDD54"
 				item: "bosses_of_mass_destruction:mob_ward"
@@ -594,7 +594,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Já quis atravessar uma parede sem bater a cabeça? Este item é perfeito para você!"
+				"&7Este bloco dá uma área muito limitada de voo criativo. Outras alternativas são a Flügel Tiara e a Gravicamisa."
 			]
 			id: "69EE5CD66CD38E4E"
 			rewards: [{
@@ -613,7 +613,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Você é um arqueiro e não sabe onde guardar suas flechas? Esta Aljava é ótima para armazenar muitas flechas."
+				"&7Já quis atravessar uma parede sem bater a cabeça? Este item é perfeito para você!"
 			]
 			id: "0E280434A6732E11"
 			rewards: [{
@@ -638,7 +638,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Sem slot de lixo no seu inventário ou mochila? Apenas carregue uma Lixeira ridiculamente grande na mão, por algum motivo não questione isso por muito tempo."
+				"&7Você é um arqueiro que não sabe onde guardar suas flechas? Esta aljava é ótima para armazenar muitas flechas."
 			]
 			id: "58469ECD7976AB8A"
 			rewards: [{
@@ -664,7 +664,7 @@
 		{
 			dependencies: ["32C20FDE9BB4F43C"]
 			description: [
-				"&7Esta Tocha pode impedir qualquer geração de hostis em uma grande área. Ótima para sua base."
+				"&7Sem slot de lixo no seu inventário ou mochila? Apenas carregue uma Lixeira ridiculamente grande na sua mão, por algum motivo. Não questione muito."
 			]
 			id: "15BB544C1D7D5ACC"
 			rewards: [{
@@ -683,7 +683,7 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			description: [
-				"&7Não gosta que animais apareçam? Use esta tocha. Seu monstro."
+				"&7Esta tocha pode impedir o surgimento de qualquer mob hostil em uma grande área. Ótima para sua base."
 			]
 			id: "3A0D1D453519DE78"
 			rewards: [
@@ -709,7 +709,7 @@
 		{
 			dependencies: ["3A0D1D453519DE78"]
 			description: [
-				"&7Esta tocha impedirá o surgimento de peixes e outros animais aquáticos, não sei por quê, mas seria ótima para uma farm de tridente."
+				"&7Não gosta que animais apareçam? Use esta tocha. Seu monstro."
 			]
 			id: "5B7E6F6DD11B7606"
 			rewards: [{
@@ -728,7 +728,7 @@
 		{
 			dependencies: ["3A0D1D453519DE78"]
 			description: [
-				"Essas duas pedras serão importantes na criação do seu equipamento de alma, lembre-se de coletar muitas."
+				"&7Esta tocha impedirá o surgimento de peixes e outros animais aquáticos, não sei por quê, mas isso seria ótimo para uma fazenda de tridentes."
 			]
 			id: "5E7B9EA964BBE5A5"
 			rewards: [{
@@ -745,5 +745,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&7Essas placas podem ser feitas ao serem atingidas por relâmpagos."
+	title: " &eGadgets"
 }

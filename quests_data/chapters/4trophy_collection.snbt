@@ -175,7 +175,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Esses Troféus podem ser obtidos ao completar Missões na história principal. Se você está vendo isso, então já conseguiu o seu primeiro! Parabéns!"
+				"&7Estes Troféus podem ser obtidos ao completar Missões na linha principal da história. Se você está vendo isso, então já conseguiu o seu primeiro! Parabéns!"
 			]
 			id: "5675731BD892A014"
 			min_required_dependencies: 1
@@ -192,7 +192,7 @@
 				item: "prominent:cinderstone_trophy"
 				type: "item"
 			}]
-			title: "&4Troféus de Pedra Cinzenta"
+			title: "&4Troféus de Pedra de Cinzas"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -201,7 +201,7 @@
 			description: [
 				"&7Você usou a outra Receita, não foi?"
 				""
-				"&7Este é principalmente um item utilitário usado apenas para colocar blocos. Ele não pode quebrar blocos. Esta Varinha pode ser usada para preencher grandes buracos que seus amigos ignoram ou construir muralhas enormes para manter seus amigos longe."
+				"&7Este é em grande parte um Item utilitário usado apenas para colocar blocos. Ele não pode quebrar Blocos. Esta Varinha pode ser usada para preencher grandes buracos que seus amigos não se incomodam em tapar ou construir Paredes enormes para manter seus amigos longe."
 			]
 			id: "34C3284620E16342"
 			rewards: [{
@@ -227,7 +227,7 @@
 		{
 			dependencies: ["34C3284620E16342"]
 			description: [
-				"&7Igual à anterior, esta cobre uma área maior do que a varinha de pedra."
+				"&7Assim como a anterior, esta cobre uma Área maior do que a varinha de pedra."
 			]
 			id: "0953F58E223F0EC2"
 			rewards: [{
@@ -253,7 +253,7 @@
 		{
 			dependencies: ["0953F58E223F0EC2"]
 			description: [
-				"&7Cara, mas útil. Não recomendada se você ainda não conseguiu a Bússola do Explorador, pelo menos um Livro de Feitiços, a Bússola da Natureza e o Buraco de Minhoca de Bolso."
+				"&7Caro, mas útil. Não recomendado se você ainda não conseguiu a Bússola do Explorador, pelo menos um Livro de Feitiços, a Bússola da Natureza e o Buraco de Minhoca de Bolso."
 			]
 			id: "29B862369BADE58F"
 			rewards: [{
@@ -310,7 +310,7 @@
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"&7Embora este item ofereça muito conforto, não se deve esquecer que no começo você pode acabar perdendo itens incrivelmente úteis por causa dele. Recomendado fabricar após o End."
+				"&7Embora este item ofereça um enorme conforto, não se deve esquecer que no começo você pode acabar perdendo itens incrivelmente úteis por causa dele. Recomendado fabricar após o End."
 			]
 			id: "0C1FBFE401C27A26"
 			rewards: [{
@@ -330,7 +330,7 @@
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"&7Este é o melhor item para fazer com Troféus, oferecendo muita utilidade. Extremamente recomendado assim que puder fabricá-lo. Vai economizar horas de procura."
+				"&7Este é o melhor item para fazer com Troféus que oferece muita utilidade. Extremamente recomendado assim que você puder fabricá-lo. Vai economizar horas de procura."
 			]
 			id: "7AAD2112843038CC"
 			rewards: [{
@@ -354,7 +354,7 @@
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"&7Esta bússola oferece muitas oportunidades, embora você ainda consiga encontrar a maioria dos biomas se souber se orientar pelas Estruturas usando a Bússola do Explorador. Altamente recomendada após o End."
+				"&7Esta Bússola oferece muitas oportunidades, mas você ainda consegue encontrar a maioria dos biomas se souber se orientar pelas Estruturas usando a Bússola do Explorador. Altamente recomendada após o End."
 			]
 			id: "0419784E7F5972C4"
 			rewards: [{
@@ -378,7 +378,7 @@
 		{
 			dependencies: ["5DE2E0B229B61145"]
 			description: [
-				"&7Este livro tem de tudo. E justamente por ter tudo, você praticamente precisaria de uma planilha só para acompanhar o que quer fazer. Escala com Arcano, Fogo e Gelo, dependendo da combinação de feitiços usada."
+				"&7Este livro tem de tudo. E justamente por ter tudo, você praticamente precisaria de uma planilha só para acompanhar o que quer fazer. Escala com Arcano, Fogo e Gelo, dependendo da combinação de Feitiços que você usar."
 			]
 			id: "7F5B54924F643B6E"
 			rewards: [{
@@ -398,7 +398,7 @@
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"&7Você está realmente com preguiça disso?"
+				"&7Você é realmente preguiçoso demais para isso?"
 			]
 			id: "0DADFB6B16AB9487"
 			rewards: [
@@ -426,7 +426,7 @@
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"&7Esses Livros de Feitiços são alternativas aos livros já existentes feitos na Mesa de Vinculação de Feitiços. &4Isso significa que eles não são melhores só porque foram feitos com um Troféu! &r"
+				"&7Estes Livros de Feitiços são alternativas aos Livros de Feitiços existentes que você faz na Mesa de Vinculação de Feitiços. &4Isso significa que eles não são melhores só porque você os fez com um Troféu! &r"
 			]
 			id: "5DE2E0B229B61145"
 			rewards: [{
@@ -447,7 +447,7 @@
 		{
 			dependencies: ["5DE2E0B229B61145"]
 			description: [
-				"&7Este Livro de Arqueiro foca principalmente em Poder de Feitiço de Fogo e Dano à Distância. Explosões, explosões, explosões!"
+				"&7Este Livro de Arqueiro foca principalmente em Poder de Feitiço de Fogo e Dano à Distância, Explosões Explosões Explosões!"
 			]
 			id: "5054E7B9A58D6083"
 			rewards: [{
@@ -467,7 +467,7 @@
 		{
 			dependencies: ["5DE2E0B229B61145"]
 			description: [
-				"&7Pra que armas quando você pode atirar como uma? Este Livro de Feitiços de Arqueiro foca em atirar rápido e desaparecer antes que percebam."
+				"&7Pra que armas quando você pode atirar como uma? Este Livro de Feitiços de Arqueiro é focado em atirar rápido e desaparecer antes que percebam."
 			]
 			id: "1EF07D2D14739FE5"
 			rewards: [{
@@ -487,7 +487,7 @@
 		{
 			dependencies: ["5DE2E0B229B61145"]
 			description: [
-				"&7Este Livro de Arqueiro é ótimo para qualquer arqueiro de gelo que precise esfriar seus inimigos. Com uma passiva de acúmulo de congelamento e muitos efeitos de lentidão, se irritar os outros é o que você quer fazer, este livro tem tudo."
+				"&7Este Livro de Arqueiro é ótimo para qualquer Arqueiro de Gelo que precise esfriar seus Inimigos. Com uma passiva de acúmulo de congelamento e muito efeito de lentidão, se irritar é o que você quer fazer, este livro tem tudo."
 			]
 			id: "5486690E098C2A0C"
 			rewards: [{
@@ -527,7 +527,7 @@
 		{
 			dependencies: ["5DE2E0B229B61145"]
 			description: [
-				"&7Às vezes você quer fazer seu oponente pensar: “Ele não lançou esse feitiço há um segundo atrás?” Então você vai precisar deste Livro de Feitiços Arcano."
+				"&7Às vezes você quer fazer seu Oponente pensar: Ele não lançou esse feitiço um segundo atrás? Então você vai precisar deste Livro de Feitiços Arcano"
 			]
 			id: "5149EC6B04496896"
 			rewards: [{
@@ -547,7 +547,7 @@
 		{
 			dependencies: ["5DE2E0B229B61145"]
 			description: [
-				"&7Tão gracioso quanto uma Fênix e tão estiloso quanto ela. Escala com Poder de Feitiço de Fogo."
+				"&7Tão gracioso quanto uma Fênix e tão incrível quanto uma. Escala com Poder de Feitiço de Fogo."
 			]
 			id: "06E0A1DB549D9720"
 			rewards: [{
@@ -565,5 +565,5 @@
 			y: 2.5d
 		}
 	]
-	title: "&6&lColeção de Troféus"
+	title: "&6&l Coleção de Troféus"
 }

@@ -140,9 +140,9 @@
 	quests: [
 		{
 			description: [
-				"&7Ao criar ou obter ferramentas, armaduras ou armas, você notará que elas têm uma qualidade."
+				"&7Ao fabricar ou obter ferramentas, armaduras ou armas, você perceberá que elas possuem uma qualidade."
 				""
-				"&7As qualidades variam de:"
+				"&7As qualidades variam entre:"
 				"&8- &fComum"
 				"&8- &2Incomum"
 				"&8- &3Raro"
@@ -152,61 +152,61 @@
 				""
 				"{@pagebreak}"
 				""
-				"&6Reforjamento&7 é uma parte essencial do seu progresso, pois permite mudar a raridade que seu item possui."
+				"&6Reforjar&7 é uma parte essencial da sua progressão, pois permite alterar a raridade do seu item."
 				""
-				"&7Para isso, você pode encontrar a aba &eReforjamento&7 em uma &eBigorna&7. Você precisará de:"
+				"&7Para isso, você pode encontrar a aba de &eReforja&7 em uma &eBigorna&7. Você precisará de:"
 				""
-				"&8- &eMaterial Base &8(Slot Esquerdo)"
-				"&8- &eO Item a Reforjar &8(Slot do Meio)"
-				"&8- &eMaterial de Reforjamento &8(Slot Direito)"
+				"&8- &eO Material Base &8(Slot Esquerdo)"
+				"&8- &eO Item para Reforjar &8(Slot Central)"
+				"&8- &eO Material de Reforja &8(Slot Direito)"
 				""
 				""
 				"{@pagebreak}"
 				""
 				"&e&lMaterial Base &r&8(Slot Esquerdo)"
 				""
-				"&7O material base está diretamente relacionado ao item que você deseja reforjar. Por exemplo, uma &eVarinha Sagrada&7 exigiria um &eLingote de Ouro&7 como material base. Você pode ver os materiais necessários ao passar o mouse sobre o botão de reforjar depois de colocar seu item no slot do meio."
+				"&7O material base está diretamente relacionado ao item que você deseja reforjar. Por exemplo, uma &eVarinha Sagrada&7 exigiria uma &eBarra de Ouro&7 como material base. Você pode ver os materiais necessários passando o mouse sobre o botão de reforja após colocar seu item no slot central."
 				""
 				""
 				"{@pagebreak}"
 				""
-				"&e&lItem Base &r&8(Slot do Meio)"
+				"&e&lItem Base &r&8(Slot Central)"
 				""
-				"&7O Item Base é o item que você deseja mudar a raridade. Nem todos os itens podem ser reforjados, apenas ferramentas, armas e armaduras."
+				"&7O Item Base é o item cuja raridade você deseja alterar. Nem todos os itens podem ser reforjados; apenas ferramentas, armas e armaduras."
 				""
 				""
 				"{@pagebreak}"
 				""
-				"&e&lMaterial de Reforjamento"
+				"&e&lMaterial de Reforja"
 				""
-				"&7Este material decidirá para qual qualidade seu item será reforjado; existem 3 níveis de materiais que você pode ver nas próximas missões desta linha de missões."
+				"&7Este material determinará para qual qualidade seu item será reforjado. Existem 3 níveis de materiais, que você pode ver nas próximas missões desta linha de missões."
 				""
 				""
 				"{@pagebreak}"
 				""
 				"&a&lAumentando Suas Chances"
 				""
-				"&7Não é só sobre grindar! Você pode &eaumentar as chances de obter qualidades superiores&7 com sua &aSorte&7! Itens que dão sorte passivamente, poções de sorte, trinkets, vinho — pegue todos eles!"
+				"&7Não é só sobre grindar! Você pode &eaumentar as chances de qualidades mais altas&7 com sua &aSorte&7! Itens que dão sorte passivamente, poções de sorte, bugigangas, vinho, pegue todos!"
 			]
 			id: "3C95FD1F14D109CF"
 			shape: "hexagon"
-			subtitle: "&8[Clique para ler instruções]"
+			subtitle: "&8[Clique para ler as instruções]"
 			tasks: [{
 				id: "71FAC91280FBBF9C"
 				item: "minecraft:anvil"
 				title: "Crie uma Bigorna"
 				type: "item"
 			}]
-			title: "&eO que é Reforjamento?"
+			title: "&eO que é Reforja?"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3C95FD1F14D109CF"]
 			description: [
-				"&7O &nFragmento de Calcário&r&7 é o material de reforjamento de primeiro nível."
+				"&7O &nFragmento de Calcário&r&7 é o primeiro nível de materiais de reforja."
 				""
-				"&7Ele é encontrado no &aMundo Superior&7, obtido ao &ecraftar&7 4x &fBlocos de Calcário&r&8 (para 4 peças)&7, ou 4x &fBloco de Diorito&r &8(para 4 peças)"
+				"&7Ele é encontrado no &aMundo Superior&7, obtido por &efabricação&7 usando 4x &fBlocos de Calcário&r&8 (para 4 peças)&7, ou 4x &fBloco de Diorito&r &8(para 4 peças)"
 				""
 				"&7Ele pode reforjar para as seguintes qualidades:"
 				"&8- &fComum"
@@ -216,7 +216,7 @@
 			]
 			id: "4D3F0D8217067D24"
 			shape: "diamond"
-			subtitle: "&8[Clique para ler instruções]"
+			subtitle: "&8[Clique para ler as instruções]"
 			tasks: [{
 				id: "4593A7256861742B"
 				item: "tiered:limestone_chunk"
@@ -229,9 +229,9 @@
 		{
 			dependencies: ["4D3F0D8217067D24"]
 			description: [
-				"&7O &nFragmento de Pirita&r&7 é o material de reforjamento de segundo nível."
+				"&7O &nFragmento de Pirita&r&7 é o segundo nível de materiais de reforja."
 				""
-				"&7Ele é encontrado no &cNether&7, obtido ao &eCraftar&7 usando 4 &6Pó de Pirita&r&8 (para 1 peça)&7, ou ao &eFundir&7 um bloco de &6Detritos Ancestrais&r&7 &8(para 4 peças)"
+				"&7Ele é encontrado no &cNether&7, obtido por &eFabricação&7 usando 4 &6Pó de Pirita&r&8 (para 1 peça)&7, ou por &eFundição&7 de um bloco de &6Detritos Ancestrais&r&7 &8(para 4 peças)"
 				""
 				"&8* O Pó de Pirita pode ser obtido minerando Minério de Pirita no Nether"
 				""
@@ -256,9 +256,9 @@
 		{
 			dependencies: ["31388834855FB88E"]
 			description: [
-				"&7O &nFragmento de Galena&r&7 é o material de reforjamento de terceiro e último nível."
+				"&7O &nFragmento de Galena&r&7 é o terceiro e último material de reforja."
 				""
-				"&7Ele é encontrado no &dEnd&7, obtido ao &eCraftar&7 usando 2 &3Pó de Galena&r&7 e 2 &3Fruta do Coro Estourada&r&8 (para 1 peça)&7."
+				"&7Ele é encontrado no &dEnd&7, obtido por &eFabricação&7 usando 2 &3Pó de Galena&r&7 e 2 &3Fruta do Coro Explodida&r&8 (para 1 peça)&7."
 				"&7Alternativamente, em vez de usar Pó de Galena, você pode usar &3Pedra do End&r."
 				""
 				"&8* O Pó de Galena pode ser encontrado nas cavernas profundas do Mundo Superior."
@@ -284,7 +284,7 @@
 		{
 			dependencies: ["2DE7359A85169236"]
 			description: [
-				"&eCem itens Míticos... Você realmente se tornou o mestre do reforjamento."
+				"&eCem itens Míticos... Você realmente se tornou o mestre da reforja."
 			]
 			hide_until_deps_visible: true
 			id: "014ABD8E6E102E16"
@@ -331,7 +331,7 @@
 				"4D3F0D8217067D24"
 			]
 			description: [
-				"&8Você se tornou um ferreiro muito renomado. O que você vai fazer com esse conhecimento?"
+				"&8Você se tornou um ferreiro muito renomado. O que vai fazer com esse conhecimento?"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -354,7 +354,7 @@
 					}
 				}
 				id: "79653CF8DF5D7969"
-				title: "&dFragmento de Conhecimento Eterno"
+				title: "&dPedaço de Conhecimento Eterno"
 				type: "custom"
 			}]
 			shape: "hexagon"
@@ -362,7 +362,7 @@
 			subtitle: "&8Conhecimento Secreto"
 			tasks: [{
 				id: "57A269372AAD28C6"
-				title: "Aprendi o Conhecimento."
+				title: "Eu Aprendi o Conhecimento."
 				type: "checkmark"
 			}]
 			title: "&dConhecimento Eterno: &eDa Ferraria"
@@ -370,5 +370,5 @@
 			y: -16.5d
 		}
 	]
-	title: " &eReforjamento"
+	title: " &eReforja"
 }

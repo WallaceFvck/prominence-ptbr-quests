@@ -25,13 +25,13 @@
 				item: "indrev:guide_book"
 				type: "item"
 			}]
-			subtitle: "Bem-vindo ao Industrial Revolution"
+			subtitle: "Bem-vindo à Industrial Revolution, um mod de tecnologia que oferece ferramentas, armas e formas de gerar recursos."
 			tasks: [{
 				id: "0F631934C103EDFA"
-				title: "Bem-vindo ao Industrial Revolution!"
+				title: "Bem-vindo à Industrial Revolution"
 				type: "checkmark"
 			}]
-			title: "Um pó turquesa com propriedades úteis para a fabricação de máquinas."
+			title: "Bem-vindo à Industrial Revolution!"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -43,7 +43,7 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Um lingote de ferro aprimorado por infusão com Nikolite."
+			subtitle: "A poeira turquesa com propriedades úteis para fabricar máquinas."
 			tasks: [{
 				id: "22D23AA53B2D0362"
 				item: "indrev:nikolite_dust"
@@ -60,7 +60,7 @@
 				type: "xp"
 				xp: 60
 			}]
-			subtitle: "Infundir Pó de Nikolite com Pó de Diamante parece melhorar suas propriedades."
+			subtitle: "Um lingote de ferro aprimorado por infusão com Nikolite."
 			tasks: [{
 				id: "38A727856663A1E5"
 				item: "indrev:nikolite_ingot"
@@ -77,7 +77,7 @@
 				type: "xp"
 				xp: 80
 			}]
-			subtitle: "Um lingote que emite faíscas com a energia de Nikolite Enriquecida."
+			subtitle: "Infundir Pó de Nikolite com Pó de Diamante parece melhorar suas propriedades."
 			tasks: [{
 				id: "1AC296A4FC960449"
 				item: "indrev:enriched_nikolite_dust"
@@ -94,7 +94,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Permite a atualização de máquinas para MK2, isso acelera o processamento e permite a instalação de 2 aprimoradores."
+			subtitle: "Um lingote que estala com a energia de Nikolite Enriquecida."
 			tasks: [{
 				id: "4A79A79E92FD11ED"
 				item: "indrev:enriched_nikolite_ingot"
@@ -111,7 +111,7 @@
 				type: "xp"
 				xp: 60
 			}]
-			subtitle: "Permite a atualização de máquinas para MK3, isso acelera o processamento e permite a instalação de 3 aprimoradores."
+			subtitle: "Permite a atualização de máquinas para MK2, isso acelera o processamento e permite a instalação de 2 aprimoradores."
 			tasks: [{
 				id: "4A6086EE8638877E"
 				item: "indrev:tier_upgrade_mk2"
@@ -128,7 +128,7 @@
 				type: "xp"
 				xp: 80
 			}]
-			subtitle: "Permite a atualização de máquinas para MK4, isso acelera o processamento e permite a instalação de 4 aprimoradores."
+			subtitle: "Permite a atualização de máquinas para MK3, isso acelera o processamento e permite a instalação de 3 aprimoradores."
 			tasks: [{
 				id: "3003CAAF0A0E1043"
 				item: "indrev:tier_upgrade_mk3"
@@ -145,7 +145,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "O Mining Rig Computer permite gerar minérios usando rf. \\n\\nPara configurá-lo você precisa: \\n1. Um Mining Rig Computer.\\n2. 1-8 Mining Rig Drills.\\n3. 1-8 Drill Heads.\\n4. Um Encoded Ore Data Card.\\n\\nObservação: Drill heads de nível mais alto permitem uma geração mais rápida de minérios."
+			subtitle: "Permite a atualização de máquinas para MK4, isso acelera o processamento e permite a instalação de 4 aprimoradores."
 			tasks: [{
 				id: "081EC201A8162C39"
 				item: "indrev:tier_upgrade_mk4"
@@ -164,7 +164,7 @@
 				xp: 1000
 			}]
 			size: 1.5d
-			subtitle: "Cabeça de Perfuração"
+			subtitle: "O Computador da Plataforma de Mineração permite gerar minérios usando rf. \\n\\nPara configurá-lo você precisa: \\n1. Um Computador da Plataforma de Mineração.\\n2. 1-8 Brocas da Plataforma de Mineração.\\n3. 1-8 Cabeças de Broca.\\n4. Um Cartão de Dados de Minério Codificado.\\n\\nNota: Cabeças de broca de nível mais alto permitem geração mais rápida de minérios."
 			tasks: [
 				{
 					id: "27749ADE514D74C7"
@@ -214,7 +214,7 @@
 							]
 						}
 					}
-					title: "A base das máquinas de nível 1."
+					title: "Cabeça de Broca"
 					type: "item"
 				}
 			]
@@ -229,7 +229,7 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "A base das máquinas de nível 2."
+			subtitle: "A base de máquinas de tier 1."
 			tasks: [{
 				id: "3C1713111B82178E"
 				item: "indrev:circuit_mk1"
@@ -249,7 +249,7 @@
 				type: "xp"
 				xp: 60
 			}]
-			subtitle: "A base das máquinas de nível 3."
+			subtitle: "A base de máquinas de tier 2."
 			tasks: [{
 				id: "283EF189CEEDE8CF"
 				item: "indrev:circuit_mk2"
@@ -269,7 +269,7 @@
 				type: "xp"
 				xp: 80
 			}]
-			subtitle: "A base das máquinas de nível 4."
+			subtitle: "A base de máquinas de tier 3."
 			tasks: [{
 				id: "20B586B0085CFFB6"
 				item: "indrev:circuit_mk3"
@@ -289,7 +289,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "A chave de fenda permite configurar os lados de entrada e saída das máquinas, bem como o cubo de energia."
+			subtitle: "A base de máquinas de tier 4."
 			tasks: [{
 				id: "6143C60A56C29E38"
 				item: "indrev:circuit_mk4"
@@ -301,13 +301,13 @@
 		{
 			dependencies: ["32DE8281608AE114"]
 			id: "4EFD04B00ADBD50E"
-			subtitle: "Configuração da Máquina"
+			subtitle: "A chave de fenda permite a configuração dos lados de entrada e saída das máquinas, assim como da cubo de energia."
 			tasks: [{
 				id: "0336F4103F460751"
 				item: "indrev:screwdriver"
 				type: "item"
 			}]
-			title: "A base da maioria das máquinas do Industrial Revolution."
+			title: "Configuração de Máquina"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -315,7 +315,7 @@
 			dependencies: ["0362B2FF4E5681B2"]
 			id: "71D3FB31485B9F05"
 			size: 1.5d
-			subtitle: "Para usar um tubo de fluido você precisa de um servo retriever ou servo de saída."
+			subtitle: "A base da maioria das máquinas da Industrial Revolution."
 			tasks: [
 				{
 					id: "1792BD2A7CB4D3BE"
@@ -340,7 +340,7 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Um servo retriever tenta puxar para dentro da máquina para a qual ele está apontando a partir de todas as outras máquinas conectadas aos tubos."
+			subtitle: "Para usar um tubo de fluido você precisa de um servo retriever ou servo de saída."
 			tasks: [{
 				id: "5633521FA0CD7BB7"
 				item: "indrev:fluid_pipe_mk1"
@@ -419,7 +419,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um servo retriever tenta puxar da máquina para a qual ele está apontando para outras máquinas conectadas aos tubos."
+			subtitle: "Um Servo Retriever tenta puxar para dentro da máquina para a qual ele está apontando de todas as outras máquinas conectadas aos tubos."
 			tasks: [{
 				id: "5F6EB1B1786EEBDF"
 				item: {
@@ -445,7 +445,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Para usar um tubo de itens você precisa de um servo retriever ou servo de saída."
+			subtitle: "Um Servo Retriever tenta puxar da máquina para a qual ele está apontando para outras máquinas conectadas aos tubos."
 			tasks: [{
 				id: "12790B91DDF80C81"
 				item: {
@@ -467,7 +467,7 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Vita na criação de materiais de nível mais alto, pois é a única máquina capaz de infundir pó de nikolite com outros materiais para aprimorar suas capacidades."
+			subtitle: "Para usar um tubo de itens você precisa de um servo retriever ou servo de saída."
 			tasks: [{
 				id: "1141AC2BFE66C951"
 				item: "indrev:item_pipe_mk1"
@@ -541,7 +541,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "O mais alto nível do infusor sólido, permitindo que 5 itens sejam processados de uma vez."
+			subtitle: "Vital na criação de materiais de tier mais alto, pois é a única máquina capaz de infundir pó de nikolite com outros materiais para melhorar suas capacidades."
 			tasks: [{
 				id: "0162EED060A620C9"
 				item: "indrev:solid_infuser_mk1"
@@ -559,7 +559,7 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Uma máquina que permite a extração de mais tábuas por tronco, bem como serragem."
+			subtitle: "Infusor sólido de nível mais alto, permitindo que 5 itens sejam processados ao mesmo tempo."
 			tasks: [
 				{
 					id: "6DE1A8C5F2A3931E"
@@ -618,7 +618,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "O Sawmill de nível mais alto."
+			subtitle: "Uma máquina que permite a extração de mais tábuas por tronco, bem como serragem."
 			tasks: [{
 				id: "02B367974E248910"
 				item: "indrev:sawmill_mk1"
@@ -635,7 +635,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Permite o posicionamento automático de mudas e o corte de árvores. Requer um machado para funcionar."
+			subtitle: "A Sawmill de mais alto nível."
 			tasks: [{
 				id: "6A07E6DD472ED08A"
 				item: "indrev:sawmill_mk4"
@@ -652,7 +652,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Uma máquina que mata mobs usando a espada fornecida."
+			subtitle: "Permite o plantio automático de mudas e o corte de árvores. Requer um machado para funcionar."
 			tasks: [{
 				id: "29354D1557D10A42"
 				item: "indrev:chopper_mk1"
@@ -669,7 +669,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Uma máquina que pode automaticamente reproduzir e matar animais."
+			subtitle: "Uma máquina que mata mobs usando a espada fornecida."
 			tasks: [{
 				id: "424163F9D3A8DCC0"
 				item: "indrev:slaughter_mk1"
@@ -686,7 +686,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Para usar o Mining Rig Computer você vai precisar de um encoded ore data card.\\n\\nIsso pode ser criado no Data Card Encoder fornecendo 64 do minério que você quer codificar e um Ore Data Card. \\n\\nVocê também pode aumentar a riqueza dos cartões usando Enriched Nikolite na proporção de 16 por 1%. Níveis mais altos de riqueza aumentam a quantidade de minérios obtidos por operação."
+			subtitle: "Uma máquina que pode automaticamente reproduzir e matar animais."
 			tasks: [{
 				id: "16DBCD671C99E72E"
 				item: "indrev:rancher_mk1"
@@ -704,7 +704,7 @@
 				type: "xp"
 				xp: 400
 			}]
-			subtitle: "Passo a passo para carregar um Core of Modularity: \\n\\n1. Coloque sua cápsula com o(s) Laser Emitter(s) virado(s) para ela, com um espaço de 3 blocos entre eles e a cápsula. \\n\\n2. Coloque seu Core of Modularity (descarregado) na cápsula.\\n\\n3. Forneça energia aos Laser Emitter(s) roteando LF para a parte traseira deles.\\n\\n4. Aplique um sinal de redstone aos Laser Emitter(s)\\n\\nSe você quiser automatizar o desligamento dos seus lasers, pode ser útil saber que um comparador emite um sinal quando a cápsula está vazia ou terminou de criar."
+			subtitle: "Para usar o Computador da Plataforma de Mineração você vai precisar de um cartão de dados de minério codificado.\\n\\nIsso pode ser criado no Codificador de Cartão de Dados fornecendo 64 do minério que você deseja codificar e um Cartão de Dados de Minério. \\n\\nVocê também pode aumentar a riqueza dos cartões usando Nikolite Enriquecida, a 16 por 1%. Níveis mais altos de riqueza aumentam a quantidade de minérios obtidos por operação."
 			tasks: [
 				{
 					id: "01E20AAC5727E0FB"
@@ -730,7 +730,7 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Usado para carregar cores de modularidade.\\n\\nTenha cuidado para não aplicar um sinal de redstone ao seu emissor de laser quando a cápsula estiver vazia, pois isso destruirá a cápsula. Além disso, aplicar um sinal de redstone ao emissor de laser quando ele não estiver apontando para uma cápsula fará com que ele exploda depois de um tempo."
+			subtitle: "Passo a passo para carregar um Núcleo de Modularidade: \\n\\n1. Coloque sua cápsula com os Emissores de Laser voltados para ela, com uma distância de 3 blocos entre eles e a Cápsula. \\n\\n2. Coloque seu Núcleo de Modularidade (descarregado) na Cápsula.\\n\\n3. Forneça energia aos Emissores de Laser direcionando LF para a parte traseira deles.\\n\\n4. Aplique um sinal de redstone aos Emissores de Laser\\n\\nSe você quiser automatizar o desligamento dos seus lasers, pode ser útil saber que um comparador emite um sinal quando a Cápsula está vazia ou quando a criação foi concluída."
 			tasks: [
 				{
 					id: "722D007879784300"
@@ -755,7 +755,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Um capacete que permite a instalação de módulos."
+			subtitle: "Usado para carregar núcleos de modularidade.\\n\\nTenha cuidado para não aplicar um sinal de redstone ao seu emissor de laser quando a cápsula estiver vazia, pois isso destruirá a cápsula. Além disso, aplicar um sinal de redstone ao emissor de laser quando ele não estiver apontando para uma cápsula fará com que ele exploda após algum tempo."
 			tasks: [
 				{
 					id: "55D740096391D07C"
@@ -780,7 +780,7 @@
 				xp: 150
 			}]
 			size: 1.25d
-			subtitle: "Uma peitoral que permite a instalação de módulos."
+			subtitle: "Um Capacete que permite a instalação de módulos."
 			tasks: [{
 				id: "13279A65486B3B7D"
 				item: {
@@ -802,7 +802,7 @@
 				xp: 150
 			}]
 			size: 1.25d
-			subtitle: "Uma calça que permite a instalação de módulos."
+			subtitle: "Um Peitoral que permite a instalação de módulos."
 			tasks: [{
 				id: "18F4272FADDD55D5"
 				item: {
@@ -824,7 +824,7 @@
 				xp: 150
 			}]
 			size: 1.25d
-			subtitle: "Um par de botas que permite a instalação de módulos."
+			subtitle: "Um Par de Calças que permite a instalação de módulos."
 			tasks: [{
 				id: "53BB342EBDD0D957"
 				item: {
@@ -846,7 +846,7 @@
 				xp: 150
 			}]
 			size: 1.25d
-			subtitle: "Pode ser encontrado como loot de masmorras."
+			subtitle: "Um Par de Botas que permite a instalação de módulos."
 			tasks: [{
 				id: "09DBCD31FE861696"
 				item: {
@@ -879,18 +879,7 @@
 		{
 			dependencies: ["4292881C886EFF62"]
 			description: [
-				"&7Industrial Revolution está saindo do Prominence. Para tornar essa transição mais suave, isso acontecerá em fases. A primeira fase incluirá todos os cabos do Industrial Revolution. "
-				""
-				""
-				"&eEles não são mais fabricáveis e podem ser convertidos em cabos do Tech Reborn a qualquer momento.&r"
-				""
-				"&4Por quê?&r"
-				""
-				"&7Há muitos motivos. O Industrial Revolution foi abandonado pelo seu desenvolvedor. O mod está cheio de problemas que simplesmente não conseguimos consertar. Os cabos nem sequer transferem na velocidade que dizem. Máquinas quebram itens indestrutíveis, matam coisas que não deveriam ou simplesmente não funcionam. Sua qualidade não é algo que queremos no Prominence."
-				""
-				"&4E agora?&r"
-				""
-				"&7Outros recursos ainda não foram afetados. Isso será um processo lento para garantir que os jogadores possam se adaptar às mudanças e seguir para pastos mais verdes (Tech Reborn) e outros mods de tecnologia."
+				"&eEsta é uma arma meme, por favor não a use de forma não irônica, ela é ruim."
 			]
 			id: "5A0531E384E622FA"
 			rewards: [{
@@ -925,7 +914,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Qualquer Módulo de Cor"
+			subtitle: "Pode ser encontrado como loot de masmorras."
 			tasks: [{
 				id: "645E1AFF80FEF744"
 				item: {
@@ -976,10 +965,10 @@
 						]
 					}
 				}
-				title: "Módulos de Cor"
+				title: "Qualquer Módulo de Cor"
 				type: "item"
 			}]
-			title: "Usado para criar placas antes de fazer um compressor."
+			title: "Módulos de Cor"
 			x: 14.5d
 			y: 3.5d
 		}
@@ -1039,7 +1028,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Uma ferramenta que permite girar blocos e quebrar máquinas ao clicar com o botão direito enquanto agachado."
+			subtitle: "Usado para criar placas antes de fazer um compressor."
 			tasks: [{
 				id: "462B8764930866AB"
 				item: {
@@ -1249,7 +1238,7 @@
 		{
 			dependencies: ["32DE8281608AE114"]
 			id: "39FF583B7278103A"
-			subtitle: "Principalmente usado para fazer refrigerante e processar minérios. Também pode fazer obsidiana à prova de wither."
+			subtitle: "Uma ferramenta que permite girar blocos e quebrar máquinas ao clicar com o botão direito enquanto agachado."
 			tasks: [{
 				id: "4923ECBCEF56D65E"
 				item: "indrev:wrench"
@@ -1266,7 +1255,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "O infusor de fluido de mais alto nível."
+			subtitle: "Usado principalmente para fazer refrigerante e processar minérios. Também pode fazer obsidiana à prova de Wither."
 			tasks: [{
 				id: "777FADC55E95A59E"
 				item: "indrev:fluid_infuser_mk1"
@@ -1283,7 +1272,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "O Slaughter de mais alto nível."
+			subtitle: "O infusor de fluidos de nível mais alto."
 			tasks: [{
 				id: "5257ED14B6EC4D92"
 				item: "indrev:fluid_infuser_mk4"
@@ -1300,7 +1289,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "O Chopper de mais alto nível."
+			subtitle: "O nível mais alto de Abate."
 			tasks: [{
 				id: "448EF11D0E1E48F1"
 				item: "indrev:slaughter_mk4"
@@ -1317,7 +1306,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "O Rancher de mais alto nível."
+			subtitle: "O nível mais alto de Cortador."
 			tasks: [{
 				id: "51C83F19BDC775FD"
 				item: "indrev:chopper_mk4"
@@ -1334,7 +1323,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "A base de todos os aprimoradores."
+			subtitle: "O nível mais alto de Ordenhador."
 			tasks: [{
 				id: "32CF695BBF3AECD2"
 				item: "indrev:rancher_mk4"
@@ -1351,7 +1340,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Aumenta a capacidade de LF de uma máquina em 25k LF por melhoria."
+			subtitle: "A base para todos os aprimoradores."
 			tasks: [{
 				id: "4950AD9878049B7F"
 				item: "indrev:empty_enhancer"
@@ -1368,7 +1357,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Você viu isso direito!"
+			subtitle: "Aumenta a capacidade de LF de uma máquina em 25k LF por melhoria."
 			tasks: [{
 				id: "7E21A3FB2E9D8F4C"
 				item: "indrev:buffer_enhancer"
@@ -1511,7 +1500,18 @@
 		}
 		{
 			description: [
-				"&8[Clique para ler a história e indicações]"
+				"&7A Industrial Revolution está saindo da Prominence. Para tornar essa transição suave, ela acontecerá em fases. A primeira fase incluirá todos os cabos da Industrial Revolution. "
+				""
+				""
+				"&eEles não são mais fabricáveis e podem ser convertidos em Cabos do Tech Reborn a qualquer momento.&r"
+				""
+				"&4Por quê?&r"
+				""
+				"&7Há muitas razões. A Industrial Revolution foi abandonada por seu desenvolvedor. O mod está cheio de problemas que simplesmente não podemos corrigir. Os cabos nem sequer transferem na velocidade que anunciam. Máquinas quebram itens indestrutíveis, matam coisas que não deveriam ou simplesmente não funcionam. Sua qualidade não é algo que queremos no Prominence."
+				""
+				"&4E agora?&r"
+				""
+				"&7Outras funcionalidades ainda não foram afetadas. Este será um processo lento para garantir que os jogadores possam se adaptar às mudanças e seguir para pastos mais verdes (Tech Reborn) e outros mods de tecnologia."
 			]
 			id: "493019770C273D5E"
 			rewards: [{
@@ -1519,15 +1519,15 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Indrev está saindo do Prominence!"
+			subtitle: "Você viu isso!"
 			tasks: [{
 				id: "0B1C7D7CC932659C"
-				title: " &bIndustrial Revolution"
+				title: "Indrev está saindo do Prominence!"
 				type: "checkmark"
 			}]
 			x: 0.5d
 			y: 1.5d
 		}
 	]
-	title: "&eEsta é uma arma meme, por favor não use isso de forma séria, é ruim."
+	title: " &bRevolução Industrial"
 }

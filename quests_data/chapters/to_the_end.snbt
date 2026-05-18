@@ -712,7 +712,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Fabricado usando a Pupila de Bruxa"
+			subtitle: "&7Fabricado usando o Pupilo da Bruxa"
 			tasks: [{
 				id: "3E473BEA23E8C1FE"
 				item: "endrem:witch_eye"
@@ -796,7 +796,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Encontrado em Igloos."
+			subtitle: "&7Encontrado em Iglus."
 			tasks: [{
 				id: "2CC6D9A1017107EB"
 				item: "endrem:cold_eye"
@@ -914,8 +914,7 @@
 		{
 			dependencies: ["37525863A9E5509D"]
 			description: [
-				"  "
-				"&eDepois que a troca for desbloqueada, ela não terá estoque até que passe um dia.  "
+				"&eUma vez que a troca é desbloqueada, ela não terá estoque até que passe um dia."
 			]
 			hide_lock_icon: true
 			hide_until_deps_complete: true
@@ -969,7 +968,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Infundível em uma Mesa de Encantamentos."
+			subtitle: "&7Infusível em uma Mesa de Encantamentos."
 			tasks: [{
 				id: "685E4965B8364BEC"
 				item: "endrem:cryptic_eye"
@@ -980,10 +979,9 @@
 		}
 		{
 			description: [
-				"  "
-				"&7Chegar ao Fim não é tão fácil quanto você imagina. Você deve atravessar o Mundo, encontrar e matar lugares e monstros específicos.  "
+				"&7Chegar ao Fim não é tão fácil quanto você pensa. Você deve atravessar o Mundo, encontrar e matar lugares e monstros específicos. "
 				""
-				"&7De quantos olhos você precisa realmente depende da sorte que você tiver ao encontrar a Fortaleza. Você precisará encontrar até 12 no máximo.  "
+				"&7A quantidade de olhos que você precisa depende realmente da sorte que você tiver ao encontrar a Fortaleza. Você precisará encontrar até 12 no máximo."
 			]
 			hide_lock_icon: true
 			hide_until_deps_complete: false
@@ -1011,8 +1009,7 @@
 			can_repeat: true
 			dependencies: ["37525863A9E5509D"]
 			description: [
-				"  "
-				"&7Olhos do Ender normais não funcionam. Você precisa de olhos específicos, que podem ser encontrados ou trocados aqui. Não há garantia de que você conseguirá o olho que deseja.  "
+				"&7Olhos do Ender normais não funcionam. Você precisa de olhos específicos, que podem ser encontrados ou trocados aqui. Não há garantia de que você conseguirá o olho que deseja."
 			]
 			hide_dependency_lines: true
 			hide_lock_icon: true
@@ -1093,10 +1090,10 @@
 				biome: "betterend:blossoming_spires"
 				icon: "betterend:blossom_berry"
 				id: "733BD5D23591BE9B"
-				title: "Visite as Torres Florescentes"
+				title: "Visite os Espirais Floridos"
 				type: "biome"
 			}]
-			title: "Visite as Torres Florescentes"
+			title: "Visite os Espirais Floridos"
 			x: -5.5d
 			y: -17.5d
 		}
@@ -1117,10 +1114,10 @@
 				biome: "eldritch_end:hasturian_wastes"
 				icon: "eldritch_end:hasturian_moss"
 				id: "4F2CAACD7E949134"
-				title: "Visite as Terras Devastadas de Hastur"
+				title: "Visite os Ermos de Hastur"
 				type: "biome"
 			}]
-			title: "As Terras Devastadas de Hastur"
+			title: "Os Ermos de Hastur"
 			x: 6.0d
 			y: -18.5d
 		}
@@ -1137,10 +1134,10 @@
 				biome: "#promenade:dark_amaranth_forests"
 				icon: "promenade:dark_amaranth_fungus"
 				id: "6785D7C68E20E9F5"
-				title: "Visite as Florestas de Amarantos Escuros"
+				title: "Visite a Floresta de Amarantos Negros"
 				type: "biome"
 			}]
-			title: "As Florestas de Amarantos Escuros"
+			title: "As Florestas de Amaranto Sombrio"
 			x: -5.5d
 			y: -19.5d
 		}
@@ -1167,8 +1164,7 @@
 		{
 			dependencies: ["7D82D37287E1AE9A"]
 			description: [
-				"  "
-				"&7Você pode sentir as Sombras observando você. Este lugar não foi feito para você ficar. Algo está te seguindo. Traga luz para este lugar esquecido.  "
+				"&7Você pode sentir as Sombras observando você. Este lugar não foi feito para você ficar. Algo está seguindo você. Traga luz para este Lugar abandonado."
 			]
 			hide_until_deps_complete: true
 			id: "7BA9CD493FB66021"
@@ -1177,14 +1173,14 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Até as Sombras podem ser perigosas"
+			subtitle: "Até as Sombras podem ser mortais"
 			tasks: [{
 				entity: "betterend:shadow_walker"
 				id: "189FCBA68A345E94"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Mate Andarilhos das Sombras"
+			title: "Mate os Andarilhos das Sombras"
 			x: 7.5d
 			y: -20.0d
 		}
@@ -1197,15 +1193,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Você se pergunta o que eles te protegem"
+			subtitle: "Você se pergunta do que eles Shielf você protegem"
 			tasks: [{
 				biome: "betterend:umbrella_jungle"
 				icon: "betterend:umbrella_tree_sapling"
 				id: "28F1D0353F646410"
-				title: "Visite a Selva Guarda-chuva"
+				title: "Visite a Umbrella Jungle"
 				type: "biome"
 			}]
-			title: "A Selva Guarda-chuva"
+			title: "A Umbrella Jungle"
 			x: -4.5d
 			y: -21.5d
 		}
@@ -1233,7 +1229,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Mate Slimes do Fim"
+			title: "Mate os Slimes do End"
 			x: -6.5d
 			y: -15.5d
 		}
@@ -1283,8 +1279,7 @@
 		{
 			dependencies: ["34830F8A8A4C01E3"]
 			description: [
-				"  "
-				"&7Colete alguns Cristais Aurora. Para algumas classes, este é um recurso muito vital.  "
+				"&7Colete alguns Cristais Aurora. Para algumas classes, este é um recurso muito vital."
 			]
 			hide_until_deps_complete: true
 			id: "03C8A562B7B085BC"
@@ -1304,8 +1299,7 @@
 		{
 			dependencies: ["405ECED2C34FC488"]
 			description: [
-				"  "
-				"&7Este é um ótimo lugar para farmar Fruta do Coro. Você precisará de Coro para fazer Galena, o &5melhor material para reforjar itens.&r  "
+				"&7Este é um ótimo lugar para farmar Frutas Chorus. Você precisará de Chorus para fazer Galena, o &5melhor material para reforjar itens.&r"
 			]
 			id: "21DB9F756402FE99"
 			rewards: [{
@@ -1317,10 +1311,10 @@
 				biome: "betterend:chorus_forest"
 				icon: "minecraft:chorus_flower"
 				id: "6E9A40E1208E5A3F"
-				title: "Visite a Floresta de Corus"
+				title: "Visite a Floresta Chorus"
 				type: "biome"
 			}]
-			title: "A Floresta do Coro  "
+			title: "A Floresta Chorus"
 			x: 4.5d
 			y: -21.5d
 		}
@@ -1333,18 +1327,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Não caia!  "
+			subtitle: "Não caia!"
 			tasks: [{
 				biome: "betterend:ice_starfield"
 				icon: "betterend:emerald_ice"
 				id: "745694612177C611"
-				title: "  
-Visite o Campo Estelar de Gelo  "
+				title: "Visite o Campo Estelar de Gelo"
 				type: "biome"
 			}]
-			title: "  
-O Campo Estelar de Gelo  "
+			title: "O Campo Estelar de Gelo"
 			x: -4.0d
 			y: -22.5d
 		}
@@ -1368,8 +1359,7 @@ O Campo Estelar de Gelo  "
 				count: 32L
 				id: "2341CA8951B8587B"
 				item: "betterend:ancient_emerald_ice"
-				title: "  
-Colete um pouco de Gelo Esmeralda Ancestral  "
+				title: "Colete um pouco de Gelo de Esmeralda Ancestral"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1392,8 +1382,7 @@ Colete um pouco de Gelo Esmeralda Ancestral  "
 				structure: "bosses_of_mass_destruction:obsidilith_arena"
 				type: "structure"
 			}]
-			title: "  
-&dArena do Obsidilito  "
+			title: "&dArena de Obsidilith"
 			x: 5.5d
 			y: -17.5d
 		}
@@ -1403,8 +1392,7 @@ Colete um pouco de Gelo Esmeralda Ancestral  "
 				"103203350DABF6BB"
 			]
 			description: [
-				"  "
-				"&7Mate-o.  "
+				"&7Mate-o."
 			]
 			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
@@ -1426,27 +1414,23 @@ Colete um pouco de Gelo Esmeralda Ancestral  "
 					xp_levels: 2
 				}
 			]
-			subtitle: "  
-Criatura feita de Rocha e Ódio, será libertada mais uma vez.  "
+			subtitle: "Criatura feita de Rocha e Ódio, seja libertada mais uma vez."
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "5F40E1B871CECC17"
-				title: "  
-Mate o Obsidilito  "
+				title: "Mate o Obsidilith"
 				type: "kill"
 				value: 1L
 			}]
-			title: "  
-Mate o &dObsidilito  "
+			title: "Mate o &dObsidilith"
 			x: 7.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
 			description: [
-				"  "
-				"&7Não são permitidas Abelhas ou Cães.  "
+				"&7Não são permitidas abelhas ou cães."
 			]
 			icon: "betterend:amber_moss"
 			id: "2D897C539190F312"
@@ -1455,18 +1439,15 @@ Mate o &dObsidilito  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Você já ouviu falar daquele feito de Âmbar?  "
+			subtitle: "Você já ouviu falar daquele feito de âmbar?"
 			tasks: [{
 				biome: "betterend:amber_land"
 				icon: "betterend:amber_gem"
 				id: "0B1F29254E47C522"
-				title: "  
-Visite as Terras de Âmbar  "
+				title: "Visite as Terras de Âmbar"
 				type: "biome"
 			}]
-			title: "  
-A Terra de Âmbar  "
+			title: "A Terra de Âmbar"
 			x: 4.0d
 			y: -22.5d
 		}
@@ -1491,12 +1472,10 @@ A Terra de Âmbar  "
 				biome: "betterend:sulphur_springs"
 				icon: "betterend:crystalline_sulphur"
 				id: "544BAAEF870F2724"
-				title: "  
-Visite as Fontes de Enxofre  "
+				title: "Visite as Fontes de Enxofre"
 				type: "biome"
 			}]
-			title: "  
-As Fontes de Enxofre  "
+			title: "As Fontes de Enxofre"
 			x: -6.0d
 			y: -18.5d
 		}
@@ -1509,18 +1488,15 @@ As Fontes de Enxofre  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Como uma Estrela no Céu  "
+			subtitle: "Como uma estrela no céu"
 			tasks: [{
 				biome: "betterend:lantern_woods"
 				icon: "betterend:flavolite_lantern"
 				id: "69EB70E436621C9F"
-				title: "  
-Visite a Floresta das Lanternas  "
+				title: "Visite a Floresta das Lanternas"
 				type: "biome"
 			}]
-			title: "  
-A Floresta das Lanternas  "
+			title: "A Floresta das Lanternas"
 			x: 3.0d
 			y: -23.0d
 		}
@@ -1537,12 +1513,10 @@ A Floresta das Lanternas  "
 				biome: "minecraft:end_highlands"
 				icon: "minecraft:end_stone"
 				id: "28F81956E29537E4"
-				title: "  
-Visite as Terras Altas do Fim  "
+				title: "Visite as Terras Altas do End"
 				type: "biome"
 			}]
-			title: "  
-As Terras Altas do Fim  "
+			title: "As Terras Altas do End"
 			x: 1.5d
 			y: -23.5d
 		}
@@ -1574,12 +1548,10 @@ As Terras Altas do Fim  "
 				icon: "minecraft:purpur_pillar"
 				id: "554D1ECC11FE60D5"
 				structure: "minecraft:end_city"
-				title: "  
-Visite uma Cidade do Fim!  "
+				title: "Visite uma Cidade do End!"
 				type: "structure"
 			}]
-			title: "  
-Encontre uma &dCidade do Fim!  "
+			title: "Encontre uma &dCidade do End!"
 			x: 0.0d
 			y: -24.0d
 		}
@@ -1592,18 +1564,15 @@ Encontre uma &dCidade do Fim!  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Brilhante!  "
+			subtitle: "Brilhando!"
 			tasks: [{
 				biome: "betterend:glowing_grasslands"
 				icon: "betterend:end_moss"
 				id: "718F9608C09FF1E0"
-				title: "  
-Visite as Pastagens Luminosas  "
+				title: "Visite as Pradarias Luminescentes"
 				type: "biome"
 			}]
-			title: "  
-As Pastagens Luminosas  "
+			title: "As Pradarias Luminescentes"
 			x: -3.0d
 			y: -23.0d
 		}
@@ -1627,8 +1596,7 @@ As Pastagens Luminosas  "
 				type: "kill"
 				value: 100L
 			}]
-			title: "  
-Mate Dendlers  "
+			title: "Mate Dendlers"
 			x: 7.5d
 			y: -18.5d
 		}
@@ -1645,20 +1613,17 @@ Mate Dendlers  "
 				biome: "betterend:megalake_grove"
 				icon: "betterend:lacugrove_sapling"
 				id: "0392A2E1458AA1E6"
-				title: "  
-Visite o Bosque do Megalago  "
+				title: "Visite o Bosque do Megalago"
 				type: "biome"
 			}]
-			title: "  
-O Bosque do Megalago  "
+			title: "O Bosque do Megalago"
 			x: -5.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
 			description: [
-				"  "
-				"&7Esta região foi abandonada há pouco tempo, ainda dá para ver algumas marcas na rocha.  "
+				"&7Esta região foi abandonada há não muito tempo, ainda é possível ver algumas marcas na rocha."
 			]
 			icon: "betterend:umbralith"
 			id: "05A1A7ABDA3ACD3F"
@@ -1667,18 +1632,15 @@ O Bosque do Megalago  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Outrora povoado por uma raça de Porcos  "
+			subtitle: "Antigamente habitada por uma raça de porcos"
 			tasks: [{
 				biome: "betterend:umbra_valley"
 				icon: "betterend:umbralith"
 				id: "2CFE72212E6641DF"
-				title: "  
-Visite o Vale Umbra  "
+				title: "Visite o Vale Umbra"
 				type: "biome"
 			}]
-			title: "  
-O Vale Umbra  "
+			title: "O Vale Umbra"
 			x: 5.0d
 			y: -16.5d
 		}
@@ -1695,20 +1657,17 @@ O Vale Umbra  "
 				icon: "betternether:obsidian_tile"
 				id: "465F6B80085E0837"
 				structure: "philipsruins:end_gate_fortress"
-				title: "  
-Visite a Fortaleza do Portal do Fim  "
+				title: "Visite a Fortaleza do Portão do End"
 				type: "structure"
 			}]
-			title: "  
-A Fortaleza do Portal do Fim  "
+			title: "A Fortaleza do Portão do End"
 			x: -4.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
 			description: [
-				"  "
-				"&7Esses Naufrágios têm um loot semelhante ao das Cidades do Fim, definitivamente valem a exploração!  "
+				"&7Esses naufrágios têm loot semelhante ao das Cidades do End, valem a pena explorar com certeza!"
 			]
 			icon: "eldritch_end:primordial_boat"
 			id: "5CCC87B841CF1BCB"
@@ -1717,26 +1676,22 @@ A Fortaleza do Portal do Fim  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-O que veio primeiro, o Navio ou o Naufrágio?  "
+			subtitle: "O que veio primeiro, o navio ou o naufrágio?"
 			tasks: [{
 				icon: "eldritch_end:primordial_chest_boat"
 				id: "608E524DE00DB966"
 				structure: "explorify:end_shipwreck"
-				title: "  
-Encontre um Naufrágio  "
+				title: "Encontre um naufrágio"
 				type: "structure"
 			}]
-			title: "  
-Naufrágios.  "
+			title: "Naufrágios."
 			x: 3.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
 			description: [
-				"  "
-				"&7Essas Vilas tendem a conter uma grande quantidade de Pérolas do Ender, moldes de forja e o ocasional lingote.  "
+				"&7Essas vilas tendem a conter uma grande quantidade de Pérolas do Ender, moldes de ferraria e, ocasionalmente, um lingote."
 			]
 			icon: "betterend:shadow_berry_jelly"
 			id: "481A46B1A8D7DEBF"
@@ -1745,18 +1700,15 @@ Naufrágios.  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Quem diria que há Vilas aqui?  "
+			subtitle: "Quem diria que há vilas aqui?"
 			tasks: [{
 				icon: "betterend:mossy_glowshroom_door"
 				id: "3B9FFF6B7E6B0502"
 				structure: "betterend:end_village"
-				title: "  
-Visite uma Vila do Fim  "
+				title: "Visite uma Vila do End"
 				type: "structure"
 			}]
-			title: "  
-A Vila do Fim  "
+			title: "A Vila do End"
 			x: -3.0d
 			y: -14.5d
 		}
@@ -1773,20 +1725,16 @@ A Vila do Fim  "
 				biome: "betterend:painted_mountains"
 				icon: "betterend:violecite"
 				id: "1DF13FE507E86B64"
-				title: "  
-Visite as Montanhas Pintadas  "
+				title: "Visite as Montanhas Pintadas"
 				type: "biome"
 			}]
-			title: "  
-As Montanhas Pintadas  "
+			title: "As Montanhas Pintadas"
 			x: -1.5d
 			y: -23.5d
 		}
 		{
 			dependencies: ["1FC2F5604CFAF8A2"]
-			description: [
-				"  "
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "0D01223246C4398B"
 			rewards: [{
@@ -1800,16 +1748,14 @@ As Montanhas Pintadas  "
 				item: "betterend:violecite"
 				type: "item"
 			}]
-			title: "  
-Nem Picasso poderia ter feito isso  "
+			title: "Picasso não poderia ter feito isso"
 			x: -2.5d
 			y: -25.0d
 		}
 		{
 			dependencies: ["4B1BEDBB8D2DB24C"]
 			description: [
-				"  "
-				"&7Tão irritante, mas tão útil...  "
+				"&7Tão irritante, e ainda assim tão útil..."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:shulker_box"
@@ -1835,8 +1781,7 @@ Nem Picasso poderia ter feito isso  "
 				type: "kill"
 				value: 100L
 			}]
-			title: "  
-Acabe com os &eShulkers!  "
+			title: "Elimine os &eShulkers!"
 			x: -1.5d
 			y: -28.5d
 		}
@@ -1849,26 +1794,22 @@ Acabe com os &eShulkers!  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Para onde isso vai levar? Quem fez isso?  "
+			subtitle: "Aonde isso levará? Quem o fez?"
 			tasks: [{
 				icon: "betterend:flavolite_runed_eternal"
 				id: "28F3F489D39A4E67"
 				structure: "betterend:eternal_portal"
-				title: "  
-Encontre um Portal Eterno  "
+				title: "Encontre um Portal Eterno"
 				type: "structure"
 			}]
-			title: "  
-Encontre o Portal Eterno  "
+			title: "Encontre o Portal Eterno"
 			x: 4.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["400CF2A570FC3814"]
 			description: [
-				"  "
-				"&7Você conseguiu! Não são muitos que se aventuram na restauração deste artefato antigo.  "
+				"&7Você conseguiu! Poucos se aventuram na restauração deste antigo artefato."
 			]
 			hide_until_deps_complete: true
 			id: "3BA590EA7252CD1F"
@@ -1891,16 +1832,14 @@ Encontre o Portal Eterno  "
 				id: "6417952D9BD8442B"
 				type: "advancement"
 			}]
-			title: "  
-A Luz Eterna  "
+			title: "A Luz Eterna"
 			x: 7.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["624C916A1347DBB7"]
 			description: [
-				"  "
-				"&7Para abrir o Portal novamente, você precisará restaurá-lo primeiro. Depois de restaurar o Portal à sua forma antiga, encontre os seis Pedestais ao redor dele. Coloque todos os Cristais neles.  "
+				"&7Para abrir o portal novamente, você precisará restaurá-lo primeiro. Depois de restaurar o portal à sua forma antiga, encontre os seis pedestais ao redor dele. Coloque todos os cristais neles."
 			]
 			hide_until_deps_complete: true
 			icon: "betterend:eternal_pedestal"
@@ -1910,24 +1849,21 @@ A Luz Eterna  "
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "  
-[Clique para mais informações]  "
+			subtitle: "[Clique para mais informações]"
 			tasks: [{
 				count: 6L
 				id: "4788FB875074D5FD"
 				item: { Count: 6, id: "betterend:eternal_crystal" }
 				type: "item"
 			}]
-			title: "  
-Colete Cristais Eternos  "
+			title: "Colete Cristais Eternos"
 			x: 5.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["422E507CE6A53B7C"]
 			description: [
-				"  "
-				"&7Há muitas coisas para encontrar no Fim que podem ser úteis. Seja minérios raros ou trinkets, encontrar uma Cidade do Fim deve ser sua prioridade principal.  "
+				"&7Há uma tonelada de coisas para encontrar no End que podem ser úteis. Seja minérios raros ou relíquias, encontrar uma Cidade do End deve ser sua principal prioridade."
 			]
 			hide_lock_icon: true
 			hide_until_deps_complete: true
@@ -1940,24 +1876,20 @@ Colete Cristais Eternos  "
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "  
-[Clique para mais informações]  "
+			subtitle: "[Clique para mais informações]"
 			tasks: [{
 				id: "31763D7165AA4BA0"
-				title: "  
-Explore o Fim!  "
+				title: "Explore o End!"
 				type: "checkmark"
 			}]
-			title: "  
-&dExplore o Fim  "
+			title: "&dExplore o End "
 			x: 0.0d
 			y: -18.5d
 		}
 		{
 			dependencies: ["4A46A563FE486A35"]
 			description: [
-				"  "
-				"&7Esses troncos estranhos te hipnotizam de uma forma estranha. Você os quer.  "
+				"&7Esses troncos estranhos te hipnotizam de um jeito esquisito. Você os quer."
 			]
 			hide_until_deps_complete: true
 			id: "74409F6413DCA7DC"
@@ -1976,20 +1908,17 @@ Explore o Fim!  "
 						value: "betterend:tenanea_logs"
 					}
 				}
-				title: "  
-Colete madeira de Tenanea  "
+				title: "Coletar madeira de Tenanea"
 				type: "item"
 			}]
-			title: "  
-O interior parece uma Baga  "
+			title: "O interior parece uma fruta vermelha"
 			x: -7.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["45E85B95F4D8B7AB"]
 			description: [
-				"  "
-				"&7Eu teria cuidado em guardá-los, eles cheiram a enxofre.  "
+				"&7Eu teria cuidado ao guardar isso, eles cheiram a enxofre."
 			]
 			hide_until_deps_complete: true
 			id: "686AF3C40B2C2830"
@@ -2004,16 +1933,14 @@ O interior parece uma Baga  "
 				item: { Count: 32, id: "betterend:brimstone" }
 				type: "item"
 			}]
-			title: "  
-Isso cheira a ovos podres aqui dentro?  "
+			title: "Isso aqui está com cheiro de ovos podres?"
 			x: -7.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["1C087F6048B1D89F"]
 			description: [
-				"  "
-				"&7Este lugar é simplesmente horrível, pegue suas coisas e não volte aqui. Malditas aranhas.  "
+				"&7Este lugar é simplesmente horrível, pegue algumas coisas daqui e não volte mais aqui. Malditas aranhas."
 			]
 			hide_until_deps_complete: true
 			icon: "promenade:dark_amaranth_stem"
@@ -2033,8 +1960,7 @@ Isso cheira a ovos podres aqui dentro?  "
 							value: "promenade:dark_amaranth_stems"
 						}
 					}
-					title: "  
-Colete Caules de Amaranto Sombrio  "
+					title: "Coletar caules de amaranto escuro"
 					type: "item"
 				}
 				{
@@ -2044,8 +1970,7 @@ Colete Caules de Amaranto Sombrio  "
 					type: "item"
 				}
 			]
-			title: "  
-Um lugar bem suspeito  "
+			title: "Um lugar muito sombrio"
 			x: -7.5d
 			y: -20.0d
 		}
@@ -2075,8 +2000,7 @@ Um lugar bem suspeito  "
 				type: "kill"
 				value: 400L
 			}]
-			title: "  
-Mate Aberrações  "
+			title: "Matar aberrações"
 			x: -7.0d
 			y: -21.5d
 		}
@@ -2106,20 +2030,17 @@ Mate Aberrações  "
 						value: "betterend:umbrella_tree_logs"
 					}
 				}
-				title: "  
-Colete Madeira da Árvore Guarda-chuva  "
+				title: "Coletar madeira da Árvore Guarda-chuva"
 				type: "item"
 			}]
-			title: "  
-Não dá pra fazer um guarda-chuva com isso.  "
+			title: "Não dá para fazer um guarda-chuva com isso."
 			x: -6.0d
 			y: -22.5d
 		}
 		{
 			dependencies: ["05A1A7ABDA3ACD3F"]
 			description: [
-				"  "
-				"&7Colete um pouco de Umbralito como lembrança e possível uso científico. Para onde foram esses porcos?  "
+				"&7Colete um pouco de Umbralith como lembrança e possível uso científico. Para onde foram esses porcos?"
 			]
 			hide_until_deps_complete: true
 			id: "642B50C17F82E65F"
@@ -2134,16 +2055,14 @@ Não dá pra fazer um guarda-chuva com isso.  "
 				item: { Count: 64, id: "betterend:umbralith" }
 				type: "item"
 			}]
-			title: "  
-Colete um pouco de Umbralito  "
+			title: "Coletar um pouco de Umbralith"
 			x: 6.5d
 			y: -15.5d
 		}
 		{
 			dependencies: ["46EDABE48D816A5B"]
 			description: [
-				"  "
-				"&7Não é realmente feito para pipoca, não que você queira brilhar, certo?  "
+				"&7Não é realmente feito para pipoca, você não quer brilhar, certo?"
 			]
 			hide_until_deps_complete: true
 			id: "4760AE66CBC29443"
@@ -2156,8 +2075,7 @@ Colete um pouco de Umbralito  "
 				count: 128L
 				id: "2DC28575B34DF35C"
 				item: "betterend:lumecorn_rod"
-				title: "  
-Colete um pouco de Lumecorn!  "
+				title: "Coletar Lumecorn!"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2222,8 +2140,7 @@ Colete um pouco de Lumecorn!  "
 					type: "item"
 				}
 			]
-			title: "  
-Colete algumas coisas legais da Vila!  "
+			title: "Colete algumas coisas legais da vila!"
 			x: -4.5d
 			y: -13.0d
 		}
@@ -2261,21 +2178,18 @@ Colete algumas coisas legais da Vila!  "
 				entity: "minecraft:enderman"
 				icon: "supplementaries:enderman_head"
 				id: "215E768581A66485"
-				title: "  
-Mate Endermen  "
+				title: "Matar Endermen"
 				type: "kill"
 				value: 400L
 			}]
-			title: "  
-Acabe com os Endermen  "
+			title: "Acabe com os Endermen"
 			x: 1.5d
 			y: -28.5d
 		}
 		{
 			dependencies: ["52B8FFA8E721BE05"]
 			description: [
-				"  "
-				"&7Mate essa abominação hedionda antes que ela se torne um problema.  "
+				"&7Mate essa abominação desgraçada antes que ela lhe cause problemas."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2308,16 +2222,14 @@ Acabe com os Endermen  "
 					type: "item"
 				}
 			]
-			subtitle: "  
-Queime o Herege, Purge o Impuro  "
+			subtitle: "Queime o herege, purgue o impuro"
 			tasks: [{
 				entity: "mutantmonsters:mutant_enderman"
 				id: "45CB521DB95B822E"
 				type: "kill"
 				value: 1L
 			}]
-			title: "  
-Mate o Mutante  "
+			title: "Matar o mutante"
 			x: 0.0d
 			y: -30.5d
 		}
@@ -2342,15 +2254,13 @@ Mate o Mutante  "
 			tasks: [
 				{
 					id: "3A5448F49C30E41D"
-					title: "  
-Trinkets Tier 4  "
+					title: "Relíquias de nível 4"
 					type: "checkmark"
 				}
 				{
 					entity: "minecraft:shulker"
 					id: "1D83887F1C94C8C1"
-					title: "  
-Mate um Shulker  "
+					title: "Matar um Shulker"
 					type: "kill"
 					value: 1L
 				}
@@ -2363,13 +2273,11 @@ Mate um Shulker  "
 							value: "rpg_series:tier_3_accessories"
 						}
 					}
-					title: "  
-Obtenha qualquer trinket de Nível IV  "
+					title: "Obter quaisquer Trinkets de Nível IV"
 					type: "item"
 				}
 			]
-			title: "  
-&dTrinkets de Nível 4  "
+			title: "&dTrinkets Nível 4"
 			x: 2.0d
 			y: -26.5d
 		}
@@ -2387,8 +2295,7 @@ Obtenha qualquer trinket de Nível IV  "
 				structure: "dungeons_arise:heavenly_rider"
 				type: "structure"
 			}]
-			title: "  
-&dCavaleiro Celestial  "
+			title: "&dCavaleiro Celestial"
 			x: 2.0d
 			y: -13.5d
 		}
@@ -2401,18 +2308,15 @@ Obtenha qualquer trinket de Nível IV  "
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "  
-Invicto por séculos  "
+			subtitle: "Invicto por séculos"
 			tasks: [{
 				icon: "icarus:white_mechanical_feathered_wings"
 				id: "53217031F6A5172A"
 				structure: "dungeons_arise:heavenly_challenger"
-				title: "  
-Visite o Desafiante Celestial  "
+				title: "Visitar o Desafiante Celestial"
 				type: "structure"
 			}]
-			title: "  
-&dDesafiante Celestial  "
+			title: "&dDesafiante Celestial"
 			x: -2.0d
 			y: -13.5d
 		}
@@ -2429,13 +2333,11 @@ Visite o Desafiante Celestial  "
 				entity: "minecraft:phantom"
 				icon: "handcrafted:phantom_trophy"
 				id: "01A084B598672A74"
-				title: "  
-Mate Fantasmas  "
+				title: "Matar Fantasmas"
 				type: "kill"
 				value: 10L
 			}]
-			title: "  
-Mate essas Pragas  "
+			title: "Matar essas pragas"
 			x: 3.5d
 			y: -12.0d
 		}
@@ -2453,21 +2355,18 @@ Mate essas Pragas  "
 				entity: "minecraft:phantom"
 				icon: "handcrafted:phantom_trophy"
 				id: "15E1B531AFBB2583"
-				title: "  
-Mate Fantasmas  "
+				title: "Matar Fantasmas"
 				type: "kill"
 				value: 10L
 			}]
-			title: "  
-Mate essas Pragas  "
+			title: "Matar essas pragas"
 			x: -3.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5CCC87B841CF1BCB"]
 			description: [
-				"  "
-				"&7Esses podem ser úteis, não apenas para construção, mas também se você quiser fazer tecnologia. É melhor coletar alguns e guardá-los.  "
+				"&7Isso pode ser útil, não apenas para construção, mas também se você quiser fazer tecnologia. É melhor coletar alguns e guardar."
 			]
 			hide_until_deps_complete: true
 			id: "0DF7D1A42CF5C386"
@@ -2482,8 +2381,7 @@ Mate essas Pragas  "
 				item: { Count: 16, id: "minecraft:purpur_block" }
 				type: "item"
 			}]
-			title: "  
-Colete alguns Blocos de Púrpura  "
+			title: "Coletar alguns Blocos de Purpur"
 			x: 4.5d
 			y: -13.0d
 		}
@@ -2502,16 +2400,14 @@ Colete alguns Blocos de Púrpura  "
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			title: "  
-Colete um pouco de &dFruta do Coro!  "
+			title: "Coletar algumas &dFrutas do Chorus!"
 			x: 6.5d
 			y: -22.5d
 		}
 		{
 			dependencies: ["3AF0AAB04A784FE2"]
 			description: [
-				"  "
-				"&7Os Pedaços de Galena têm a maior chance de obter uma &4Rola Mítica&r &7em suas armas, ferramentas e armaduras! Você precisará de muitos desses para deixar tudo mítico.  "
+				"&7Os Pedaços de Galena têm a maior chance de conseguir uma &4Rolar Mítica&r &7em suas Armas, Ferramentas e Armaduras! Você vai precisar de muitos desses para deixar tudo Mítico."
 			]
 			hide_until_deps_complete: true
 			id: "7D339BE12B3D500A"
@@ -2534,8 +2430,7 @@ Colete um pouco de &dFruta do Coro!  "
 				item: { Count: 64, id: "tiered:galena_chunk" }
 				type: "item"
 			}]
-			title: "  
-&dPedaços de Galena  "
+			title: "&dPedaços de Galena"
 			x: 8.5d
 			y: -23.5d
 		}
@@ -2558,20 +2453,17 @@ Colete um pouco de &dFruta do Coro!  "
 						value: "betterend:helix_tree_logs"
 					}
 				}
-				title: "  
-Qualquer Madeira da Árvore Hélice  "
+				title: "Qualquer Madeira de Árvore Hélice"
 				type: "item"
 			}]
-			title: "  
-Colete alguns Troncos  "
+			title: "Coletar alguns Troncos"
 			x: 5.5d
 			y: -23.5d
 		}
 		{
 			dependencies: ["5122BBD24637C17B"]
 			description: [
-				"  "
-				"&7Esses troncos são ótimos para decoração, você definitivamente deveria pegar alguns.  "
+				"&7Esses Troncos são ótimos para decoração, você definitivamente deveria pegar alguns."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2591,20 +2483,17 @@ Colete alguns Troncos  "
 						value: "betterend:lucernia_logs"
 					}
 				}
-				title: "  
-Colete Madeira de Lucernia  "
+				title: "Coletar Madeira de Lucernia"
 				type: "item"
 			}]
-			title: "  
-Colete alguns Troncos  "
+			title: "Coletar alguns Troncos"
 			x: 4.0d
 			y: -24.5d
 		}
 		{
 			dependencies: ["67F94147E6403F5F"]
 			description: [
-				"  "
-				"&7Essa rocha às vezes irritante pode talvez ter algum uso depois.  "
+				"&7Essa pedra às vezes irritante pode talvez ter algum uso mais tarde."
 			]
 			hide_until_deps_complete: true
 			id: "15C0C0463C99F485"
@@ -2619,16 +2508,14 @@ Colete alguns Troncos  "
 				item: "betterend:flavolite"
 				type: "item"
 			}]
-			title: "  
-Como Pedra do Fim, mas mais irritante.  "
+			title: "Como Pedra do End, mas mais irritante."
 			x: 2.5d
 			y: -25.0d
 		}
 		{
 			dependencies: ["4B1BEDBB8D2DB24C"]
 			description: [
-				"  "
-				"&7Matar monstros no Fim com uma faca pode render ingredientes valiosos para cozinhar alimentos incrivelmente poderosos.  "
+				"&7Matar Monstros no End com uma Faca pode render ingredientes valiosos para cozinhar alimentos incrivelmente poderosos."
 			]
 			hide_until_deps_complete: true
 			icon: "ends_delight:dragon_leg"
@@ -2654,12 +2541,10 @@ Como Pedra do Fim, mas mais irritante.  "
 						value: "c:tools/knives"
 					}
 				}
-				title: "  
-Qualquer #c:ferramentas/facas  "
+				title: "Qualquer #c:tools/knives"
 				type: "item"
 			}]
-			title: "  
-Delícias do Fim!  "
+			title: "Delícias do End!"
 			x: -2.0d
 			y: -26.5d
 		}
@@ -2670,11 +2555,10 @@ Delícias do Fim!  "
 			]
 			dependency_requirement: "all_started"
 			description: [
-				"  "
-				"&7As Asas de Ícaro são como uma Elytra, mas melhores. Elas não têm durabilidade e vão no slot de capa. Elas &5nem precisam&r &7de fogos de artifício!!  "
-				"&7Tenha em mente que quanto mais pontos de armadura você tiver, mais você fica pesado, uso ideal sem nenhuma armadura!"
-				"&7Quaisquer asas que você fizer, &5&nelas são todas iguais.&r&r"
-				"&7As feitas com uma &5Estrela do Nether&r &7não consomem &5nem Saturação nem Fome&r &7de você."
+				"&7As Asas de Ícaro são como uma Elytra, mas melhores. Elas não têm durabilidade e vão no slot de capa. Elas &5nem precisam&r &7de fogos de artifício!!"
+				"&7Tenha em mente que quanto mais pontos de armadura você tiver, mais elas te pesam, uso ideal sem nenhuma armadura!"
+				"&7Quaisquer que sejam as asas que você fizer, &5&ntodas são iguais.&r&r"
+				"&7As feitas com uma &5Estrela do Nether&r &7não consomem nenhuma saturação ou fome&r &7de você."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2685,8 +2569,7 @@ Delícias do Fim!  "
 				xp_levels: 1
 			}]
 			shape: "pentagon"
-			subtitle: "  
-[Clique para mais informações]  "
+			subtitle: "[Clique para mais informações]"
 			tasks: [{
 				id: "5A3A11C6A327797B"
 				item: {
@@ -2696,19 +2579,17 @@ Delícias do Fim!  "
 						value: "icarus:wings"
 					}
 				}
-				title: "  
-Crie qualquer uma das Asas  "
+				title: "Criar qualquer uma das asas"
 				type: "item"
 			}]
-			title: "  
-Ah pobre &eÍcaro...  "
+			title: "Ah, pobre &eÍcaro..."
 			x: 0.0d
 			y: -27.5d
 		}
 		{
 			dependencies: ["37525863A9E5509D"]
 			description: [
-				"&7Esta Bússola, mesmo que te custe um monte de Troféus, é a melhor coisa para fazer, pois torna encontrar Estruturas incrivelmente fácil e economiza horas."
+				"&7Esta bússola, embora vá te custar muitos troféus, é a melhor coisa para fazer, pois torna encontrar estruturas incrivelmente fácil e economiza horas."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2720,8 +2601,7 @@ Ah pobre &eÍcaro...  "
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "  
-A ferramenta mais útil para um Flameborn!  "
+			subtitle: "A ferramenta mais útil para um Flameborn!"
 			tasks: [
 				{
 					id: "4ADC0ECC8611C3A1"
@@ -2738,8 +2618,7 @@ A ferramenta mais útil para um Flameborn!  "
 					type: "checkmark"
 				}
 			]
-			title: "  
-A Bússola do Explorador  "
+			title: "A Bússola do Explorador"
 			x: -2.5d
 			y: 6.0d
 		}
@@ -2767,8 +2646,7 @@ A Bússola do Explorador  "
 				icon: "minecraft:purpur_block"
 				id: "5ADA7128D04A84C7"
 				structure: "mes:mega_ship"
-				title: "  
-Encontre um Mega Navio  "
+				title: "Encontrar um Mega Navio"
 				type: "structure"
 			}]
 			x: 1.5d
@@ -2787,14 +2665,12 @@ Encontre um Mega Navio  "
 				icon: "handcrafted:phantom_trophy"
 				id: "12CC55E6903FFF47"
 				structure: "mes:phantom_citadel"
-				title: "  
-Encontre uma Cidadela Fantasma  "
+				title: "Encontrar uma Cidadela Fantasma"
 				type: "structure"
 			}]
 			x: -1.5d
 			y: -12.5d
 		}
 	]
-	title: "  
-&dO Fim dos Tempos  "
+	title: " &dO Fim do Tempo"
 }

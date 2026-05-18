@@ -14,13 +14,13 @@
 			id: "5D3A89762F7D75E1"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Comece a Acumular!"
+			subtitle: "Bem-vindo, jovem colecionador, pois aqui você vê diante de si um lugar onde bugigangas e acessórios são reunidos e admirados por todos. Você está pronto para o desafio?"
 			tasks: [{
 				id: "22BAEFCC54EFB488"
-				title: "A Jornada de um Colecionador"
+				title: "Vá acumular!"
 				type: "checkmark"
 			}]
-			title: "Bem-vindo à Coisa! Você deve encontrar as Coisas e colecioná-las para seu próprio benefício. Você não pode dar nomes aos amuletos, apenas se referir a eles como Coisa, nada mais, nada menos."
+			title: "A Jornada de um Colecionador"
 			x: 1.5d
 			y: 0.75d
 		}
@@ -29,13 +29,13 @@
 			icon: "things:gleaming_compound"
 			id: "2C85CD8FC581F6AD"
 			shape: "diamond"
-			subtitle: "Coisas para Colecionar"
+			subtitle: "Bem-vindo a A Coisa! Você deve encontrar as Coisas e coletá-las para seu próprio benefício. Você não pode dar a cada trinket um nome, apenas referir-se a eles como uma Coisa, nada mais, nada menos."
 			tasks: [{
 				id: "45A2B5B77BE11595"
-				title: "A Coisa!"
+				title: "Coisas para Coletar"
 				type: "checkmark"
 			}]
-			title: "Artefatos de Amuletos para Colecionar"
+			title: "A Coisa!"
 			x: -10.0d
 			y: 0.5d
 		}
@@ -46,7 +46,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "0469124D2B6A5899"
-				title: "Olá, jovem entusiasta da música! Já que está aqui, significa que sabe que a música é algo de que todos precisamos na vida! E esses discos estão quase perdidos no tempo, mas ainda podemos resgatá-los! Você deve encontrá-los e ouvir o que têm a oferecer."
+				title: "Artefatos de Bugigangas para Coletar"
 				type: "checkmark"
 			}]
 			x: 13.0d
@@ -57,10 +57,10 @@
 			icon: "minecraft:jukebox"
 			id: "2043E02E41A0B203"
 			shape: "diamond"
-			subtitle: "Encontre os Discos"
+			subtitle: "Olá, jovem entusiasta da música! Considerando que você está aqui, isso significa que você sabe que música é algo de que todos precisamos em nossa vida! E esses discos estão quase perdidos no tempo, mas ainda podemos recuperá-los! Você deve encontrá-los e ouvir o que têm a oferecer."
 			tasks: [{
 				id: "3A226781B8153052"
-				title: "Embora seja importante respeitar os túmulos dos mortos, encontrar restos interessantes vale a pena para exibir e mostrar a história. Quando encontrá-los e usar o pincel para desenterrá-los, demonstre respeito."
+				title: "Encontre os Discos"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -71,11 +71,11 @@
 			icon: "soulsweapons:iron_skull"
 			id: "786473059A3C26CD"
 			shape: "diamond"
-			subtitle: "Encontre as Cabeças de Mob"
+			subtitle: "Embora seja importante respeitar os túmulos dos mortos, encontrar restos interessantes vale a pena para exibição e para mostrar a história. Depois de encontrá-los e usá-los com o pincel para desenterrá-los, preste seus respeitos."
 			tasks: [
 				{
 					id: "60C5D2A6FA3515D1"
-					title: "Pegue um Pincel"
+					title: "Encontre as Cabeças de Monstros"
 					type: "checkmark"
 				}
 				{
@@ -87,11 +87,11 @@
 							value: "c:brushes"
 						}
 					}
-					title: "Coveiro"
+					title: "Pegue um Brush"
 					type: "item"
 				}
 			]
-			title: "Suas músicas clássicas que você pode encontrar."
+			title: "Coveiro"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -376,10 +376,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Discos do Minecraft"
+			subtitle: "Suas músicas clássicas que você pode encontrar."
 			tasks: [{
 				id: "127A56B2E9F4647E"
-				title: "Ok, então esses discos em particular podem ser mais difíceis de encontrar e talvez existam gravações únicas que você nunca ouviu antes, boa sorte."
+				title: "Discos do Minecraft"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -394,10 +394,10 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Discos Modificados"
+			subtitle: "Ok, então esses discos em particular podem ser mais difíceis de encontrar e pode haver registros únicos que você talvez nunca tenha ouvido antes, boa sorte."
 			tasks: [{
 				id: "6AE7B5280500D0D8"
-				title: "Bertsz - Horizon"
+				title: "Discos modificados"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -416,7 +416,7 @@
 				item: "aquamirae:music_disc_horizon"
 				type: "item"
 			}]
-			title: "Krossy - Forsaken Drownage"
+			title: "Bertsz - Horizon"
 			x: 7.5d
 			y: -5.0d
 		}
@@ -433,7 +433,7 @@
 				item: "aquamirae:music_disc_forsaken_drownage"
 				type: "item"
 			}]
-			title: "Orangery - Coniferus Forest (Tema do Menu Principal)"
+			title: "Krossy - Forsaken Drownage"
 			x: 6.0d
 			y: -12.5d
 		}
@@ -552,7 +552,7 @@
 				item: "prominent:music_disc_coniferus_forest"
 				type: "item"
 			}]
-			title: "SideralisMusic - Prominent Festivities (Trilha Sonora Original)"
+			title: "Orangery - Coniferus Forest (Tema do Menu Principal)"
 			x: 3.0d
 			y: -8.0d
 		}
@@ -569,7 +569,7 @@
 				item: "prominent:music_disc_festivities"
 				type: "item"
 			}]
-			title: "SideralisMusic - Primordial (OST de Prominence)"
+			title: "SideralisMusic - Prominent Festivities (Trilha Sonora Original)"
 			x: 9.0d
 			y: -8.0d
 		}
@@ -603,7 +603,7 @@
 				item: "prominent_ost:music_disc_promordial"
 				type: "item"
 			}]
-			title: "SideralisMusic - Void Core (OST de Prominence)"
+			title: "SideralisMusic - Primordial (Trilha Sonora de Prominence)"
 			x: 3.5d
 			y: -9.0d
 		}
@@ -620,7 +620,7 @@
 				item: "prominent_ost:music_disc_void_core"
 				type: "item"
 			}]
-			title: "SideralisMusic - A Dance of the Blades Parte 1 (OST de Prominence)"
+			title: "SideralisMusic - Void Core (Trilha Sonora de Prominence)"
 			x: 4.0d
 			y: -10.0d
 		}
@@ -637,7 +637,7 @@
 				item: "prominent_ost:music_disc_dance_of_the_blades_part_1"
 				type: "item"
 			}]
-			title: "SideralisMusic - A Dance of the Blades Parte 2 (OST de Prominence)"
+			title: "SideralisMusic - A Dance of the Blades Part 1 (Trilha Sonora de Prominence)"
 			x: 8.5d
 			y: -9.0d
 		}
@@ -654,7 +654,7 @@
 				item: "prominent_ost:music_disc_dance_of_the_blades_part_2"
 				type: "item"
 			}]
-			title: "SideralisMusic - Prominent Festivities (OST de Prominence)"
+			title: "SideralisMusic - A Dance of the Blades Part 2 (Trilha Sonora de Prominence)"
 			x: 8.0d
 			y: -10.0d
 		}
@@ -671,7 +671,7 @@
 				item: "prominent_ost:music_disc_festivities"
 				type: "item"
 			}]
-			title: "SideralisMusic - Time Flows (OST de Prominence)"
+			title: "SideralisMusic - Prominent Festivities (Trilha Sonora de Prominence)"
 			x: 4.5d
 			y: -11.0d
 		}
@@ -688,7 +688,7 @@
 				item: "prominent_ost:music_disc_time_flows"
 				type: "item"
 			}]
-			title: "SideralisMusic - Convergence (OST de Prominence)"
+			title: "SideralisMusic - Time Flows (Trilha Sonora de Prominence)"
 			x: 7.5d
 			y: -11.0d
 		}
@@ -705,7 +705,7 @@
 				item: "prominent_ost:music_disc_convergence"
 				type: "item"
 			}]
-			title: "Endigo - Big Chungus (Tema Principal Oficial)"
+			title: "SideralisMusic - Convergence (Trilha Sonora de Prominence)"
 			x: 5.0d
 			y: -12.0d
 		}
@@ -722,7 +722,7 @@
 				item: "soulsweapons:chungus_disc"
 				type: "item"
 			}]
-			title: "Que tipo de guarda-chuva é forte o suficiente para ser um escudo e indestrutível?"
+			title: "Endigo - Big Chungus (Tema Principal Oficial)"
 			x: 7.0d
 			y: -12.0d
 		}
@@ -734,7 +734,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Começando a imaginar que, a cada mordida nesse bife, uma vaca é comida em algum lugar do mundo, e ela regenera o bife até sua aparência original."
+			subtitle: "Que tipo de guarda-chuva seria forte o suficiente para ser um escudo e indestrutível?"
 			tasks: [{
 				id: "5E13141124DA3AB1"
 				item: "artifacts:umbrella"
@@ -751,7 +751,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "A Hedgewitcher é capaz de aumentar a colheita quando se usa esse tipo de roupa."
+			subtitle: "Começando a imaginar que, a cada mordida neste bife, uma vaca é comida em algum lugar do mundo e ele se regenera até sua aparência original."
 			tasks: [{
 				id: "2868BDA0B936338C"
 				item: "artifacts:eternal_steak"
@@ -768,7 +768,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Roupas de Hedgewitch"
+			subtitle: "Existem outras cores? O laranja parece se destacar bastante."
 			tasks: [{
 				id: "1A91E46994AF0400"
 				item: "artifacts:plastic_drinking_hat"
@@ -785,7 +785,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Um altar carrega a energia mágica que nós, bruxas, usamos em rituais. Para aumentar sua capacidade, é preciso decorar o altar com os materiais apropriados e plantar mais árvores ao redor dele."
+			subtitle: "Pessoalmente, eu não usaria isso, pois parece ridículo, mas pelo menos você pode comer e beber mais rápido."
 			tasks: [{
 				id: "66C0992206EE32BD"
 				item: "artifacts:novelty_drinking_hat"
@@ -802,7 +802,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Contêiner de Energia da Bruxa"
+			subtitle: "Isso não dura muito, no máximo 15 segundos, mas vale a pena usar."
 			tasks: [{
 				id: "662D6D69EF94861F"
 				item: "artifacts:snorkel"
@@ -819,7 +819,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Um braseiro é usado para maldições, incensos e rituais, então ter um será vital se quisermos ter sucesso, jovem bruxa."
+			subtitle: "Esses óculos são grandes demais para o meu rosto! Parece pesado..."
 			tasks: [{
 				id: "497A30BCACAED372"
 				item: "artifacts:night_vision_goggles"
@@ -836,7 +836,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Queimador Ritualístico"
+			subtitle: "Um aldeão colega?! Venha, vamos negociar! Temos descontos para os nossos."
 			tasks: [{
 				id: "39DFD83FB86778D8"
 				item: "artifacts:villager_hat"
@@ -853,7 +853,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "O giz é importante para uma bruxa, pois é a base dos rituais, já que é necessário desenhar um círculo para ativá-los. É melhor ter um de cada tipo de giz pronto."
+			subtitle: "Hora de ficar estiloso enquanto mata."
 			tasks: [{
 				id: "6DC6B0FD7F2A7A9D"
 				item: "artifacts:superstitious_hat"
@@ -870,7 +870,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Zona de Giz"
+			subtitle: "Teria preferido uma ferradura da sorte, mas isso também é bom."
 			tasks: [{
 				id: "617AC8B0A5CD95A5"
 				item: "artifacts:lucky_scarf"
@@ -887,7 +887,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "O sal é importante não apenas para temperar comida, mas também é bom para afastar espíritos malignos e demônios que possam vir atrás de você. O sal é ótimo para barreiras."
+			subtitle: "Agora você me vê, agora não me vê."
 			tasks: [{
 				id: "580AC6444336BE16"
 				item: "artifacts:scarf_of_invisibility"
@@ -904,7 +904,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Não coma sal!"
+			subtitle: "Repelindo todas as forças contra mim."
 			tasks: [{
 				id: "5CB8E25357BBCF68"
 				item: "artifacts:cross_necklace"
@@ -921,7 +921,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Pelo menos você pode aproveitar um bom lanche enquanto usa alho para fins mágicos."
+			subtitle: "A emoção do perigo e a descarga de adrenalina me impulsionam a correr mais rápido!"
 			tasks: [{
 				id: "7801961DE2BF04A8"
 				item: "artifacts:panic_necklace"
@@ -938,7 +938,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Cadê a Manteiga?"
+			subtitle: "Não me toque, ou você ficará chocado até a medula."
 			tasks: [{
 				id: "0BBDC35B3FF4F71A"
 				item: "artifacts:shock_pendant"
@@ -955,7 +955,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Conseguir esses dois itens é essencial se você quiser usar alguns itens voltados para maldições ou decoração. Eles são encontrados ao matar demônios e cães demoníacos."
+			subtitle: "Olho por olho!"
 			tasks: [{
 				id: "2CFD8EBDEAFD73D1"
 				item: "artifacts:thorn_pendant"
@@ -972,7 +972,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Partes de Demônio"
+			subtitle: "Queime comigo."
 			tasks: [{
 				id: "76BAD74B6E9E8F10"
 				item: "artifacts:flame_pendant"
@@ -1005,7 +1005,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Um item de bruxa para ficar imune ao fogo ao custo de um pouco de energia mágica. Eles também são à prova de fogo."
+			subtitle: "Salto nas Nuvens agora literal."
 			tasks: [{
 				id: "4227346F710B1A7D"
 				item: "artifacts:cloud_in_a_bottle"
@@ -1022,7 +1022,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Isso impedirá que qualquer mob apareça em um raio de 24 blocos."
+			subtitle: "Isso não é uma caveira de Wither, mas coberta de obsidiana?"
 			tasks: [{
 				id: "403D9EB861B395D0"
 				item: "artifacts:obsidian_skull"
@@ -1039,7 +1039,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Luzes Naturais de Parede"
+			subtitle: "Doente? Sem problemas! Vai passar."
 			tasks: [{
 				id: "33748AA46054A3A3"
 				item: "artifacts:antidote_vessel"
@@ -1056,7 +1056,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Qualquer mob que entrar em contato com isso será teleportado para dentro de um raio de 64 blocos."
+			subtitle: "Mas não consegue atrair um par romântico com isso, porém."
 			tasks: [{
 				id: "203105786AE2F632"
 				item: "artifacts:universal_attractor"
@@ -1073,7 +1073,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Para longe com você!"
+			subtitle: "Fique saudável!"
 			tasks: [{
 				id: "49A0437ADBC06F03"
 				item: "artifacts:crystal_heart"
@@ -1090,7 +1090,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Esse espinheiro crescerá um fruto especial que pode ser usado para criar alimentos que restauram energia mágica quando consumidos."
+			subtitle: "Voar como um pássaro vai ser exaustivo."
 			tasks: [{
 				id: "1B564F93E1AB63E2"
 				item: "artifacts:helium_flamingo"
@@ -1107,7 +1107,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Arbusto de Bruxa"
+			subtitle: "Basicamente somos uma toupeira se conseguimos cavar pedra com nossas mãos."
 			tasks: [{
 				id: "4462415BB0ED2ACB"
 				item: "artifacts:digging_claws"
@@ -1124,7 +1124,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Impede que qualquer entidade atravesse, a menos que você se agache para passar."
+			subtitle: "Eu sou inevitável!"
 			tasks: [{
 				id: "4C422EFEB2E5B334"
 				item: "artifacts:power_glove"
@@ -1141,7 +1141,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Você NÃO PASSARÁ! facilmente."
+			subtitle: "E eu sou o Homem de Ferro."
 			tasks: [{
 				id: "391B4CECF5C01BE7"
 				item: "artifacts:fire_gauntlet"
@@ -1158,7 +1158,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Lança qualquer mob para o alto ao entrar em contato."
+			subtitle: "Fique longe, pervertidos!"
 			tasks: [{
 				id: "21AE8A6534A0BB75"
 				item: "artifacts:pocket_piston"
@@ -1175,7 +1175,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Trampolim, mas numa parede"
+			subtitle: "Por que sugar sangue de alvos com presas se podemos simplesmente usar nossas mãos, mais higiênico."
 			tasks: [{
 				id: "4C51BEC5FDD6D1AA"
 				item: "artifacts:vampiric_glove"
@@ -1192,7 +1192,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Queima qualquer mob que entrar em contato com o espinheiro."
+			subtitle: "Como ser um Pirata"
 			tasks: [{
 				id: "65DDFFF6776FD8F7"
 				item: "artifacts:golden_hook"
@@ -1209,7 +1209,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Firewall, mas para entidades, não vírus."
+			subtitle: "Jesus, mas correndo."
 			tasks: [{
 				id: "7E25D40CDF54FAB9"
 				item: "artifacts:aqua_dashers"
@@ -1226,7 +1226,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "A melhor amiga de uma bruxa. Usada para criar alimentos."
+			subtitle: "Tem aquele impulso?"
 			tasks: [{
 				id: "11E6483602BAC651"
 				item: "artifacts:bunny_hoppers"
@@ -1243,7 +1243,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Comida de Witchberry"
+			subtitle: "Pés aconchegantes com um gatinho ronronando"
 			tasks: [{
 				id: "39780C40453F018D"
 				item: "artifacts:kitty_slippers"
@@ -1260,7 +1260,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&c Bruxaria \\& Rituais"
+			subtitle: "Ao usar tênis de corrida, pressione B para correr e você pode sair disparado! Bem, no Minecraft, isso apenas torna nosso sprint mais rápido."
 			tasks: [{
 				id: "3BB376AD0B04D56A"
 				item: "artifacts:running_shoes"
@@ -1277,7 +1277,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Certifique-se de ler o Livro das Sombras se quiser entender Bewitchment mais a fundo."
+			subtitle: "Vai precisar daquele snorkel e traje de mergulho."
 			tasks: [{
 				id: "0A8B6829ED567DCA"
 				item: "artifacts:flippers"
@@ -1294,7 +1294,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Olá, jovem explorador! Bem-vindo ao Diário do Explorador, onde você reunirá itens que normalmente não encontraria. Está pronto para o desafio?"
+			subtitle: "Segure sua posição!"
 			tasks: [{
 				id: "2EE9472229752DC8"
 				item: "artifacts:steadfast_spikes"
@@ -1311,7 +1311,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Comece a Caçada"
+			subtitle: "O artefato mais lendário, a buzina de peido. Com sua aparência majestosa e funcionalidade, é um item altamente cobiçado por brincalhões."
 			tasks: [{
 				id: "283B677ACB30678C"
 				item: "artifacts:whoopee_cushion"
@@ -1328,13 +1328,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Diário do Explorador"
+			subtitle: "Uma Poção de Retorno é algo que se deve pelo menos carregar, pois ao bebê-la ela teletransporta o jogador para seu ponto de respawn, uma boa maneira de escapar ou voltar para casa rapidamente. Eca, tem um gosto horrível, considerando que usa uma pérola. Não deveria tentar isso como chá com leite."
 			tasks: [{
 				id: "10B4A33FACF0DD36"
 				item: "things:recall_potion"
 				type: "item"
 			}]
-			title: "Poseidon perdeu todos os peixes do seu aquário pessoal! Ajude o Deus do Mar encontrando e pescando novos espécimes para ele, e será recompensado."
+			title: "Chá com leite?"
 			x: -4.5d
 			y: -2.0d
 		}
@@ -1346,13 +1346,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Hora de pescar!"
+			subtitle: "Apenas seu prático guia para coletar Coisas. Você pode optar por não usar, mas vai se sentir mais inteligente se souber para onde está indo."
 			tasks: [{
 				id: "5D5240958FDB09D2"
 				item: "things:things_almanac"
 				type: "item"
 			}]
-			title: "Aquário de Poseidon"
+			title: "Conheça Sua Coisa"
 			x: -14.5d
 			y: 0.5d
 		}
@@ -1364,13 +1364,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Peixes das Profundezas do Nether"
+			subtitle: "Usar esta chave permitirá proteger seus baús de serem roubados e saqueados, apenas travando-os. Use a chave novamente para destrancar seus baús preciosos."
 			tasks: [{
 				id: "6F2CDFFCD31D164B"
 				item: "things:container_key"
 				type: "item"
 			}]
-			title: "Ah sim, Capitã Cornelia, uma grande capitã que navegou até cair nas profundezas dos oceanos congelantes. É preciso ter coragem para encontrar seu navio e levar seus tesouros, se conseguir encontrá-lo."
+			title: "Onde estão minhas Chaves?"
 			x: -13.5d
 			y: -2.0d
 		}
@@ -1382,13 +1382,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ao mar!"
+			subtitle: "Agora eu sei o que você está pensando, por que isso tem esse nome? Como você pode ver, o conteúdo do balde e da água foram invertidos! Agora a única função disso é fornecer água infinita, não é possível pegar nada de volta."
 			tasks: [{
 				id: "0591E8DE5953323A"
 				item: "things:bater_wucket"
 				type: "item"
 			}]
-			title: "Caça ao Tesouro da Capitã Cornelia"
+			title: "Cuidado: Coisa Molhada"
 			x: -5.5d
 			y: -2.0d
 		}
@@ -1400,13 +1400,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Você fez um enorme favor ao Deus do Mar! Agora ele irá recompensá-lo por seus esforços."
+			subtitle: "Então essa bolsa é basicamente um baú do Ender que você pode carregar com você. Será que você ainda precisa colocar um baú do Ender na sua base?"
 			tasks: [{
 				id: "22475313FA109219"
 				item: "things:ender_pouch"
 				type: "item"
 			}]
-			title: "Pescador do Deus do Mar"
+			title: "Bolsa Dimensional"
 			x: -6.5d
 			y: -2.0d
 		}
@@ -1418,13 +1418,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Agora que você encontrou um artefato especial, deve estar curioso sobre como ele funciona. Cuidado com os mortos."
+			subtitle: "Ok, embora isso pareça um monóculo comum, ele melhora a visão do usuário até funcionar à noite como se fosse dia! Agora você pode ser uma coruja noturna!"
 			tasks: [{
 				id: "5304F4BCC84AFB3E"
 				item: "things:monocle"
 				type: "item"
 			}]
-			title: "Dê descanso a ela"
+			title: "Óculos da Coruja"
 			x: -6.5d
 			y: 3.0d
 		}
@@ -1436,13 +1436,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Traga a Capitã de volta dos mortos."
+			subtitle: "Você sabe como as plantas obtêm energia ficando sob o sol? Bem, agora com isso, você pode agir de forma semelhante! Mas em vez do sol, pode ser qualquer fonte de luz próxima e agora você pode se curar! Não se plante no solo, porém."
 			tasks: [{
 				id: "740690F141F69486"
 				item: "things:moss_necklace"
 				type: "item"
 			}]
-			title: "Essa armadura foi usada pela famosa Capitã Cornelia para sobreviver às profundezas congelantes do oceano. Você fará o possível para coletar o conjunto completo e descer às profundezas?"
+			title: "Fotossíntese"
 			x: -7.5d
 			y: -2.0d
 		}
@@ -1454,13 +1454,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Armadura da Capitã Cornelia"
+			subtitle: "Este item não deve ser consumido de forma alguma, apenas mantenha-o no seu inventário e você pode ou não acabar recebendo os efeitos das suas poções bêbadas sem bebê-las."
 			tasks: [{
 				id: "1AC06B83421ABE3F"
 				item: "things:placebo"
 				type: "item"
 			}]
-			title: "Não se encontra muita coisa nessas bolsas desgastadas, mas talvez você tenha sorte?"
+			title: "Tome seu Remédio!"
 			x: -7.5d
 			y: 3.0d
 		}
@@ -1472,7 +1472,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Uma armadura que faz alguém agir de forma semelhante a um baiacu, mas parece ser um ótimo conjunto para quem ama ser imprudente e lutar debaixo d’água."
+			subtitle: "Então este tomo em particular é semelhante à Poção de Retorno, mas você precisa de páginas de deslocamento que podem ser fabricadas e, se alguém abrir o tomo, pode carregá-lo com pérolas e salvar uma localização para onde pode se teletransportar."
 			tasks: [{
 				id: "37B038540064B1A8"
 				item: {
@@ -1482,7 +1482,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armadura do Terror Marinho"
+			title: "Um Livro de Teletransporte"
 			x: -8.5d
 			y: -2.0d
 		}
@@ -1494,7 +1494,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "O Labirinto de Gelo não é apenas congelante e enorme, mas também contém as assustadoras profundezas do oceano. Você conseguirá derrotá-las e voltar com os espólios?"
+			subtitle: "Usado para o Tomo de Deslocamento, a fim de teletransportar e anotar locais onde você esteve e para os quais pode se teletransportar a qualquer momento."
 			tasks: [{
 				id: "19EB0369FF336DBC"
 				item: "things:displacement_page"
@@ -1511,7 +1511,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Terror do Labirinto de Gelo"
+			subtitle: "Para melhorar a eficiência de mineração, é preciso usar a proteção adequada como um minerador! E usar esta luva vai te ajudar!"
 			tasks: [{
 				id: "0499EDDDAC4C6DC2"
 				item: "things:mining_gloves"
@@ -1528,13 +1528,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Você finalmente encontrou o esconderijo da capitã, mas agora precisa achar o tesouro escondido dentro dele."
+			subtitle: "Se você sente que quer aquele poder extra no seu punho, então use a manopla de distúrbio e cause o caos! Mas não bata em coisas fofas."
 			tasks: [{
 				id: "0C2D6B00D65EA0FF"
 				item: "things:riot_gauntlet"
 				type: "item"
 			}]
-			title: "Esconderijo da Capitã Cornelia"
+			title: "Inicie um Distúrbio!"
 			x: -9.5d
 			y: 3.0d
 		}
@@ -1546,7 +1546,7 @@
 				type: "xp"
 				xp: 150
 			}]
-			subtitle: "Essas armas parecem ter sido usadas pela tripulação da Capitã Cornelia, mas acabaram perdidas nas profundezas congeladas. Agora estão em suas mãos para testar seu poder."
+			subtitle: "Você sabe como os Ghasts e Blazes estão sempre lançando bolas de fogo em você? Agora você pode fazer isso com este cetro prático, mas lembre-se de carregar munição."
 			tasks: [{
 				id: "2791624BE309C469"
 				item: {
@@ -1558,7 +1558,7 @@
 				}
 				type: "item"
 			}]
-			title: "Arsenal dos Lobos do Mar"
+			title: "Ghast Portátil"
 			x: -10.5d
 			y: -2.0d
 		}
@@ -1570,13 +1570,13 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Se você encara o abismo, o abismo encara você de volta. Mas se tiver coragem para enfrentar qualquer perigo de frente, talvez seja recompensado."
+			subtitle: "Hades criou um cristal poderoso condensando seus poderes de fogo e quem o usar ficará imune ao fogo e até mesmo ao dano da lava."
 			tasks: [{
 				id: "5619ABB285A91B3E"
 				item: "things:hades_crystal"
 				type: "item"
 			}]
-			title: "Arsenal Marinho Abissal"
+			title: "Fogo do Hades Cristalizado"
 			x: -14.0d
 			y: -1.0d
 		}
@@ -1588,7 +1588,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Ah, um conjunto clássico da vida aquática, do próprio Minecraft. Nada é mais memorável do que os originais."
+			subtitle: "Não consegue nadar rápido? Então nade mais forte!"
 			tasks: [{
 				id: "3B7C57D0ADB2E524"
 				item: "things:enchanted_wax_gland"
@@ -1605,7 +1605,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Aquáticos do Minecraft"
+			subtitle: "Esses ímãs são interessantes, pois podem puxar qualquer item, mesmo que não sejam feitos de metal. Será que dá para puxar a gravidade?"
 			tasks: [{
 				id: "0ED4389D2DE96D6F"
 				item: "things:item_magnet"
@@ -1622,13 +1622,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Deméter espalhou sua vida vegetal pelo mundo e desafia qualquer um disposto a reuni-la para satisfazer a Deusa da Colheita e Agricultura e ser recompensado."
+			subtitle: "Normalmente, ser leve como um coelho é um exagero, mas essa coisa leva isso ao pé da letra ao permitir que o usuário fique tão leve que possa pular muito alto. Não torça nenhum tornozelo."
 			tasks: [{
 				id: "4FF645FA651F5B6C"
 				item: "things:rabbit_foot_charm"
 				type: "item"
 			}]
-			title: "Jardinagem"
+			title: "Leve como um Coelho"
 			x: -11.5d
 			y: -2.0d
 		}
@@ -1640,13 +1640,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Jardim de Deméter"
+			subtitle: "Seja tão sortudo quanto um leprechaun e transforme todas as suas batatas mortais em maçãs douradas."
 			tasks: [{
 				id: "50F81BEBBC971BF4"
 				item: "things:luck_of_the_irish"
 				type: "item"
 			}]
-			title: "Cara, Deméter exagera muito na quantidade de variedades de plantações que existem no mundo. Bem, é melhor valer a pena no final."
+			title: "BATATA!!!"
 			x: -11.5d
 			y: 3.0d
 		}
@@ -1658,13 +1658,13 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Sementes de Croptopia"
+			subtitle: "Está cansado de consertar ou de ter durabilidade? Então crie o material mais poderoso conhecido pela humanidade e torne seu item indestrutível! Não deixe ele tocar em cactos."
 			tasks: [{
 				id: "2BB7B474A0C06420"
 				item: "things:hardening_catalyst"
 				type: "item"
 			}]
-			title: "Você nunca se perguntou se a quantidade de variedades de árvores é apenas uma combinação de outras árvores frutíferas para produzir ainda mais?"
+			title: "Resistente como Bedrock"
 			x: -5.5d
 			y: 3.0d
 		}
@@ -1676,7 +1676,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Árvores de Croptopia"
+			subtitle: "São só meias confortáveis, ok?"
 			tasks: [{
 				id: "62689266DE895C38"
 				item: "things:socks"
@@ -1693,13 +1693,13 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Embora não exista uma variedade muito grande de plantações em Delight, isso é compensado pelo fato de serem encontradas rapidamente."
+			subtitle: "Sempre se sentindo baixo em comparação aos outros e não alcança as coisas? Então pegue o Extensor de Braço por apenas 10,99!!"
 			tasks: [{
 				id: "21849F05E6C47B3D"
 				item: "things:arm_extender"
 				type: "item"
 			}]
-			title: "Plantações de Delight"
+			title: "Extendo!"
 			x: -14.0d
 			y: 2.0d
 		}
@@ -1711,13 +1711,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: " &2&nDiário do Explorador"
+			subtitle: "Essas botas vão minimizar bastante o dano de queda que o usuário sofre, mas só porque o dano é menor não significa que você deva ser mais imprudente."
 			tasks: [{
 				id: "5A99C1AB6C12F650"
 				item: "things:shock_absorber"
 				type: "item"
 			}]
-			title: "Bem-vindo, jovem colecionador, pois aqui diante de você há um lugar onde bugigangas e acessórios são reunidos e admirados por todos ao seu redor. Está pronto para o desafio?"
+			title: "Energia Cinética? Mal conheço ela."
 			x: -12.5d
 			y: -2.0d
 		}
@@ -1729,13 +1729,13 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Comece a Acumular!"
+			subtitle: "Um Composto Brilhante é um material muito precioso usado para fazer Things mais poderosas, e como são muito raros, definitivamente valem muito só por conseguir um."
 			tasks: [{
 				id: "2975F72974E5A7CB"
 				item: "things:gleaming_compound"
 				type: "item"
 			}]
-			title: "A Jornada de um Colecionador"
+			title: "Redstone Brilhante"
 			x: -4.5d
 			y: 3.0d
 		}
@@ -2243,7 +2243,7 @@
 			]
 			shape: "hexagon"
 			size: 1.35d
-			subtitle: "Bem-vindo à Coisa! Você deve encontrar as Coisas e colecioná-las para seu próprio benefício. Você não pode dar nomes aos amuletos, apenas se referir a eles como Coisa, nada mais, nada menos."
+			subtitle: "&6Desafio Eterno"
 			tasks: [
 				{
 					id: "171E5F75768CF999"
@@ -2286,10 +2286,10 @@
 					type: "item"
 				}
 			]
-			title: "Coisas para Colecionar"
+			title: "&cFã de Sideralis"
 			x: -1.5d
 			y: -2.0d
 		}
 	]
-	title: "A Coisa!"
+	title: " &9Colecionáveis"
 }

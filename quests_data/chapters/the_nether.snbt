@@ -1229,10 +1229,10 @@
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "7FC5892104C0744C"
-				title: "Entrar no Nether"
+				title: "Entre no Nether"
 				type: "dimension"
 			}]
-			title: "Entrar no &cNether"
+			title: "Entre &cO Nether"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1253,7 +1253,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Surge ao lado de &6Geradores de Blaze &7em &4fortalezas do Nether &7mas também pode aparecer em &4Ermos do Nether."
+			subtitle: "Surge perto de &6Geradores de Blaze &7em &4fortalezas do Nether &7mas também pode aparecer nos &4Desertos do Nether."
 			tasks: [{
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
@@ -1283,7 +1283,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Surge nas &4Fortalezas do Nether&r."
+			subtitle: "Surge em &4Fortalezas do Nether&r."
 			tasks: [{
 				entity: "adventurez:necromancer"
 				icon: "minecraft:wither_skeleton_skull"
@@ -1315,23 +1315,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&8O Golem de Pedra &rsó pode ser invocado com um &6Ritual do Golem&r enquanto estiver no &4O Nether"
+			subtitle: "&8O Golem de Pedra &r só pode ser invocado com um &6Ritual do Golem&r enquanto estiver no &4Nether"
 			tasks: [{
 				entity: "adventurez:blackstone_golem"
 				icon: "adventurez:blackstone_golem_heart"
 				id: "27D27F2750D953BC"
-				title: "Mate o Golem de Pedra-negra"
+				title: "Mate o Golem de Blackstone"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mate o &8Golem de Pedra-negra"
+			title: "Mate o &8Golem de Blackstone"
 			x: -2.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
 			description: [
-				"&7Você precisará matar essas Criaturas se quiser ressummonar o Rei em Decomposição novamente. Simplesmente Derreta seus Corações em &4Fragmentos de Demonita.&r"
+				"&7Você precisará matar essas Criaturas se quiser ressuscitar o Rei Decadente novamente. Simplesmente funda seus Corações em &4Fragmentos de Demonita.&r"
 			]
 			icon: "soulsweapons:withered_demon_heart"
 			id: "4BCD1F2BA84D70D7"
@@ -1341,13 +1341,13 @@
 				xp_levels: 6
 			}]
 			shape: "diamond"
-			subtitle: "Surge em Florestas Carmesins no &4O Nether&r."
+			subtitle: "Surge em Florestas Carmesim no &4Nether&r."
 			tasks: [
 				{
 					entity: "soulsweapons:withered_demon"
 					icon: "soulsweapons:withered_demon_heart"
 					id: "239ACDE3872515BB"
-					title: "Mate um Demônio Murchado"
+					title: "Mate um Demônio Murcho"
 					type: "kill"
 					value: 1L
 				}
@@ -1359,16 +1359,16 @@
 					type: "biome"
 				}
 			]
-			title: "Mate &8O Demônio Murchado"
+			title: "Mate &8O Demônio Murcho"
 			x: -3.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["50EA81AA3B7714E9"]
 			description: [
-				"O Rei em Decomposição surge nas ruínas do Reino em Decomposição no nether. Essa monstruosidade amaldiçoada empunha a Lâmina Darkin, e tem muitos ataques mortais para se observar. Matá-lo faz com que ele drope a Lâmina Darkin, uma Alma do Lorde e o Coração do Demônio Murchado."
+				"O Rei Decadente aparece nos restos do Reino Decadente no Nether. Essa monstruosidade amaldiçoada empunha a Espada Darkin e possui muitos ataques mortais a serem observados. Matá-lo faz com que ele drope a Espada Darkin, uma Alma de Lorde e o Coração do Demônio Murcho."
 				""
-				"Ele também pode ser invocado ao matar Demônios na Floresta Carmesim, derretendo seus corações e usando um Fragmento em um Altar de Pedra da Lua."
+				"Ele também pode ser invocado matando Demônios na Floresta Carmesim, fundindo seus corações e usando um Fragmento em um Altar de Pedra da Lua."
 			]
 			icon: "soulsweapons:lord_soul_red"
 			id: "2F11604C9E2C0353"
@@ -1386,12 +1386,12 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Surge nas &4As Ruínas do Reino em Decomposição&r."
+			subtitle: "Surge nos &4Restos do Reino Decadente&r."
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				icon: "soulsweapons:lord_soul_red"
 				id: "2137D80B50F2DCCB"
-				title: "Mate &4O Rei em Decomposição"
+				title: "Mate &4O Rei Decadente"
 				type: "kill"
 				value: 1L
 			}]
@@ -1415,7 +1415,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "O Ceifador de Almas surge no &bVale das Areias das Almas&r com sua montaria, O Pesadelo."
+			subtitle: "O Ceifador de Almas aparece no &bVale das Areias Soul&r com sua montaria, O Pesadelo."
 			tasks: [{
 				entity: "adventurez:soul_reaper"
 				icon: "soulsweapons:lord_soul_void"
@@ -1430,13 +1430,13 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"Você está jogando Minecraft modificado, portanto, &1não há necessidade de minerar por horas&r no Nether para conseguir alguns fragmentos."
+				"Você está jogando Minecraft modificado, portanto não há &1necessidade de minerar por horas&r no Nether para conseguir alguns fragmentos."
 				""
-				"&4Encontrando uma Cidade do Nether.&r Essas cidades rendem blocos de Netherita e uma tonelada de outros equipamentos bons que podem te ajudar na sua jornada. &eA cidade é feita principalmente de Quartzo e Cinnasita.&r"
+				"&4Encontrando uma Cidade do Nether.&r Essas cidades rendem blocos de Netherita e uma tonelada de outros equipamentos bons que podem ajudar em sua jornada. &eA Cidade é principalmente feita de Quartzo e Cinnasita.&r"
 				""
-				"&4Encontrando uma Espiral Negra no Nether&r. Elas têm muitos Piglins e muitos itens valiosos. Certifique-se de cavar para baixo nas torres. A estrutura é principalmente feita de Pedra-negra e parece várias torres conectadas umas às outras."
+				"&4Encontrando uma Espiral Negra no Nether&r. Estas têm toneladas de Piglins e toneladas de itens valiosos. Certifique-se de cavar para baixo nas Torres. A estrutura é principalmente feita de Blackstone e parece com várias torres conectadas umas às outras."
 				""
-				"&4Tecnologia.&r Se você já desperdiçou seu tempo minerando ou conseguiu Detritos Ancestrais de outra forma, há muitas maneiras de produzir mais do que você tem. Você pode alcançar até um rendimento 8x com a configuração certa."
+				"&4Tecnologia.&r Se você já perdeu seu tempo minerando ou conseguiu Detritos Ancestrais de outra forma, há muitas maneiras de fazer mais do que você tem. Você pode chegar a um rendimento de até 8 vezes com a configuração correta."
 				"Claro, você sempre pode usar &9UU Matter&r do Tech Reborn para criar um suprimento quase infinito de Netherita."
 			]
 			id: "1702057B5F68995F"
@@ -1452,7 +1452,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Antigo por natureza"
+			subtitle: "De natureza ancestral"
 			tasks: [{
 				id: "676A410C4E5D491F"
 				item: "minecraft:netherite_ingot"
@@ -1465,7 +1465,7 @@
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
 			description: [
-				"&7Há muitos chefes que você pode enfrentar no Nether, alguns menores, outros muito mais perigosos."
+				"&7Há muitos Chefes que você pode enfrentar no Nether, alguns mais fracos, outros mais perigosos."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1490,8 +1490,8 @@
 				"48AADA398DC4E940"
 			]
 			description: [
-				"&7Você precisará de uma plataforma feita de &4blocos de Pedra-negra vanilla&r. Os suportes de Pedra-negra polida precisam estar a um bloco de distância da plataforma 9x9"
-				"&7Os pedestais precisam estar &4no mesmo nível&r &7que o resto da área 9x9. Um plano aproximado pode ser visto aqui:"
+				"&7Você precisará de uma plataforma feita de &4blocos de Blackstone vanilla&r. Os suportes de Blackstone polido devem estar uma unidade fora da plataforma 9x9"
+				"&7Os pedestais devem estar &4no mesmo nível&r &7que o restante da área 9x9. Um plano aproximado pode ser visto aqui:"
 				""
 				""
 				"              ☐"
@@ -1517,18 +1517,18 @@
 			tasks: [
 				{
 					id: "75EA2905DFCCB778"
-					title: "Prepare o Ritual"
+					title: "Preparar o Ritual"
 					type: "checkmark"
 				}
 				{
 					id: "6A8925C881E20BBE"
 					item: "adventurez:gilded_blackstone_shard"
 					optional_task: true
-					title: "Colete 4 Fragmentos de Pedra-negra Dourada"
+					title: "Coletar 4 Fragmentos de Blackstone Dourada"
 					type: "item"
 				}
 			]
-			title: "&4O Ritual do Golem de Pedra-negra"
+			title: "&4O Ritual do Golem de Blackstone"
 			x: -1.5d
 			y: -9.0d
 		}
@@ -1548,7 +1548,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&ePirita&r &7é um dos minérios mais importantes em Prominence. Você precisará de Pirita para refazer seus itens para um nível melhor. Certifique-se de minerar o máximo que puder."
+				"&ePyrite&r &7é um dos minérios mais importantes em Prominence. Você precisará de Pyrite para forjar novamente seus itens para um Tier melhor. Certifique-se de minerar o máximo que puder."
 			]
 			id: "106CC409603CF580"
 			rewards: [
@@ -1570,14 +1570,14 @@
 				item: "techreborn:pyrite_dust"
 				type: "item"
 			}]
-			title: "Pirita"
+			title: "Pyrite"
 			x: -8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Cinábrio é um componente crucial para a maioria dos engenheiros e projetistas de rede aspirantes."
+				"&7Cinnabar é um componente crucial para a maioria dos engenheiros aspirantes e designers de rede."
 			]
 			id: "2BC22D85AC835C6D"
 			rewards: [{
@@ -1610,7 +1610,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Velho Confiável"
+			subtitle: "Velho confiável"
 			tasks: [{
 				id: "4CAE630026F76194"
 				item: "minecraft:quartz"
@@ -1622,7 +1622,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Embora a Lápis-Lazúli possa ser encontrada no Nether, suas reservas são bem limitadas, você descobre."
+				"&7Embora Lápis possa ser encontrado no Nether, suas reservas são bastante limitadas, você descobre."
 			]
 			id: "24799CCC326B5B68"
 			rewards: [
@@ -1638,7 +1638,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Falando em fruta fácil"
+			subtitle: "Falando em fruta fácil de colher"
 			tasks: [{
 				id: "52AD925B0DC9A43C"
 				item: "betternether:lapis_pile"
@@ -1651,7 +1651,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Você sabe o que isso é, você sabe para que isso é usado."
+				"&7Você sabe o que é isso, você sabe para que é usado."
 			]
 			id: "6AE07BBF58A0BE64"
 			rewards: [{
@@ -1672,7 +1672,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Você sente que já viu esse material antes, há muito tempo, você não sabe de onde ele é ou o que faz, mas sente uma espécie de nostalgia ao tocá-lo. Ele aquece seu coração de uma forma estranha."
+				"&7Você sente que já viu esse material antes, há muito tempo, você não sabe de onde ele é ou o que faz, mas você sente algum tipo de nostalgia ao tocá-lo. Ele aquece seu coração de uma forma estranha."
 			]
 			id: "5D07AE294BBFED13"
 			rewards: [
@@ -1701,7 +1701,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Esfalerita é um minério contendo zinco e enxofre, ótimo para ambos, o cheiro é horrível no entanto."
+				"&7Esfalerita é um minério contendo zinco e enxofre, ótimo para ambos, mas o cheiro é horrível."
 			]
 			id: "16DB148BA3164A6C"
 			rewards: [
@@ -1717,7 +1717,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Mais alguém sente cheiro de ovos podres?"
+			subtitle: "Alguém mais sente cheiro de ovos podres?"
 			tasks: [{
 				id: "1175A33C92547D32"
 				item: "techreborn:sphalerite_dust"
@@ -1729,7 +1729,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Este metal pode ser usado como ferro, ele também tem alguns usos especiais próprios."
+				"&7Este metal pode ser usado como ferro, ele também tem alguns usos próprios especiais."
 			]
 			id: "6C2351611B49C31B"
 			rewards: [
@@ -1750,14 +1750,14 @@
 				item: "betternether:cincinnasite"
 				type: "item"
 			}]
-			title: "&6Como Ferro, mas nem tanto"
+			title: "&6Como ferro, mas não exatamente"
 			x: -4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
 			description: [
-				"&7Este conjunto de torres guarda grandes tesouros para você saquear. Porém, seus atuais residentes discordariam sobre quem é o dono desse saque."
+				"&7Este conjunto de torres guarda grandes tesouros para você saquear. Embora seus atuais residentes discordem sobre quem é o dono desse saque."
 			]
 			icon: "minecraft:polished_blackstone_bricks"
 			id: "4ADF894FEEDD93E4"
@@ -1779,7 +1779,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rico em Machados, Rico em Ouro"
+			subtitle: "Rico em machados, rico em ouro"
 			tasks: [{
 				icon: "minecraft:polished_blackstone_brick_stairs"
 				id: "6F89853A8250D357"
@@ -1794,8 +1794,8 @@
 		{
 			dependencies: ["5C9B685683F1F505"]
 			description: [
-				"&7Essas cidades podem ser encontradas em lagos de lava. A Cidade do Nether é uma das masmorras mais perigosas que você encontrará. As apostas são altas. Pode haver blocos de Netherita nos baús e gavetas, certifique-se de verificar tudo."
-				"&7Os spawners também são ótimos para uma fazenda... "
+				"&7Essas cidades podem ser encontradas em lagos de lava. A Cidade do Nether é uma das masmorras mais perigosas que você encontrará. As apostas são altas. Pode haver blocos de Netherite nos baús e gavetas, certifique-se de verificar tudo."
+				"&7Os spawners também são ótimos para uma fazenda..."
 			]
 			id: "74AA7DBEE6E05A64"
 			rewards: [
@@ -1817,7 +1817,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "As pessoas que viveram aqui já se foram há muito tempo"
+			subtitle: "As pessoas que viveram aqui o fizeram há muito tempo"
 			tasks: [{
 				icon: "betternether:cincinnasite_fire_bowl"
 				id: "5F7CAEE65A105DB8"
@@ -1861,7 +1861,7 @@
 		{
 			dependencies: ["0108C54E8DFF4373"]
 			description: [
-				"&7Cansado de trocar? Apenas roube-os, não apenas seu ouro, mas também suas vidas!"
+				"&7Cansado de negociar? Apenas roube-os, não apenas do ouro deles, mas também da vida deles!"
 			]
 			id: "05BDE171AC03527B"
 			rewards: [
@@ -1897,7 +1897,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Não é roubo se eles não estão mais vivos, certo?"
+			subtitle: "Não é roubo se eles não estiverem vivos, certo?"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: {
@@ -1942,17 +1942,17 @@
 				icon: "adventurez:chiseled_polished_blackstone_holder"
 				id: "515C1D2A5BBED444"
 				structure: "#minecraft:bastion_remnant"
-				title: "Visite um Remanescente de Bastilha"
+				title: "Visite um Remanescente de Bastião"
 				type: "structure"
 			}]
-			title: "&4Visite um Remanescente de Bastilha"
+			title: "&4Visite um Remanescente de Bastião"
 			x: 4.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4ADF894FEEDD93E4"]
 			description: [
-				"&7Mate o máximo que puder, alguns deles podem ter os fragmentos de Pedra-negra dourada que você precisa."
+				"&7Mate o máximo que puder, alguns desses podem ter os fragmentos de Blackstone Dourada que você precisa."
 			]
 			icon: {
 				Count: 1
@@ -1985,11 +1985,11 @@
 					}
 				}
 				id: "7D62CF43A5538CDC"
-				title: "Mate Brutos Piglin"
+				title: "Mate Brutamontes Piglin"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Mate Brutos"
+			title: "Mate Brutamontes"
 			x: 6.0d
 			y: -5.0d
 		}
@@ -2019,11 +2019,11 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "graveyard:leaning_wither_skeleton"
 				id: "7FD09032C10128BF"
-				title: "Mate Esqueletos Wither"
+				title: "Mate Wither Skeletons"
 				type: "kill"
 				value: 300L
 			}]
-			title: "&2Mate Esqueletos Wither"
+			title: "&2Mate Wither Skeletons"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -2063,7 +2063,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Sua Chama precisa ser extinta"
+			title: "Sua chama precisa ser extinta"
 			x: 10.0d
 			y: -3.0d
 		}
@@ -2088,18 +2088,18 @@
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "artifacts:power_glove"
 				id: "71780E465DB4A8A1"
-				title: "Mate a Manopla do Nether"
+				title: "Mate o golem do Nether"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mate o &8Manopla do Nether"
+			title: "Mate o &8Golem do Nether"
 			x: 0.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
 			description: [
-				"&7Para encontrar a Arena, simplesmente explore o Nether próximo ao nível da lava."
+				"&7Para encontrar a Arena, basta explorar o Nether perto do nível de Lava."
 			]
 			id: "26115F67C5E799DF"
 			rewards: [{
@@ -2112,17 +2112,17 @@
 				icon: "minecraft:blackstone"
 				id: "19DFB8AC0825D0D7"
 				structure: "bosses_of_mass_destruction:gauntlet_arena"
-				title: "Encontre a Arena da Manopla em algum lugar no End"
+				title: "Encontre a Arena Gauntlet em algum lugar no End"
 				type: "structure"
 			}]
-			title: "&4Encontre a Arena da Manopla"
+			title: "&4Encontre a Arena Gauntlet"
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
 			description: [
-				"&7O Reino em Decomposição surge em qualquer bioma do Nether. Use uma Bússola de Pedra da Lua para localizá-lo!"
+				"&7O Decaying Kingdom aparece em qualquer bioma do Nether. Use um Moonstone Compass para localizá-lo!"
 			]
 			icon: "soulsweapons:boss_compass"
 			id: "50EA81AA3B7714E9"
@@ -2144,25 +2144,25 @@
 					icon: "soulsweapons:demon_chunk"
 					id: "38053E4D88E9E641"
 					structure: "#soulsweapons:decaying_kingdom"
-					title: "Encontre o Reino em Decomposição"
+					title: "Encontre o Decaying Kingdom"
 					type: "structure"
 				}
 				{
 					id: "3446403850927734"
 					item: "soulsweapons:boss_compass"
 					optional_task: true
-					title: "Use uma Bússola de Pedra da Lua!"
+					title: "Use um Moonstone Compass!"
 					type: "item"
 				}
 			]
-			title: "Encontre o &4Reino em Decomposição"
+			title: "Encontre o &4Decaying Kingdom"
 			x: 1.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0108C54E8DFF4373"]
 			description: [
-				"&7Trinkets de Sangue podem ser encontrados em Remanescentes de Bastilha, esses itens são vitais para qualquer Tanque ou Cavaleiro da Morte de Sangue e tudo entre eles."
+				"&7Blood Trinkets podem ser encontrados em Remanescentes de Bastion, esses Trinkets são vitais para qualquer Tank ou Blood Death Knight e qualquer coisa entre isso."
 			]
 			id: "5D08172CBB91A031"
 			rewards: [
@@ -2182,14 +2182,14 @@
 				item: "death_knights:blood_dk_ring"
 				type: "item"
 			}]
-			title: "&4Trinkets de Sangue"
+			title: "&4Blood Trinkets"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
 			description: [
-				"&7Você já viu tudo isso, é isso, contrate um guia turístico melhor da próxima vez! Ainda há muito para encontrar e explorar!"
+				"&7Você já viu todos, é isso, contrate um guia turístico melhor da próxima vez! Ainda há muito para encontrar e explorar!"
 			]
 			id: "4A50D2B7B078220F"
 			rewards: [
@@ -2205,7 +2205,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Por que você iria de férias aqui??"
+			subtitle: "Por que você faria férias aqui??"
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
 				criterion: ""
@@ -2213,7 +2213,7 @@
 				title: "Visite todos os biomas"
 				type: "advancement"
 			}]
-			title: "Um feriado muito quente"
+			title: "Uma férias muito quente"
 			x: 8.5d
 			y: 1.5d
 		}
@@ -2243,10 +2243,10 @@
 				icon: "minecraft:ghast_tear"
 				id: "281E4AEA987B8EF4"
 				structure: "betternether:ghast_hive"
-				title: "Visite um ninho de Ghasts e mate essas criaturas desprezíveis"
+				title: "Visite uma colmeia de Ghast e mate essas criaturas desprezíveis"
 				type: "structure"
 			}]
-			title: "&8Derrote um Ninho de Ghasts"
+			title: "&8Derrote uma Colmeia de Ghast"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -2302,7 +2302,7 @@
 				icon: "minecraft:nether_bricks"
 				id: "43CE52A5A6AD7517"
 				structure: "betternether:pyramid"
-				title: "Visite uma Pirâmide no Nether!"
+				title: "Visite uma pirâmide no Nether!"
 				type: "structure"
 			}]
 			title: "&4Visite uma Pirâmide do Nether"
@@ -2324,7 +2324,7 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"&7Essas Gemas são essenciais para qualquer jogador tanque. Elas emitem uma Aura como se refletissem o seu toque."
+				"&7Essas gemas são essenciais para qualquer jogador Tank. Elas emitem uma aura como se refletissem seu toque."
 			]
 			id: "6117CFB58B0046FA"
 			rewards: [
@@ -2345,14 +2345,14 @@
 				item: "mythicupgrades:sapphire"
 				type: "item"
 			}]
-			title: "&5O melhor amigo dos tanques"
+			title: "&5O melhor amigo dos Tanks"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
 			description: [
-				"&7Há muitas Estruturas que você pode encontrar que são divertidas de explorar e podem render muitos Recursos. Tente encontrar todas!"
+				"&7Há muitas estruturas que você pode encontrar que são divertidas de explorar e podem render muitos recursos. Tente encontrá-las todas!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2373,7 +2373,7 @@
 		{
 			dependencies: ["5C9B685683F1F505"]
 			description: [
-				"&7Um antigo Guerreiro, há muito além do seu auge, jaz aqui. Melhor não perturbar. Ou... será que não?"
+				"&7Um antigo guerreiro, há muito passado do seu auge, jaz aqui. Melhor não perturbar. Ou... será que é?"
 			]
 			icon: "graveyard:lying_wither_skeleton"
 			id: "6B6F6C7F9DCDF904"
@@ -2393,7 +2393,7 @@
 				icon: "archon:fire_essence"
 				id: "1B2DC6C9F91AE837"
 				structure: "archon:wither_tomb"
-				title: "Visite uma Tumba do Wither"
+				title: "Visite uma Tumba de Wither"
 				type: "structure"
 			}]
 			title: "Algo foi enterrado aqui"
@@ -2417,7 +2417,7 @@
 				id: "7F1D61D86951821E"
 				type: "checkmark"
 			}]
-			title: "&5Magmadores"
+			title: "&5Magmators"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -2429,13 +2429,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Tenha uma fonte infinita de Lava no Nether"
+			subtitle: "Tenha uma fonte infinita de lava no Nether"
 			tasks: [{
 				advancement: "create:hose_pulley_lava"
 				criterion: ""
 				icon: "create:hose_pulley"
 				id: "413425FEA72470C8"
-				title: "Toque o Manto!"
+				title: "Toque no Manto!"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -2444,10 +2444,10 @@
 		{
 			dependencies: ["3E63250DCB35FA89"]
 			description: [
-				"&7Para tirar Lava do Nether, você vai precisar de um Anel Quântico totalmente funcional no Nether e no Mundo Superior."
+				"&7Para tirar lava do Nether, você vai precisar de um Anel Quântico totalmente funcional no Nether e no Overworld."
 				""
 				""
-				"&7Conecte uma Polia de Mangueira a um Barramento de Armazenamento e conecte esse Barramento de Armazenamento ao Anel Quântico no Nether. Quando tudo estiver corretamente pareado e conectado, você pode aproveitar os benefícios de lava infinita na sua própria casa! Espero que a conta de aquecimento caia."
+				"&7Conecte uma Hose Pulley a um Storage Bus e conecte esse Storage Bus ao Anel Quântico no Nether. Quando tudo estiver corretamente pareado e conectado, você poderá aproveitar os benefícios de lava infinita em sua própria casa! Esperamos que a conta de aquecimento diminua."
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:lava_bucket"
@@ -2457,7 +2457,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Se você está com frio, a Lava também está, leve-a para casa com você"
+			subtitle: "Se você está com frio, a lava também está, leve-a para casa com você"
 			tasks: [
 				{
 					id: "1AC5E4EE46479478"
@@ -2470,7 +2470,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&9Levando Lava para o mundo superior"
+			title: "&9Levar lava para o overworld"
 			x: 2.5d
 			y: 8.0d
 		}
@@ -2517,7 +2517,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Por que você iria para lá?"
+			subtitle: "Por que você iria aqui?"
 			tasks: [{
 				biome: "betternether:nether_jungle"
 				icon: "betternether:jungle_moss"
@@ -2532,7 +2532,7 @@
 		{
 			dependencies: ["08A63F0788D096E5"]
 			description: [
-				"&7Eles cospem em você, assim como as Lhamas, estranho... talvez um primo distante."
+				"&7Eles cospem em você, como as lhamas fazem, estranho... talvez um primo distante."
 			]
 			id: "2D5AA976A898764D"
 			rewards: [
@@ -2547,7 +2547,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lhamas de Osso"
+			subtitle: "Lhamas de Ossos"
 			tasks: [{
 				entity: "betternether:naga"
 				icon: "minecraft:wither_skeleton_skull"

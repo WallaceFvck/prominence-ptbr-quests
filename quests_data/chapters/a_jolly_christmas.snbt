@@ -200,7 +200,7 @@
 				id: "2B4FC802B9F0E823"
 				type: "checkmark"
 			}]
-			title: "Presente de Natal - Esperança de Iniciante"
+			title: "Presente de Natal - Esperança dos Iniciantes"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -252,7 +252,7 @@
 				id: "35D609ABCCAEB350"
 				type: "checkmark"
 			}]
-			title: "Presente de Natal - Magus Alegre"
+			title: "Presente de Natal - Feliz Magus"
 			x: 2.5d
 			y: -2.0d
 		}
@@ -293,14 +293,15 @@
 				id: "1BBC6832D5CBE2AC"
 				type: "checkmark"
 			}]
-			title: "Presente de Natal - Gu'mas e Biscoitos de Gengibre"
+			title: "Presente de Natal - Gu'mas e Gingerbread  "
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6284194862D6FBA9"]
 			description: [
-				"&7A Equipe Prominence agradece por jogar o Pack. Desejamos um Feliz Natal e um ótimo fim de ano!"
+				"  "
+				"&7A Equipe Prominence agradece por jogar o Pack. Desejamos a você um Feliz Natal e um ótimo fim de ano!  "
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -337,12 +338,14 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Você mereceu isso, camarada!"
+			subtitle: "  
+Você mereceu isso, amigo!  "
 			tasks: [{
 				id: "2FB46A1BD3F500C6"
 				type: "checkmark"
 			}]
-			title: "Estrela Derretida de Natal"
+			title: "  
+Estrela Fundida de Natal  "
 			x: 2.0d
 			y: -4.5d
 		}
@@ -375,15 +378,18 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Derrote Conjunctivius para reivindicar este Presente!"
+			subtitle: "  
+Derrote Conjunctivius para reivindicar este Presente!  "
 			tasks: [{
 				id: "7947BD6F5B48F47C"
-				title: "Presente de Natal - Sob o Galho Tentacular"
+				title: "  
+Presente de Natal - Sob o Galho Tentacular  "
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: -1.5d
 		}
 	]
-	title: " &bUm Feliz Natal!"
+	title: "  
+ &bUm Alegre Natal!  "
 }

@@ -25,13 +25,13 @@
 				item: "create:clipboard"
 				type: "item"
 			}]
-			subtitle: "Artefatos de Amuletos para Colecionar"ponder\" the item. This brings up a menu explaining to use said item.\\n\\nBecause of this the chapter is mostly focused on letting you know what exists and giving you a rough outline of the progression of the mod."
+			subtitle: "Welcome to Create, a steampunk mod that lets you build contraptions to do most things you can think of.\\n\\nCreate offers great guides for most of its items by hovering over them in REI or in your inventory and holding down 'W' to \"ponder\" the item. This brings up a menu explaining to use said item.\\n\\nBecause of this the chapter is mostly focused on letting you know what exists and giving you a rough outline of the progression of the mod."
 			tasks: [{
 				id: "724FF2D395554F21"
-				title: "Olá, jovem entusiasta da música! Já que está aqui, significa que sabe que a música é algo de que todos precisamos na vida! E esses discos estão quase perdidos no tempo, mas ainda podemos resgatá-los! Você deve encontrá-los e ouvir o que têm a oferecer."
+				title: "Bem-vindo ao Create!"
 				type: "checkmark"
 			}]
-			title: "Encontre os Discos"
+			title: "&6Bem-vindo ao Create!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -67,7 +67,7 @@
 				type: "xp"
 				xp: 75
 			}]
-			subtitle: "Embora seja importante respeitar os túmulos dos mortos, encontrar restos interessantes vale a pena para exibir e mostrar a história. Quando encontrá-los e usar o pincel para desenterrá-los, demonstre respeito."
+			subtitle: "A base para blocos mais avançados."
 			tasks: [{
 				id: "5E78EF843E840FEB"
 				item: "create:brass_casing"
@@ -84,7 +84,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Encontre as Cabeças de Mob"
+			subtitle: "A base da maioria das coisas relacionadas a fluidos no Create.\\n\\nTambém pode ser usado para encapar tubulações de fluidos."
 			tasks: [{
 				id: "1086C0B67F6D716F"
 				item: "create:copper_casing"
@@ -102,7 +102,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Pegue um Pincel"ponder\" the train station."
+			subtitle: "In order to make a train you're going to need at least:\\n- 1 Train Casing\\n- 1 Train Station\\n- Enough train tracks to make your railroad.\\n\\nIn order to see how you assemble a train \"ponder\" the train station."
 			tasks: [
 				{
 					id: "232FE43D6046A984"
@@ -127,7 +127,7 @@
 				xp: 50
 			}]
 			shape: "heart"
-			subtitle: "Coveiro"
+			subtitle: "Permite transferir um sinal de redstone sem fio dentro de um alcance."
 			tasks: [{
 				id: "2B3E6D1D62FDC013"
 				item: "create:redstone_link"
@@ -144,7 +144,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "C418 - 13"
+			subtitle: "Um componente de redstone que emite um sinal quando em contato com outro contato de redstone. Particularmente útil para construir engenhocas."
 			tasks: [{
 				id: "3B876444ABFE78A7"
 				item: "create:redstone_contact"
@@ -161,7 +161,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "C418 - Cat"
+			subtitle: "Uma fonte cinética que usa o fluxo de água como fonte de energia. Gerará a mesma quantidade de SU na mesma RPM enquanto houver um bloco de água corrente adjacente.\\n\\nVocê também pode mudar a aparência da sua roda d’água clicando com o botão direito nela com praticamente qualquer tábua de madeira (incluindo as de outros mods)."
 			tasks: [{
 				id: "09BD5EDC2EB2C9A8"
 				item: "create:water_wheel"
@@ -178,7 +178,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "C418 - Blocks"
+			subtitle: "Gera o dobro de SU da roda d’água regular, mas em uma RPM mais baixa."
 			tasks: [{
 				id: "3F56128992A66C90"
 				item: "create:large_water_wheel"
@@ -195,7 +195,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "C418 - Chirp"
+			subtitle: "Permite ver o estresse atual e a capacidade de estresse de uma rede cinética."
 			tasks: [{
 				id: "24A191823C524B7F"
 				item: "create:stressometer"
@@ -212,7 +212,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "C418 - Far"
+			subtitle: "Permite ver a velocidade de rotação de uma rede cinética."
 			tasks: [{
 				id: "3A89E6C63152D847"
 				item: "create:speedometer"
@@ -230,7 +230,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "C418 - Mall"
+			subtitle: "A fonte cinética mais densa. Embora também tenha a maior complexidade, exigindo uma fonte constante de água e calor."
 			tasks: [
 				{
 					id: "65EFBB616B81C185"
@@ -280,7 +280,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "C418 - Mellohi"
+			subtitle: "Semelhante a uma Manivela, mas só gira uma certa quantidade de graus a cada interação."
 			tasks: [{
 				id: "52F0F6E11AA698A8"
 				item: {
@@ -290,10 +290,10 @@
 						value: "create:valve_handles"
 					}
 				}
-				title: "C418 - Stal"
+				title: "Qualquer Alavanca de Válvula"
 				type: "item"
 			}]
-			title: "C418 - Strad"
+			title: "Alavancas de Válvula"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -305,7 +305,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "C418 - Ward"
+			subtitle: "A forma mais simples de gerar energia cinética, usando você mesmo como fonte de energia."
 			tasks: [{
 				id: "25B67DFF4D7D133C"
 				item: "create:hand_crank"
@@ -323,7 +323,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "C418 - Wait"
+			subtitle: "Para obter bronze, você vai precisar aquecer um misturador mecânico que esteja misturando cobre e zinco.\\n\\n o queimador de Blaze vazio pode ser preenchido clicando com o botão direito nele em um gerador de Blaze ou em um Blaze."
 			tasks: [
 				{
 					id: "56A3A3F749002218"
@@ -341,7 +341,7 @@
 					type: "item"
 				}
 			]
-			title: "Lena Raine - Otherside"
+			title: "Queimador de Blaze"
 			x: 0.0d
 			y: 13.5d
 		}
@@ -354,7 +354,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "C418 - 11"
+			subtitle: "Uma máquina que pode fazer autocrafting de receitas sem forma, além de misturar coisas como poções.\\n\\nPrecisa girar a pelo menos 30 RPM para funcionar"
 			tasks: [
 				{
 					id: "07FF2BB8A0BD2648"
@@ -378,7 +378,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Aaron Cherof - Relic"
+			subtitle: "Pode ser usado para colocar ou extrair grandes volumes de líquido."
 			tasks: [{
 				id: "607208C6F1478733"
 				item: "create:hose_pulley"
@@ -395,7 +395,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Samuel Aberg - 5"
+			subtitle: "Permite a extração de líquidos de itens."
 			tasks: [{
 				id: "08934572DD5E9F61"
 				item: "create:item_drain"
@@ -412,7 +412,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Lena Raine - Pigstep"
+			subtitle: "Usado para encher itens com fluidos e criar certos itens usando fluidos."
 			tasks: [{
 				id: "2B4848DB23F4997E"
 				item: "create:spout"
@@ -429,7 +429,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Suas músicas clássicas que você pode encontrar."
+			subtitle: "Permite que engenhocas transfiram fluidos para blocos."
 			tasks: [{
 				id: "7B83A027D9578FA7"
 				item: "create:portable_fluid_interface"
@@ -446,7 +446,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Discos do Minecraft"
+			subtitle: "Permite usar SU para quebrar blocos, também pode ser acoplado a engenhocas para criar perfuradoras de túnel e coisas do tipo."
 			tasks: [{
 				id: "3198FC817DAC3708"
 				item: "create:mechanical_drill"
@@ -463,7 +463,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Ok, então esses discos em particular podem ser mais difíceis de encontrar e talvez existam gravações únicas que você nunca ouviu antes, boa sorte."
+			subtitle: "Blocos que podem derrubar árvores ou permitir que engenhocas derrubem árvores. Além de algumas receitas de criação como cortar blocos ou descascar troncos."
 			tasks: [{
 				id: "7E64DBFEDFEAFFF1"
 				item: "create:mechanical_saw"
@@ -480,7 +480,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Discos Modificados"
+			subtitle: "Blocos que permitem que engenhocas colham plantações."
 			tasks: [{
 				id: "20A426E6FB08AD11"
 				item: "create:mechanical_harvester"
@@ -497,7 +497,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Bertsz - Horizon"
+			subtitle: "Blocos que permitem que engenhocas criem terra arável ou lancem entidades."
 			tasks: [{
 				id: "170232754395A74B"
 				item: "create:mechanical_plough"
@@ -514,7 +514,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Krossy - Forsaken Drownage"
+			subtitle: "Permite limpar e pavimentar enquanto se anda de trem."
 			tasks: [{
 				id: "665B1AD5FBED88EC"
 				item: "create:mechanical_roller"
@@ -531,7 +531,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Firel - Strange and Alien"
+			subtitle: "Essencialmente uma atualização do moinho de pedra, fornece algumas receitas diferentes, então pode valer a pena manter ambos por perto."
 			tasks: [{
 				id: "611BC5F4DE28D4B1"
 				item: "create:crushing_wheel"
@@ -548,7 +548,7 @@
 				type: "xp"
 				xp: 150
 			}]
-			subtitle: "Firel - Grasping At Stars"
+			subtitle: "Blocos que permitem tanto a criação automática de receitas normais quanto a criação de receitas maiores do que uma mesa de trabalho normal permitiria."
 			tasks: [{
 				id: "47627BC50C096EE5"
 				item: "create:mechanical_crafter"
@@ -565,7 +565,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Firel - Endseeker"
+			subtitle: "Uma máquina avançada de distribuição de itens."
 			tasks: [{
 				id: "6846ED041DD31AF2"
 				item: "create:mechanical_arm"
@@ -582,7 +582,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Firel - Eo Dracona"
+			subtitle: "Um item usado para criar itens mecânicos mais avançados."
 			tasks: [{
 				id: "50E4571A0FEE8DD2"
 				item: "create:precision_mechanism"
@@ -600,7 +600,7 @@
 				xp: 100
 			}]
 			shape: "heart"
-			subtitle: "Kain Vinosec - Endure Emptiness"
+			subtitle: "Permite o ajuste fino de rpm."
 			tasks: [{
 				id: "742DE9F13B641CCF"
 				item: "create:rotation_speed_controller"
@@ -617,7 +617,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Kain Vinosec - Fight For Quiescence"
+			subtitle: "Permite controlar o trem."
 			tasks: [{
 				id: "590ADCA983BAC485"
 				item: "create:controls"
@@ -634,7 +634,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Orangery - Coniferus Forest (Tema do Menu Principal)"
+			subtitle: "Emite um sinal de redstone quando detecta um trem."
 			tasks: [{
 				id: "40BB8DC4CB805C3B"
 				item: "create:track_observer"
@@ -651,7 +651,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SideralisMusic - Prominent Festivities (Trilha Sonora Original)"
+			subtitle: "Usado para controlar o fluxo de trens entre trilhos e cruzamentos de trilhos."
 			tasks: [{
 				id: "3DFE3FCEDDB8DAB1"
 				item: "create:track_signal"
@@ -668,7 +668,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SideralisMusic - IV"
+			subtitle: "O bloco que lida com a montagem e desmontagem de trens."
 			tasks: [{
 				id: "0997709EA341B377"
 				item: "create:track_station"
@@ -685,7 +685,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SideralisMusic - Primordial (OST de Prominence)"
+			subtitle: "Permite programar trens para que mobs ou queimadores de blaze possam dirigi-los."
 			tasks: [{
 				id: "6FCDB526898B9687"
 				item: "create:schedule"
@@ -702,7 +702,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SideralisMusic - Void Core (OST de Prominence)"
+			subtitle: "A coisa sobre a qual o seu trem anda."
 			tasks: [{
 				id: "48A879AA84014B3A"
 				item: {
@@ -937,10 +937,10 @@
 						]
 					}
 				}
-				title: "SideralisMusic - A Dance of the Blades Parte 1 (OST de Prominence)"
+				title: "Qualquer trilho de trem"
 				type: "item"
 			}]
-			title: "SideralisMusic - A Dance of the Blades Parte 2 (OST de Prominence)"
+			title: "Trilhos de trem"
 			x: -4.0d
 			y: 12.5d
 		}
@@ -952,7 +952,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SideralisMusic - Prominent Festivities (OST de Prominence)"
+			subtitle: "Simplesmente um canhão de batata."
 			tasks: [{
 				id: "619FE344BCBDAB36"
 				item: {
@@ -975,7 +975,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SideralisMusic - Time Flows (OST de Prominence)"
+			subtitle: "Permite colocar um espelho que ajuda a construir coisas simétricas."
 			tasks: [{
 				id: "56F361A8A8DFF6FA"
 				item: "create:wand_of_symmetry"
@@ -992,7 +992,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "SideralisMusic - Convergence (OST de Prominence)"
+			subtitle: "Moendo tudo até virar pó."
 			tasks: [{
 				id: "67576FE45FFD6AAD"
 				item: "create:millstone"
@@ -1009,7 +1009,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Endigo - Big Chungus (Tema Principal Oficial)"
+			subtitle: "Uma máquina muito versátil que pode puxar e empurrar entidades, além de lavar, assombrar, explodir e defumar itens."
 			tasks: [{
 				id: "7147221C3EA3496C"
 				item: "create:encased_fan"
@@ -1026,7 +1026,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Que tipo de guarda-chuva é forte o suficiente para ser um escudo e indestrutível?"
+			subtitle: "Quando colocado no Ventilador Encapsulado, o Bocal muda a área de efeito do empurrar/puxar de uma linha para uma esfera."
 			tasks: [{
 				id: "3BE7CFB9AB8E66DA"
 				item: "create:nozzle"
@@ -1043,7 +1043,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Começando a imaginar que, a cada mordida nesse bife, uma vaca é comida em algum lugar do mundo, e ela regenera o bife até sua aparência original."
+			subtitle: "Armazena ar pressurizado para uso com um capacete de mergulho."
 			tasks: [{
 				id: "68D17460D2020F20"
 				item: {
@@ -1066,7 +1066,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um capacete que permite usar ar de um tanque equipado para respirar debaixo d'água."
+			subtitle: "Uma versão aprimorada do Tanque de Costas de Cobre."
 			tasks: [{
 				id: "7832A4786CFEC81A"
 				item: {
@@ -1089,7 +1089,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite que você ande debaixo d'água como se estivesse em terra, além de andar sobre correias sem que elas te movam."
+			subtitle: "Um capacete que permite usar o ar de um tanque equipado para respirar debaixo d’água."
 			tasks: [{
 				id: "17228D5A74B1A33E"
 				item: {
@@ -1112,7 +1112,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Uma versão aprimorada do Capacete de Mergulho de Cobre."
+			subtitle: "Permite que você ande debaixo d’água como faz em terra, além de andar em esteiras sem ser movido por elas."
 			tasks: [{
 				id: "5242A70758AE33CD"
 				item: {
@@ -1135,7 +1135,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Uma versão aprimorada das Botas de Mergulho de Cobre."
+			subtitle: "Uma versão aprimorada do Capacete de Mergulho de Cobre."
 			tasks: [{
 				id: "1AF3B77EDDF1673E"
 				item: {
@@ -1158,7 +1158,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um repetidor que envia um pulso após uma quantidade de tempo configurável."
+			subtitle: "Uma versão aprimorada das Botas de Mergulho de Cobre."
 			tasks: [{
 				id: "78E8394EB1AF6284"
 				item: {
@@ -1181,7 +1181,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um componente de redstone que estende um pulso para uma duração configurável."
+			subtitle: "Um repetidor que envia um pulso após um tempo configurável."
 			tasks: [{
 				id: "6D315695BEDF175D"
 				item: "create:pulse_repeater"
@@ -1198,7 +1198,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Permite configurar uma sequência de rotações que são executadas quando o bloco recebe um sinal de redstone."
+			subtitle: "Um componente de redstone que estende um pulso por um tempo configurável."
 			tasks: [{
 				id: "4687120095DF4BAD"
 				item: "create:pulse_extender"
@@ -1215,7 +1215,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Um bloco que pode monitorar os níveis de preenchimento de inventários e tanques."
+			subtitle: "Permite configurar uma sequência de rotações que são executadas quando o bloco recebe um sinal de redstone."
 			tasks: [{
 				id: "1C0BF64A4DDB1C74"
 				item: "create:sequenced_gearshift"
@@ -1232,7 +1232,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um bloco que pode procurar itens específicos no mundo ou em inventários."
+			subtitle: "Um bloco que pode monitorar os níveis de preenchimento de inventários e tanques."
 			tasks: [{
 				id: "48562A69B4CD0DF9"
 				item: "create:stockpile_switch"
@@ -1249,7 +1249,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um componente de redstone que alterna seu estado a cada pulso de redstone."
+			subtitle: "Um bloco que pode procurar itens específicos no mundo ou em inventários."
 			tasks: [{
 				id: "233CB45D43CF5A83"
 				item: "create:content_observer"
@@ -1266,7 +1266,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Um componente de redstone que liga ao receber um sinal de redstone de um lado e desliga ao receber um sinal do outro lado."
+			subtitle: "Um componente de redstone que alterna seu estado a cada pulso de redstone."
 			tasks: [{
 				id: "472CE7CD4B9E48CC"
 				item: "create:powered_toggle_latch"
@@ -1283,7 +1283,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Basicamente uma placa avançada que atualiza mais rápido quando recebe RPM mais alto."
+			subtitle: "Um componente de redstone que liga ao receber um sinal de redstone de um lado e desliga ao receber um sinal do outro lado."
 			tasks: [{
 				id: "724B607209AD7235"
 				item: "create:powered_latch"
@@ -1300,7 +1300,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Permite exibir informações em tempo real em um painel de exibição conectado ou tubo nixie."
+			subtitle: "Basicamente uma placa avançada que atualiza mais rápido se fornecida com maior RPM."
 			tasks: [{
 				id: "456D6FC02DCD10F6"
 				item: "create:display_board"
@@ -1317,7 +1317,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Uma alavanca que pode ser configurada para emitir qualquer nível de redstone."
+			subtitle: "Permite exibir informações em tempo real em um painel de exibição conectado ou tubo nixie."
 			tasks: [{
 				id: "2A97B913C570C8CF"
 				item: "create:display_link"
@@ -1334,7 +1334,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Pode exibir texto ou números."
+			subtitle: "Uma alavanca que pode ser configurada para emitir qualquer nível de redstone."
 			tasks: [{
 				id: "6B33295820423762"
 				item: "create:analog_lever"
@@ -1351,7 +1351,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Transforma lingotes em placas na pancada."
+			subtitle: "Pode exibir texto ou números."
 			tasks: [{
 				id: "4556367BB6B12C8B"
 				item: "create:nixie_tube"
@@ -1368,7 +1368,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Permite quebrar instantaneamente a maioria dos blocos do Create com shift + clique direito. E girá-los com clique direito."
+			subtitle: "Transforma lingotes em placas."
 			tasks: [{
 				id: "051795CF492B0D08"
 				item: "create:mechanical_press"
@@ -1385,7 +1385,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Alguns fluidos podem ser extraídos infinitamente do mundo desde que a piscina da qual a mangueira está extraindo contenha 10000 ou mais blocos-fonte.\\n\\nVocê pode pesquisar no REI pelos fluidos aplicáveis digitando \"
+			subtitle: "Permite quebrar instantaneamente a maioria dos blocos do Create ao clicar com Shift + botão direito. E girá-los ao clicar com o botão direito."
 			tasks: [{
 				id: "4EE90B940F3352BA"
 				item: "create:wrench"
@@ -1420,7 +1420,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Permite interromper a passagem da força rotacional quando energizado por um sinal de redstone."$create:bottomless\""
+			subtitle: "Some fluids can be infinity extracted from the world as long as the pool the hose pulley is extracting from contains 10000 or more source blocks.\\n\\nYou can search in REI for the fluids that apply using by typing \"$create:bottomless\""
 			tasks: [{
 				advancement: "create:hose_pulley_lava"
 				criterion: ""
@@ -1438,7 +1438,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Um item que permite maior alcance."
+			subtitle: "Permite interromper a força rotacional ao ser alimentado por um sinal de redstone."
 			tasks: [{
 				id: "5EE2295BD64F843D"
 				item: "create:clutch"
@@ -1455,7 +1455,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Uma máquina simples com enorme potencial. Pode colocar blocos, mas também usar itens em blocos/entidades."
+			subtitle: "Um item que permite maior alcance."
 			tasks: [{
 				id: "3E3A3CDA9C9A330B"
 				item: {
@@ -1479,7 +1479,7 @@
 				xp: 75
 			}]
 			shape: "heart"
-			subtitle: "Permite criar seu próprio relógio funcional personalizado."
+			subtitle: "Uma máquina simples com grande potencial. Pode colocar blocos, mas também usar itens em blocos/entidades."
 			tasks: [{
 				id: "456C3529E567AEC7"
 				item: "create:deployer"
@@ -1496,7 +1496,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Quando colocado em frente ao Ventilador Encapsulado, isso permite assombrar itens.\\n\\nNotavelmente areia em areia das almas."
+			subtitle: "Permite criar seu próprio relógio funcional personalizado."
 			tasks: [{
 				id: "30B7D161EC8DD97F"
 				item: "create:clockwork_bearing"
@@ -1513,7 +1513,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Quando colocado em frente ao Ventilador Encapsulado, isso permite defumar itens."
+			subtitle: "Quando colocado na frente do Ventilador Encapsulado, isso permite que ele assombre itens.\\n\\nNotavelmente areia em areia das almas."
 			tasks: [{
 				id: "42A84A29F509093C"
 				item: "minecraft:soul_campfire"
@@ -1530,7 +1530,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Quando colocado em frente ao Ventilador Encapsulado, isso permite fundir itens."
+			subtitle: "Quando colocado na frente do Ventilador Encapsulado, isso permite que ele defume itens."
 			tasks: [{
 				id: "5064F06ABFDF2A62"
 				item: "minecraft:campfire"
@@ -1547,7 +1547,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Quando colocado em frente ao Ventilador Encapsulado, isso permite lavar itens.\\n\\nNotavelmente areia das almas em quartzo do Nether."
+			subtitle: "Quando colocado na frente do Ventilador Encapsulado, isso permite que ele exploda itens."
 			tasks: [{
 				id: "41E261CED3536733"
 				item: "minecraft:lava_bucket"
@@ -1564,7 +1564,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Um bloco que permite entrada e saída de inventários 1 item por vez.\\n\\nUma coisa não mencionada pelo ponder é que o funil pode derrubar itens no chão quando colocado em um inventário e manterá apenas 1 item no chão se ele estiver perto o suficiente do bloco onde o item caiu."
+			subtitle: "Quando colocado na frente do Ventilador Encapsulado, isso permite que ele lave itens.\\n\\nNotavelmente areia das almas em quartzo do Nether."
 			tasks: [{
 				id: "7320D17889EF5B9D"
 				item: "minecraft:water_bucket"
@@ -1581,7 +1581,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Túneis são usados para gerenciar o fluxo de itens em correias."
+			subtitle: "Um bloco que permite entrada e saída de inventários um item por vez.\\n\\nUma coisa não mencionada no “ponder” é que o funil pode soltar itens no chão quando colocado sobre um inventário e só manterá 1 item no chão se estiver perto o suficiente do bloco onde o item cai."
 			tasks: [{
 				id: "02FEDF3DBC2F1D5C"
 				item: "create:andesite_funnel"
@@ -1598,7 +1598,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Uma melhoria para o túnel de andesito permitindo mais configurabilidade em como lidar com itens."
+			subtitle: "Os túneis são usados para gerenciar o fluxo de itens em esteiras."
 			tasks: [{
 				id: "66B5FF3C7E354196"
 				item: "create:andesite_tunnel"
@@ -1615,7 +1615,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um funil mais avançado que permite filtragem e tamanhos maiores de pilha."
+			subtitle: "Uma atualização do túnel de andesito, permitindo mais configurabilidade na forma de lidar com itens."
 			tasks: [{
 				id: "6820CFF93651E22C"
 				item: "create:brass_tunnel"
@@ -1632,7 +1632,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Manipulação de Itens"
+			subtitle: "Um funil mais avançado que permite filtragem e tamanhos de pilha maiores."
 			tasks: [{
 				id: "5371D134D29BDBAE"
 				item: "create:brass_funnel"
@@ -1654,7 +1654,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			title: "Calhas são usadas para transferir entre inventários verticalmente."
+			title: "Manipulação de Itens"
 			x: -7.5d
 			y: -2.0d
 		}
@@ -1689,7 +1689,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Uma calha mais configurável."
+			subtitle: "Os dutos são usados para transferir itens verticalmente entre inventários."
 			tasks: [{
 				id: "73079540419DC7D4"
 				item: "create:chute"
@@ -1706,7 +1706,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um filtro básico."
+			subtitle: "Um duto mais configurável."
 			tasks: [{
 				id: "7FBAAD8D8C39BC6E"
 				item: "create:smart_chute"
@@ -1723,7 +1723,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Um filtro que pode filtrar por atributos como \"
+			subtitle: "Um filtro básico."
 			tasks: [{
 				id: "1C5692C6DAD65F0C"
 				item: "create:filter"
@@ -1740,7 +1740,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Na verdade é só uma correia que não se move."can be smelted\" or \"from Create\"."
+			subtitle: "A filter that can filter by attributes like \"can be smelted\" or \"from Create\"."
 			tasks: [{
 				id: "513E9DDE52888CA5"
 				item: "create:attribute_filter"
@@ -1757,7 +1757,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Ejetores Pesados podem lançar itens com precisão a longas distâncias."
+			subtitle: "É basicamente uma esteira que não se move."
 			tasks: [{
 				id: "0C6C3F7245F978D9"
 				item: "create:depot"
@@ -1774,7 +1774,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Um armazenamento multibloco de itens que não pode ser acessado manualmente."
+			subtitle: "Ejetores com peso podem lançar itens com precisão a longas distâncias."
 			tasks: [{
 				id: "52BD9C86E2053161"
 				item: "create:weighted_ejector"
@@ -1791,7 +1791,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Terminologia:\\n\\nUnidades de Estresse (SU), um número que descreve quanto estresse algo gera ou requer para funcionar.\\n\\n"
+			subtitle: "Um armazenamento de itens multiblocos que não pode ser acessado manualmente."
 			tasks: [{
 				id: "0318344CC072DB90"
 				item: "create:item_vault"
@@ -1814,7 +1814,7 @@
 		{
 			dependencies: ["2D3191960D3277B6"]
 			id: "3D11842DDDE1D396"
-			subtitle: "Pode ser usado para reduzir pela metade ou dobrar a velocidade rotacional de transmissões por corrente conectadas ao receber um sinal de redstone."
+			subtitle: "Terminologia:\n\nUnidades de Estresse (SU) é um número que descreve quanto estresse algo gera ou requer para funcionar.\n\n"
 			tasks: [{
 				id: "313C85E8DD396B20"
 				type: "checkmark"
@@ -1841,7 +1841,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite inverter a direção da rotação aplicando redstone."
+			subtitle: "Pode ser usado para reduzir pela metade ou dobrar a velocidade de rotação de correntes conectadas ao receber um sinal de redstone."
 			tasks: [{
 				id: "37822B22A5C1A507"
 				item: "create:adjustable_chain_gearshift"
@@ -1858,7 +1858,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite múltiplas saídas rotacionais paralelas."
+			subtitle: "Permite reverter a direção da rotação ao aplicar redstone."
 			tasks: [{
 				id: "646B576AF1805948"
 				item: "create:gearshift"
@@ -1875,7 +1875,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite desligar partes de engenhocas enquanto elas estão montadas."
+			subtitle: "Permite múltiplas saídas de rotação paralelas."
 			tasks: [{
 				id: "5970DCA6D0289D86"
 				item: "create:encased_chain_drive"
@@ -1892,7 +1892,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Como o nome implica, este item permite colar blocos juntos. Particularmente útil ao criar engenhocas."
+			subtitle: "Permite desligar partes de contraptions enquanto elas estão montadas."
 			tasks: [{
 				id: "5096B4C7D1B10D6A"
 				item: "create:contraption_controls"
@@ -1910,7 +1910,7 @@
 				xp: 100
 			}]
 			shape: "heart"
-			subtitle: "Permite a criação de engenhocas que se movem para cima e para baixo."
+			subtitle: "Como o nome sugere, este item permite colar blocos juntos. Particularmente útil ao fazer contraptions."
 			tasks: [{
 				id: "2C10D674D26CA38B"
 				item: {
@@ -1933,7 +1933,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite engenhocas que percorrem trilhos da mesma forma que carrinhos de mina."
+			subtitle: "Permite a criação de contraptions que se movem para cima e para baixo."
 			tasks: [{
 				id: "4EA4C5E105C04D33"
 				item: "create:rope_pulley"
@@ -1950,7 +1950,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite engenhocas que giram ao redor de um ponto no espaço, particularmente útil para fazendas."
+			subtitle: "Permite contraptions que se deslocam sobre trilhos da mesma forma que minecarts."
 			tasks: [{
 				id: "2F75A4EB5C548B05"
 				item: "create:cart_assembler"
@@ -1967,7 +1967,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite o movimento linear de estruturas usando força rotacional."
+			subtitle: "Permite contraptions que giram em torno de um ponto no espaço, particularmente útil para fazendas."
 			tasks: [{
 				id: "18AFCA54B52E2A53"
 				item: "create:mechanical_bearing"
@@ -1984,7 +1984,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Qualquer Pistão Mecânico"
+			subtitle: "Permite o movimento de estruturas de forma linear usando força rotacional."
 			tasks: [{
 				id: "2E5C745B6235D5D2"
 				item: {
@@ -2003,10 +2003,10 @@
 						]
 					}
 				}
-				title: "Pistões Mecânicos"
+				title: "Qualquer pistão mecânico"
 				type: "item"
 			}]
-			title: "Permite engenhocas que se movem através de pórticos."
+			title: "Pistões mecânicos"
 			x: -8.0d
 			y: 7.5d
 		}
@@ -2019,7 +2019,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Um bloco útil para construir engenhocas."
+			subtitle: "Permite contraptions que se movem ao longo de pórticos (gantries)."
 			tasks: [
 				{
 					id: "41BB3531186CBFC2"
@@ -2043,7 +2043,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Gruda em blocos quando energizado por redstone."
+			subtitle: "Um bloco útil para construir contraptions."
 			tasks: [{
 				id: "362DDDAFDB8BE7AE"
 				item: "create:radial_chassis"
@@ -2060,7 +2060,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Como a maioria dos blocos do Create não permite extração e inserção manual de líquidos, esses canos são bastante úteis.\\n\\nTambém podem ser usados para criar água infinita extraindo de um bloco-fonte que tenha 2 blocos-fonte adjacentes a ele."
+			subtitle: "Gruda em blocos quando alimentado por redstone."
 			tasks: [{
 				id: "09CEF616AFC73210"
 				item: "create:sticker"
@@ -2103,7 +2103,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "O principal bloco usado para armazenamento em massa de fluidos."
+			subtitle: "Como a maioria dos blocos em Create não permite inserção e extração manual de líquidos, esses tubos são bastante úteis.\n\nTambém podem ser usados para criar água infinita ao extrair de um bloco fonte que tenha 2 blocos fonte adjacentes a ele."
 			tasks: [
 				{
 					id: "636000287FF9300E"
@@ -2127,7 +2127,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Qualquer Assento"
+			subtitle: "O principal bloco usado para armazenamento em massa de fluidos."
 			tasks: [{
 				id: "5B4A68157DA2CC98"
 				item: "create:fluid_tank"
@@ -2148,10 +2148,10 @@
 						value: "create:seats"
 					}
 				}
-				title: "Assentos"
+				title: "Qualquer assento"
 				type: "item"
 			}]
-			title: "Qualquer Engrenagem"
+			title: "Assentos"
 			x: -2.5d
 			y: 0.5d
 		}
@@ -2181,10 +2181,10 @@
 						]
 					}
 				}
-				title: "Engrenagens"
+				title: "Qualquer engrenagem"
 				type: "item"
 			}]
-			title: "Essencial para qualquer pessoa que trabalhe com Create. Permite ver mais informações sobre blocos, como impacto de estresse."
+			title: "Engrenagens"
 			x: -3.5d
 			y: -4.0d
 		}
@@ -2197,7 +2197,7 @@
 				xp: 25
 			}]
 			shape: "heart"
-			subtitle: "Já quis canalizar líquidos para seus queimadores blaze? Basta dar um canudo para eles e eles vão sorver diretamente do cano.\\n\\nVocê pode pressionar 'U' no canudo para ver quais líquidos ele aceita, assim como os tempos de combustão."
+			subtitle: "Essencial para qualquer pessoa que trabalhe com Create. Permite ver mais informações sobre blocos, como impacto de estresse."
 			tasks: [{
 				id: "77BFA7F311B85850"
 				item: "create:goggles"
@@ -2214,7 +2214,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um motor que converte energia(E) em energia cinética(SU) em qualquer rpm."
+			subtitle: "Já pensou em canalizar líquidos para seus queimadores de blaze? Basta dar a eles um canudo e eles vão sugar direto do tubo.\n\nVocê pode pressionar 'U' no canudo para ver quais líquidos ele aceita, assim como os tempos de queima."
 			tasks: [{
 				id: "5F5801039DFF0AAC"
 				item: "createaddition:straw"
@@ -2231,7 +2231,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Gera energia(E) a partir de energia cinética, a quantidade gerada depende do rpm e tem limite de 256E/t"
+			subtitle: "Um motor que converte energia (E) em energia cinética (SU) em qualquer RPM."
 			tasks: [{
 				id: "678EB5C0465B67BF"
 				item: "createaddition:electric_motor"
@@ -2243,7 +2243,7 @@
 		{
 			dependencies: ["67CE399D0A9C0F57"]
 			id: "17541CB8E37D10F1"
-			subtitle: "Transforma placas em hastes e hastes em fios."
+			subtitle: "Gera energia (E) a partir de energia cinética, a quantidade gerada depende do RPM e atinge o máximo de 256E/t"
 			tasks: [{
 				id: "7AC7370CAA066A09"
 				item: "createaddition:alternator"
@@ -2260,7 +2260,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Permite carregar certos itens."
+			subtitle: "Cria placas em hastes e hastes em fios."
 			tasks: [{
 				id: "68ABE40EEEDCC2E4"
 				item: "createaddition:rolling_mill"
@@ -2277,7 +2277,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Uma estrutura multibloco que permite armazenar grandes quantidades de energia."
+			subtitle: "Permite carregar certos itens."
 			tasks: [{
 				id: "70D2AA3ADCD4A18D"
 				item: "createaddition:tesla_coil"
@@ -2294,7 +2294,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Conectores inserem/extraem energia de/para blocos e fios são usados para conectar entre conectores."
+			subtitle: "Uma estrutura multibloco que permite armazenar grandes quantidades de energia."
 			tasks: [{
 				id: "3664133A21E04ADE"
 				item: "createaddition:modular_accumulator"
@@ -2312,7 +2312,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Qualquer Carretel de Fio"
+			subtitle: "Conectores inserem/extraem energia de/para blocos e fios são usados para conectar entre conectores."
 			tasks: [
 				{
 					id: "5E183F5347F06931"
@@ -2341,7 +2341,7 @@
 							]
 						}
 					}
-					title: "Um componente de redstone que só permite o fluxo de energia(E) quando está recebendo um sinal de redstone."
+					title: "Qualquer carretel de fio"
 					type: "item"
 				}
 			]
@@ -2356,7 +2356,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Condutores permitem ativar redstone enquanto você olha para eles e também podem carregar sua caixa de ferramentas."
+			subtitle: "Um componente de redstone que só permite o fluxo de energia (E) quando está recebendo um sinal de redstone."
 			tasks: [{
 				id: "5F44260E3434FFEC"
 				item: "createaddition:redstone_relay"
@@ -2373,7 +2373,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Qualquer Boné de Condutor"
+			subtitle: "Condutores permitem ativar redstone ao olhar para eles e também podem carregar sua caixa de ferramentas com você."
 			tasks: [{
 				id: "4C320CF1DF11D854"
 				item: {
@@ -2464,10 +2464,10 @@
 						]
 					}
 				}
-				title: "Condutores"
+				title: "Qualquer tampa de condutor"
 				type: "item"
 			}]
-			title: "Permite ver através dos olhos de um condutor, além de controlar seu movimento."
+			title: "Condutores"
 			x: -2.0d
 			y: 14.5d
 		}
@@ -2495,7 +2495,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Usado para visualizar e controlar para qual direção os trens seguem em cruzamentos."
+			subtitle: "Permite ver pelos olhos de um condutor, bem como controlar seu movimento."
 			tasks: [{
 				id: "43C050F7FB2AEDAA"
 				item: "railways:remote_lens"
@@ -2512,7 +2512,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Igual ao Desviador de Trilho de Andesito, mas também permite troca para trens programados."
+			subtitle: "Usado para visualizar e controlar para onde trens vão em cruzamentos."
 			tasks: [{
 				id: "12A8B09593EB685E"
 				item: "railways:track_switch_andesite"
@@ -2529,7 +2529,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Permite acoplar e desacoplar trens sem desmontagem."
+			subtitle: "O mesmo que o Desvio de Trilho de Andesito, mas também permite troca para trens programados."
 			tasks: [{
 				id: "470594A0FBC82476"
 				item: "railways:track_switch_brass"
@@ -2546,7 +2546,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Usado para visualizar caminhos válidos para trens."
+			subtitle: "Permite acoplar e desacoplar trens sem desmontagem."
 			tasks: [{
 				id: "7EDE06A5392F7A5B"
 				item: "railways:track_coupler"
@@ -2563,7 +2563,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Blocos copycat permitem criar degraus e painéis de coisas que normalmente não podem assumir essas formas."
+			subtitle: "Usado para visualizar caminhos válidos para trens."
 			tasks: [{
 				id: "262ADFC794B3089C"
 				item: "railways:semaphore"
@@ -2580,7 +2580,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&eEm Breve: &6Cosmético"
+			subtitle: "Blocos “copycat” permitem criar degraus e painéis a partir de coisas que normalmente não podem assumir essas formas."
 			tasks: [
 				{
 					id: "31C77A6DFB98D443"
@@ -2601,21 +2601,21 @@
 			invisible: true
 			rewards: [{
 				id: "571317E7C09367F3"
-				title: "&6Desafio Eterno"
+				title: "&eEm breve: &6Cosmético"
 				type: "custom"
 			}]
 			shape: "hexagon"
 			size: 1.45d
-			subtitle: "&dUm Cookie para Governar Todos"
+			subtitle: "&6Desafio Eterno"
 			tasks: [{
 				id: "2C9B2EC104D11E5D"
 				item: "estrogen:estrogen_chip_cookie"
 				type: "item"
 			}]
-			title: " &6Create"
+			title: "&dUm Cookie para Governar Todos"
 			x: -8.5d
 			y: 3.0d
 		}
 	]
-	title: "&8[Clique para ler informações]"
+	title: " &6Create"
 }

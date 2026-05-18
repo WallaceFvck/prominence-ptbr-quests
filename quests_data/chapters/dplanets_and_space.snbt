@@ -108,7 +108,7 @@
 		{
 			dependencies: ["42FC53378D56597B"]
 			description: [
-				"&7O espaço é um lugar muito hostil. Para ficar seguro e conseguir respirar, você precisará de um Traje Espacial. Esse traje espacial poderá ser melhorado depois para até mesmo ter um sistema de Propulsão a Jato, útil!"
+				"&7Para colocar Oxigênio nos Tanques de Oxigênio, você precisará criar um Carregador de Oxigênio (ou soprar bem forte no tanque de oxigênio).  "
 			]
 			id: "53B4836305AC0168"
 			rewards: [
@@ -135,7 +135,7 @@
 		{
 			dependencies: ["747BCE95831AF745"]
 			description: [
-				"&7Parabéns por criar seu primeiro foguete! Essa coisa vai levar você para a Órbita e para a Lua se quiser. Todo planeta possui uma órbita, então você pode fazer uma Estação Espacial em qualquer um deles. Para fazer uma Estação Espacial, basta levar aço, ostrum ou desh suficientes com você. Diferentes Estações Espaciais acima de diferentes planetas exigem quantidades diferentes de recursos."
+				"&7O espaço é um lugar muito hostil. Para estar seguro e conseguir respirar, você precisará de um Traje Espacial. Esse traje pode depois ser aprimorado para ter até um sistema de propulsão a jato, o que é muito útil!  "
 			]
 			id: "3C29BA7613157D20"
 			rewards: [{
@@ -190,7 +190,7 @@
 					type: "item"
 				}
 			]
-			title: "&2Foguetes Tier 1"
+			title: "Sobrevivendo ao Espaço  "
 			x: -4.5d
 			y: -15.0d
 		}
@@ -201,7 +201,7 @@
 				"3C29BA7613157D20"
 			]
 			description: [
-				"&7Esse ajudante prático e útil pode abastecer Foguetes com combustível para que você não precise!"
+				"&7Parabéns por fazer seu primeiro foguete! Isso vai te levar para a órbita e até a lua, se quiser. Todo planeta tem uma órbita, então você pode fazer uma estação espacial em qualquer um deles. Para fazer uma Estação Espacial, basta levar bastante aço, ostrum ou desh com você. Estações espaciais diferentes acima de planetas diferentes precisam de quantidades diferentes de recursos.  "
 			]
 			id: "646AB33B769E10F0"
 			rewards: [{
@@ -218,14 +218,14 @@
 				}
 				type: "item"
 			}]
-			title: "Por que fazer você mesmo?"
+			title: "&2Foguetes Nível 1  "
 			x: -3.0d
 			y: -18.5d
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
 			description: [
-				"&7A Bancada de Trabalho da Nasa é usada para criar Foguetes. Todos os Foguetes usam o mesmo Layout de Receita, a única coisa que muda é o nível do material."
+				"&7Esse ajudante prático carrega foguetes com combustível para que você não precise fazer isso!  "
 			]
 			id: "21BC243BF1FABADD"
 			rewards: [
@@ -241,13 +241,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Carregador de Combustível"
+			subtitle: "Por que fazer isso sozinho?  "
 			tasks: [{
 				id: "65903124F155A443"
 				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			title: "Plataforma de Lançamento"
+			title: "Carregador de Combustível  "
 			x: -5.5d
 			y: -14.0d
 		}
@@ -259,14 +259,14 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			title: "Ainda esperando uma colaboração com a Nasa"
+			title: "Plataforma de Lançamento  "
 			x: -1.5d
 			y: -15.0d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
 			description: [
-				"&7Você vai precisar de toneladas dessas coisas. Elas são usadas em quase todas as Receitas."
+				"&7A Bancada da Nasa é usada para fabricar foguetes. Todos os foguetes usam o mesmo layout de receita, a única coisa que muda é o nível do material.  "
 			]
 			id: "367AFF3976F8FB3B"
 			rewards: [{
@@ -274,20 +274,20 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Bancada da Nasa"
+			subtitle: "Ainda procurando uma parceria com a Nasa  "
 			tasks: [{
 				id: "2E2CB531EDBD4424"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			title: "Resistente"
+			title: "Bancada da Nasa  "
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4C291EE69F12BEE7"]
 			description: [
-				"&7Bom, você já está aqui, certo?"
+				"&7Você vai precisar de um monte dessas coisas. Elas são usadas em quase todas as receitas.  "
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -298,7 +298,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "Qualquer #c:steel_plates"
+			subtitle: "Resistente  "
 			tasks: [{
 				count: 26L
 				icon: "techreborn:steel_plate"
@@ -310,17 +310,17 @@
 						value: "c:steel_plates"
 					}
 				}
-				title: "Crie Placas de Aço"
+				title: "Qualquer #c:placas_de_aço  "
 				type: "item"
 			}]
-			title: "Visite o Overworld!"
+			title: "Criar Placas de Aço  "
 			x: -3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6E9F5146EA3F505F"]
 			description: [
-				"&7Encontre um Globo Terrestre"
+				"&7Bem, você já está aqui, certo?  "
 			]
 			id: "60526E15B6F891CB"
 			rewards: [{
@@ -332,7 +332,7 @@
 				dimension: "minecraft:overworld"
 				icon: "ad_astra:earth_globe"
 				id: "392449710877E412"
-				title: "Encontre um Poço de Petróleo"
+				title: "Visite o Mundo Superior!  "
 				type: "dimension"
 			}]
 			x: -8.5d
@@ -341,7 +341,7 @@
 		{
 			dependencies: ["60526E15B6F891CB"]
 			description: [
-				"&7Ah, petróleo. Esse líquido pegajoso é usado para fazer combustíveis de vários tipos. Você vai precisar de muito disso para alcançar todos os planetas."
+				"&7Encontre um Globo da Terra  "
 			]
 			id: "64A24BA1CE6EBC76"
 			rewards: [{
@@ -360,7 +360,7 @@
 		{
 			dependencies: ["60526E15B6F891CB"]
 			description: [
-				"&7Existem muitas maneiras de conseguir Ferro e Aço Compactados. A melhor é usar o Compressor do Tech Reborn, já que você pode fazer overclock nele até velocidades absurdas."
+				"&7Ah, Petróleo, esse líquido pegajoso é usado para fazer vários tipos de combustíveis. Você vai precisar de muito disso para chegar a todos os planetas.  "
 			]
 			id: "7A1306391AFACB4A"
 			rewards: [
@@ -380,7 +380,7 @@
 				icon: "techreborn:oil_bucket"
 				id: "1506C2F7565E3AFA"
 				structure: "ad_astra:oil_well"
-				title: "Para as Estrelas!"
+				title: "Encontre um Poço de Petróleo"
 				type: "structure"
 			}]
 			x: -11.0d
@@ -397,7 +397,7 @@
 			}]
 			tasks: [{
 				id: "4AC29B83C61F5822"
-				title: "A Arte da Compressão"
+				title: "Às estrelas!"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -406,7 +406,7 @@
 		{
 			dependencies: ["379855C491135950"]
 			description: [
-				"&7Assim como sua contraparte mais grossa, estes são componentes essenciais para sua progressão."
+				"&7Há muitas maneiras de obter Ferro e Aço Comprimidos. A melhor é usando o Compressor da Tech Reborn, pois você pode fazer overclock nele para velocidades absurdas."
 			]
 			hide_until_deps_complete: true
 			id: "4C291EE69F12BEE7"
@@ -449,7 +449,7 @@
 					type: "item"
 				}
 			]
-			title: "Obtenha Aço"
+			title: "A Arte da Compressão"
 			x: -4.5d
 			y: -2.0d
 		}
@@ -474,17 +474,17 @@
 						value: "ad_astra:steel_ingots"
 					}
 				}
-				title: "Obtenha seu primeiro Aço!"
+				title: "Obter Aço"
 				type: "item"
 			}]
-			title: "Insira o efeito sonoro de um cano de aço atingindo o chão"
+			title: "Obtenha seu primeiro Aço!"
 			x: -7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
 			description: [
-				"&7Você pode obter Aço fundindo Ferro em um Alto-Forno. Existem outras maneiras, mas essa é de longe a melhor, já que é barata e fácil."
+				"&7Similar à sua contraparte mais robusta, estes são componentes essenciais para o seu progresso."
 			]
 			hide_until_deps_complete: true
 			icon: "modern_industrialization:steel_rod"
@@ -494,7 +494,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Crie Barras de Aço"
+			subtitle: "Inserir efeito sonoro de tubo de aço caindo no chão"
 			tasks: [{
 				count: 16L
 				icon: "modern_industrialization:steel_rod"
@@ -506,17 +506,17 @@
 						value: "ad_astra:steel_rods"
 					}
 				}
-				title: "Crie Barras de Aço"
+				title: "Criar Barras de Aço"
 				type: "item"
 			}]
-			title: "Obtendo Aço"
+			title: "Criar Barras de Aço"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4C291EE69F12BEE7"]
 			description: [
-				"&7Conseguir energia pode ser uma tarefa complicada. Comece com um Gerador a Carvão."
+				"&7Você pode obter Aço derretendo Ferro em um Alto-forno. Há outras maneiras, mas esta é de longe a melhor, pois é barata e fácil."
 			]
 			id: "72493396FD36826B"
 			rewards: [{
@@ -529,14 +529,14 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			title: "Conseguindo Energia"
+			title: "Obtendo Aço"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["379855C491135950"]
 			description: [
-				"&7As máquinas do Ad Astra funcionam com qualquer energia de qualquer outro mod. Você não precisa depender da geração de energia do Ad Astra. Os melhores cabos para usar são os do Tech Reborn, de preferência os Cabos de Fibra de Vidro deles."
+				"&7Obter Energia pode ser uma tarefa complicada. Comece com um Gerador a Carvão."
 			]
 			id: "72CB4FBC4005E9EE"
 			rewards: [
@@ -557,14 +557,14 @@
 				item: "ad_astra:coal_generator"
 				type: "item"
 			}]
-			title: "Energizando Máquinas do Ad Astra"
+			title: "Obtendo Energia"
 			x: -4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["379855C491135950"]
 			description: [
-				"&7Para usar todo esse petróleo que você conseguiu, você vai precisar fazer uma Refinaria de Combustível. Certifique-se de fazer várias, pois vai precisar delas mais tarde."
+				"&7As máquinas do Ad Astra funcionam com qualquer energia de qualquer outro mod. Você não precisa depender da geração de energia do Ad Astra. Os melhores cabos para usar são os da Tech Reborn, de preferência os Cabos de Fibra de Vidro"
 			]
 			icon: "create:electron_tube"
 			id: "52DA21D7B8633C9F"
@@ -584,14 +584,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "Malditos preços da gasolina!"
+			title: "Alimentando Máquinas do Ad Astra"
 			x: -6.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
 			description: [
-				"&7Essas coisas armazenam gases, não são muito boas para líquidos."
+				"&7Para usar todo esse petróleo que você obteve, você precisará fazer uma Refinaria de Combustível. Certifique-se de fazer várias, pois você precisará delas mais tarde."
 			]
 			id: "25C25B9F2A214DF5"
 			rewards: [
@@ -607,13 +607,13 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Refinaria de Combustível"
+			subtitle: "Malditos preços da gasolina!"
 			tasks: [{
 				id: "2DED8306653AEEB9"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			title: "Obtenha placas de Ferro"
+			title: "Refinaria de Combustível"
 			x: -4.5d
 			y: -6.0d
 		}
@@ -637,10 +637,10 @@
 						value: "ad_astra:iron_plates"
 					}
 				}
-				title: "Suas primeiras Placas de Ferro"
+				title: "Obter placas de Ferro"
 				type: "item"
 			}]
-			title: "Crie Barras de Ferro"
+			title: "Suas primeiras placas de Ferro"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -664,17 +664,17 @@
 						value: "ad_astra:iron_rods"
 					}
 				}
-				title: "Crie suas primeiras Barras de Ferro"
+				title: "Criar Barras de Ferro"
 				type: "item"
 			}]
-			title: "Crie 2 Tanques de Gás"
+			title: "Crie suas primeiras Barras de Ferro"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["23AAC569624355D8"]
 			description: [
-				"&7O problema com outros planetas é que eles não têm oxigênio — eu sei, chocante — é por isso que você vai precisar de Tanques de Oxigênio. Eles fornecem o oxigênio necessário para conseguir explorar os planetas."
+				"&7Esses itens armazenam gases, não são tão bons para líquidos."
 			]
 			id: "1DC44922FC0C2FB0"
 			rewards: [{
@@ -692,7 +692,7 @@
 				}
 				type: "item"
 			}]
-			title: "Oxigênio"
+			title: "Criar 2 Tanques de Gás"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -710,7 +710,7 @@
 		{
 			dependencies: ["23AAC569624355D8"]
 			description: [
-				"&7Ventoinhas vão se tornar mais úteis depois que você visitar seu primeiro Corpo Celeste. Duas já bastam por enquanto."
+				"&7O problema com outros planetas é que eles não têm oxigênio, eu sei, chocante — é por isso que você precisará de tanques de oxigênio, eles fornecem o oxigênio necessário para você poder explorar os planetas."
 			]
 			id: "540BFBB8E54C128D"
 			rewards: [{
@@ -728,7 +728,7 @@
 				}
 				type: "item"
 			}]
-			title: "Programa Espacial Flameborn"
+			title: "Oxigênio"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -745,7 +745,7 @@
 			}]
 			tasks: [{
 				id: "5222BD82C0D3EF54"
-				title: "Lembrança de casa"
+				title: "Programa Espacial Flameborn"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -767,7 +767,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crie 5 Latas de Oxigênio e encha-as com Oxigênio"
+			subtitle: "Lembrança de casa"
 			tasks: [{
 				count: 5L
 				id: "48ACA9BE0E31106A"
@@ -783,17 +783,17 @@
 						}
 					}
 				}
-				title: "Precisando de Oxigênio!"
+				title: "Criar 5 Latas de Oxigênio e enchê-las com Oxigênio"
 				type: "item"
 			}]
-			title: "Vrum Vrum"
+			title: "Oxigênio necessário!"
 			x: -3.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["236CCB0ADACB8818"]
 			description: [
-				"&7A Estrutura de Motor é o principal componente do Motor de Aço, então certifique-se de fazer algumas."
+				"&7Ventiladores se tornarão mais úteis quando você tiver visitado seu primeiro corpo celeste. Dois deles serão suficientes por enquanto."
 			]
 			id: "42FC53378D56597B"
 			rewards: [
@@ -815,14 +815,14 @@
 				item: { Count: 2, id: "ad_astra:fan" }
 				type: "item"
 			}]
-			title: "Only - Fans"
+			title: "Apenas - Ventiladores"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["236CCB0ADACB8818"]
 			description: [
-				"&7Todo foguete precisa de 4 Aletas — isso dá 16 Aletas para todos os 4 níveis de foguete."
+				"&7A Estrutura de Motor é o principal componente do Motor de Aço, certifique-se de fazer algumas estruturas de motor."
 			]
 			id: "410B3889B1ABF0C6"
 			rewards: [{
@@ -830,13 +830,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Estrutura do Motor"
+			subtitle: "Vrum Vrum"
 			tasks: [{
 				id: "31504DE6CA2FCB63"
 				item: "ad_astra:engine_frame"
 				type: "item"
 			}]
-			title: "Quantos cavalos de potência?"
+			title: "Estrutura de Motor"
 			x: -3.0d
 			y: -6.5d
 		}
@@ -848,20 +848,20 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Motor de Aço"
+			subtitle: "Quantos cavalos de potência?"
 			tasks: [{
 				id: "64DCECDF1E9081CB"
 				item: "ad_astra:steel_engine"
 				type: "item"
 			}]
-			title: "Aletas de Foguete"
+			title: "Motor de Aço"
 			x: -3.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
 			description: [
-				"&7Esta é uma parte essencial de todos os foguetes. Você vai precisar de um total de 4 — um para cada nível de foguete."
+				"&7Todo foguete requer 4 aletas — isso dá 16 aletas para todos os 4 níveis de foguete."
 			]
 			id: "24B07E71BD4FEF9E"
 			rewards: [{
@@ -875,14 +875,14 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			title: "Como Rudolph, mas um pouco mais difícil"
+			title: "Aletas de Foguete"
 			x: -6.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
 			description: [
-				"&7Armazenar grandes quantidades de gás pode ser irritante, já que exigiria vários baldes. Este item resolve esse problema."
+				"&7Esta é uma parte essencial de todos os foguetes. Você precisará de um total de 4 — uma para cada nível de foguete."
 			]
 			id: "255F7DB992A1A107"
 			rewards: [{
@@ -895,14 +895,14 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			title: "Nenhum foguete necessário!"
+			title: "Como o Rudolph, mas um pouco mais difícil"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
 			description: [
-				"&7Embora vivamos em um mundo cheio de tecnologia, também existe o poder da magia. Não há necessidade de voar toda vez quando você pode simplesmente levar uma waystone."
+				"&7Armazenar grandes quantidades de gás pode ser irritante, pois exigiria vários baldes. Este item resolve esse problema."
 			]
 			id: "5490F24ED175C3FC"
 			rewards: [{
@@ -925,7 +925,7 @@
 		{
 			dependencies: ["747BCE95831AF745"]
 			description: [
-				"&7Se você quer ser o primeiro a chegar na Lua, também precisa ser o primeiro a levar uma bandeira. Caso contrário, ninguém vai acreditar em você."
+				"&7Embora vivamos em um mundo cheio de tecnologia, também existe o poder da magia. Não há necessidade de voar toda vez quando você pode simplesmente levar uma waystone."
 			]
 			id: "75C444F1E41D68C0"
 			rewards: [{
@@ -933,7 +933,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Crie qualquer waystone"
+			subtitle: "Sem foguetes necessários!"
 			tasks: [{
 				icon: "fwaystones:waystone"
 				id: "53B5FD3381A9917F"
@@ -944,17 +944,17 @@
 						value: "fwaystones:waystones"
 					}
 				}
-				title: "Indo e voltando"
+				title: "Criar qualquer waystone"
 				type: "item"
 			}]
-			title: "Crie qualquer cor de Bandeira!"
+			title: "Indo e voltando"
 			x: -6.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
 			description: [
-				"&7Sempre foi."
+				"&7Se você quer ser o primeiro a chegar à Lua, também precisa ser o primeiro a levar uma bandeira. Caso contrário, ninguém acreditaria em você."
 			]
 			id: "7D60EFCB85D1FEEE"
 			rewards: [{
@@ -971,17 +971,17 @@
 						value: "ad_astra:flags"
 					}
 				}
-				title: "As estrelas foram feitas para conquistarmos"
+				title: "Criar qualquer cor de bandeira!"
 				type: "item"
 			}]
-			title: "É tudo queijo?"
+			title: "As estrelas foram feitas para serem conquistadas por nós"
 			x: 0.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["646AB33B769E10F0"]
 			description: [
-				"&7Assim como os aldeões do Mundo Superior, algo como uma praga deve ter corrompido esses seres. Essa “infecção” parece ter uma natureza mais sobrenatural e eldritch, melhor não chegar perto e abatê-los à distância."
+				"&7Sempre foram."
 			]
 			icon: "ad_astra:moon_globe"
 			id: "0F91CAABA5D00AF7"
@@ -1015,15 +1015,15 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Visite a Lua"
+			subtitle: "É tudo queijo?"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
 				id: "2DED2E9C85EDB356"
-				title: "&4Para a Lua!"
+				title: "Visite a Lua"
 				type: "dimension"
 			}]
-			title: "Mate Star Crawlers"
+			title: "&4Para a Lua!"
 			x: -3.0d
 			y: -20.0d
 		}
@@ -1040,18 +1040,18 @@
 				entity: "ad_astra:star_crawler"
 				icon: "croptopia:starfruit"
 				id: "2147CF75AA0636EE"
-				title: "Matando estrelas"
+				title: "Mate os Rastejadores Estelares"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Mate Lunarianos Corrompidos"
+			title: "Matando estrelas"
 			x: 0.0d
 			y: -19.0d
 		}
 		{
 			dependencies: ["0F91CAABA5D00AF7"]
 			description: [
-				"&7Aqui está a prova de que queijo existe na Lua! E ainda te chamavam de lunático..."
+				"&7Assim como os Aldeões no Mundo Superior, algo como uma praga deve ter corrompido esses seres. Esta "Infecção" parece ser um pouco mais de natureza Eldritch; é melhor não chegar perto e eliminá-los à distância."
 			]
 			icon: {
 				Count: 1
@@ -1088,14 +1088,14 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Encontre Queijo"
+			title: "Mate Lunarianos Corrompidos"
 			x: -0.5d
 			y: -20.5d
 		}
 		{
 			dependencies: ["0F91CAABA5D00AF7"]
 			description: [
-				"&7Desh só pode ser encontrado na Lua. É um recurso crucial necessário para conseguir Foguetes Tier 2."
+				"&7Há prova de que queijo existe na lua! E te chamaram de lunático..."
 			]
 			icon: "ad_astra:moon_cheese_ore"
 			id: "3AA20BECA0A67EFF"
@@ -1117,28 +1117,18 @@
 				id: "700D04774BD6826A"
 				observe_type: 0
 				timer: 0L
-				title: "Mhmmmm Queijo"
+				title: "Encontre Queijo"
 				to_observe: "ad_astra:moon_cheese_ore"
 				type: "observation"
 			}]
-			title: "Lingotes de Desh"
+			title: "Mhmmmm Queijo"
 			x: -1.5d
 			y: -21.5d
 		}
 		{
 			dependencies: ["0F91CAABA5D00AF7"]
 			description: [
-				"&7Esta é minha chave inglesa. Existem muitas como ela, mas esta é minha."
-				""
-				"&7Minha chave inglesa é minha melhor amiga. Ela é minha vida. Devo dominá-la como devo dominar minha vida."
-				""
-				"&7Sem mim, minha chave inglesa é inútil. Sem minha chave inglesa, eu sou inútil. Devo usar minha chave inglesa corretamente. Devo consertar conexões antes que causem um gargalo."
-				""
-				"&7Minha chave inglesa e eu sabemos que o que importa na progressão tecnológica não são as máquinas que construímos, o barulho das máquinas, nem a fumaça que produzem. Sabemos que é a eficiência que importa."
-				""
-				"&7Minha chave inglesa nasceu das chamas assim como eu nasci das chamas, porque ela é minha vida. Portanto, aprenderei sobre ela como um irmão. Aprenderei suas fraquezas, suas forças, suas peças, seus acessórios, seu metal e seu tamanho. Eu sempre a protegerei contra os danos do clima e do desgaste assim como protegerei minhas pernas, meus braços, meus olhos e meu coração contra danos. Manterei minha chave inglesa limpa e pronta. Nós nos tornaremos parte um do outro."
-				""
-				"&7Perante S'kellak, eu juro este credo. Minha chave inglesa e eu somos os defensores de Vaaz. Somos os mestres de nossas máquinas. Somos os salvadores da minha progressão tecnológica."
+				"&7Desh só pode ser encontrado na Lua. É um recurso crucial necessário para obter foguetes de Nível 2."
 			]
 			id: "73CD8E75D73EBF77"
 			rewards: [
@@ -1186,7 +1176,7 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			title: "Placas de Desh"
+			title: "Lingotes de Desh"
 			x: -3.0d
 			y: -23.5d
 		}
@@ -1200,7 +1190,7 @@
 				item: "ad_astra:desh_plate"
 				type: "item"
 			}]
-			title: "Blocos de Desh"
+			title: "Placas de Desh"
 			x: -3.0d
 			y: -25.0d
 		}
@@ -1223,7 +1213,17 @@
 		{
 			dependencies: ["783EBE7797C50794"]
 			description: [
-				"&7Este rádio consegue tocar música ao vivo de verdade, ótimo para ambientação ou uma festa!"
+				"&7Esta é a minha chave inglesa. Existem muitas como ela, mas esta é minha."
+				""
+				"&7Minha chave inglesa é minha melhor amiga. É minha vida. Eu devo dominá-la como devo dominar minha vida."
+				""
+				"&7Sem mim, minha chave inglesa é inútil. Sem minha chave inglesa eu sou inútil. Eu devo usar minha chave corretamente. Eu devo consertar conexões antes que causem um acúmulo."
+				""
+				"&7Minha chave inglesa e eu sabemos que o que importa na progressão tecnológica não são as máquinas que construímos, o barulho das máquinas, nem a fumaça que elas fazem. Sabemos que é a eficiência que importa."
+				""
+				"&7Minha chave inglesa é flameborn assim como eu sou flameborn, pois ela é minha vida. Portanto, eu a aprenderei como um irmão. Aprenderei suas fraquezas, sua força, suas partes, seus acessórios, seu metal e seu tamanho. Eu sempre a guardarei contra os estragos do tempo e danos como guardarei minhas pernas, meus braços, meus olhos e meu coração contra danos. Manterei minha chave limpa e pronta. Nós nos tornaremos parte um do outro."
+				""
+				"&7Diante de S'kellak eu juro este credo. Minha chave inglesa e eu somos os defensores de Vaaz. Somos os mestres de nossas máquinas. Somos os salvadores da minha progressão tecnológica."
 			]
 			id: "5CB39BB4679C0166"
 			rewards: [{
@@ -1242,7 +1242,7 @@
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
 			description: [
-				"&7Este nível de foguete permitirá que você vá para Mercúrio e Vênus. Embora Mercúrio seja bem sem graça, Vênus guarda muitas riquezas."
+				"&7Este rádio pode realmente tocar música ao vivo, ótimo para ambiente ou uma festa!"
 			]
 			id: "4384A653D6DB590A"
 			rewards: [{
@@ -1280,7 +1280,7 @@
 				item: { Count: 6, id: "ad_astra:desh_block" }
 				type: "item"
 			}]
-			title: "Tanques de Desh"
+			title: "Blocos de Desh"
 			x: -1.0d
 			y: -27.5d
 		}
@@ -1306,7 +1306,7 @@
 				item: { Count: 2, id: "ad_astra:desh_tank" }
 				type: "item"
 			}]
-			title: "&3Foguetes Tier 2"
+			title: "Tanques de Desh"
 			x: -5.0d
 			y: -27.5d
 		}
@@ -1350,7 +1350,7 @@
 				}
 				type: "item"
 			}]
-			title: "Visite o planeta vermelho"
+			title: "&3Foguetes de Nível 2"
 			x: -3.0d
 			y: -30.5d
 		}
@@ -1368,10 +1368,10 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "63E4CA6FFE330CD3"
-				title: "&5Voe para Marte!"
+				title: "Visite o planeta vermelho"
 				type: "dimension"
 			}]
-			title: "Visite uma Torre Lunar"
+			title: "&5Voe para Marte!"
 			x: -3.0d
 			y: -33.0d
 		}
@@ -1406,7 +1406,7 @@
 				title: "Visite uma Torre Lunar"
 				type: "structure"
 			}]
-			title: "E você achou que a cabeça deles não poderia ficar maior"
+			title: "Visite uma Torre Lunar"
 			x: -4.5d
 			y: -21.5d
 		}
@@ -1426,7 +1426,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visite uma Vila Lunarian"
+			subtitle: "E você achou que a cabeça deles não podia ficar maior"
 			tasks: [{
 				icon: "artifacts:villager_hat"
 				id: "6A5143BED5345B93"
@@ -1434,7 +1434,7 @@
 				title: "Visite uma Vila Lunarian"
 				type: "structure"
 			}]
-			title: "Encontre uma Dungeon Lunar"
+			title: "Visite uma Vila Lunarian"
 			x: -5.5d
 			y: -20.5d
 		}
@@ -1451,10 +1451,10 @@
 				icon: "minecraft:spawner"
 				id: "3C5F5A32D2CACBD6"
 				structure: "ad_astra:moon_dungeon"
-				title: "Encontre uma dungeon lunar!"
+				title: "Encontre uma Masmorra Lunar"
 				type: "structure"
 			}]
-			title: "Visite as calotas polares de Marte"
+			title: "Encontre uma Masmorra Lunar"
 			x: -6.0d
 			y: -19.0d
 		}
@@ -1477,12 +1477,12 @@
 				type: "xp"
 				xp: 300
 			}]
-			subtitle: "Água em Marte?"
+			subtitle: "Visite as calotas de gelo em Marte"
 			tasks: [{
 				biome: "ad_astra:martian_polar_caps"
 				icon: "promenade:snowy_spruce_leaves"
 				id: "545D49B974B796F8"
-				title: "Visite Canyon Creek"
+				title: "Água em Marte?"
 				type: "biome"
 			}]
 			x: -0.5d
@@ -1500,10 +1500,10 @@
 				biome: "ad_astra:martian_canyon_creek"
 				icon: "ad_astra:mars_stone"
 				id: "31EB2A083B3E5A44"
-				title: "Visite o Canyon em Marte"
+				title: "Visite o Canyon Creek"
 				type: "biome"
 			}]
-			title: "Mate Raptors Marcianos"
+			title: "Visite o Cânion em Marte"
 			x: -5.5d
 			y: -35.0d
 		}
@@ -1519,7 +1519,7 @@
 				entity: "ad_astra:martian_raptor"
 				icon: "artifacts:digging_claws"
 				id: "15B82A2A548A876F"
-				title: "Ostrum Bruto"
+				title: "Mate Ráptores Marcianos"
 				type: "kill"
 				value: 100L
 			}]
@@ -1540,7 +1540,7 @@
 				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
-			title: "&4Foguetes Tier 3"
+			title: "Ostrum Bruto"
 			x: -3.0d
 			y: -36.0d
 		}
@@ -1551,7 +1551,7 @@
 				"0E82BE6796216A9B"
 			]
 			description: [
-				"&7Este é o último nível de foguete. Com isso, você poderá visitar outros Sistemas Solares."
+				"&7Este nível de foguete permitirá que você vá a Mercúrio e Vênus; enquanto Mercúrio é bastante sem eventos, Vênus guarda muitas riquezas."
 			]
 			id: "142DA24413D40E4E"
 			rewards: [{
@@ -1568,7 +1568,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tanques de Ostrum"
+			title: "&4Foguetes de Nível 3"
 			x: -3.0d
 			y: -45.0d
 		}
@@ -1618,7 +1618,7 @@
 				item: { Count: 2, id: "ad_astra:ostrum_tank" }
 				type: "item"
 			}]
-			title: "Blocos de Ostrum"
+			title: "Tanques de Ostrum"
 			x: -3.0d
 			y: -42.5d
 		}
@@ -1644,7 +1644,7 @@
 				item: { Count: 6, id: "ad_astra:ostrum_block" }
 				type: "item"
 			}]
-			title: "Calorite é claro"
+			title: "Blocos de Ostrum"
 			x: -1.0d
 			y: -42.5d
 		}
@@ -1656,15 +1656,15 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Visite Vênus"
+			subtitle: "Calorita, é claro"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "7E03DF242B6E6C94"
-				title: "&3Para Vênus pegar"
+				title: "Visite Vênus"
 				type: "dimension"
 			}]
-			title: "&eVisite Mercúrio"
+			title: "&3Para Vênus para obter"
 			x: -5.0d
 			y: -46.5d
 		}
@@ -1680,7 +1680,7 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "307AC38BAE7E2009"
-				title: "Mate Cubos de Magma"
+				title: "&eVisite Mercúrio"
 				type: "dimension"
 			}]
 			x: -1.0d
@@ -1712,7 +1712,7 @@
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_block"
 				id: "07F3AA320674988E"
-				title: "Calorite Bruto"
+				title: "Mate Cubos de Magma"
 				type: "kill"
 				value: 600L
 			}]
@@ -1740,7 +1740,7 @@
 				item: "ad_astra:raw_calorite"
 				type: "item"
 			}]
-			title: "Lingotes de Calorite"
+			title: "Calorita Bruta"
 			x: -7.0d
 			y: -48.5d
 		}
@@ -1767,7 +1767,7 @@
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			title: "Placas de Calorite"
+			title: "Lingotes de Calorite"
 			x: -7.0d
 			y: -50.5d
 		}
@@ -1794,7 +1794,7 @@
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
-			title: "Tanques de Calorite"
+			title: "Placas de Calorite"
 			x: -7.0d
 			y: -52.5d
 		}
@@ -1828,7 +1828,7 @@
 				item: { Count: 2, id: "ad_astra:calorite_tank" }
 				type: "item"
 			}]
-			title: "Blocos de Calorite"
+			title: "Tanques de Calorite"
 			x: -7.0d
 			y: -55.0d
 		}
@@ -1846,7 +1846,7 @@
 				item: { Count: 6, id: "ad_astra:calorite_block" }
 				type: "item"
 			}]
-			title: "&6Foguetes Tier 4"
+			title: "Blocos de Calorite"
 			x: -5.0d
 			y: -55.0d
 		}
@@ -1857,7 +1857,7 @@
 				"643C958E7FDE2566"
 			]
 			description: [
-				"&7Este sistema possui um Sol bastante único."
+				"&7Este é o último nível do Rocket. Com isso, você pode visitar outros Sistemas Solares."
 			]
 			id: "78329681F2A34FE3"
 			rewards: [{
@@ -1874,14 +1874,14 @@
 				}
 				type: "item"
 			}]
-			title: "Fora deste Sistema!"
+			title: "&6Foguetes de Nível 4"
 			x: -7.0d
 			y: -57.5d
 		}
 		{
 			dependencies: ["78329681F2A34FE3"]
 			description: [
-				"&7Este conjunto de armadura concede voo! É uma das duas armaduras que fazem isso."
+				"&7Este Sistema apresenta um Sol bastante único."
 			]
 			icon: "ad_astra:glacio_globe"
 			id: "1EE01E51C7059707"
@@ -1890,15 +1890,15 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Visite Glacio"
+			subtitle: "Fora deste Sistema!"
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				icon: "ad_astra:glacio_globe"
 				id: "6A9E8883EF3D8226"
-				title: "&8Visite Glacio"
+				title: "Visitar Glacio"
 				type: "dimension"
 			}]
-			title: "Mate Pygros"
+			title: "&8Visitar Glacio"
 			x: -7.0d
 			y: -59.5d
 		}
@@ -1922,7 +1922,7 @@
 				entity: "ad_astra:pygro"
 				icon: "botania:third_eye"
 				id: "0EB82623B0927D5E"
-				title: "Visite uma Torre Pygro"
+				title: "Matar Pygros"
 				type: "kill"
 				value: 100L
 			}]
@@ -1942,10 +1942,10 @@
 				icon: "ad_astra:calorite_pillar"
 				id: "715F440897394627"
 				structure: "ad_astra:pygro_tower"
-				title: "Visite uma Torre Pygro "
+				title: "Visitar uma Torre Pygro"
 				type: "structure"
 			}]
-			title: "Como Piglins, mas estranhos"
+			title: "Visitar uma Torre Pygro"
 			x: -7.0d
 			y: -45.5d
 		}
@@ -1964,15 +1964,15 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Visite uma Vila Pygro"
+			subtitle: "Como Piglins, mas estranhos"
 			tasks: [{
 				icon: "minecraft:piglin_head"
 				id: "3ECFDB7288CD1F43"
 				structure: "ad_astra:pygro_village"
-				title: "Encontre uma Vila Pygro"
+				title: "Visitar uma Vila Pygro"
 				type: "structure"
 			}]
-			title: "Mogged"
+			title: "Encontrar uma Vila Pygro"
 			x: -3.5d
 			y: -48.0d
 		}
@@ -1992,7 +1992,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mate Moglers"
+			subtitle: "Humilhado"
 			tasks: [{
 				entity: "ad_astra:mogler"
 				icon: {
@@ -2003,7 +2003,7 @@
 					}
 				}
 				id: "2B7653E47E341D9E"
-				title: "Monstro..."
+				title: "Matar Moglers"
 				type: "kill"
 				value: 100L
 			}]
@@ -2025,14 +2025,14 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Mate um Carneiro Glaciano"
+			subtitle: "Monstro..."
 			tasks: [{
 				entity: "ad_astra:glacian_ram"
 				id: "51C2482E5D85E3FF"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Ordenhe um Carneiro Glaciano"
+			title: "Matar Carneiro Glaciano"
 			x: -7.0d
 			y: -61.5d
 		}
@@ -2047,7 +2047,7 @@
 			tasks: [{
 				id: "24B19029810B14BC"
 				item: "minecraft:milk_bucket"
-				title: "Colete Fragmentos de Gelo"
+				title: "Ordenhar um Carneiro Glaciano"
 				type: "item"
 			}]
 			x: -5.0d
@@ -2066,14 +2066,14 @@
 				item: "ad_astra:ice_shard"
 				type: "item"
 			}]
-			title: "&5Quer Voar?"
+			title: "Coletar Fragmentos de Gelo"
 			x: -9.0d
 			y: -60.0d
 		}
 		{
 			dependencies: ["5DA393D255FB9F2F"]
 			description: [
-				"&7A arma Zip pode ser preenchida com oxigênio para impulsionar você através de lugares onde a gravidade é um pouco menor que 1g, como a órbita."
+				"&7Este conjunto de armadura te dá voo! é uma das duas armaduras que fazem isso."
 			]
 			icon: {
 				Count: 1
@@ -2135,7 +2135,7 @@
 					type: "item"
 				}
 			]
-			title: "Placas de Ostrum"
+			title: "&5Quer voar?"
 			x: -10.5d
 			y: -52.5d
 		}
@@ -2162,7 +2162,7 @@
 				item: "ad_astra:ostrum_plate"
 				type: "item"
 			}]
-			title: "Faça uma Estação Espacial em uma Órbita"
+			title: "Placas de Ostrum"
 			x: -3.0d
 			y: -40.0d
 		}
@@ -2260,7 +2260,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "22A5801FDE0A6ACA"
 					optional_task: true
-					title: "Faça uma Estação Espacial em uma Órbita"
+					title: "Construir uma Estação Espacial em uma Órbita"
 					type: "dimension"
 				}
 				{
@@ -2268,7 +2268,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "564184294F1993B9"
 					optional_task: true
-					title: "Faça uma Estação Espacial em uma Órbita"
+					title: "Construir uma Estação Espacial em uma Órbita"
 					type: "dimension"
 				}
 				{
@@ -2276,7 +2276,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "789EE3EDD3C34EDD"
 					optional_task: true
-					title: "Faça uma Estação Espacial em uma Órbita"
+					title: "Construir uma Estação Espacial em uma Órbita"
 					type: "dimension"
 				}
 				{
@@ -2284,7 +2284,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "3BE806352757CFF6"
 					optional_task: true
-					title: "Faça uma Estação Espacial em uma Órbita"
+					title: "Construir uma Estação Espacial em uma Órbita"
 					type: "dimension"
 				}
 				{
@@ -2292,7 +2292,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "66E1821D4A5703BF"
 					optional_task: true
-					title: "Faça uma Estação Espacial em uma Órbita"
+					title: "Construir uma Estação Espacial em uma Órbita"
 					type: "dimension"
 				}
 				{
@@ -2300,11 +2300,11 @@
 					icon: "ad_astra:iron_pillar"
 					id: "1455ECC1B7795580"
 					optional_task: true
-					title: "Construa uma Estação Espacial!"
+					title: "Construir uma Estação Espacial em uma Órbita"
 					type: "dimension"
 				}
 			]
-			title: "Não Mata"
+			title: "Construir uma Estação Espacial!"
 			x: 2.5d
 			y: -16.0d
 		}
@@ -2312,7 +2312,7 @@
 			dependencies: ["37B1A85BBE83CE80"]
 			dependency_requirement: "all_started"
 			description: [
-				"&7Você pode criar uma Estação Espacial em qualquer órbita ao redor de qualquer Corpo Celeste. Basta levar os ingredientes apropriados durante o voo. Uma vez lá, sinta-se livre para construir o que quiser. Só tenha em mente que a água congela lá."
+				"&7A Zip gun pode ser preenchida com Oxigênio para te impulsionar por lugares onde a gravidade é um pouco menor que 1g, como a órbita."
 			]
 			id: "19D7523D237BCCE9"
 			rewards: [{
@@ -2320,7 +2320,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Arma Improvisada"
+			subtitle: "Não Mata"
 			tasks: [{
 				id: "5B00456AE025E193"
 				item: {
@@ -2330,14 +2330,14 @@
 				}
 				type: "item"
 			}]
-			title: "Sua própria Estação Espacial"
+			title: "Zip Gun"
 			x: 4.0d
 			y: -17.5d
 		}
 		{
 			dependencies: ["646AB33B769E10F0"]
 			description: [
-				"&8[Clique para ler as instruções]"
+				"&7Você pode construir uma Estação Espacial em qualquer Órbita ao redor de qualquer Corpo Celeste. Basta levar os ingredientes apropriados com você no voo. Uma vez lá, sinta-se à vontade para construir o que quiser. Tenha em mente que a água congela lá."
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:glowing_steel_pillar"
@@ -2359,7 +2359,7 @@
 				id: "58BAD23C56A07301"
 				type: "checkmark"
 			}]
-			title: "Crie um &bDistribuidor de Oxigênio"
+			title: "Sua própria Estação Espacial"
 			x: 2.5d
 			y: -17.5d
 		}
@@ -2393,7 +2393,7 @@
 			tasks: [{
 				id: "300CA43CBD7B9587"
 				item: "ad_astra:oxygen_distributor"
-				title: "&6Combustível&r é difícil de conseguir; ele &arequer explorar&r o oceano, procurando por &bfontes de petróleo&r. O &3Congelador Criogênico&r introduz uma nova forma de obter um combustível melhor, o &3Combustível Criogênico&r. O &3Combustível Criogênico&r é muito mais eficiente do que o &acombustível refinado&r, permitindo lançar um foguete com apenas um &9balde&r."
+				title: "Crie um &bDistribuidor de Oxigênio"
 				type: "item"
 			}]
 			x: 0.5d
@@ -2419,11 +2419,11 @@
 					xp: 300
 				}
 			]
-			subtitle: "Crie um &4Congelador Criogênico"
+			subtitle: "&6Combustível&r é difícil de obter; ele &arequer se aventurar&r no oceano, procurando &bfontes de petróleo&r. O &3Cryo Freezer&r introduz uma nova forma de obter um combustível melhor, o &3Combustível Criogênico&r. O &3Combustível Criogênico&r é muito mais eficiente do que o &acombustível refinado&r, permitindo que você lance um foguete com apenas um &9balde&r."
 			tasks: [{
 				id: "672A1B3159A82E2B"
 				item: "ad_astra:cryo_freezer"
-				title: "vrom vroom"
+				title: "Crie um &4Congelador Criogênico"
 				type: "item"
 			}]
 			x: -6.0d
@@ -2451,7 +2451,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rover"
+			subtitle: "vrum vrum"
 			tasks: [{
 				id: "47E1D3173BE3B4D2"
 				item: {
@@ -2461,7 +2461,7 @@
 				}
 				type: "item"
 			}]
-			title: "A &bbomba de água&r é essencial para manter o &bdistribuidor de oxigênio&r funcionando infinitamente. Para usá-la, coloque uma &bfonte infinita de água&r abaixo, depois coloque a &bbomba de água&r acima de um dos blocos de água e então coloque o &bdistribuidor de oxigênio&r adjacente a ela. Certifique-se de fornecer &cenergia&r suficiente tanto para a &bbomba de água&r quanto para o &bdistribuidor de oxigênio&r.&r"
+			title: "Rover"
 			x: 0.5d
 			y: -26.0d
 		}
@@ -2473,11 +2473,11 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Crie uma &bBomba de Água"
+			subtitle: "&bA bomba de água&r é essencial para manter o &bdistribuidor de oxigênio&r funcionando infinitamente. Para usá-la, coloque uma &bfonte infinita de água&r abaixo, depois coloque a &bbomba de água&r acima de um dos blocos de água e, em seguida, coloque o &bdistribuidor de oxigênio&r adjacente a ele. Certifique-se de fornecer energia suficiente tanto para a &bbomba de água&r quanto para o &bdistribuidor de oxigênio&r.&r"
 			tasks: [{
 				id: "37F586D82E8329C2"
 				item: "ad_astra:water_pump"
-				title: "Encontre o &4Templo de Marte"
+				title: "Crie uma &bBomba de Água"
 				type: "item"
 			}]
 			x: -6.5d
@@ -2529,13 +2529,13 @@
 				icon: "ad_astra:mars_sand"
 				id: "41CC0291410AF99B"
 				structure: "ad_astra:mars_temple"
-				title: "Encontre o Templo de Marte"
+				title: "Encontrar o &4Templo de Marte"
 				type: "structure"
 			}]
-			title: " &dO Reino Astral"
+			title: "Encontrar o Templo de Marte"
 			x: -5.5d
 			y: -32.5d
 		}
 	]
-	title: "&7Para colocar Oxigênio em Tanques de Oxigênio, você precisará fazer um Carregador de Oxigênio (ou soprar bem forte dentro do tanque de oxigênio)."
+	title: " &dO Reino Astral"
 }

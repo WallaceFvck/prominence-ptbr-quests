@@ -19,7 +19,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Bem-vindo, aventureiro curioso! Suponho que deveria perguntar como você entrou aqui, mas não importa, o mundo das abelhas é o que você vê diante de si, explore o mundo e veja que cultura de abelhas você pode aprender."
+			subtitle: "Bem-vindo, aventureiro curioso! Suponho que eu deveria perguntar como você entrou aqui, mas não importa, o mundo das abelhas é o que você vê diante de si, explore o mundo e veja o que você pode aprender sobre a cultura das abelhas."
 			tasks: [{
 				dimension: "the_bumblezone:the_bumblezone"
 				icon: "minecraft:bee_nest"
@@ -27,7 +27,7 @@
 				title: "Vá para o Bumblezone"
 				type: "dimension"
 			}]
-			title: "Mundo das Abelhas e do Mel"
+			title: "Mundo de Abelha e Mel"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -93,7 +93,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ok, embora não exista realmente geleia feita por abelhas, pelo menos há discos de música para ouvir."
+			subtitle: "Ok, embora não haja realmente geleia feita por abelhas, pelo menos há discos de música para ouvir."
 			tasks: [
 				{
 					id: "396393F172D13E1E"
@@ -136,7 +136,7 @@
 					type: "item"
 				}
 			]
-			title: "Sons das Abelhas"
+			title: "Jams de Abelha"
 			x: 0.5d
 			y: 4.0d
 		}
@@ -211,7 +211,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Fico me perguntando por que há uma bússola feita de mel? Talvez ela leve a algum lugar importante nesta grande colmeia... Por que está grudando na minha mão?"
+			subtitle: "Eu me pergunto por que há uma bússola feita de mel? Talvez ela leve a algum lugar importante nesta grande colmeia... Por que ela está grudando na minha mão?"
 			tasks: [{
 				id: "314E0B959B386388"
 				item: {
@@ -232,7 +232,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Um labirinto? Isso parece muito perigoso, provavelmente não devo entrar aqui sem alguma segurança primeiro."
+			subtitle: "Um labirinto? Isso parece muito perigoso, provavelmente eu não deveria entrar aqui sem nenhuma proteção primeiro."
 			tasks: [
 				{
 					id: "72B19162E39280E2"
@@ -284,7 +284,7 @@
 				}
 				id: "026654F5006802CE"
 				structure: "the_bumblezone:sempiternal_sanctum_blue"
-				title: "Encontre o Santuário Sempiternal Azul"
+				title: "Encontre o Santuário Sempiterno Azul"
 				type: "structure"
 			}]
 			x: -2.0d
@@ -308,7 +308,7 @@
 				}
 				id: "70CF21FB5F2B81C3"
 				structure: "the_bumblezone:sempiternal_sanctum_green"
-				title: "Encontre o Santuário Sempiternal Verde"
+				title: "Encontre o Santuário Sempirternal Verde"
 				type: "structure"
 			}]
 			x: 2.0d
@@ -332,7 +332,7 @@
 				}
 				id: "21800782215F1EBF"
 				structure: "the_bumblezone:sempiternal_sanctum_purple"
-				title: "Encontre o Santuário Sempiternal Roxo"
+				title: "Encontre o Santuário Sempirternal Roxo"
 				type: "structure"
 			}]
 			x: -3.5d
@@ -351,7 +351,7 @@
 				}
 				id: "1069ECE91757590C"
 				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
-				title: "Encontre o Santuário Sempiternal Vermelho"
+				title: "Encontre o Santuário Sempiterno Vermelho"
 				type: "structure"
 			}]
 			x: -3.0d
@@ -375,7 +375,7 @@
 				}
 				id: "24ADA1FE7305C9C6"
 				structure: "the_bumblezone:sempiternal_sanctum_white"
-				title: "Encontre o Santuário Sempiternal Branco"
+				title: "Encontre o Santuário Sempiterno Branco"
 				type: "structure"
 			}]
 			x: 1.0d
@@ -399,7 +399,7 @@
 				}
 				id: "63BEA72E5A7DCF1F"
 				structure: "the_bumblezone:sempiternal_sanctum_yellow"
-				title: "Encontre o Santuário Sempiternal Amarelo"
+				title: "Encontre o Santuário Sempiterno Amarelo"
 				type: "structure"
 			}]
 			x: 2.5d
@@ -413,7 +413,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Muitos guerreiros abelhas caíram e este santuário é dedicado aos guerreiros caídos, com uma lança ferrão de um dos guerreiros abelhas mais proeminentes que já existiram."
+			subtitle: "Muitos guerreiros-abelha caíram e este santuário é dedicado aos guerreiros caídos, com uma lança-ferrão de um dos mais proeminentes guerreiros-abelha que já existiram."
 			tasks: [{
 				icon: {
 					Count: 1
@@ -424,10 +424,10 @@
 				}
 				id: "60EBEED85691EF2F"
 				structure: "the_bumblezone:stinger_spear_shrine"
-				title: "Encontre o Santuário da Lança Ferrão"
+				title: "Encontre o Santuário da Lança-Ferrão"
 				type: "structure"
 			}]
-			title: "Santuário da Lança Ferrão"
+			title: "Santuário da Lança-Ferrão"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -439,7 +439,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Abelhas terem um metrô parece fora de lugar considerando o quão moderna essa tecnologia é, mas pelo menos viajar é divertido."
+			subtitle: "Abelhas tendo um metrô parece fora de lugar considerando o quão moderna é essa tecnologia, mas pelo menos viajar é divertido."
 			tasks: [{
 				icon: "the_bumblezone:windy_air"
 				id: "64FC28F523C427D2"
@@ -459,7 +459,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Encontre Sua Majestade, a Rainha Abelha. Ela está disposta a ser imparcial e trocar itens com você e talvez até enviar algumas tarefas para serem feitas."
+			subtitle: "Encontre Sua Majestade, a Rainha Abelha. Ela está disposta a ser imparcial e negociar itens com você e talvez até lhe enviar algumas tarefas que valem a pena fazer."
 			tasks: [{
 				icon: {
 					Count: 1
@@ -500,13 +500,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Parabéns. Você agora ganhou o favor da Rainha Abelha! Agora você é um dos seus semelhantes e as abelhas não irão mais te atacar, mas talvez ainda haja mais para explorar."
+			subtitle: "Parabéns. Você agora ganhou o favor da Rainha Abelha! Agora você é um dos seus parentes e as abelhas não irão mais atacar você, mas talvez haja mais para explorar."
 			tasks: [{
 				id: "1885038F0C08454B"
 				item: "the_bumblezone:essence_of_the_bees"
 				type: "item"
 			}]
-			title: "Um de Nós! Um de Nós!"
+			title: "Um de nós! Um de nós!"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -526,7 +526,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Que conjunto majestoso de armadura usado pelos guerreiros abelhas. Embora não seja muito poderoso, é uma armadura muito bonita."
+			subtitle: "Que conjunto majestoso de armadura usado pelos guerreiros abelhas. Embora não seja muito poderosa, é uma armadura muito bonita."
 			tasks: [
 				{
 					id: "27A36C84442BD4A7"
@@ -584,15 +584,15 @@
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "152E438018A29730"
-			subtitle: "Um fluxo de polinização? Não tenho certeza do propósito de tal lugar, mas há muito pólen e água com açúcar para usar."
+			subtitle: "Um fluxo de polinização? Não tenho certeza da finalidade de um lugar assim, mas há bastante pólen e água com açúcar para usar."
 			tasks: [{
 				icon: "the_bumblezone:sugar_water_bucket"
 				id: "39BD856AE9E09B33"
 				structure: "the_bumblezone:pollinated_stream"
-				title: "Encontre um Riacho Polinizado"
+				title: "Encontrar um Fluxo Polinizado"
 				type: "structure"
 			}]
-			title: "Riacho Polinizado"
+			title: "Fluxo Polinizado"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -604,12 +604,12 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Suponho que esta seja a forma de luxo de uma abelha viver, um hotel, baseado em mel! Me pergunto quanto custa passar uma noite lá dentro."
+			subtitle: "Suponho que essa seja a forma de uma abelha viver no luxo, um hotel, baseado em mel! Fico imaginando quanto custa passar uma noite dentro dele."
 			tasks: [{
 				icon: "the_bumblezone:royal_jelly_block"
 				id: "06A852BC383BFB22"
 				structure: "the_bumblezone:honitel"
-				title: "Encontre um Honitel"
+				title: "Encontrar um Honitel"
 				type: "structure"
 			}]
 			x: 2.5d
@@ -623,12 +623,12 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Muito curioso, há um aldeão na colmeia criando slimes de mel? Fico me perguntando como eles chegaram aqui. Talvez tenham feito amizade com as abelhas."
+			subtitle: "Muito curioso, há um aldeão na colmeia criando lesmas de mel? Fico imaginando como elas foram parar aqui. Talvez tenham feito amizade com as abelhas."
 			tasks: [{
 				icon: "minecraft:slime_ball"
 				id: "49280FF78B9CAD65"
 				structure: "the_bumblezone:honey_slime_ranch"
-				title: "Encontre uma Fazenda de Slimes"
+				title: "Encontrar uma Fazenda de Slimes"
 				type: "structure"
 			}]
 			title: "Fazenda de Slimes"
@@ -648,7 +648,7 @@
 				icon: "minecraft:yellow_banner"
 				id: "521C68398D00E371"
 				structure: "the_bumblezone:pirate_ship"
-				title: "Encontre um Navio Pirata"
+				title: "Encontrar um Navio Pirata"
 				type: "structure"
 			}]
 			x: -4.5d
@@ -662,15 +662,15 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Uma flor tão grande na colmeia! Pode ser de tamanho normal ou pequeno no mundo superior, mas fico me perguntando como ficou tão grande."
+			subtitle: "Uma flor tão enorme na colmeia! Pode ser tamanho normal ou pequeno no mundo exterior, mas fico imaginando como ela ficou tão grande."
 			tasks: [{
 				icon: "the_bumblezone:honey_crystal"
 				id: "40377F875E7C6A21"
 				structure: "the_bumblezone:overgrown_flower"
-				title: "Encontre uma Flor Crescida"
+				title: "Encontrar uma Flor Crescida Demais"
 				type: "structure"
 			}]
-			title: "Flor Crescida"
+			title: "Flor Crescida Demais"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -682,12 +682,12 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Fico me perguntando se foi assim que as abelhas foram descobertas pela primeira vez, trazidas ao presente, congeladas no gelo como humanos."
+			subtitle: "Fico imaginando se foi assim que as abelhas foram descobertas pela primeira vez, trazidas ao presente congeladas no gelo como os humanos."
 			tasks: [{
 				icon: "minecraft:blue_ice"
 				id: "3F2FE2E19E44F4F1"
 				structure: "the_bumblezone:ice_monolith"
-				title: "Encontre um Monólito de Gelo"
+				title: "Encontrar um Monólito de Gelo"
 				type: "structure"
 			}]
 			title: "Monólito de Gelo"
@@ -702,12 +702,12 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Por que as abelhas precisariam de um percurso de parkour se podem voar? Bem, pelo menos podemos tentar chegar ao topo e encontrar algo."
+			subtitle: "Por que as abelhas precisam de um percurso de parkour se elas podem voar? Bem, pelo menos podemos tentar chegar ao topo e encontrar algo."
 			tasks: [{
 				icon: "the_bumblezone:super_candle_red"
 				id: "2A1BC2AB647871D2"
 				structure: "the_bumblezone:candle_parkour"
-				title: "Encontre um Parkour de Velas"
+				title: "Encontrar um Parkour de Velas"
 				type: "structure"
 			}]
 			title: "Parkour de Velas"
@@ -717,7 +717,7 @@
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			description: [
-				"&c(!) Você precisa ser Nível 65 para usar!"
+				"&c(!) Você precisa estar no nível 65 para usar!"
 				""
 				"&7A Flor Cristalina pode ser colocada em cima de Cristais de Mel Brilhantes. Com ela, você pode oferecer itens para fazer a flor crescer. Com esse crescimento, você pode escolher encantamentos específicos para colocar em um livro."
 			]
@@ -735,7 +735,7 @@
 					icon: "the_bumblezone:crystalline_flower"
 					id: "00347893AE03252D"
 					structure: "the_bumblezone:hanging_garden"
-					title: "Encontre os Jardins Suspensos"
+					title: "Encontrar os Jardins Suspensos"
 					type: "structure"
 				}
 				{
@@ -762,11 +762,11 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Quem diria que abelhas podem ter uma casa dentro de uma colmeia? Bem, é um pouco estranho que a casa tenha o formato de uma abelha de verdade. Espero que não estejamos invadindo o espaço deles."
+			subtitle: "Quem diria que as abelhas podem ter uma casa dentro de uma colmeia? Bem, é um pouco estranho que a casa tenha o formato de uma abelha de verdade. Espero que não estejamos invadindo o espaço delas."
 			tasks: [{
 				id: "56EA7542F4676A4B"
 				structure: "the_bumblezone:bee_house"
-				title: "Encontre uma Casa de Abelha"
+				title: "Encontrar uma Casa de Abelha"
 				type: "structure"
 			}]
 			title: "Casa de Abelha?!"
@@ -782,11 +782,11 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Pela aparência, parece que as abelhas costumavam voar por esses aros no passado, mas agora são apenas relíquias antigas do passado nesta colmeia."
+			subtitle: "Pelo aspecto, parece que as abelhas costumavam voar por esses aros no passado, mas agora eles são apenas uma relíquia antiga dentro desta colmeia."
 			tasks: [{
 				id: "41597F4CBF0C7E52"
 				structure: "the_bumblezone:ancient_hoops"
-				title: "Encontre os Aros Antigos"
+				title: "Encontrar Aros Antigos"
 				type: "structure"
 			}]
 			title: "Aros Antigos"
@@ -806,7 +806,7 @@
 				icon: "the_bumblezone:carvable_wax_music"
 				id: "6A445E2CE2DD0C21"
 				structure: "the_bumblezone:dance_floor"
-				title: "Encontre a Pista de Dança"
+				title: "Encontrar a Pista de Dança"
 				type: "structure"
 			}]
 			title: "Pista de Dança"
@@ -821,7 +821,7 @@
 				icon: "minecraft:honey_block"
 				id: "4FAAC46C321AE79F"
 				structure: "the_bumblezone:hive_temple"
-				title: "Encontre um Templo da Colmeia"
+				title: "Encontrar um Templo da Colmeia"
 				type: "structure"
 			}]
 			title: "Templo da Colmeia"
@@ -832,7 +832,7 @@
 			dependencies: ["4E9477A4D0A322D5"]
 			icon: "minecraft:honey_bottle"
 			id: "1FE844E12BA3660A"
-			subtitle: "Então há uma fonte de mel. Suponho que seja outra forma de demonstrar o amor das abelhas pelo mel."
+			subtitle: "Então há uma fonte de mel. Suponho que seja outra forma de mostrar o amor das abelhas pelo mel."
 			tasks: [{
 				id: "4B90BFEC05C6179C"
 				structure: "the_bumblezone:honey_fountain"
@@ -850,7 +850,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Será que as abelhas estão treinando para usar armas de projéteis? Elas são realmente inteligentes."
+			subtitle: "As abelhas estão treinando para usar armas de projéteis? Elas certamente são inteligentes."
 			tasks: [{
 				icon: {
 					Count: 1
@@ -862,7 +862,7 @@
 				}
 				id: "7E0AC99F6EF65E3A"
 				structure: "the_bumblezone:cannon_range"
-				title: "Encontre um Campo de Canhões"
+				title: "Encontrar um Campo de Canhões"
 				type: "structure"
 			}]
 			title: "Campo de Canhões"
@@ -877,15 +877,15 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Há mel demais! Como as abelhas conseguem produzir mais sem se cansar? Talvez devêssemos chamar isso de Mel Governamental no futuro."
+			subtitle: "Há mel demais! Como as abelhas conseguem produzir mais sem ficar cansadas? Talvez devêssemos chamar isso de Mel Governamental no futuro."
 			tasks: [{
 				icon: "the_bumblezone:honey_bucket"
 				id: "16A4D6926C4FE612"
 				structure: "the_bumblezone:honey_cave_room"
-				title: "Encontre uma Sala da Caverna de Mel"
+				title: "Encontrar uma Sala da Caverna de Mel"
 				type: "structure"
 			}]
-			title: "Sala da Caverna de Mel"
+			title: "Honey Cave Room"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -898,14 +898,14 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Um cubo de batalha parece ser algum tipo de masmorra de aranha coberta por enormes teias, talvez isso seja útil em suas tarefas mais tarde."
+			subtitle: "Uma battle cube parece ser algum tipo de masmorra de aranhas coberta por enormes teias; talvez isso seja útil entre suas tarefas mais tarde."
 			tasks: [{
 				id: "63D7913F49061453"
 				structure: "the_bumblezone:battle_cubes"
-				title: "Encontre um Cubo de Batalha"
+				title: "Encontre uma Battle Cube"
 				type: "structure"
 			}]
-			title: "Cubos de Batalha"
+			title: "Battle Cubes"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -918,7 +918,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Hm.. um santuário antigo? Fico me perguntando se é assim que as abelhas adoram sua Rainha.."
+			subtitle: "Mm.. um santuário antigo? Me pergunto se é assim que as abelhas adoram sua Rainha.."
 			tasks: [{
 				id: "02982EB50F5338C0"
 				structure: "the_bumblezone:ancient_shrine"
@@ -932,7 +932,7 @@
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "085633C89B01DBD9"
-			subtitle: "Como existe uma grande árvore de cerejeira nesta colmeia? Fico muito curioso sobre como esse tamanho é escalado no mundo exterior."
+			subtitle: "Como pode haver uma grande cerejeira neste ninho? Estou muito curioso sobre como esse tamanho é escalado no mundo exterior."
 			tasks: [{
 				icon: "minecraft:cherry_sapling"
 				id: "562748B9BD91F4FE"

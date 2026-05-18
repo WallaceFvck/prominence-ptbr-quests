@@ -24,24 +24,20 @@
 				xp: 50
 			}]
 			shape: "diamond"
-			subtitle: "  
-Começar  "
+			subtitle: "É hora de você brincar com a natureza. O que veremos é como usar a mana natural e o solo para obter artefatos poderosos e talvez fazendas. Você está pronto?"
 			tasks: [{
 				id: "6942DC36248E27CB"
-				title: "  
-Primeiros Passos da Muda  "
+				title: "Começar"
 				type: "checkmark"
 			}]
-			title: "  
-Obter uma Lexica Botanica ajudará você a entender o mundo natural ao nosso redor. Conseguir uma será importante para progredir.  "
+			title: "Primeiros Passos da Muda"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["37BA64F19E80BE8B"]
 			description: [
-				"  "
-				"Olá, imagino que você esteja aqui porque quer se tornar uma bruxa, certo? Você veio ao lugar certo... é aqui que tudo começa, jovem bruxa.  "
+				"Não se esqueça de conferir os Avanços para mais dicas também."
 			]
 			id: "34B46C9D3C9F486F"
 			rewards: [
@@ -56,15 +52,13 @@ Obter uma Lexica Botanica ajudará você a entender o mundo natural ao nosso red
 					type: "item"
 				}
 			]
-			subtitle: "  
-Enciclopédia da Mãe Natureza  "
+			subtitle: "Conseguir uma Lexica Botanica ajudará você a entender o mundo natural ao nosso redor. Obter uma será importante para progredir."
 			tasks: [{
 				id: "6B585CBCB166F495"
 				item: "botania:lexicon"
 				type: "item"
 			}]
-			title: "  
-Uma Bolsa de Flores é importante de se ter, pois você estará coletando flores de diferentes cores e isso lotará seu inventário, então uma bolsa para elas é perfeita.  "
+			title: "Enciclopédia da Mãe Natureza"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -77,15 +71,13 @@ Uma Bolsa de Flores é importante de se ter, pois você estará coletando flores
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			subtitle: "  
-Mochila da Muda  "
+			subtitle: "Uma Bolsa de Flores é importante, pois você coletará flores de várias cores e elas acabarão enchendo seu inventário, então uma bolsa para elas é perfeita."
 			tasks: [{
 				id: "4523E4A7CB9A32B3"
 				item: "botania:flower_bag"
 				type: "item"
 			}]
-			title: "  
-O Apotecário de Pétalas é um item importante usado para criar certos itens que serão benéficos para sua progressão.  "
+			title: "Mochila da Muda"
 			x: 4.5d
 			y: 2.0d
 		}
@@ -482,15 +474,13 @@ O Apotecário de Pétalas é um item importante usado para criar certos itens qu
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			subtitle: "  
-Alquimia Natural  "
+			subtitle: "O Apotecário de Pétalas é um item importante usado para criar certos itens que serão benéficos para sua progressão."
 			tasks: [{
 				id: "0D5931056B8963AC"
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			title: "  
-A Margarida Pura é uma planta que pode “purificar” ou transformar qualquer tronco e pedra em materiais usados para criar ferramentas mais sofisticadas.  "
+			title: "Alquimia Natural"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -511,15 +501,13 @@ A Margarida Pura é uma planta que pode “purificar” ou transformar qualquer 
 					type: "item"
 				}
 			]
-			subtitle: "  
-Purificação  "
+			subtitle: "A Margarida Pura é uma planta que pode 'purificar' ou transformar qualquer madeira e pedra em materiais usados para fabricar ferramentas mais sofisticadas."
 			tasks: [{
 				id: "4D34AFD8717101CC"
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "  
-Bom começo! Agora você está pronto para gerar mana. Não deixe de experimentar os diferentes tipos de flores também, por diversão!  "
+			title: "Purificação"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -538,8 +526,7 @@ Bom começo! Agora você está pronto para gerar mana. Não deixe de experimenta
 					xp: 100
 				}
 			]
-			subtitle: "  
-Agora você criou uma flor com uma função única, ótimo começo! Agora você pode fazer rituais e criações interessantes usando essas flores como base, então experimente os diferentes tipos de flora com propriedades únicas.  "
+			subtitle: "Bom começo! Agora você está pronto para gerar mana. Não deixe de experimentar os diferentes tipos de flores também por diversão!"
 			tasks: [{
 				advancement: "botania:main/generating_flower"
 				criterion: ""
@@ -558,16 +545,14 @@ Agora você criou uma flor com uma função única, ótimo começo! Agora você 
 				xp_levels: 1
 			}]
 			shape: "diamond"
-			subtitle: "  
-&eUm Vivace Extático  "
+			subtitle: "Agora você criou uma flor com uma função única, bom começo! Agora você pode fazer rituais e criações interessantes usando essas flores como base, então experimente os diferentes tipos de flora com propriedades únicas."
 			tasks: [{
 				advancement: "botania:main/functional_flower"
 				criterion: ""
 				id: "1CB79DDD6CBFFB84"
 				type: "advancement"
 			}]
-			title: "  
-Esta placa é um item muito especial usado para criar um novo lingote ao infundir três objetos mergulhados em mana. É necessário usar metade da capacidade de uma piscina de mana para que funcione corretamente. Atenção: o ritual será desperdiçado se os itens não estiverem sobre a placa.  "
+			title: "&eUm Vivace Extático"
 			x: -1.5d
 			y: -8.0d
 		}
@@ -1251,15 +1236,13 @@ Esta placa é um item muito especial usado para criar um novo lingote ao infundi
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "  
-Terra?  "
+			subtitle: "Esta placa é um item muito especial usado para criar um novo lingote ao infundir três objetos mergulhados em mana. É preciso usar metade da capacidade de uma piscina de mana para que funcione corretamente. Fique avisado de que o ritual será desperdiçado se os itens não estiverem sobre a placa."
 			tasks: [{
 				id: "22AFEE19CD8ED640"
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			title: "  
-O Altar Rúnico é um item importante que permite a criação de runas usadas em várias ferramentas. Você deve conectá-lo a uma piscina de mana e aos materiais necessários para criar determinada runa para que funcione.  "
+			title: "Terra?"
 			x: -12.5d
 			y: 2.0d
 		}
@@ -1278,15 +1261,13 @@ O Altar Rúnico é um item importante que permite a criação de runas usadas em
 					xp: 20
 				}
 			]
-			subtitle: "  
-Pedras Rúnicas?  "
+			subtitle: "O Altar Rúnico é um item importante que permite a criação de runas usadas em várias ferramentas. Você deve conectá-lo a uma piscina de mana e aos materiais necessários para criar uma certa runa para que funcione."
 			tasks: [{
 				id: "65D59C0A33F0377C"
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			title: "  
-A Varinha da Floresta é um item importante para carregar quando estiver comandando ou redirecionando itens mágicos e piscinas de mana para realizar certas funções.  "
+			title: "Pedras Rúnicas?"
 			x: -10.5d
 			y: 2.0d
 		}
@@ -1298,8 +1279,7 @@ A Varinha da Floresta é um item importante para carregar quando estiver comanda
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "  
-Você é um Druida, Harry!  "
+			subtitle: "A Varinha da Floresta é um item importante para carregar por aí ao comandar ou redirecionar itens mágicos e piscinas de mana para executar uma determinada função."
 			tasks: [{
 				id: "31850A12E9713DA1"
 				item: {
@@ -1312,8 +1292,7 @@ Você é um Druida, Harry!  "
 				}
 				type: "item"
 			}]
-			title: "  
-Uma Piscina de Mana é um item importante de se ter, pois é usada para armazenar mana gerada ou transferida para uso posterior.  "
+			title: "Você é um Druida, Harry!"
 			x: -7.0d
 			y: 2.0d
 		}
@@ -1326,15 +1305,13 @@ Uma Piscina de Mana é um item importante de se ter, pois é usada para armazena
 				item: "botania:livingrock"
 				type: "item"
 			}]
-			subtitle: "  
-Achei que dava para nadar nisso?  "
+			subtitle: "Uma Piscina de Mana é um item importante de se ter, pois é usada para armazenar mana gerada ou transferida para ser usada mais tarde."
 			tasks: [{
 				id: "59EF26CB36D378DF"
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			title: "  
-Um Espalhador de Mana é um bloco que pode transferir mana para blocos ou estruturas próximas que possam armazená-la. Eles podem ser rotacionados ou apontados para um bloco específico usando a Varinha da Floresta.  "
+			title: "Achei que dava para nadar nisso?"
 			x: -7.0d
 			y: 0.5d
 		}
@@ -1359,15 +1336,13 @@ Um Espalhador de Mana é um bloco que pode transferir mana para blocos ou estrut
 					type: "item"
 				}
 			]
-			subtitle: "  
-Mana Sem Fio  "
+			subtitle: "Um Espalhador de Mana é um bloco que pode transferir mana para blocos ou estruturas próximas que possam armazenar mana. Eles podem ser rotacionados ou direcionados para um bloco específico usando a Varinha da Floresta."
 			tasks: [{
 				id: "43696D74F23DCB98"
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "  
-Uma Tábua de Mana é usada para carregar mana como um objeto portátil e pode ser usada para absorver ou depositar mana. Cada tábua pode armazenar cerca de metade da capacidade de uma piscina de mana.  "
+			title: "Mana Sem Fio"
 			x: -7.0d
 			y: 3.5d
 		}
@@ -1386,15 +1361,13 @@ Uma Tábua de Mana é usada para carregar mana como um objeto portátil e pode s
 					xp: 20
 				}
 			]
-			subtitle: "  
-Bateria de Mana  "
+			subtitle: "Uma Tábua de Mana é usada para poder carregar mana como um objeto portátil e pode ser usada para absorver ou depositar mana. Cada tábua pode armazenar cerca de metade da capacidade de uma piscina de mana."
 			tasks: [{
 				id: "67401787DA621354"
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "  
-Um Lingote de Terrasteel é um lingote especial que pode ser usado para criar uma variante mais forte de ferramentas feitas com lingotes de manasteel, mas eles são muito caros de fabricar.  "
+			title: "Bateria de Mana"
 			x: -7.0d
 			y: -1.0d
 		}
@@ -1414,15 +1387,13 @@ Um Lingote de Terrasteel é um lingote especial que pode ser usado para criar um
 					type: "item"
 				}
 			]
-			subtitle: "  
-Aço Natural  "
+			subtitle: "Um Lingote de Terrasteel é um lingote especial que pode ser usado para criar uma variante mais forte de ferramentas feitas com lingotes de manasteel, mas são muito caros de criar."
 			tasks: [{
 				id: "05F6617803271F2D"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			title: "  
-Essas Ferramentas de Manasteel são melhores que ferro e podem usar mana para se reparar.  "
+			title: "Aço Natural"
 			x: -14.5d
 			y: 2.0d
 		}
@@ -1843,8 +1814,7 @@ Essas Ferramentas de Manasteel são melhores que ferro e podem usar mana para se
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "  
-Ferramentas de Manasteel  "
+			subtitle: "Essas Ferramentas de Manasteel são melhores que ferro e podem usar mana para se reparar."
 			tasks: [
 				{
 					id: "3A98D4C8F9D257DF"
@@ -1913,8 +1883,7 @@ Ferramentas de Manasteel  "
 					type: "item"
 				}
 			]
-			title: "  
-Assim como as ferramentas, a Armadura de Manasteel é melhor que ferro e usa mana para se reparar.  "
+			title: "Ferramentas de Manasteel"
 			x: -9.0d
 			y: -1.5d
 		}
@@ -1926,8 +1895,7 @@ Assim como as ferramentas, a Armadura de Manasteel é melhor que ferro e usa man
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "  
-Armadura de Manasteel  "
+			subtitle: "Assim como as ferramentas, a Armadura de Manasteel é melhor que ferro e usa mana para se reparar."
 			tasks: [
 				{
 					id: "3E3DDED0D9DF152B"
@@ -1974,8 +1942,7 @@ Armadura de Manasteel  "
 					type: "item"
 				}
 			]
-			title: "  
-Este conjunto de armadura é uma versão especializada da armadura de manasteel que reduz o custo de mana em comparação ao outro conjunto de mana, porém possui defesa mais fraca.  "
+			title: "Armadura de Manasteel"
 			x: -9.0d
 			y: -2.5d
 		}
@@ -2004,8 +1971,7 @@ Este conjunto de armadura é uma versão especializada da armadura de manasteel 
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "  
-Armadura Manaweave  "
+			subtitle: "Este conjunto de armadura é uma versão especializada da armadura de manasteel que reduz o custo de mana em comparação com os outros conjuntos de mana, porém essa armadura é mais fraca em defesa."
 			tasks: [
 				{
 					id: "141DB6B86472D0BF"
@@ -2052,8 +2018,7 @@ Armadura Manaweave  "
 					type: "item"
 				}
 			]
-			title: "  
-Existem apenas três armas de terrasteel, mas elas são mais fortes que suas variantes de manasteel. Além disso, faça o possível para aumentar o rank do seu Terra Shatterer.  "
+			title: "Armadura de Manaweave"
 			x: -8.0d
 			y: -2.0d
 		}
@@ -2065,8 +2030,7 @@ Existem apenas três armas de terrasteel, mas elas são mais fortes que suas var
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "  
-Terraformação  "
+			subtitle: "Existem apenas três armas de terrasteel, mas elas são mais fortes que suas variantes de manasteel. Além disso, faça o seu melhor para aumentar o rank do seu Terra Shatterer."
 			tasks: [
 				{
 					id: "7AF5604D638D7B9B"
@@ -2103,8 +2067,7 @@ Terraformação  "
 					type: "item"
 				}
 			]
-			title: "  
-O maior rank possível, uma picareta tão poderosa que pode perfurar os céus e a terra!  "
+			title: "Terraformação"
 			x: -14.5d
 			y: 0.5d
 		}
@@ -2123,8 +2086,7 @@ O maior rank possível, uma picareta tão poderosa que pode perfurar os céus e 
 					type: "item"
 				}
 			]
-			subtitle: "  
-Abalador da Terra  "
+			subtitle: "O maior rank alcançável, uma picareta tão poderosa que pode perfurar os céus e a terra!"
 			tasks: [{
 				id: "2559973595B297D1"
 				item: {
@@ -2137,8 +2099,7 @@ Abalador da Terra  "
 				}
 				type: "item"
 			}]
-			title: "  
-Esta Armadura de Terrasteel é uma versão mais forte da Armadura de Manasteel e também pode carregar passivamente suas Tábuas de Mana no inventário.  "
+			title: "Abalador da Terra"
 			x: -15.5d
 			y: -0.5d
 		}
@@ -2150,8 +2111,7 @@ Esta Armadura de Terrasteel é uma versão mais forte da Armadura de Manasteel e
 				type: "xp_levels"
 				xp_levels: 30
 			}]
-			subtitle: "  
-Carregador Passivo de Mana  "
+			subtitle: "Esta Armadura de Terrasteel é uma versão mais forte da Armadura de Manasteel que também pode carregar passivamente suas Tábuas de Mana no inventário."
 			tasks: [
 				{
 					id: "0280989DEEBAFAC8"
@@ -2198,8 +2158,7 @@ Carregador Passivo de Mana  "
 					type: "item"
 				}
 			]
-			title: "  
-Parabéns, você derrotou o chefe e agora possui suas recompensas. Talvez exista um modo difícil com mais recompensas?  "
+			title: "Carregador Passivo de Mana"
 			x: -14.5d
 			y: -1.5d
 		}
@@ -2223,8 +2182,7 @@ Parabéns, você derrotou o chefe e agora possui suas recompensas. Talvez exista
 		{
 			dependencies: ["75F671ED3BC7E3D2"]
 			id: "6D83B47F98FA95EE"
-			subtitle: "  
-Se você usar isso, terá que enfrentar o chefe novamente, mas mais difícil. Está pronto?  "
+			subtitle: "Parabéns, você derrotou o chefe e agora tem suas recompensas. Talvez exista um modo difícil com mais recompensas?"
 			tasks: [{
 				id: "1A6E0E6732936129"
 				item: "botania:life_essence"
@@ -2236,30 +2194,26 @@ Se você usar isso, terá que enfrentar o chefe novamente, mas mais difícil. Es
 		{
 			dependencies: ["6D83B47F98FA95EE"]
 			id: "102F56871A2B0479"
-			subtitle: "  
-Segunda Rodada!  "
+			subtitle: "Se você usar isso, terá que lutar contra o chefe novamente, mas de forma mais difícil. Você está pronto?"
 			tasks: [{
 				id: "35F369EF6E315AD2"
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "  
-Parabéns, agora você ganhou a chance de obter um artefato. Será que consegue colecionar todos?  "
+			title: "Segunda Rodada!"
 			x: -20.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["102F56871A2B0479"]
 			id: "469F144385C29F61"
-			subtitle: "  
-Hora do Gacha  "
+			subtitle: "Parabéns, agora você ganhou uma chance de obter um artefato. Será que consegue coletar todos?"
 			tasks: [{
 				id: "4AAAFD401D14E2D8"
 				item: "botania:dice"
 				type: "item"
 			}]
-			title: "  
-Fazer essa luta sem armadura é assustador. Espero que você tenha enfrentado isso sem modo criativo.  "
+			title: "Hora do Gacha"
 			x: -22.0d
 			y: 2.0d
 		}
@@ -2350,14 +2304,12 @@ Fazer essa luta sem armadura é assustador. Espero que você tenha enfrentado is
 		{
 			dependencies: ["6D83B47F98FA95EE"]
 			id: "6C346F0370B42116"
-			subtitle: "  
-Espero que você não tenha trapaceado.  "
+			subtitle: "Fazer essa luta sem armadura é aterrorizante. Espero que você tenha lutado sem o modo criativo."
 			tasks: [{
 				advancement: "botania:challenge/gaia_guardian_no_armor"
 				criterion: ""
 				id: "09CD9A055EE0E661"
-				title: "  
-Esta é a versão melhorada do Espalhador de Mana que você criará. Mais produção de mana. Ah, e experimente as diferentes lentes que você pode acoplar aos seus Espalhadores de Mana.  "
+				title: "Espero que você não tenha trapaceado."
 				type: "advancement"
 			}]
 			x: -18.5d
@@ -2371,8 +2323,7 @@ Esta é a versão melhorada do Espalhador de Mana que você criará. Mais produ�
 				type: "xp"
 				xp: 80
 			}]
-			subtitle: "  
-Este é o melhor espalhador de mana que a Mãe Terra pode fornecer para suas necessidades. É muito mais lento, mas sua produção é muito maior.  "
+			subtitle: "Esta é a melhor versão do Espalhador de Mana que você irá fabricar. Mais emissão de mana. Ah, e experimente as diferentes lentes que você pode anexar aos seus Espalhadores de Mana."
 			tasks: [{
 				id: "15A6201D34C0BC9D"
 				item: "botania:elven_spreader"
@@ -2389,8 +2340,7 @@ Este é o melhor espalhador de mana que a Mãe Terra pode fornecer para suas nec
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "  
- &aBotania  "
+			subtitle: "Este é o melhor espalhador de mana que a Mãe Terra pode fornecer para suas necessidades. É muito mais lento, mas sua emissão é muito maior."
 			tasks: [{
 				id: "2D21774C4D48510A"
 				item: "botania:gaia_spreader"
@@ -2400,6 +2350,5 @@ Este é o melhor espalhador de mana que a Mãe Terra pode fornecer para suas nec
 			y: 0.5d
 		}
 	]
-	title: "  
-Não se esqueça de conferir os Avanços para mais dicas também.  "
+	title: " &aBotania"
 }

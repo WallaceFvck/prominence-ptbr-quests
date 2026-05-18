@@ -194,29 +194,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eNível Recomendado: 10"
-				"&cMais adequado para à distância"
+				"&eNível recomendado: 15"
 				""
-				"&7&oAs almas dos reis há muito mortos do Reino de Ly'rell foram ressuscitadas e corrompidas pelo Vazio, agora conhecidas como um único monstro chamado Lich Noturno."
+				"&7&oA Manopla, outrora o vigilante e primeiro arauto do Nether, agora caiu no abraço sombrio do Vazio. Escravizada como um de seus arautos, ela agora ameaça seu próprio reino com a destruição."
 				""
-				"&7&oO Lich Noturno habita na superfície do Mundo Superior. Procure-o nos biomas frios, dentro dos restos de uma torre destruída."
+				"&7&oPodes encontrar a Manopla presa dentro de uma prisão monolítica. Quebre seu olho, e libertarás a agora criatura corrompida."
 				""
-				"&7&oPara encontrar essa estrutura, use Estrelas da Alma, obtidas de criaturas mortas-vivas, que o guiarão até a torre."
-				""
-				"&eDica: &7Este é um chefe de longo alcance, use uma montaria voadora se for corpo a corpo, ou um arco como arma secundária!"
+				"&eDica: &7Este chefe tem ataques fortes e pode te matar com um único golpe se estiver jogando no Normal ou Difícil! Tente desviar ou criar poções defensivas!"
 				""
 				"&8Inglês"
 				"{@pagebreak}"
-				"&eNível Recomendado: 10"
-				"&cRecomendado para Arqueiros e Magos."
+				"&eNível Recomendado: 15"
 				""
-				"&7&oAs almas dos antigos reis do Reino de Ly'rell, que morreram há muito tempo, foram ressuscitadas e corrompidas pelo Vazio, formando um grande monstro agora conhecido como Lich Noturno."
+				"&7&oA Manopla, outrora o vigilante e primeiro arauto do Nether, agora caiu no abraço sombrio do Vazio. Escravizada como um de seus arautos, ela agora ameaça seu próprio reino com a destruição do Nether."
 				""
-				"&7&oNos biomas mais frios, no topo dos restos de uma grande torre destruída, eles permanecem aprisionados."
+				"&7&oPodes encontrar a Manopla presa dentro de uma prisão monolítica. Quebre seu olho e libertarás a besta agora corrompida."
 				""
-				"&7&oPara encontrar essa estrutura, use as Estrelas da Alma, obtidas de criaturas mortas-vivas, que o guiarão até a torre."
-				""
-				"&eDica: &7Este chefe é de longo alcance, use uma montaria voadora se for corpo a corpo, ou um arco como arma secundária!"
+				"&eDica: &7Este chefe tem ataques fortes que podem te matar com um golpe se jogares na dificuldade Normal ou Difícil! Tenta desviar dos ataques ou fazer poções defensivas."
 				""
 				"&8Espanhol"
 			]
@@ -247,7 +241,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Mate o Nether Gauntlet"
+			subtitle: "&8[Clique para ler a história e as indicações]"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: {
@@ -258,11 +252,11 @@
 					}
 				}
 				id: "0F843C913D775125"
-				title: "&f &cGauntlet, Primeiro Arauto do Nether"
+				title: "Derrote a Manopla do Nether"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&eDesbloqueie níveis 11-50"
+			title: "&f &cManopla, Primeiro Arauto do Nether"
 			x: -12.234693877551024d
 			y: 0.3214285714285765d
 		}
@@ -270,22 +264,29 @@
 			dependencies: ["7CBAFED315D614C3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eNível Recomendado: 25"
+				"&eNível recomendado: 10"
+				"&cMais adequado para ataques à distância"
 				""
-				"&7O Golem de Pedra Negra, o último Arauto do Nether, é uma criatura formidável que pode ser invocada através de seu ritual dentro do Nether."
+				"&7&oAs almas há muito falecidas de todos os reis do Reino de Ly'rell foram ressuscitadas e corrompidas pelo Vazio, agora conhecidas como um único monstro chamado Lich da Noite."
 				""
-				"&7Construa uma plataforma 9x9 de qualquer tipo de Pedra Negra, com Suportes de Pedra Negra Polida Cinzelada no meio de cada lado, um bloco para dentro. Para mais informações, veja a linha de missões do Nether."
-				"&7Coloque um fragmento de pedra negra dourada em cada suporte para iniciar o ritual."
+				"&7&oO Lich da Noite habita na superfície do Mundo Superior. Procure-o nos biomas mais frios, dentro dos restos de uma torre quebrada."
+				""
+				"&7&oPara encontrar essa estrutura, use as Estrelas de Alma, obtidas de criaturas mortas-vivas, que o guiarão até a torre."
+				""
+				"&eDica: &7Este é um chefe de ataque à distância; use uma montaria voadora se for corpo a corpo, ou um arco como arma secundária!"
 				""
 				"&8Inglês"
-				""
 				"{@pagebreak}"
-				"&eNível Recomendado: 25"
+				"&eNível recomendado: 10"
+				"&cRecomendado para Arqueiros e Magos."
 				""
-				"&7O Golem de Pedra Negra, o último Arauto do Nether, é um formidável golem que pode ser invocado através de seu próprio ritual dentro do Nether."
+				"&7&oAs almas dos antigos reis do Reino de Ly'rell, que já faleceram há muito tempo, foram ressuscitadas e corrompidas pelo Vazio, formando um grande monstro agora conhecido como Lich da Noite."
 				""
-				"&7Construa uma plataforma de 9x9 usando qualquer tipo de Pedra Negra, com suportes de Pedra Negra Polida Cinzelada no meio de cada lado."
-				"&7Coloque um fragmento de pedra negra dourada em cada suporte para iniciar o ritual."
+				"&7&oNos biomas mais frios, no topo dos restos de uma grande torre quebrada, eles jazem aprisionados."
+				""
+				"&7&oPara encontrar essa estrutura, use as Estrelas de Alma, obtidas de criaturas mortas-vivas, que o guiarão até a torre."
+				""
+				"&eDica: &7Este chefe é de ataque à distância; use uma montaria voadora se for corpo a corpo, ou um arco como arma secundária!"
 				""
 				"&8Espanhol"
 			]
@@ -315,18 +316,18 @@
 					auto: "enabled"
 					criterion: ""
 					id: "578CFD2AAF5AA3C4"
-					title: "&8[Clique para ler a história e indicações]"
+					title: "&eDesbloqueie o nível 11-50"
 					type: "advancement"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Obtenha e use pelo menos 4 Soul Stars"
+			subtitle: "&8[Clique para ler a história e as indicações]"
 			tasks: [
 				{
 					id: "3B40E2130DDD7AD3"
 					item: "bosses_of_mass_destruction:soul_star"
-					title: "&9Derrote O Lich da Noite"
+					title: "Obtenha e use pelo menos 4 Estrelas de Alma"
 					type: "item"
 				}
 				{
@@ -339,32 +340,34 @@
 						}
 					}
 					id: "1F9BB747D54F1CD1"
-					title: "&f &9O Lich da Noite, Rei de Todos os Reis"
+					title: "&9Derrote o Lich da Noite"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &9O Lich da Noite, Rei de Todos os Reis"
 			x: -13.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["48AADA398DC4E940"]
 			description: [
-				"&eNível Recomendado: 35"
+				"&eNível recomendado: 25"
 				""
-				"&7Os Restos do Velho Campeão podem ser encontrados em sua tumba, escondida no subsolo no Mundo Superior. Esta figura esquelética, que já foi um grande campeão, agora foi possuída por outro ser. "
+				"&7O Golem de Blackstone, o último Arauto do Nether, é uma criatura formidável que pode ser invocada por meio de seu ritual dentro do Nether."
 				""
-				"&8Seus ataques giram em torno de quando ele está protegido, alternando entre posturas defensivas e ataques."
+				"&7Construa uma plataforma 9x9 de qualquer tipo de Blackstone, com Suportes de Blackstone Polido Cinzelado no centro de cada lado, mas um bloco mais para fora. Para mais informações, consulte a linha de missões do Nether."
+				"&7Coloque um fragmento de blackstone dourada em cada suporte para iniciar o ritual."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNível Recomendado: 35"
+				"&eNível recomendado: 25"
 				""
-				"&7Os Restos do Velho Campeão encontram-se em sua tumba, escondida no subsolo no Mundo Superior. Esta figura esquelética, que já foi um grande campeão, agora foi possuída por outro ser."
+				"&7O Golem de Blackstone, o último Arauto do Nether, é um formidável golem que pode ser invocado por meio de seu próprio ritual dentro do Nether."
 				""
-				"&8Seus ataques giram em torno de quando ele está protegido, alternando entre posturas defensivas e ataques."
+				"&7Construa uma plataforma de 9x9 usando qualquer tipo de Blackstone, com suportes de Blackstone Polido Cinzelado no centro de cada lado."
+				"&7Coloque um fragmento de blackstone dourada em cada suporte para iniciar o ritual."
 				""
 				"&8Espanhol"
 			]
@@ -383,7 +386,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Mate o Golem de Blackstone"
+			subtitle: "&8[Clique para ler a história e as indicações]"
 			tasks: [{
 				entity: "adventurez:blackstone_golem"
 				icon: {
@@ -394,35 +397,31 @@
 					}
 				}
 				id: "5663873E5843130D"
-				title: "&f &cO Golem de Blackstone"
+				title: "Derrote o Golem de Blackstone"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &cO Golem de Blackstone"
 			x: -11.979761904761915d
 			y: 2.0059523809523796d
 		}
 		{
 			dependencies: ["383590146CEEB423"]
 			description: [
-				"&eNível Recomendado: 40"
+				"&eNível recomendado: 35"
 				""
-				"&7Obsidilito, o monólito vivo, é o pilar da influência do vazio no Fim."
+				"&7Os Restos do Antigo Campeão podem ser encontrados em sua sepultura, escondida no subsolo no Mundo Superior. Esta figura semelhante a um esqueleto, que um dia foi um grande campeão, agora foi possuída por outro ser."
 				""
-				"&7Localizado em sua própria plataforma, uma estrutura gigantesca e sobrenatural que pode ser encontrada flutuando no Fim. Para fazê-lo aparecer, use um olho do ender no topo de sua plataforma."
-				""
-				"&eDica:&7 Traga uma picareta!"
+				"&8Seus ataques giram em torno de se ele está protegido, alternando entre posturas de defesa com os ataques."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNível Recomendado: 40"
+				"&eNível Recomendado: 35"
 				""
-				"&7Obsidilito, o monólito vivo, é o pilar da influência do vazio no Fim."
+				"&7Os Restos do Velho Campeão encontram-se em sua sepultura, escondida sob a terra no Mundo Superior. Esta figura esquelética, que um dia foi um grande campeão, agora foi possuída por outro ser."
 				""
-				"&7Localizado em sua própria plataforma, uma estrutura gigantesca e estranha, que pode ser encontrada flutuando no Fim. Para invocá-lo, use um olho do ender no topo de sua plataforma."
-				""
-				"&eDica: &7Traga uma picareta!"
+				"&8Seus ataques giram em torno de se ele está protegido, alternando entre posturas defensivas e ataques."
 				""
 				"&8Espanhol"
 			]
@@ -447,7 +446,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "&7Derrote os Restos do Campeão Antigo"
+			subtitle: "&8[Clique para ler lore e indicações]"
 			tasks: [{
 				entity: "soulsweapons:draugr_boss"
 				icon: {
@@ -458,35 +457,35 @@
 					}
 				}
 				id: "2C3EE780FC4E8C0E"
-				title: "&f &9Os Restos de um Antigo Campeão"
+				title: "&7Derrote os Restos do Antigo Campeão"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &9Os Restos de um Antigo Campeão"
 			x: -7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["759AA6DD39277704"]
 			description: [
-				"&eNível Recomendado: 50"
+				"&eNível Recomendado: 40"
 				""
-				"&7A essência bruta do fim; o "Olho do Ender", foi corrompida pela presença do vazio, transformada em uma criatura horrenda. Agora precisa ser salva da influência do vazio para estabelecer equilíbrio na dimensão agora desolada."
+				"&7Obsidilith, o monólito vivo, é o pilar da influência do vazio no Fim."
 				""
-				"&7O Olho só pode ser invocado em um Santuário do Olho. O Santuário é construído com uma base de plataforma de obsidiana 5×5 e uma camada central de obsidiana chorosa 3×3. Em todos os quatro cantos devem ser colocadas varas do end. O Olho só pode ser invocado na dimensão do Fim."
+				"&7Localizado em sua própria plataforma, uma estrutura gigantesca e sobrenatural que pode ser encontrada flutuando no Fim. Para fazê-lo aparecer, use um olho do ender no topo de sua plataforma."
 				""
-				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				"&eDica:&7 Traga uma picareta!"
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNível Recomendado: 50"
+				"&eNível Recomendado: 40"
 				""
-				"&7A essência pura do Fim; o "Olho do Ender", foi corrompida pela presença do vazio e transformada em uma criatura horrenda. Agora deve ser salva dessa influência maligna para restabelecer o equilíbrio na dimensão agora desolada."
+				"&7Obsidilith, o monólito vivo, é o pilar da influência do vazio no Fim."
 				""
-				"&7O Olho só pode ser invocado em um Santuário do Olho. O Santuário é construído sobre uma plataforma de obsidiana 5x5 e uma camada central de obsidiana chorosa 3x3. Em cada um dos quatro cantos deve ser colocada uma vara do end. No topo do santuário, você deve sacrificar o ovo do dragão. O Olho só pode ser invocado na dimensão do Fim."
+				"&7Localizado em sua própria plataforma, uma estrutura gigantesca e estranha que pode ser encontrada flutuando no Fim. Para invocá-lo, use um olho do ender no topo de sua plataforma."
 				""
-				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				"&eDica:&7 Traga uma picareta!"
 				""
 				"&8Espanhol"
 			]
@@ -515,7 +514,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Mate o &5Obsidilith"
+			subtitle: "&8[Clique para ler lore e indicações]"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: {
@@ -526,31 +525,35 @@
 					}
 				}
 				id: "722BFEAA5498B1FC"
-				title: "&f &dPilar do Vazio, Obsidilith"
+				title: "Mate o &5Obsidilith"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &dPilar do Vazio, Obsidilith"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["103203350DABF6BB"]
 			description: [
-				"&eNível Recomendado: 30"
+				"&eNível Recomendado: 50"
 				""
-				"&7Este olho gigante serve como o vigilante eterno da Prisão dos Condenados, residindo em sua própria Toca nas profundezas da Prisão."
+				"&7A essência bruta do fim; o \"Olho do Ender\" foi corrompido pela presença do vazio, transformado em uma criatura horripilante. Agora precisa ser salvo da influência do vazio para estabelecer equilíbrio na dimensão agora desolada."
 				""
-				"&7Para desafiá-lo, você deve primeiro obter uma Runa de Vinha do Passeio dos Condenados. Com essa runa, acesse sua Toca e enfrente o olho em batalha."
+				"&7O Olho só pode ser invocado em um Santuário do Olho. O Santuário é construído com uma base de plataforma de obsidiana 5×5 e uma camada central de obsidiana chorosa 3×3. Em todos os quatro cantos devem ser colocadas varas do end. O Olho só pode ser invocado na dimensão do Fim."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNível Recomendado: 30"
+				"&eNível Recomendado: 50"
 				""
-				"&7Este olho gigante serve como o vigilante eterno da Prisão dos Condenados, residindo em sua própria Toca nas profundezas da Prisão."
+				"&7A essência pura do Fim; o \"Olho do Ender\" foi corrompido pela presença do vazio e transformado em uma criatura horripilante. Agora deve ser salvo dessa influência maligna para restabelecer o equilíbrio na dimensão agora desolada."
 				""
-				"&7Para desafiá-lo, você deve primeiro obter uma Runa de Vinha do Passeio dos Condenados. Com essa runa, acesse sua Toca e enfrente o olho em batalha."
+				"&7O Olho só pode ser invocado em um Santuário do Olho. O Santuário é construído com uma plataforma de obsidiana 5x5 e uma camada central de obsidiana chorosa 3x3. Em cada um dos quatro cantos deve ser colocada uma vara do end. No topo do santuário, você deve sacrificar o ovo do dragão. O Olho só pode ser invocado na dimensão do Fim."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
 				""
 				"&8Espanhol"
 			]
@@ -581,7 +584,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Mate o Olho Eldritch"
+			subtitle: "&8[Clique para ler lore e indicações]"
 			tasks: [{
 				entity: "eldritch_end:eye"
 				icon: {
@@ -592,34 +595,31 @@
 					}
 				}
 				id: "5A3673477EA57892"
-				title: "&f &dO Olho Eldritch"
+				title: "Mate o Olho Eldritch"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &dO Olho Eldritch"
 			x: -3.668367346938794d
 			y: 0.030612244897938012d
 		}
 		{
 			dependencies: ["5063E49140A8BB20"]
 			description: [
-				"&eNível Recomendado: 20"
+				"&eNível Recomendado: 30"
 				""
-				"&7&oJean, uma vez uma nobre e grande dragão esmeralda, sucumbiu aos tentáculos sombrios do Vazio. Agora corrompida e consumida pela fúria do Vazio, ela habita o coração do End, agora conhecida como a Dragão do Ender."
+				"&7Este olho gigante serve como o vigilante eterno da Prisão dos Condenados, residindo em sua própria Toca nas profundezas da Prisão."
 				""
-				"&7&oEla não é uma tarefa simples, pois o Vazio lhe concedeu poderes formidáveis, movidos por uma raiva forte e insaciável conhecida como o Ender."
-				""
-				"&7&oPara desbloquear o antigo portal para o End, tu deves procurar doze dos dezesseis olhos únicos. Esses olhos estão espalhados pela vasta extensão do Mundo Superior e pelas profundezas ardentes do Nether."
+				"&7Para desafiá-lo, primeiro você deve obter uma Runa de Videira na Promenade dos Condenados. Com essa runa, acesse sua Toca e enfrente o olho em batalha."
 				""
 				"&8Inglês"
+				""
 				"{@pagebreak}"
-				"&eNível Recomendado: 20"
+				"&eNível Recomendado: 30"
 				""
-				"&7&oJean, a nobre e grande dragão esmeralda, sucumbiu às garras sombrias do Vazio. Agora corrompida e consumida pela própria ira, ela vagueia pelo coração do End, agora conhecida como a Dragão do Ender."
+				"&7Este olho gigante serve como o vigilante eterno da Prisão dos Condenados, residindo em sua própria Toca nas profundezas da Prisão."
 				""
-				"&7&oEla não é um desafio simples, pois o Vazio lhe concedeu poderes formidáveis, impulsionados por uma fúria forte e insaciável conhecida como o Ender."
-				""
-				"&7&oPara desbloquear o antigo portal para o End, deves procurar doze dos dezesseis olhos únicos. Esses olhos estão espalhados pela vasta extensão do Mundo Superior e pelas ardentes profundezas do Nether."
+				"&7Para desafiá-lo, primeiro você deve obter uma Runa de Videira obtida no Passeio dos Condenados. Com essa runa, acesse sua Toca e enfrente o olho em batalha."
 				""
 				"&8Espanhol"
 			]
@@ -652,7 +652,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Derrote Conjunctivius"
+			subtitle: "&8[Clique para ler lore e indicações]"
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: {
@@ -663,28 +663,34 @@
 					}
 				}
 				id: "009152F0C0BE39FA"
-				title: "&f &9Conjuctivius, Observador da Prisão"
+				title: "Derrote Conjunctivius"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &9Conjunctivius, Vigia da Prisão"
 			x: -9.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1B76F8D3B54F3FE6"]
 			description: [
-				"&7&oNas profundezas de Vaaz, o vulcão primordial de onde tudo se originou, habita a Estátua Viva, S'kellak, criador de todas as coisas."
+				"&eNível Recomendado: 20"
 				""
-				"&7&oEle mantém o delicado equilíbrio entre todas as dimensões e travou incontáveis batalhas para impedir a destruição dos reinos."
+				"&7&oJean, outrora uma nobre e grandiosa dragoa esmeralda, sucumbiu aos sombrios tentáculos do Vazio. Agora corrompida e consumida pela ira do Vazio, ela habita o coração do End, sendo agora conhecida como o Dragão do Ender."
+				""
+				"&7&oEla não é um desafio simples, pois o Vazio lhe concedeu poderes formidáveis, movidos por uma fúria intensa e insaciável conhecida como o Ender."
+				""
+				"&7&oPara desbloquear o antigo portal para o End, tu deves procurar doze dos dezesseis olhos únicos. Esses olhos estão espalhados pela vasta extensão do Overworld e pelas profundezas ardentes do Nether."
 				""
 				"&8Inglês"
-				""
 				"{@pagebreak}"
+				"&eNível Recomendado: 20"
 				""
-				"&7&oNas profundezas de Vaaz, o vulcão primordial de onde tudo se originou, habita a Estátua Viva, S'kellak, o criador de todas as coisas."
+				"&7&oJean, a nobre e grandiosa dragoa esmeralda, sucumbiu às garras sombrias do Vazio. Agora corrompida e consumida pela ira do mesmo, vagueia pelo coração do End, sendo agora conhecida como a Dragoa do Ender."
 				""
-				"&7&oEle mantém o delicado equilíbrio entre todas as dimensões e travou incontáveis batalhas para impedir a destruição dos reinos."
+				"&7&oEla não é um desafio simples, pois o Vazio lhe concedeu poderes formidáveis, impulsionados por uma fúria intensa e insaciável conhecida como o Ender."
+				""
+				"&7&oPara desbloquear o antigo portal para o End, deves buscar doze dos dezesseis olhos únicos. Esses olhos estão espalhados pela vasta extensão do Overworld e pelas profundezas ardentes do Nether."
 				""
 				"&8Espanhol"
 			]
@@ -714,7 +720,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Mate o Ender Dragon"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
@@ -725,29 +731,27 @@
 					}
 				}
 				id: "028D2778B20852AA"
-				title: "&f &dJean, o Dragão Caído"
+				title: "Mate o Dragão do Ender"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história]"
+			title: "&f &dJean, A Dragoa Caída"
 			x: -9.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"&o&7E agora, após éons terem passado, S'kellak está mais fraco do que nunca. Uma sombra sombria floresce, uma força ancestral conhecida como O Vazio."
+				"&7&oNas profundezas de Vaaz, o vulcão primordial de onde tudo se originou, habita a Estátua Viva, S'kellak, criador de todas as coisas."
 				""
-				"&o&7Por eras, S'kellak conteve O Vazio, mas com sua força agora diminuindo, a sombra se intensifica, planejando romper e destruir todos os reinos. O que antes eram seres serenos será distorcido em aberrações mortais, enquanto a corrupção espalha seus vil tentáculos. O tempo do acerto de contas se aproxima."
+				"&7&oEle mantém o delicado equilíbrio entre todas as dimensões e travou incontáveis batalhas para impedir a destruição dos reinos."
 				""
 				"&8Inglês"
 				""
-				""
 				"{@pagebreak}"
 				""
-				"&o&7E agora, após éons, S'kellak está mais fraco do que nunca. Uma ameaça sombria floresce, uma força ancestral conhecida como O Vazio."
+				"&7&oNas profundezas de Vaaz, o vulcão primordial de onde tudo se originou, habita a Estátua Viva, S'kellak, o criador de tudo o que existe."
 				""
-				"&o&7Por eras, S'kellak conteve este, mas com sua pouca força, a sombra se ergue, tramando corromper e destruir todos os reinos. Aqueles que antes eram seres serenos serão distorcidos em aberrações mortais, enquanto a corrupção estende seus vil tentáculos. O tempo da destruição se aproxima."
-				""
+				"&7&oEle mantém o delicado equilíbrio entre todas as dimensões e travou incontáveis batalhas para impedir a destruição dos reinos."
 				""
 				"&8Espanhol"
 			]
@@ -761,13 +765,13 @@
 			id: "343EF47C470616FF"
 			shape: "square"
 			size: 1.5d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler o fragmento da lore]"
 			tasks: [{
 				id: "0C6DB9DA67E14C1A"
-				title: "&eO Início da Criação"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história]"
+			title: "&eO Início da Criação"
 			x: -12.234693877551024d
 			y: -7.714285714285708d
 		}
@@ -775,17 +779,19 @@
 			dependencies: ["343EF47C470616FF"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&o&7S'kellak descobriu uma fonte de desequilíbrio nos reinos. Todas as dimensões agora carregam a mancha da presença horrenda do vazio."
+				"&o&7E agora, após eras incontáveis, S'kellak jaz mais fraco do que nunca. Uma terrível sombra floresce, uma força ancestral conhecida como O Vazio."
 				""
-				"&o&7Criaturas que antes eram serenas foram distorcidas em poderosas aberrações por seu toque corruptor. O destino dos reinos repousa sobre ti."
+				"&o&7Por eras, S'kellak conteve O Vazio, mas com sua força agora enfraquecida, a sombra avança, planejando romper e destruir todos os reinos. Aqueles que antes eram seres serenos serão distorcidos em aberrações mortais, enquanto a corrupção espalha seus vis tentáculos. O tempo do acerto final se aproxima."
 				""
 				"&8Inglês"
 				""
 				""
 				"{@pagebreak}"
-				"&o&7S'kellak descobriu uma fonte de desequilíbrio nos reinos. Todas as dimensões agora carregam a mancha da presença horrenda do Vazio."
 				""
-				"&o&7As criaturas que antes eram serenas foram distorcidas em poderosas aberrações por seu toque corruptor. O destino dos reinos repousa sobre ti."
+				"&o&7E agora, após eras incontáveis, S'kellak jaz mais fraco do que nunca. Uma ameaça sombria floresce, uma força ancestral conhecida como O Vazio."
+				""
+				"&o&7Durante eras, S'kellak o conteve, mas com sua força enfraquecida, a sombra se ergue, tramando corromper e destruir todos os reinos. Aqueles que antes eram seres serenos serão retorcidos em aberrações mortais, enquanto a corrupção espalha seus vis tentáculos. O tempo da destruição se aproxima."
+				""
 				""
 				"&8Espanhol"
 			]
@@ -795,13 +801,13 @@
 			id: "7AE1542456418BCD"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler o fragmento da lore]"
 			tasks: [{
 				id: "64C1384346BEE406"
-				title: "&eO Surgimento das Sombras"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler mais]"
+			title: "&eO Avanço da Sombra"
 			x: -12.234693877551024d
 			y: -5.464285714285708d
 		}
@@ -809,20 +815,17 @@
 			dependencies: ["214E47AB3004E7D3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7&oCom a derrota das ameaças dimensionais e a restauração do equilíbrio dos reinos, S'kellak, A Chama Eterna, falou diretamente ao campeão."
+				"&o&7S'kellak descobriu uma fonte de desequilíbrio nos reinos. Todas as dimensões agora carregam a mancha da horrenda presença do Vazio."
 				""
-				"&6"Em reconhecimento ao teu valor e dedicação,"&r &7&oA voz de S'kellak ressoou,&r &6"eu te concedo um fragmento da minha essência, o Núcleo Fundido.""
-				""
-				"&7Este presente, iluminado pelo poder de S'kellak, simboliza tanto a vitória do herói quanto uma promessa de proteção contínua aos reinos."
+				"&o&7Criaturas antes serenas foram retorcidas em poderosas aberrações por seu toque corruptor. O destino dos reinos repousa sobre ti."
 				""
 				"&8Inglês"
 				""
+				""
 				"{@pagebreak}"
-				"&7&oCom a derrota das ameaças e a restauração do equilíbrio dos reinos, S'kellak, O Fogo Eterno, falou diretamente ao campeão."
+				"&o&7S'kellak descobriu uma fonte de desequilíbrio nos reinos. Todas as dimensões agora carregam a mancha da horrenda presença do Vazio."
 				""
-				"&6"Em reconhecimento ao teu valor e dedicação,"&r &7&oA voz de S'kellak ressoou,&r &6"eu te concedo um fragmento da minha essência, o Núcleo Fundido.""
-				""
-				"&7Este presente, iluminado pelo grande poder de S'kellak, simboliza tanto o triunfo do herói quanto uma promessa de proteção contínua aos reinos."
+				"&o&7As criaturas que antes eram serenas foram retorcidas em poderosas aberrações por seu toque corruptor. O destino dos reinos repousa sobre ti."
 				""
 				"&8Espanhol"
 			]
@@ -832,13 +835,13 @@
 			id: "7CBAFED315D614C3"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler mais]"
 			tasks: [{
 				id: "444189B4E513644B"
-				title: "&6&lCapítulo I: &eA Invasão do Vazio"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história]"
+			title: "&6&lCapítulo I: &eA Invasão do Vazio"
 			x: -12.234693877551024d
 			y: -3.464285714285708d
 		}
@@ -846,16 +849,20 @@
 			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7A Essência do Ender foi derrotada, mas sua essência escapou do vazio vazio, e uma fenda se formou no End. Algo está chegando."
+				"&7&oCom a derrota das ameaças dimensionais e a restauração do equilíbrio dos reinos, S'kellak, A Chama Eterna, falou diretamente ao campeão."
 				""
-				"&7Nas profundezas do End, vozes estranhas agora sussurram &8&o"O Rei de Amarelo está próximo"&r."
+				"&6\"Em reconhecimento ao teu valor e dedicação,\"&r &7&oa voz de S'kellak ressoou,&r &6\"concedo-te um fragmento da minha essência, o Núcleo Derretido.\""
+				""
+				"&7Este presente, iluminado pelo poder de S'kellak, simboliza tanto o triunfo do herói quanto uma promessa de proteção contínua aos reinos."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&7A Essência do Ender foi derrotada, mas sua essência escapou do vazio vazio, e uma fenda se formou no End. Algo está se aproximando."
+				"&7&oCom a derrota das ameaças e a restauração do equilíbrio dos reinos, S'kellak, A Chama Eterna, falou diretamente ao campeão."
 				""
-				"&7Nas profundezas do End, vozes estranhas agora sussurram &8&o"O Rei de Amarelo se aproxima"&r."
+				"&6\"Em reconhecimento ao teu valor e dedicação,\"&r &7&oa voz de S'kellak ressoou,&r &6\"concedo-te um fragmento da minha essência, o Núcleo Derretido.\""
+				""
+				"&7Este presente, iluminado pelo grande poder de S'kellak, simboliza tanto o triunfo do herói quanto uma promessa de proteção contínua dos reinos."
 				""
 				"&8Espanhol"
 			]
@@ -872,13 +879,13 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore]"
 			tasks: [{
 				id: "388209961991648D"
-				title: "&eRecompensa de S'kellak"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história]"
+			title: "&eA Recompensa de S'kellak"
 			x: -3.6479591836734855d
 			y: -1.5408163265306314d
 		}
@@ -886,20 +893,16 @@
 			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eA invasão foi interrompida, por enquanto.&r"
+				"&7A Essência do Ender foi derrotada, mas sua essência escapou do vazio vazio, e uma fenda se formou no End. Algo está chegando."
 				""
-				"&6"Devemos nos preparar para o que está por vir — uma nova forma de magia com a qual não estamos familiarizados, conhecida como corrupção. Vou partir em uma jornada para descobrir um novo material que pode nos dar uma chance de lutar contra ela."
-				""
-				"&6Quanto a você, esse núcleo fundido não é nada além de um recipiente. Você precisará das essências de seres antigos. Uma vez dominadas, essas essências o fortalecerão para forjar artefatos poderosos. Sua missão é obtê-las." &e&oS'kellak explicou."
+				"&7Nas profundezas do End, vozes estranhas agora sussurram &8&o\"O Rei de Amarelo está próximo\"&r."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eA invasão foi interrompida, por enquanto.&r"
+				"&7A Essência do Ender foi derrotada, mas sua essência escapou do vazio vazio, e uma fenda se formou no End. Algo está chegando."
 				""
-				"&6"Devemos nos preparar para o que está por vir — uma nova forma de magia que não conhecemos, chamada corrupção. Vou em uma jornada para descobrir um novo material que pode nos dar uma chance contra ela."
-				""
-				"&6Quanto a você, esse Núcleo Fundido não é nada além de um recipiente. Você precisará das essências de seres antigos. Uma vez dominadas, essas essências o fortalecerão para forjar armas e artefatos. Sua missão é obtê-las." &e&oS'kellak explicou."
+				"&7Nas profundezas do End, vozes estranhas agora sussurram &8&o\"O Rei de Amarelo se aproxima\"&r."
 				""
 				"&8Espanhol"
 			]
@@ -914,24 +917,35 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore]"
 			tasks: [{
 				id: "25E42BD5FCDFACD1"
-				title: "&6&lCapítulo II:&e Um Novo Fim"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história]"
+			title: "&6&lCapítulo II:&e Um Novo End"
 			x: -2.4976190476190467d
 			y: 3.377380952380989d
 		}
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"&eNível Recomendado: 50"
+				"&eA invasão foi interrompida, por enquanto.&r"
 				""
-				"&7Baphomet, o Antigo Grande Demônio da Magia, detém uma poderosa essência demoníaca."
+				"&6\"Devemos nos preparar para o que está por vir — uma nova forma de magia com a qual não estamos familiarizados, conhecida como corrupção. Partirei em uma missão para descobrir um novo material que possa nos oferecer uma chance de lutar contra ela."
 				""
-				"&7Para invocá-lo, você deve realizar um ritual complexo usando magia sombria, que pode ser lida no Livro das Sombras. Isso exigirá algum trabalho, pois nenhum Novato é digno de invocar um Grande Demônio em seu primeiro Ritual; progrida no Livro das Sombras para se tornar um invocador digno!"
+				"&6Quanto a você, esse Núcleo Fundido nada mais é do que um recipiente. Você precisará das essências de seres ancestrais. Uma vez dominadas, essas essências o fortalecerão para que seja capaz de forjar os formidáveis artefatos. Sua missão é obtê-las.\" &e&oexplicou S'kellak."
+				""
+				"&8Inglês"
+				""
+				"{@pagebreak}"
+				"&eA invasão foi interrompida, por enquanto.&r"
+				""
+				"&6\"Devemos nos preparar para o que está por vir — uma nova forma de magia que desconhecemos, conhecida como corrupção. Irei em busca de um novo material que poderia nos dar uma chance contra ela."
+				""
+				"&6Quanto a você, esse Núcleo Fundido não passa de um recipiente. Você precisará das essências de seres antigos. Uma vez dominadas, essas essências o fortalecerão para forjar armas de artefato. Sua missão é obtê-las.\" &e&oexplicou S'kellak."
+				""
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -950,13 +964,13 @@
 			}]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore]"
 			tasks: [{
 				id: "308FF619B83911E7"
-				title: "&eUm Poder Desconhecido"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&7Cheio de ódio e corrupção."
+			title: "&eUm Poder Desconhecido"
 			x: -3.681122448979579d
 			y: 4.250000000000007d
 		}
@@ -965,16 +979,9 @@
 			description: [
 				"&eNível Recomendado: 50"
 				""
-				"&7Ao usar a Essência do Crepúsculo no Antigo Altar da Lua, você trará o verdadeiro herdeiro de volta ao seu corpo original. Isso resultará na invocação do Ícone Caído, uma versão feroz e aprimorada do Cavaleiro Retornado com uma segunda fase rápida e perigosa. Quando invocado, afetará qualquer um por perto com Fraqueza, Náusea e Lentidão."
+				"&7Baphomet, o Grande Demônio Ancião da Magia, possui uma poderosa essência demoníaca."
 				""
-				"&8Inglês"
-				""
-				"{@pagebreak}"
-				"&eNível Recomendado: 50"
-				""
-				"&7Ao usar a Essence of Eventide no Antigo Altar Lunar, você devolverá o verdadeiro herdeiro ao seu corpo original. Isso resultará na invocação do Ícone Caído, uma versão feroz e mais forte do Antigo Campeão, com uma segunda fase rápida e perigosa. Ao ser invocado, ele aplicará Fraqueza, Náusea e Lentidão a quem estiver por perto."
-				""
-				"&8Espanhol"
+				"&7Para invocá-lo, você deve realizar um ritual complexo usando magia sombria, que pode ser lido usando o Livro das Sombras. Isso exigirá algum trabalho, pois nenhum Novato é digno de invocar um Grande Demônio em seu primeiro Ritual. Progrida através do Livro das Sombras para se tornar um invocador digno!"
 			]
 			hide_until_deps_visible: true
 			icon: "prominent:demon_essence"
@@ -992,13 +999,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&7Derrote &cBaphomet, a Cabra Sabática"
+			subtitle: "&7Cheio de ódio e corrupção."
 			tasks: [
 				{
 					entity: "bewitchment:baphomet"
 					icon: "bewitchment:demon_heart"
 					id: "277B6B1BC747DB9D"
-					title: "&cEssência Demoníaca"
+					title: "&7Derrote &cBaphomet, O Bode Sabático"
 					type: "kill"
 					value: 1L
 				}
@@ -1008,27 +1015,23 @@
 					type: "item"
 				}
 			]
-			title: "&7De quem já foi um campeão"
+			title: "&cEssência Demoníaca"
 			x: -5.216836734693885d
 			y: 3.2857142857142847d
 		}
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"&eNível recomendado: 50"
+				"&eNível Recomendado: 50"
 				""
-				"&7Deve usar o Chifre de Concha, encontrado no Oceano Profundo Congelado. Invoque-a no Labirinto de Gelo, perto da água."
-				""
-				"&7Quando enfrentada, ela pode ser enfraquecida, caso contrário não morrerá."
+				"&7Ao usar a Essência do Entardecer no Antigo Altar Lunar, você devolverá o verdadeiro herdeiro ao seu corpo original. Isso resultará na invocação do Ícone Caído, uma versão feroz e fortalecida do Cavaleiro Retornado, com uma segunda fase rápida e perigosa. Quando invocado, afetará qualquer um próximo com Fraqueza, Náusea e Lentidão."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNível recomendado: 50"
+				"&eNível Recomendado: 50"
 				""
-				"&7Você deve usar o Chifre encontrado no Oceano Profundo Congelado. Chame-a no Labirinto de Gelo, perto da água."
-				""
-				"&7Ao lutar, ela deve ser enfraquecida, caso contrário não cairá."
+				"&7Ao usar a Essência do Entardecer no Antigo Altar Lunar, você devolverá o verdadeiro herdeiro ao seu corpo original. Isso resultará na invocação do Ícone Caído, uma versão feroz e mais forte do Antigo Campeão, com uma segunda fase rápida e perigosa. Ao ser invocado, causará Fraqueza, Náusea e Lentidão em quem estiver por perto."
 				""
 				"&8Espanhol"
 			]
@@ -1048,28 +1051,36 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Derrote o &dÍcone Caído"
+			subtitle: "&7De alguém que um dia foi um campeão"
 			tasks: [{
 				entity: "soulsweapons:moonknight"
 				icon: "moretotems:skeletal_totem_of_undying"
 				id: "433CB31E80566625"
-				title: "&6Essência da Glória"
+				title: "Derrote o &dÍcone Caído"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&7Do espírito de um grande líder"
+			title: "&6Essência da Glória"
 			x: -5.609693877551017d
 			y: 4.214285714285722d
 		}
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"&7A semente primitiva da criação, o &9Abismo Primordial&7 tem a maior influência dos horrores cósmicos. É uma terra corrompida com seu próprio tipo de vida corrompida, conhecida como &9aberrações&7."
+				"&eNível Recomendado: 50"
+				""
+				"&7Deve usar o Chifre de Concha, encontrado no Oceano Congelado Profundo. Invoque-a no Labirinto de Gelo, perto da água."
+				""
+				"&7Durante a luta, ela deve ser enfraquecida, caso contrário não morrerá."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&7A semente primitiva da criação, o &9Abismo Primordial&7 tem a maior influência dos horrores cósmicos. É uma terra corrompida com seu próprio tipo de vida corrompida, conhecidas como &9aberrações&7."
+				"&eNível Recomendado: 50"
+				""
+				"&7Você deve usar o Chifre encontrado no Profundo Oceano Congelado. Invoque-a no Labirinto de Gelo, perto da água."
+				""
+				"&7Durante a luta, ela deve ser enfraquecida, caso contrário não cairá."
 				""
 				"&8Espanhol"
 			]
@@ -1089,28 +1100,28 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&7Derrote o &dFantasma da Capitã Cornelia"
+			subtitle: "&7Do espírito de um grande líder"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: "mythicupgrades:aquamarine"
 				id: "0A7FC00545E75EB6"
-				title: "&bEssência da Ira"
+				title: "&7Derrote o &dFantasma da Capitã Cornelia"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&bEssência da Ira"
 			x: -5.216836734693871d
 			y: 5.142857142857146d
 		}
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: [
-				"&7Os desertos hasturianos são uma terra desolada cheia de espinhos conhecidos como &eEspinhos da Espiral&7. Alguns desses espinhos têm um metal desconhecido abençoado por Hastur. Pode ser a melhor forma de lutar contra a corrupção."
+				"&7A semente primitiva da criação, o &9Abismo Primordial&7, é a mais influenciada pelos horrores cósmicos. É uma terra corrompida com sua própria forma de vida corrompida, conhecida como as &9aberrações&7."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&7O deserto hasturiano é uma terra desolada cheia de espinhos conhecidos como &eEspinhos da Espiral&7. Alguns desses espinhos contêm um metal desconhecido, abençoado por Hastur. Pode ser a melhor maneira de lutar contra a corrupção."
+				"&7La semilla primitiva de la creación, el &9Abismo Primordial&7, tiene la mayor influencia de los horrores cósmicos. Es una tierra corrompida con su propia forma de vida corrupta, conocidas como las &9aberraciones&7."
 				""
 				"&8Espanhol"
 			]
@@ -1131,28 +1142,27 @@
 			]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "Visite o Abismo Primordial"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				biome: "eldritch_end:primordial_abyss"
 				icon: "eldritch_end:abysmal_fronds"
 				id: "5849FCE25177F4E9"
-				title: "&9O Abismo Primordial"
+				title: "Visite o Abismo Primordial"
 				type: "biome"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&9O Abismo Primordial"
 			x: 0.24642857142856656d
 			y: 3.9452380952381034d
 		}
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: [
-				"&7Com a derrota do Olho, o Fim foi afetado pelas forças superiores do vazio, &dos horrores cósmicos&7. Seres ancestrais que carregam corrupção pura em suas veias."
+				"&7As terras devastadas hasturianas são uma terra desolada cheia de espinhos conhecidos como os &eEspinhos Espirais&7. Alguns desses espinhos possuem um metal desconhecido abençoado por Hastur. Pode ser a melhor forma de lutar contra a corrupção."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				""
-				"&7Com a derrota do Olho, o Fim foi afetado pelas forças superiores do vazio, &dos horrores cósmicos&7. Seres ancestrais que carregam corrupção pura em suas veias."
+				"&7El desierto hasturiano es una tierra desolada llena de picos que son conocidos como los &ePinchos de Espiral&7. Algunos de estos picos contienen un metal desconocido, bendecido por Hastur. Podría ser la mejor manera de luchar contra la corrupción."
 				""
 				"&8Espanhol"
 			]
@@ -1173,27 +1183,28 @@
 			]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "Visite as Terras Devastadas de Hastur"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				biome: "eldritch_end:hasturian_wastes"
 				icon: "eldritch_end:hasturian_moss"
 				id: "3C7ECD7B595CB560"
-				title: "&6As Terras Devastadas de Hastur"
+				title: "Visite as Terras Devastadas Hasturianas"
 				type: "biome"
 			}]
-			title: "&8[Clique para ler a história]"
+			title: "&6As Terras Devastadas Hasturianas"
 			x: 0.2617346938775569d
 			y: 5.034523809523826d
 		}
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"&eAs Aberrações.&7 São criaturas horríveis que vivem no Abismo Primordial. Tenha cuidado com elas, quando te atingem, elas aplicam &9corrupção&7, que é acumulável. Você não vai querer ser atingido várias vezes."
+				"&7Com a derrota de O Olho, o End foi afetado pelas forças superiores do vazio, &dos horrores cósmicos&7. Seres ancestrais que carregam corrupção pura em suas veias."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eAs Aberrações.&7 São criaturas horríveis que vivem no Abismo Primordial. Tenha cuidado com elas, quando te atingem, elas aplicam &9corrupção&7, que é acumulável. Você não vai querer ser atingido várias vezes."
+				""
+				"&7Con la derrota de El Ojo, el End ha sido afectado por las fuerzas superiores del vacío, &dlos horrores cósmicos&7. Seres ancestrales que llevan corrupción pura en sus venas."
 				""
 				"&8Espanhol"
 			]
@@ -1203,25 +1214,25 @@
 			id: "5472D472A72B4DB9"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore]"
 			tasks: [{
 				id: "07CED6DB48113EC0"
-				title: "&eInfluência do Vazio"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&eInfluência do Vazio"
 			x: -1.073979591836732d
 			y: 4.250000000000007d
 		}
 		{
 			dependencies: ["601BDBA6DF073CB0"]
 			description: [
-				"&7O metal dos Espinhos da Espiral, &2Etyr&7, tem uma propriedade única: é &2resistente à corrupção&7. Poderíamos usar esse metal para impedir que os horrores cósmicos corrompam o Fim."
+				"&eAs Aberrações.&7 São criaturas horríveis que vivem no Abismo Primordial. Tome cuidado com elas; quando te atingem, aplicam &9corrupção&7 em você, que é acumulável. Você não vai querer ser atingido várias vezes."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&7O metal dos Espinhos da Espiral, &2Etyr&7, tem uma propriedade única: é &2resistente à corrupção&7. Poderíamos usar esse metal para impedir que os horrores cósmicos corrompam o Fim."
+				"&eLas Aberraciones.&7 Son criaturas horribles que habitan en el Abismo Primordial. Ten cuidado con ellas, cuando te golpean, te aplican &9corrupción&7, la cual es acumulable. No querrás que te golpeen varias veces."
 				""
 				"&8Espanhol"
 			]
@@ -1245,32 +1256,28 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&8Purga das aberrações"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				entity: "eldritch_end:aberration"
 				icon: "eldritch_end:aberration_limb"
 				id: "5320BD9556152B9B"
-				title: "&ePurificando as Aberrações"
+				title: "&8Purifique as aberrações"
 				type: "kill"
 				value: 50L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&ePurificando as Aberrações"
 			x: 1.5474489795918345d
 			y: 3.932482993197297d
 		}
 		{
 			dependencies: ["2500331DBBD67515"]
 			description: [
-				"&6"Vamos começar os preparativos para a invocação."
-				""
-				"&6Primeiro, precisaremos de um pedestal de invocação." &e&oS'kellak explicou."
+				"&7O metal dos Espinhos Espirais, &2Etyr&7, possui uma propriedade única: é &2resistente à corrupção&7. Poderíamos usar esse metal para impedir que os horrores cósmicos corrompam o End."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&6"Comencemos os preparativos para a invocação."
-				""
-				"&6Primeiro, precisaremos de um pedestal de invocação." &e&oS'kellak explicou."
+				"&7El metal de los Picos de Agujas, &2Etyr&7, tiene una propiedad única: es &2resistente a la corrupción&7. Podríamos usar este metal para evitar que los horrores cósmicos corrompan el End."
 				""
 				"&8Espanhol"
 			]
@@ -1289,25 +1296,29 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&2A Luta Contra a Corrupção"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				id: "3E1F65C1ABAE9FCB"
 				item: "eldritch_end:etyr_ingot"
 				type: "item"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&2A Luta Contra a Corrupção"
 			x: 1.5474489795918345d
 			y: 5.054931972789134d
 		}
 		{
 			dependencies: ["6EEFBD329C02E34A"]
 			description: [
-				"&6"Não há nada mais durável para isso do que a cinerita, forjada diretamente das profundezas de Vaaz. Isso deve ser suficiente para prender sua essência, mas temo não saber o que você poderá libertar no processo" &e&oS'kellak disse"
+				"&6\"Vamos começar os preparativos para a invocação."
+				""
+				"&6Primeiro, precisaremos de um pedestal de invocação.\" &e&oexplicou S'kellak."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&6"Não há nada mais durável para isso do que a pedra de cinzas, forjada diretamente nas profundezas de Vaaz. Isso deve ser suficiente para prender sua essência, mas temo não saber o que você poderá libertar no processo." &e&oS'kellak disse"
+				"&6\"Comencemos los preparativos para la invocación."
+				""
+				"&6Primero, necesitaremos un pedestal de invocación.\" &e&oexplicó S'kellak."
 				""
 				"&8Espanhol"
 			]
@@ -1327,25 +1338,25 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&ePrisão do Vazio"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				id: "09F7148E11D7AB38"
 				item: "archon:summoning_pedestal"
 				type: "item"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&eAprisionamento do Vazio"
 			x: -4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4AEBBAD5C5474582"]
 			description: [
-				"&6"Ele está esperando por você. Leve esse pedestal ao Fim e coloque duas das essências do Fim que você encontrou lá, uma pérola do Ender e um cristal do Ender. Esteja preparado, e não se esqueça de prendê-lo. Você tem a minha bênção, criança." &e&oS'kellak disse"
+				"&6\"Não há nada mais durável para isso do que a pedra de cinzas, forjada diretamente das profundezas de Vaaz. Isso deve ser o suficiente para aprisionar sua essência, mas temo não saber o que você pode libertar durante o processo\" &e&odisse S'kellak"
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&6"Ele está esperando por você. Leve esse pedestal ao Fim e coloque duas essências do Fim que você encontrou lá, uma pérola do Ender e um cristal do Ender. Esteja preparado, e não se esqueça de prendê-lo. Você tem a minha bênção, criança." &e&oS'kellak disse"
+				"&6\"Não há nada mais durável para isso do que a pedra-cinza, forjada diretamente nas profundezas de Vaaz. Isso deve ser suficiente para aprisionar sua essência, mas temo não saber o que você pode libertar no processo.\" &e&oDisse S'kellak."
 				""
 				"&8Espanhol"
 			]
@@ -1358,33 +1369,25 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				id: "28BE3CCC9574A4ED"
-				title: "&eO Vaso"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&eO Recipiente"
 			x: -7.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["3FEF5FC9AB6C6AAE"]
 			description: [
-				"&eNível recomendado: 50"
-				""
-				"&7Nas profundezas da fenda do Fim, pode-se ver uma figura do tamanho de um humano lançando um feitiço desconhecido. Seu ritual será capaz de interrompê-lo e forçá-lo a enfrentar você."
-				""
-				"&7Null é um chefe poderoso e ágil, ele se teletransportará toda vez que você o atingir e invocará lacaios para te atacar. Certifique-se de nunca parar de atacá-lo, ou ele se curará."
+				"&6\"Ele está esperando por você. Leve esse pedestal ao End e coloque duas das essências do End que você encontrou lá: uma pérola do ender e um cristal do End. Esteja preparado e não se esqueça de aprisioná-lo. Você tem minha bênção, jovem.\" &e&oDisse S'kellak."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNível recomendado: 50"
-				""
-				"&7Nas profundezas da fenda do Fim, pode-se ver uma figura do tamanho de um humano lançando um feitiço desconhecido. Seu ritual será capaz de interrompê-lo e forçá-lo a enfrentar você."
-				""
-				"&7Null é um chefe poderoso e ágil; ele se teletransportará toda vez que você o atingir e invocará lacaios para atacá-lo. Certifique-se de nunca parar de atacá-lo, ou ele se curará."
+				"&6\"Está esperando por você. Leve esse pedestal ao End e coloque duas essências do End: uma pérola do ender e um cristal do End. Prepare-se e não se esqueça de aprisioná-lo. Você tem minha bênção, meu jovem.\" &e&oDisse S'kellak."
 				""
 				"&8Espanhol"
 			]
@@ -1402,7 +1405,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "&eUm Ritual Inquietante"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [
 				{
 					count: 2L
@@ -1421,29 +1424,29 @@
 					type: "item"
 				}
 			]
-			title: "&eDesbloquear Desafios Míticos"
+			title: "&eUm Ritual Estranho"
 			x: -9.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["173314BDF690683E"]
 			description: [
-				"&6"Isso ainda não acabou. Aquilo não era nada além de uma sombra, e agora com essa fenda, temo que não seremos capazes de fazer isso."
+				"&eNível Recomendado: 50"
 				""
-				"&r&6A menos que... usemos o próprio poder deles contra eles. Poderíamos prender um dos arautos do vazio dentro de um recipiente e, com ele, reunir seu poder. Mas primeiro, torne-se uma arma melhor, eu farei o recipiente." &e&oS'kellak disse."
+				"&7Nas profundezas da fenda do End, uma figura do tamanho de um humano pode ser vista lançando um feitiço desconhecido. Seu ritual será capaz de interrompê-lo e forçá-lo a vir até você."
 				""
-				"&eSiga a linha de missões &cForja de S'kellak&e para mais informações sobre a forja de armas artefato."
+				"&7Null é um chefe poderoso e ágil; ele se teletransportará toda vez que você o atingir e convocará lacaios para atacá-lo. Certifique-se de nunca parar de atacá-lo, ou então ele se curará."
 				""
 				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&6"Isso ainda não acabou. Aquilo não era nada além de uma sombra, e agora com essa fenda, temo que não seremos capazes de fazer isso."
+				"&eNível Recomendado: 50"
 				""
-				"&r&6A menos que... usemos su propio poder contra ellos. Podríamos atrapar a uno de los heraldos del vacío dentro de un recipiente, y con él, obtener su poder. Pero primero, fabrícate una mejor arma, yo haré el recipiente.\"&e&o dijo S'kellak."
+				"&7Nas profundezas da fenda do End, pode-se ver uma figura do tamanho de um humano lançando um feitiço desconhecido. Seu ritual poderá interrompê-lo e obrigá-lo a enfrentá-lo."
 				""
-				"&eSigue la línea de misiones de la &cS'kellak's Forge&e para más información sobre la creación de armas artefacto."
+				"&7Null é um chefe poderoso e ágil; ele se teletransportará toda vez que você o atingir e convocará lacaios para atacá-lo. Certifique-se de não parar de atacá-lo, caso contrário ele se curará."
 				""
-				"&8Español"
+				"&8Espanhol"
 			]
 			icon: "mcda:upgrade_core_void"
 			id: "67DD847F1737097C"
@@ -1462,7 +1465,7 @@
 						}
 					}
 					id: "0BCF26135D1E3843"
-					title: "&8[Clique para ler a história e indicações]"
+					title: "&eDesbloqueie Desafios Míticos"
 					type: "advancement"
 				}
 				{
@@ -1478,34 +1481,38 @@
 			]
 			shape: "pentagon"
 			size: 1.45d
-			subtitle: "&dInvocar e Derrotar Null"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				entity: "archon:null"
 				icon: "powah:ender_core"
 				id: "1A0B9A7E5B466268"
-				title: "&f &dNull, Essência do Vazio"
+				title: "&dInvocar e Derrotar Null"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &dNull, Essência do Vazio"
 			x: -11.6d
 			y: 7.975d
 		}
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"&7&oJusto antes del encarcelamiento de Null, logró lanzar el hechizo con éxito. Una gran criatura monstruosa apareció desde la grieta"
+				"&6\"Isso ainda não acabou. Aquilo não passava de uma sombra e agora, com esta fenda, temo que não conseguiremos fazer isso."
 				""
-				"&6\"El Sin Rostro está aquí, otro de los heraldos del vacío, y la raíz de la corrupción\" &e&oS'kellak dijo"
+				"&r&6A menos que... usemos o próprio poder deles contra eles. Poderíamos aprisionar um dos arautos do vazio dentro de um recipiente e, com isso, reunir seu poder. Mas primeiro, faça para si uma arma melhor; eu farei o recipiente.\"&e&o Disse S'kellak."
 				""
-				"&8English"
+				"&eSiga a linha de missões da &cForja de S'kellak&e para mais informações sobre a criação de armas artefato."
+				""
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&7&oJusto antes del encarcelamiento de Null, logró lanzar el hechizo con éxito. Una gran criatura monstruosa apareció desde la grieta."
+				"&6\"Isso ainda não terminou. Aquilo não era mais do que uma sombra e agora, com esta fenda, temo que não poderemos fazer isso."
 				""
-				"&6\"El Sin Rostro está aquí, otro de los heraldos del vacío, y la raíz de la corrupción\" &e&oS'kellak dijo."
+				"&r&6A menos que... usemos o próprio poder deles contra eles. Poderíamos aprisionar um dos arautos do vazio dentro de um recipiente e, com ele, obter seu poder. Mas primeiro, forje uma arma melhor para si; eu farei o recipiente.\"&e&o disse S'kellak."
 				""
-				"&8Español"
+				"&eSiga a linha de missões da &cForja de S'kellak&e para mais informações sobre a criação de armas artefato."
+				""
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1528,7 +1535,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&6Forje seu Artefato"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				id: "27B44E04748B6582"
 				item: {
@@ -1538,75 +1545,71 @@
 						value: "prominent:artifacts"
 					}
 				}
-				title: "&eO Rift do Fim"
+				title: "&6Forge sua Arma Artefato"
 				type: "item"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&eA Fenda do End"
 			x: -2.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["67DD847F1737097C"]
 			description: [
-				"&cRequiere Nivel 50"
+				"&7&oLogo antes do aprisionamento de Null, ele conseguiu lançar o feitiço com sucesso. Uma grande criatura monstruosa apareceu da fenda."
 				""
-				"&dLos Desafíos Míticos&7 son encuentros de final del juego desbloqueados tras derrotar a Null. Son pesadillas infundidas con el vacío, creadas por el ser Sin Rostro que ha sido liberado."
+				"&6\"O Sem Rosto está aqui, outro dos arautos do vazio e a raiz da corrupção\" &e&oDisse S'kellak."
 				""
-				"&7Cada combate exitoso te otorgará un nuevo reloj de arena con un nivel superior. Cuanto mayor sea el nivel, más fuerte será la pesadilla."
-				""
-				"&cMorir contra un jefe mítico fallará el desafío y convocará un nuevo reloj de arena de nivel inferior."
-				""
-				"&7Puedes invocarlos con un &dReloj de Arena del Vacío&7. Si extraviaste tu reloj de arena, puedes obtener uno nuevo de Null, pero su nivel será 1."
-				""
-				"&8English"
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&cRequiere Nivel 50"
+				"&7&oPouco antes do aprisionamento de Null, ele conseguiu lançar o feitiço com sucesso. Uma grande criatura monstruosa apareceu da fenda."
 				""
-				"&dLos Desafíos Míticos&7 son encuentros de final del juego desbloqueados tras derrotar a Null. Son pesadillas infundidas con el vacío, creadas por el ser Sin Rostro que ha sido liberado."
+				"&6\"O Ignoto está aqui, outro dos arautos do vazio e a origem da corrupção\" &e&oDisse S'kellak."
 				""
-				"&7Cada combate exitoso te otorgará un nuevo reloj de arena con un nivel superior. Cuanto mayor sea el nivel, más fuerte será la pesadilla."
-				""
-				"&cMorir contra un jefe mítico fallará el desafío y convocará un nuevo reloj de arena de nivel inferior."
-				""
-				"&7Puedes invocarlos con un &dReloj de Arena del Vacío&7. Si extraviaste tu reloj de arena, puedes obtener uno nuevo de Null, pero su nivel será 1."
-				""
-				"&8Español"
+				"&8Espanhol"
 			]
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "245E77F81FB78B58"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore e as indicações]"
 			tasks: [{
 				id: "55B2EEFDAFAC3D0C"
-				title: "&6&lCapítulo III: &eO Rosto do Vazio"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler indicações]"
+			title: "&6&lCapítulo III: &eA Face do Vazio"
 			x: -14.529931972789107d
 			y: 8.483333333333348d
 		}
 		{
 			dependencies: ["67DD847F1737097C"]
 			description: [
-				"&eNivel recomendado: 50"
+				"&cRequer Nível 50"
 				""
-				"&7En el corazón de la influencia del vacío, el Abismo Primordial, puedes invocar al heraldo del vacío, el ser sin rostro, con su oscuro ritual, rompiendo el corazón de una aberración en el centro."
+				"&dDesafios Míticos&7 são confrontos de fim de jogo desbloqueados após derrotar Null. Eles são pesadelos infundidos pelo vazio criados pelo agora libertado ser Sem Rosto."
 				""
-				"&6\"Ten cuidado, solo debilítalo, e intentaré llevarlo a Vaaz para atraparlo por la eternidad. El destino de los reinos está en tus manos.\" &eS'kellak dijo"
+				"&7Cada luta bem-sucedida concederá a você uma nova ampulheta com um nível mais alto. Quanto maior o nível, mais forte será o pesadelo."
 				""
-				"&8English"
+				"&cMorrer contra um chefe mítico fará o desafio falhar e invocará uma nova ampulheta de nível inferior."
+				""
+				"&7Você pode invocá-los com uma &dAmpulheta do Vazio&7. Se você perdeu sua ampulheta, pode obter uma nova com Null, mas o nível dela será 1."
+				""
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNivel recomendado: 50"
+				"&cRequer Nível 50"
 				""
-				"&7En el corazón de la influencia del vacío, el Abismo Primordial, puedes invocar al heraldo del vacío, el ser sin rostro, con su oscuro ritual, rompiendo el corazón de una aberración en el centro."
+				"&dOs Desafios Míticos&7 são encontros de fim de jogo desbloqueados após derrotar Null. São pesadelos infundidos pelo vazio, criados pelo ser Ignoto que foi libertado."
 				""
-				"&6\"Ten cuidado, solo debilítalo, e intentaré llevarlo a Vaaz para atraparlo por la eternidad. El destino de los reinos está en tus manos.\" &eS'kellak dijo."
+				"&7Cada combate bem-sucedido concederá uma nova ampulheta com um nível superior. Quanto maior o nível, mais forte será o pesadelo."
 				""
-				"&8Español"
+				"&cMorrer contra um chefe mítico fará o desafio falhar e convocará uma nova ampulheta de nível inferior."
+				""
+				"&7Você pode invocá-los com uma &dAmpulheta do Vazio&7. Se você perdeu sua ampulheta, pode obter uma nova com Null, mas o nível dela será 1."
+				""
+				"&8Espanhol"
 			]
 			icon: {
 				Count: 1
@@ -1620,39 +1623,35 @@
 			}
 			id: "78E3D778D84410AE"
 			shape: "diamond"
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler as instruções]"
 			tasks: [{
 				id: "44E571FD07C153AC"
-				title: "&f &dDesafios Míticos"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "Transmogrificação Tocada pelo Vazio"
+			title: "&f &dDesafios Míticos"
 			x: -11.573979591836732d
 			y: 9.392857142857139d
 		}
 		{
 			dependencies: ["7CD3D2757242817B"]
 			description: [
-				"&eNivel recomendado: 50"
+				"&eNível Recomendado: 50"
 				""
-				"&7Magus, el líder de los Hex, es una de las claves para que el vacío entre en el Overworld. No ha sido corrompido, pero está impulsado por sus propios intereses y ha hecho un pacto con el vacío."
+				"&7No coração da influência do vazio, o Abismo Primordial, você pode invocar o arauto do vazio, o ser ignoto grotesco sem rosto, com seu ritual sombrio, quebrando o coração de uma aberração no centro."
 				""
-				"&7Es un poderoso mago; su barrera puede ser débil ante ciertos elementos, pero el encantamiento Golpe también ayudará a romperla."
+				"&6\"Cuidado, apenas enfraqueça-o, e eu tentarei levá-lo para Vaaz para aprisioná-lo pela eternidade. O destino dos reinos está em suas mãos.\" &eS'kellak disse"
 				""
-				"&eUsar magia o habilidades atraerá la atención de los Hex. También puedes fabricar una Hexblade para invocar a los Magisters. Mata a los Magisters para obtener potencialmente una Hexblade y una Perla Prismática. Usa la Hexblade en su portal para viajar al Océano de Cristal y usa una Perla Prismática para invocarlo."
-				""
-				"&8English"
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNivel recomendado: 50"
+				"&eNível Recomendado: 50"
 				""
-				"&7Magus, el líder de los Hex, es una de las claves para que el vacío entre en el Overworld. No ha sido corrompido, pero está impulsado por sus propios intereses y ha hecho un pacto con el vacío."
+				"&7No coração da influência do vazio, o Abismo Primordial, você pode invocar o arauto do vazio, o ser ignoto, com seu ritual sombrio, quebrando o coração de uma aberração no centro."
 				""
-				"&7Es un poderoso mago; su barrera puede ser débil ante ciertos elementos, pero el encantamiento Golpe también ayudará a romperla."
+				"&6\"Tenha cuidado, apenas enfraqueça-o, e eu tentarei levá-lo para Vaaz para aprisioná-lo pela eternidade. O destino dos reinos está em suas mãos.\" &eDisse S'kellak."
 				""
-				"&eUsar magia o habilidades atraerá la atención de los Hex. También puedes fabricar una Hexblade para invocar a los Magisters. Mata a los Magisters para obtener potencialmente una Hexblade y una Perla Prismática. Usa la Hexblade en su portal para viajar al Océano de Cristal y usa una Perla Prismática para invocarlo."
-				""
-				"&8Español"
+				"&8Espanhol"
 			]
 			icon: {
 				Count: 1
@@ -1679,13 +1678,13 @@
 					exclude_from_claim_all: true
 					id: "21B6E7DC9CD2B786"
 					table_id: 8008058263494883425L
-					title: "&8[Clique para ler a história e indicações]"
+					title: "Transmog Tocada pelo Vazio"
 					type: "choice"
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&9Invoque e lute contra O Sem-Rosto"
+			subtitle: "&8[Clique para ler a história e as instruções]"
 			tasks: [{
 				entity: "eldritch_end:the_faceless"
 				icon: {
@@ -1696,29 +1695,37 @@
 					}
 				}
 				id: "1FC4C638A5DF2AC0"
-				title: "&f &9&lO Sem-Rosto"
+				title: "&9Invoque e lute contra O Sem Rosto"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &9&lO Sem Rosto"
 			x: -4.78826530612244d
 			y: 13.607142857142861d
 		}
 		{
 			dependencies: ["245E77F81FB78B58"]
 			description: [
-				"&6\"Para invocar al último heraldo, tendrás que pasar por su propia magia oscura. Deberías hacer un arma nacida de la verdadera corrupción, la Marea Funesta, para enloquecerte y atraer los pensamientos oscuros del vacío, los Ojos Omnividentes; necesitaremos 4 de ellos para el ritual."
+				"&eNível Recomendado: 50"
 				""
-				"&6Mientras haces esto, buscaré más conocimiento sobre el ritual. Solo ten cuidado, no caigas en la locura, ya que no hay vuelta atrás.\" &e&oS'kellak dijo."
+				"&7Magus, o líder dos Hex, é uma das chaves para o vazio entrar no Overworld. Ele não foi corrompido, mas é movido por seus próprios interesses e fez um pacto com o vazio."
 				""
-				"&8English"
+				"&7Ele é um poderoso mago, sua barreira pode ser fraca contra certos elementos, mas o encantamento Golpe também ajudará a quebrá-la."
+				""
+				"&eUsar magia ou habilidades atrairá a atenção dos Hex. Você também pode criar uma oferenda Hexblade para invocar os Magisters. Mate os Magisters para potencialmente obter uma Hexblade e uma Pérola Prismática. Use a Hexblade no portal deles para viajar ao Oceano de Vidro e use uma Pérola Prismática para invocá-lo."
+				""
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&6\"Para invocar al último heraldo, tendrás que pasar por su propia magia oscura. Deberías hacer un arma nacida de la verdadera corrupción, la Marea Funesta, para enloquecerte y atraer los pensamientos oscuros del vacío, los Ojos Omnividentes; necesitaremos 4 de ellos para el ritual."
+				"&eNível Recomendado: 50"
 				""
-				"&6Mientras haces esto, buscaré más conocimiento sobre el ritual. Solo ten cuidado, no caigas en la locura, ya que no hay vuelta atrás.\" &e&oS'kellak dijo."
+				"&7Magus, o líder dos Hex, é uma das chaves para que o vazio chegue ao Overworld. Ele não foi corrompido, mas é movido por seus próprios interesses e fez um pacto com o vazio."
 				""
-				"&8Español"
+				"&7Ele é um poderoso mago, sua barreira pode ser fraca contra certos elementos, mas o encantamento Golpe também ajudará a quebrá-la."
+				""
+				"&eUsar magia ou habilidades atrairá a atenção dos Hex. Use uma Hexblade no portal deles para viajar ao Oceano de Cristal, e use uma Pérola Prismática para invocá-lo."
+				""
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -1744,7 +1751,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "&bDerrote o Arquimago Magus"
+			subtitle: "&8[Clique para ler a história e as instruções]"
 			tasks: [
 				{
 					entity: "spellbladenext:magus"
@@ -1756,7 +1763,7 @@
 						}
 					}
 					id: "0B213F812EBAA325"
-					title: "&bVisite o Oceano de Vidro"
+					title: "&bDerrote o Arquimago Magus"
 					type: "kill"
 					value: 1L
 				}
@@ -1764,11 +1771,11 @@
 					dimension: "spellbladenext:glassocean"
 					icon: "archon:water_essence"
 					id: "781DD5C7F6F464F1"
-					title: "&f &bMagus, o Arquimago"
+					title: "&bVisite o Oceano de Cristal"
 					type: "dimension"
 				}
 			]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&f &bMagus, o Arquimago"
 			x: -13.216836734693878d
 			y: 10.714285714285708d
 		}
@@ -1779,16 +1786,18 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6\"He encontrado una de las páginas perdidas del Necronomicón, esto debería ayudarte con el ritual. El Necronomicón también establece que este ritual debe hacerse en el Abismo Primordial.\" &e&oS'kellak dijo"
-				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				"&6\"Para invocar o último arauto, você terá que usar a própria magia sombria deles. Você deve criar uma arma nascida da verdadeira corrupção, a Dreadtide, para enlouquecer e atrair os pensamentos sombrios do vazio, os Olhos Que Tudo Veem; precisaremos de 4 deles para o ritual."
 				""
-				"&8English"
+				"&6Enquanto você faz isso, encontrarei mais conhecimento sobre o ritual. Apenas tome cuidado, não caia na loucura, pois não há volta.\" &e&oS'kellak disse"
+				""
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&6\"He encontrado una de las páginas perdidas del Necronomicón, esto debería ayudarte con el ritual. El Necronomicón también establece que este ritual debe hacerse en el Abismo Primordial.\" &e&oS'kellak dijo"
-				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				"&6\"Para invocar o último arauto, você terá que utilizar a própria magia sombria deles. Você deve forjar uma arma nascida da verdadeira corrupção, a Dreadtide, para enlouquecer e atrair os pensamentos mais sombrios do vazio, os Olhos Que Tudo Veem; precisaremos de 4 deles para o ritual."
 				""
-				"&8Español"
+				"&6Enquanto faz isso, buscarei mais conhecimento sobre o ritual. Apenas tome cuidado, não caia na loucura, pois não há volta.\" &e&oDisse S'kellak."
+				""
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			id: "0A5F7ABD54251511"
@@ -1798,12 +1807,12 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "&eObtenha 4 Olhos Ominosos dos Olhos Onividentes"
+			subtitle: "&8[Clique para ler a história e as instruções]"
 			tasks: [
 				{
 					id: "0EA07F48C91B6FBF"
 					item: "eldritch_end:ominous_eye"
-					title: "&eCaminho para a Corrupção: Os Olhos Onividentes"
+					title: "&eObtenha 4 Olhos Ominosos dos Olhos Que Tudo Veem"
 					type: "item"
 				}
 				{
@@ -1818,33 +1827,23 @@
 					type: "item"
 				}
 			]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&eCaminho para a Corrupção: Os Olhos Que Tudo Veem"
 			x: -10.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0A5F7ABD54251511"]
 			description: [
-				"&7El Sin Rostro ha sido capturado y atrapado dentro de Vaaz, S'kellak lo interrogó."
+				"&6\"Encontrei uma das páginas perdidas do Necronomicon, isso deve ajudá-lo com o ritual. O Necronomicon também afirma que este ritual deve ser realizado no Abismo Primordial.\" &e&oS'kellak disse"
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
 				""
-				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oEl Sin Rostro dijo, en una lengua desconocida"
-				""
-				"&6\"Hijo mío, si lo que dice es cierto, entonces nuestra guerra acaba de comenzar.\" &e&oDijo S'kellak, preocupado."
-				""
-				"&8&oEn lo profundo del End, la grieta se cierra y se abre un portal oscuro."
-				""
-				"&8English"
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&7El Sin Rostro ha sido capturado y atrapado dentro de Vaaz, S'kellak lo interrogó."
+				"&6\"Encontrei uma das páginas perdidas do Necronomicon, isso deve ajudá-lo com o ritual. O Necronomicon estabelece que este ritual deve ser realizado no abismo Primordial.\" &e&oDisse S'kellak."
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
 				""
-				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oEl Sin Rostro dijo, en una lengua desconocida"
-				""
-				"&6\"Hijo mío, si lo que dice es cierto, entonces nuestra guerra acaba de comenzar.\" &e&oDijo S'kellak, preocupado."
-				""
-				"&8&oEn lo profundo del End, la grieta se cierra y se abre un portal oscuro."
-				""
-				"&8Español"
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			id: "7CD3D2757242817B"
@@ -1854,7 +1853,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "&eCaminho para a Corrupção: Ritual da Danação"
+			subtitle: "&8[Clique para ler a lore e as instruções]"
 			tasks: [
 				{
 					id: "1415FEE0A0DB5355"
@@ -1874,27 +1873,33 @@
 					type: "item"
 				}
 			]
-			title: "&8[Clique para ler a história]"
+			title: "&eCaminho para a Corrupção: Ritual da Danação"
 			x: -8.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["69574BA63A9F05E8"]
 			description: [
-				"&eNivel recomendado: 10"
-				"&cMejor adecuado para combate cuerpo a cuerpo. Consulta la línea de misiones del Nether para más información."
+				"&7O Sem Rosto foi capturado e preso dentro de Vaaz, S'kellak o interrogou."
 				""
-				"&7Encontrado en el Nether, fue maldecido por quienes pensaba que eran sus aliados. Su reino fue asediado y cayó bajo el mar de lava, y el Rey solo pudo observar impotente mientras su mente y cuerpo se marchitaban lentamente."
+				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oDisse o Sem Rosto, em uma língua desconhecida"
 				""
-				"&8English"
+				"&6\"Meu filho, se o que ele diz é verdade, então nossa guerra apenas começou.\" &e&oDisse S'kellak, preocupado."
+				""
+				"&8&oNas profundezas do End, a fenda se fecha, e um portal sombrio se abre."
+				""
+				"&8Inglês"
 				""
 				"{@pagebreak}"
-				"&eNivel recomendado: 10"
-				"&cMejor adecuado para combate cuerpo a cuerpo."
+				"&7O Sem Rosto foi capturado e preso dentro de Vaaz, S'kellak o interrogou."
 				""
-				"&7Encontrado en el Nether, fue maldecido por quienes pensaba que eran sus aliados. Su reino fue asediado y cayó bajo el mar de lava, y el Rey solo pudo observar impotente mientras su mente y cuerpo se marchitaban lentamente."
+				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oDisse o Sem Rosto, em uma língua desconhecida."
 				""
-				"&8Español"
+				"&6\"Meu jovem, se o que ele diz é verdade, então nossa guerra apenas começa.\" &e&oDisse S'kellak, preocupado."
+				""
+				"&8&oNas profundezas do End, a fenda se fecha, e um portal sombrio se abre."
+				""
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1914,13 +1919,13 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Continuar"
+			subtitle: "&8[Clique para ler a lore]"
 			tasks: [{
 				id: "6CD2D01CFB2304DD"
-				title: "&eA Invasão Termina"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "&eDesbloquear Nivelamento 11-50"
+			title: "&eA Invasão Termina"
 			x: -3.0382653061224545d
 			y: 13.678571428571402d
 		}
@@ -1928,11 +1933,20 @@
 			dependencies: ["7CBAFED315D614C3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eLos jefes de campaña tienen su propio nivel, igual que tú, como se ve en la parte superior de tu inventario."
+				"&eNível Recomendado: 10"
+				"&cMais adequado para Melee. Confira a Linha de Missões do Nether para mais informações."
 				""
-				"&cEsto significa que si no tienes un nivel lo suficientemente alto, no causarás suficiente daño para derrotarlos."
+				"&7Encontrado no Nether, ele foi amaldiçoado pelo que pensava serem seus aliados. Seu reino foi sitiado e caiu sob o mar de lava, e o Rei só pôde observar impotente enquanto sua mente e corpo definhavam lentamente."
 				""
-				"&7En total, infligirás &c10% menos de daño por cada diferencia de nivel&7, lo que significa que si eres nivel 45 y un jefe es nivel 50, solo infligirás el 50% del daño total que deberías infligir."
+				"&8Inglês"
+				""
+				"{@pagebreak}"
+				"&eNível Recomendado: 10"
+				"&cRecomendado para Melee."
+				""
+				"&7Encontrado no Nether, ele foi amaldiçoado por aqueles que pensava serem seus aliados. Seu reino foi sitiado e caiu sob o mar de lava, e o Rei só pôde observar impotente enquanto sua mente e corpo se deterioravam lentamente."
+				""
+				"&8Espanhol"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1954,19 +1968,19 @@
 					auto: "enabled"
 					criterion: ""
 					id: "0C140E150DFB6C5D"
-					title: "&8[Clique para ler a história e indicações]"
+					title: "&eDesbloquear Progressão de Nível 11-50"
 					type: "advancement"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "&cDerrote o Rei em Decomposição"
+			subtitle: "&8[Clique para ler a lore e as instruções]"
 			tasks: [
 				{
 					entity: "soulsweapons:accursed_lord_boss"
 					icon: "soulsweapons:withered_demon_heart"
 					id: "1E53C2B640C2CED4"
-					title: "Use uma Bússola de Pedra da Lua para localizar o Reino em Decomposição"
+					title: "&cDerrote o Rei Decadente"
 					type: "kill"
 					value: 1L
 				}
@@ -1974,18 +1988,22 @@
 					id: "0132A0C646879E11"
 					item: "soulsweapons:boss_compass"
 					optional_task: true
-					title: "&f &cO Rei em Decomposição"
+					title: "Use uma Bússola de Pedra da Lua para localizar o Reino Decadente"
 					type: "item"
 				}
 			]
-			title: "&eDesbloquear Capítulo I"
+			title: "&f &cO Rei Decadente"
 			x: -11.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7AE1542456418BCD"]
 			description: [
-				"&7Se ha sabido que aproximadamente 1 de cada 125 Aberraciones está mutada en algún grado. Las probabilidades son bajas, pero quizá este podría ser otro método para obtener Ojos Ominosos."
+				"&eChefes de campanha têm seu próprio nível, assim como você, como pode ser visto no topo do seu inventário."
+				""
+				"&cIsso significa que, se você não tiver um nível alto o suficiente, não causará dano suficiente para matá-los."
+				""
+				"&7No total, você causará &c10% menos dano por diferença de nível&7, o que significa que, se você for nível 45 e um chefe for nível 50, causará apenas 50% do dano total que deveria causar."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2000,17 +2018,17 @@
 				auto: "enabled"
 				icon: "ftbquests:book"
 				id: "73B06E8111436D07"
-				title: "&8[Clique para ler informações]"
+				title: "&eDesbloquear Capítulo I"
 				type: "custom"
 			}]
 			shape: "hexagon"
-			subtitle: "Ok, entendi!"
+			subtitle: "&8[Clique para ler informações]"
 			tasks: [{
 				id: "3A4B95414CAC2233"
-				title: "&cInformação Importante: &eNíveis de Chefes"
+				title: "Ok, eu entendi!"
 				type: "checkmark"
 			}]
-			title: "&8[Clique para ler a história e indicações]"
+			title: "&cInformação Importante: &eNíveis dos Chefes"
 			x: -10.5d
 			y: -4.5d
 		}
@@ -2018,7 +2036,7 @@
 			can_repeat: true
 			dependencies: ["3A8C4B633BAF1EFF"]
 			description: [
-				"Hola, joven técnico! Estoy aquí para ayudarte a adentrarte en el mundo de la fábrica de Modern Industrialization. Puede ser un poco abrumador al principio, pero no te hará demasiado daño, ¿verdad?"
+				"&7Você ouviu dizer que cerca de 1 em cada 125 Aberrações sofre algum tipo de mutação. As chances são baixas, mas talvez esse possa ser outro método de obter Olhos Ominosos."
 			]
 			hide_until_deps_complete: true
 			icon: "eldritch_end:aberration_spawn_egg"
@@ -2041,45 +2059,27 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Visite-os em seu Covil."
+			subtitle: "&8[Clique para ler a lore e as instruções]"
 			tasks: [
 				{
 					biome: "eldritch_end:primordial_abyss"
 					id: "602D20630E252EC0"
 					optional_task: true
-					title: "Mate essas Criaturas miseráveis"
+					title: "Visite-os em seu Covil."
 					type: "biome"
 				}
 				{
 					entity: "eldritch_end:aberration"
 					id: "36BF1A161A1782FC"
-					title: "&eEsses Olhos também terão que servir..."
+					title: "Mate essas criaturas miseráveis"
 					type: "kill"
 					value: 500L
 				}
 			]
-			title: " &d&lInvasão do Vazio"
+			title: "&eEsses Olhos terão que servir também..."
 			x: -11.0d
 			y: 12.5d
 		}
 	]
-	title: "&eNível Recomendado: 15
-
-&7&oO Grilhão, outrora o vigilante e primeiro arauto do Nether, agora caiu no abraço sombrio do Vazio. Escravizado como um dos arautos do Vazio, agora ameaça seu próprio reino com destruição.
-
-&7&oPodes encontrar o Grilhão preso dentro de uma prisão monolítica. Quebre seu olho e libertarás a criatura agora corrompida.
-
-&eDica: &7Este chefe tem ataques fortes e pode te matar com um golpe na dificuldade Normal ou Difícil! Tente desviar ou criar poções defensivas!
-
-&8Inglês
-{@pagebreak}
-&eNível Recomendado: 15
-
-&7&oO Grilhão, outrora o vigilante e primeiro arauto do Nether, agora caiu no abraço sombrio do Vazio. Escravizado como um de seus arautos, agora ameaça seu próprio reino com destruição.
-
-&7&oPodes encontrar o Grilhão preso dentro de uma prisão monolítica. Quebre seu olho e libertarás a criatura agora corrompida.
-
-&eDica: &7Este chefe tem ataques fortes que podem te matar com um golpe na dificuldade Normal ou Difícil! Tente desviar ou fazer poções defensivas.
-
-&8Espanhol"
+	title: " &d&lInvasão do Vazio"
 }

@@ -12,7 +12,7 @@
 		{
 			dependencies: ["5DFDAAA27B3775A3"]
 			description: [
-				"Se esfaquear para esfaquear mais? Não tenho certeza se isso é uma boa ideia, mas tudo bem, vá em frente, sangre para poder fazê-los sangrar."
+				"Essas pedras podem ser encontradas abaixo da terra, em algum lugar nas camadas de ardósia profunda, elas não são realmente comuns, no entanto.  "
 			]
 			disable_toast: true
 			id: "26C8BD551FCBAF73"
@@ -21,7 +21,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Fonte Lunar"
+			subtitle: "  
+Essas duas pedras serão importantes na criação do seu equipamento de alma, lembre-se de coletar bastante.  "
 			tasks: [
 				{
 					id: "3ECB3F6B6447E99A"
@@ -34,7 +35,8 @@
 					type: "item"
 				}
 			]
-			title: "Almas Perdidas são outra fonte de poder para esse equipamento de alma e criação de blocos; você pode encontrar algumas ao fundir areia das almas."
+			title: "  
+Fonte Lunar  "
 			x: 0.0d
 			y: 1.5d
 		}
@@ -45,14 +47,16 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Crafteamento de Alma"
+			subtitle: "  
+Almas Perdidas são outra fonte de poder para esses equipamentos de alma e criação de blocos, você pode encontrar algumas ao fundir areia das almas.  "
 			tasks: [{
 				count: 16L
 				id: "3F40947A53DAE566"
 				item: "soulsweapons:lost_soul"
 				type: "item"
 			}]
-			title: "Lingotes Infundidos de Alma são um dos principais ingredientes na criação do equipamento de alma, pois contêm a essência das almas perdidas."
+			title: "  
+Artesanato de Almas  "
 			x: 2.5d
 			y: -0.5d
 		}
@@ -60,13 +64,15 @@
 			dependencies: ["268F53C03707BD12"]
 			dependency_requirement: "one_completed"
 			id: "2C1F39A39A290603"
-			subtitle: "Ferro Vivo"
+			subtitle: "  
+Lingotes Infundidos de Alma são um dos principais ingredientes na criação dos equipamentos de alma, pois contêm a essência das almas perdidas.  "
 			tasks: [{
 				id: "3B91CBD4E6AD762A"
 				item: "soulsweapons:soul_ingot"
 				type: "item"
 			}]
-			title: "Blocos decorativos usados em algumas estruturas dos grandes monstros escondidos. Também são ótimos para um tema de construção."
+			title: "  
+Ferro Vivo  "
 			x: 4.5d
 			y: -0.5d
 		}
@@ -78,7 +84,8 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Blocos de Construção da Alma"
+			subtitle: "  
+Blocos decorativos usados em algumas estruturas dos grandes monstros escondidos. Também são ótimos para um tema de construção.  "
 			tasks: [
 				{
 					id: "1A1CDB9DCAB3A785"
@@ -101,7 +108,8 @@
 					type: "item"
 				}
 			]
-			title: "Essas Balas de Prata serão muito importantes para suas armas de longo alcance de alma, pois são o principal uso desse tipo de munição. Balas de Prata podem ser baratas, mas dependendo da frequência de uso, vão te deixar endividado."
+			title: "  
+Blocos de Construção da Alma  "
 			x: 1.0d
 			y: -2.0d
 		}
@@ -113,14 +121,16 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Munição de Alma"
+			subtitle: "  
+Essas Balas de Prata serão muito importantes para suas armas de longo alcance de alma, pois são o principal uso desse tipo de munição. Balas de Prata podem ser baratas, mas dependendo de quão frequentemente você as usa, isso será sua dívida.  "
 			tasks: [{
 				count: 10L
 				id: "56ADA0DBFA97A758"
 				item: "soulsweapons:silver_bullet"
 				type: "item"
 			}]
-			title: "A Pistola do Caçador é uma arma de fogo simples que usa balas de prata, mas tem um recarregamento relativamente rápido."
+			title: "  
+Munição de Alma  "
 			x: 2.5d
 			y: -3.5d
 		}
@@ -141,7 +151,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bum! Tiro na cabeça!"
+			subtitle: "  
+A Pistola do Caçador é uma arma de fogo simples que usa balas de prata, mas tem um recarregamento bastante rápido.  "
 			tasks: [{
 				id: "604F0DEC55BB9A81"
 				item: {
@@ -153,7 +164,8 @@
 				}
 				type: "item"
 			}]
-			title: "A Escopeta do Caçador é uma espingarda que usa balas de prata para liberar uma rajada de projéteis contra os alvos."
+			title: "  
+Bum! Tiro na cabeça!  "
 			x: 1.0d
 			y: -4.5d
 		}
@@ -173,7 +185,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Você não consegue falar com um humano com uma espingarda na mão..."
+			subtitle: "  
+A Espingarda do Caçador é uma escopeta que usa balas de prata para disparar uma explosão de projéteis contra os alvos.  "
 			tasks: [{
 				id: "09F0E4B368AEA5DB"
 				item: {
@@ -185,7 +198,8 @@
 				}
 				type: "item"
 			}]
-			title: "O Canhão do Caçador é uma arma pesada que requer 10 balas de prata para disparar, pois combina todas as balas em um único tiro de canhão. Tem um longo recarregamento, então não pode ser usado em rápida sucessão facilmente."
+			title: "  
+Você não pode falar com um humano com uma espingarda na mão...  "
 			x: 3.0d
 			y: -5.0d
 		}
@@ -205,7 +219,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Caminhando como um navio de guerra"
+			subtitle: "  
+O Canhão do Caçador é uma arma pesada que requer 10 balas de prata para disparar, pois combina todas as balas em um único disparo de bala de canhão. Ele tem um longo recarregamento, então você não consegue disparar isso em rápida sucessão facilmente.  "
 			tasks: [{
 				id: "7A38B94629479054"
 				item: {
@@ -217,7 +232,8 @@
 				}
 				type: "item"
 			}]
-			title: "A Metralhadora Gatling é uma arma pesada que leva tempo para carregar e começa a disparar rapidamente. Ela consome muitas balas, então use-a apenas quando tiver muitas balas de prata."
+			title: "  
+Navio de Guerra Andante  "
 			x: 4.0d
 			y: -4.5d
 		}
@@ -238,7 +254,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Diga olá ao meu amiguinho!"
+			subtitle: "  
+A Metralhadora Gatling é uma arma pesada que leva tempo para carregar e começar a disparar em alta velocidade. Ela consumirá suas balas rapidamente, então certifique-se de usar essa arma apenas quando tiver muitas balas de prata.  "
 			tasks: [{
 				id: "6002A26D3270EC99"
 				item: {
@@ -250,7 +267,8 @@
 				}
 				type: "item"
 			}]
-			title: "Sim, você leu certo, é o Big Chungus, colete 9 dessas esmeraldas ao matar Chunguses e crie o disco de música."
+			title: "  
+Diga olá para o meu amiguinho!  "
 			x: 2.0d
 			y: -5.0d
 		}
@@ -261,14 +279,16 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Temporada de caça aos coelhos"
+			subtitle: "  
+Sim, você leu certo, é o Big Chungus, colete 9 dessas esmeraldas ao matar Chunguses e crie o disco de música.  "
 			tasks: [{
 				count: 9L
 				id: "2C60636D9E1B1A87"
 				item: "soulsweapons:chungus_emerald"
 				type: "item"
 			}]
-			title: "Imitações baratas do que um verdadeiro equipamento de alma é, usadas por lutadores caídos como os Remanescentes."
+			title: "  
+Temporada de Caça aos Coelhos  "
 			x: -1.5d
 			y: -1.5d
 		}
@@ -280,7 +300,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Armas de Alma Falsas"
+			subtitle: "  
+Imitações baratas do que um verdadeiro equipamento de alma são, usadas por guerreiros caídos como os Remanescentes.  "
 			tasks: [
 				{
 					id: "43A7A694636F3248"
@@ -316,14 +337,16 @@
 					type: "item"
 				}
 			]
-			title: "Essas ferramentas são tão duráveis que podem até ser mais fortes que diamante."
+			title: "  
+Armas Falsas de Alma  "
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "306D0FC3908C6348"
-			subtitle: "Ferramentas Lunares"
+			subtitle: "  
+Essas ferramentas são tão duráveis que podem até ser mais fortes que diamante.  "
 			tasks: [
 				{
 					id: "514C65E9419D368B"
@@ -370,7 +393,8 @@
 					type: "item"
 				}
 			]
-			title: "Uma bússola tão peculiar, parece estar apontando para algum lugar distante... para onde será que aponta?"
+			title: "  
+Ferramentas Lunares  "
 			x: -1.5d
 			y: 0.5d
 		}
@@ -382,13 +406,15 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Lua Guia"
+			subtitle: "  
+Uma bússola tão peculiar, parece estar apontando para algum lugar distante, para onde ela aponta?  "
 			tasks: [{
 				id: "25B8B67FB1EA4200"
 				item: "soulsweapons:boss_compass"
 				type: "item"
 			}]
-			title: "Aqui jaz um grande campeão, incapaz de encontrar paz e descanso. Você deve matá-lo e devolver seu corpo à terra."
+			title: "  
+Luna Guia  "
 			x: -2.0d
 			y: 2.0d
 		}
@@ -401,11 +427,13 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Encontre o Túmulo do Campeão"
+			subtitle: "  
+Aqui jaz um grande campeão, incapaz de encontrar paz e descanso. Você deve matá-lo e devolver seu corpo à terra.  "
 			tasks: [{
 				id: "666236AD26DCF0C8"
 				structure: "soulsweapons:champions_graves"
-				title: "Aqui está um rei que perdeu tudo, encerre seu falso reinado e saia vitorioso."
+				title: "  
+Encontre o Túmulo do Campeão  "
 				type: "structure"
 			}]
 			x: -3.5d
@@ -420,7 +448,8 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Uma poderosa alma de um líder caído e um coração de um demônio em decomposição. Você libertou o rei que não conseguia morrer."
+			subtitle: "  
+Aqui está um rei que perdeu tudo, encerre seu falso reinado e emerja vitorioso.  "
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				id: "54E0D07EC0FDE02C"
@@ -447,7 +476,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Queda de um Reino"
+			subtitle: "  
+Uma poderosa alma de um líder caído e um coração de um demônio em decomposição. Você libertou o rei que não conseguia morrer.  "
 			tasks: [
 				{
 					id: "22A32D00123EF149"
@@ -460,7 +490,8 @@
 					type: "item"
 				}
 			]
-			title: "Uma poderosa alma de um grande campeão e uma essência poderosa de um fantasma. Você libertou os mortos e agora eles voltaram à terra para descansar."
+			title: "  
+Queda de um Reino  "
 			x: -5.5d
 			y: 2.0d
 		}
@@ -481,7 +512,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Exorcismo"
+			subtitle: "  
+Uma poderosa alma de um grande campeão e uma poderosa essência de um fantasma. Você libertou os mortos e agora eles voltaram à terra para descansar.  "
 			tasks: [
 				{
 					id: "306B22E67205A029"
@@ -506,7 +538,8 @@
 					value: 1L
 				}
 			]
-			title: "Uma poderosa alma de alguém que estava sob controle de uma força sombria e uma moonstone pura irradiando energia poderosa. Mas não poderíamos ter feito algo diferente?"
+			title: "  
+Exorcismo  "
 			x: -5.5d
 			y: 1.0d
 		}
@@ -519,7 +552,8 @@
 				type: "xp"
 				xp: 45
 			}]
-			subtitle: "Marionete Caída"
+			subtitle: "  
+Uma poderosa alma que estava sob o controle de uma força sombria e uma pedra lunar pura irradiando energia poderosa. Mas não poderíamos ter feito algo diferente?  "
 			tasks: [
 				{
 					id: "748EE6B36DC033CD"
@@ -560,7 +594,8 @@
 					type: "item"
 				}
 			]
-			title: "Você trouxe de volta um cavaleiro caído ao seu corpo legítimo e agora o enfrentou em sua antiga glória."
+			title: "  
+Marionete Caída  "
 			x: -5.5d
 			y: 4.0d
 		}
@@ -573,7 +608,8 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Retribuição"
+			subtitle: "  
+Você trouxe de volta um cavaleiro caído ao seu corpo legítimo, e agora enfrentou-o em sua antiga glória.  "
 			tasks: [
 				{
 					id: "513B98489CFD1402"
@@ -592,7 +628,8 @@
 					type: "item"
 				}
 			]
-			title: "Uma poderosa alma de uma manifestação da decadência, o Wither, e ele deixou cair um fragmento emanando energia caótica... para que serve?"
+			title: "  
+Retribuição  "
 			x: -7.5d
 			y: 4.0d
 		}
@@ -605,7 +642,8 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "O Abismo Devolve o Olhar"
+			subtitle: "  
+Uma poderosa alma de uma personificação da decadência, o Wither, e ele dropou uma lasca emanando energia caótica, para que serve?  "
 			tasks: [
 				{
 					id: "4058B9713C9B8505"
@@ -618,7 +656,8 @@
 					type: "item"
 				}
 			]
-			title: "Uma poderosa alma do último dragão conhecido no End. Agora você é capaz de aproveitar seu poder."
+			title: "  
+O Abismo Devolve o Olhar  "
 			x: -5.5d
 			y: 3.0d
 		}
@@ -629,13 +668,15 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Essência do Dragão"
+			subtitle: "  
+Uma poderosa alma do último dragão conhecido do End. Você agora é capaz de aproveitar seu poder.  "
 			tasks: [{
 				id: "6977EF420975B77A"
 				item: "soulsweapons:lord_soul_purple"
 				type: "item"
 			}]
-			title: "O anel lunar concede ao usuário a habilidade de lançar ondas mágicas por um curto período, permitindo até disparar à distância apenas com as mãos."
+			title: "  
+Essência do Dragão  "
 			x: -5.5d
 			y: 0.0d
 		}
@@ -647,7 +688,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Andarilho da Lua"
+			subtitle: "  
+O anel lunar concede ao portador a habilidade de lançar ondas mágicas por um curto período, permitindo até mesmo atirar à distância apenas com as mãos.  "
 			tasks: [{
 				id: "0E4427FFDCF83625"
 				item: {
@@ -659,7 +701,8 @@
 				}
 				type: "item"
 			}]
-			title: "Usando a moonstone que você encontrou, você decidiu ver se é capaz de criar uma arma poderosa."
+			title: "  
+Moonwalker  "
 			x: -6.5d
 			y: 6.5d
 		}
@@ -671,7 +714,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Lua de Imitiação"
+			subtitle: "  
+Fazendo uso da pedra lunar que você encontrou, você decidiu ver se consegue criar uma arma poderosa.  "
 			tasks: [
 				{
 					id: "591AB2A0E90CB276"
@@ -696,7 +740,8 @@
 					type: "item"
 				}
 			]
-			title: "Após inserir uma alma poderosa nas espadas, elas parecem ter despertado com o poder da lua."
+			title: "  
+Imitação da Lua  "
 			x: -3.0d
 			y: 5.0d
 		}
@@ -708,7 +753,8 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Está faltando..."
+			subtitle: "  
+Após inserir uma alma poderosa nas espadas, elas agora parecem ter despertado com o poder da lua.  "
 			tasks: [
 				{
 					id: "48DCD09A0A871EE1"
@@ -733,7 +779,8 @@
 					type: "item"
 				}
 			]
-			title: "Esta espada é interessante; permite ao portador sentir hostis próximos, podendo ser útil em uma invasão talvez?"
+			title: "  
+Está faltando...  "
 			x: -4.5d
 			y: 6.0d
 		}
@@ -745,7 +792,8 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "ALERTA!"
+			subtitle: "  
+Esta espada é interessante, ela permite que o portador sinta hostis próximos, pode ser útil em uma invasão talvez?  "
 			tasks: [{
 				id: "3330062EEDC11DBF"
 				item: {
@@ -757,7 +805,8 @@
 				}
 				type: "item"
 			}]
-			title: "Esta arma é um pouco estranha; pode se transformar em uma arma diferente com uma habilidade diferente quando desejado."
+			title: "  
+ALERTA!  "
 			x: 2.0d
 			y: 3.5d
 		}
@@ -769,7 +818,7 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "2 em 1"
+			subtitle: "Esta arma é um pouco estranha, ela pode se transformar em uma arma diferente com uma habilidade diferente quando desejado.  "
 			tasks: [{
 				id: "6A3CBE5453333526"
 				item: {
@@ -782,27 +831,31 @@
 				}
 				type: "item"
 			}]
-			title: "O que te levaria a criar um item assim? Invocar um grande demônio ou algo maligno?"
+			title: "  
+2 em 1  "
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["731E965C4BF7565E"]
 			id: "7D2E63E7DC4FDF32"
-			subtitle: "O cheiro da decadência está próximo..."
+			subtitle: "  
+O que deve te levar a criar um item assim? Invocar um grande demônio ou algo maligno?  "
 			tasks: [{
 				id: "60093F40E5DF21D0"
 				item: "soulsweapons:blackstone_pedestal"
 				type: "item"
 			}]
-			title: "As vestes de um feiticeiro sombrio, infundidas com o poder das almas, razoavelmente duráveis."
+			title: "  
+O Cheiro da Decomposição está próximo...  "
 			x: -3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2C1F39A39A290603"]
 			id: "312B2DA72F1CFE6F"
-			subtitle: "Vestes Vivas"
+			subtitle: "  
+As vestes de um feiticeiro das trevas, infundidas com o poder das almas, razoavelmente duráveis.  "
 			tasks: [
 				{
 					id: "5649B5CDF8BB6B50"
@@ -849,7 +902,8 @@
 					type: "item"
 				}
 			]
-			title: "Você pode ouvir as almas dentro da armadura, pois foram infundidas no metal, mais durável que ferro."
+			title: "  
+Vestes Vivas  "
 			x: 4.5d
 			y: -3.0d
 		}
@@ -857,7 +911,8 @@
 			dependencies: ["2C1F39A39A290603"]
 			hide_text_until_complete: false
 			id: "615E23C6448FD934"
-			subtitle: "Armadura Viva, mas nem tanto"
+			subtitle: "  
+Você pode ouvir as almas dentro da armadura, pois elas foram infundidas no metal, mais durável que o ferro.  "
 			tasks: [
 				{
 					id: "63E92BDC88AD4592"
@@ -904,7 +959,8 @@
 					type: "item"
 				}
 			]
-			title: "Esses demônios errantes são encontrados nas florestas carmesim, vagando como cascas vazias de instinto assassino..."
+			title: "  
+Armadura Viva, mas nem tanto  "
 			x: 5.5d
 			y: -2.5d
 		}
@@ -916,14 +972,16 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Antigamente..."
+			subtitle: "  
+Esses demônios errantes são encontrados nas florestas carmesim, vagando como cascas vazias de instinto assassino...  "
 			tasks: [{
 				entity: "soulsweapons:withered_demon"
 				id: "5709B569D6FC88A3"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Um coração de um demônio moribundo, ainda contendo vitalidade poderosa... talvez possamos fazer uso disso?"
+			title: "  
+Nos meus tempos...  "
 			x: 2.5d
 			y: 1.0d
 		}
@@ -935,13 +993,15 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Você pode sentir meu coração batendo?"
+			subtitle: "  
+Um coração de um demônio moribundo, ainda contendo uma vitalidade poderosa, talvez possamos fazer uso disso?  "
 			tasks: [{
 				id: "71750199863537CD"
 				item: "soulsweapons:demon_heart"
 				type: "item"
 			}]
-			title: "Uma forma condensada de vitalidade demoníaca, muito nojenta se você pensar bem."
+			title: "  
+Consegue sentir meu coração batendo?  "
 			x: 4.0d
 			y: 2.0d
 		}
@@ -953,26 +1013,30 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Tudo vem do coração"
+			subtitle: "  
+Uma forma condensada de vitalidade demoníaca, muito nojenta se você pensar bem.  "
 			tasks: [{
 				id: "264C335613C2E5DE"
 				item: "soulsweapons:demon_chunk"
 				type: "item"
 			}]
-			title: "Um lingote feito de corações demoníacos infundidos. Ele irradia energia demoníaca, perfeito para equipamentos de alma."
+			title: "  
+Tudo vem do coração  "
 			x: 5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2E717252139F3121"]
 			id: "38B1E5E35DFDF751"
-			subtitle: "Coração de Ferro"
+			subtitle: "  
+Um lingote feito de corações demoníacos infundidos. Ele irradia energia demoníaca, perfeito para equipamentos de alma.  "
 			tasks: [{
 				id: "12101826E4B0D9FB"
 				item: "soulsweapons:crimson_ingot"
 				type: "item"
 			}]
-			title: "Uma poderosa foice, forjada usando metal de alma poderoso para criar uma arma que representa a morte. Invoque os mortos para fazer sua vontade."
+			title: "  
+Coração de Ferro  "
 			x: 7.5d
 			y: 4.0d
 		}
@@ -984,7 +1048,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Ninguém pode parar a morte..."
+			subtitle: "  
+Uma foice poderosa, criada usando metal de alma poderoso para forjar uma arma que representa a morte. Invoque os mortos para obedecer às suas ordens.  "
 			tasks: [{
 				id: "12FCE823DC1B9709"
 				item: {
@@ -996,7 +1061,8 @@
 				}
 				type: "item"
 			}]
-			title: "Soldados de elite esquecidos, podem ser encontrados vagando pelo Vale da Areia das Almas, mas podem ser invocados para fazer sua vontade."
+			title: "  
+Ninguém pode parar a morte...  "
 			x: 7.0d
 			y: -0.5d
 		}
@@ -1008,14 +1074,16 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Há muito tempo esquecidos..."
+			subtitle: "  
+Soldados de elite esquecidos, podem ser encontrados vagando pelo Vale da Areia das Almas, mas podem ser invocados para obedecer às suas ordens.  "
 			tasks: [{
 				entity: "soulsweapons:evil_forlorn"
 				id: "24632591264B1928"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Um equipamento encontrado apenas ao matar Evil Forlorns; coloque-os para descansar e sejam lembrados."
+			title: "  
+Há muito esquecidos...  "
 			x: 7.0d
 			y: -2.0d
 		}
@@ -1034,7 +1102,8 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Um dos Esquecidos"
+			subtitle: "  
+Um equipamento encontrado exclusivamente ao matar Evil Forlorns, coloque-os para descansar e sejam lembrados.  "
 			tasks: [
 				{
 					id: "130983AA27EBCBA4"
@@ -1092,7 +1161,8 @@
 					type: "item"
 				}
 			]
-			title: "Uma arma que causa verdadeiro dano mágico baseado em cada golpe e no nível de Aspecto Flamejante, mas apenas acima de um terço da vida do alvo."
+			title: "  
+Um dos Esquecidos  "
 			x: 8.0d
 			y: -3.0d
 		}
@@ -1104,7 +1174,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Hora de Purificar"
+			subtitle: "  
+Uma arma que causa verdadeiro dano mágico baseado em cada golpe e no nível de Aspecto Flamejante, mas apenas acima de um terço da vida do alvo.  "
 			tasks: [{
 				id: "3C3EA4799654A7C5"
 				item: {
@@ -1116,7 +1187,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma lança com o poder de um cometa em alta velocidade, pronta para colidir contra qualquer alvo."
+			title: "  
+Hora de purificar  "
 			x: 0.0d
 			y: 7.5d
 		}
@@ -1128,7 +1200,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Estrela Cadente"
+			subtitle: "  
+Uma lança com o poder de um cometa em alta velocidade, pronta para colidir contra qualquer alvo.  "
 			tasks: [{
 				id: "26236BC9E760C601"
 				item: {
@@ -1140,7 +1213,8 @@
 				}
 				type: "item"
 			}]
-			title: "Um bom arco que pode aumentar a velocidade do portador quanto mais a corda é puxada na mão não dominante."
+			title: "  
+Estrela Cadente  "
 			x: -2.0d
 			y: 7.0d
 		}
@@ -1152,7 +1226,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Fuja como o Vento"
+			subtitle: "  
+Um bom arco que pode aumentar a velocidade do usuário quanto mais a corda é puxada na mão não dominante.  "
 			tasks: [{
 				id: "0BB2566384B8CB65"
 				item: {
@@ -1164,7 +1239,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma arma simples, mas eficaz, que fica mais forte quando a noite cai."
+			title: "  
+Fuja como o vento  "
 			x: 1.0d
 			y: 7.5d
 		}
@@ -1176,7 +1252,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "A Noite é a Minha Força"
+			subtitle: "  
+Uma arma simples, porém eficaz, que fica mais forte quando a noite cai.  "
 			tasks: [{
 				id: "1FBB3E61F002F6EF"
 				item: {
@@ -1188,7 +1265,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma arma que contém energia demoníaca. Seu único propósito é curar o portador em troca do sangue de seus alvos."
+			title: "  
+A noite é minha força  "
 			x: -1.0d
 			y: 7.5d
 		}
@@ -1200,7 +1278,8 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Estou com Sede..."
+			subtitle: "  
+Uma arma contendo energia demoníaca. Seu único propósito é curar o portador em troca do sangue de seus alvos.  "
 			tasks: [{
 				id: "1AAE21BC4558A2E2"
 				item: {
@@ -1212,7 +1291,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma arma da alma que abriga o poder de um verdadeiro demônio."
+			title: "  
+Estou com sede...  "
 			x: 9.0d
 			y: 5.0d
 		}
@@ -1224,7 +1304,8 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "ENTÃO PAGUE COM SEU SANGUE!"
+			subtitle: "  
+Uma arma da alma que abriga o poder de um verdadeiro demônio.  "
 			tasks: [{
 				id: "2A92003A9D6C3D9E"
 				item: {
@@ -1236,7 +1317,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma foice não evoluída que está pronta para colher almas, mas quais almas você quer colher?"
+			title: "  
+ENTÃO PAGUE COM SEU SANGUE!  "
 			x: 10.5d
 			y: 6.0d
 		}
@@ -1248,7 +1330,8 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "Até os Pratos da Balança!"
+			subtitle: "  
+Uma foice não evoluída pronta para ceifar almas, mas quais almas você quer ceifar?  "
 			tasks: [{
 				id: "159C32B1CD284732"
 				item: {
@@ -1260,7 +1343,8 @@
 				}
 				type: "item"
 			}]
-			title: "Um machado devastador que congela inimigos e faz com que explodam com pedaços de gelo ao morrer."
+			title: "  
+Até mesmo as balanças!  "
 			x: 9.0d
 			y: 3.0d
 		}
@@ -1272,7 +1356,8 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "Congele o Mundo"
+			subtitle: "  
+Um machado devastador que congela inimigos e os faz explodir com pedaços de gelo ao morrer.  "
 			tasks: [{
 				id: "441B3B29B090F522"
 				item: {
@@ -1284,7 +1369,8 @@
 				}
 				type: "item"
 			}]
-			title: "Um cajado muito peculiar que força o portador a apostar por efeitos que podem ou não ser benéficos para suas batalhas."
+			title: "  
+Congele o mundo  "
 			x: 3.0d
 			y: 6.5d
 		}
@@ -1296,7 +1382,8 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "Aposte Sua Vida"
+			subtitle: "  
+Um cajado muito peculiar que força o usuário a apostar por efeitos que podem ou não ser benéficos em suas batalhas.  "
 			tasks: [{
 				id: "2D0F143F09693BD0"
 				item: {
@@ -1308,7 +1395,8 @@
 				}
 				type: "item"
 			}]
-			title: "A arma pessoal de Thor, o martelo é uma arma devastadora que pode invocar relâmpagos."
+			title: "  
+Aposte sua vida fora  "
 			x: 7.5d
 			y: 6.0d
 		}
@@ -1320,7 +1408,8 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "Um porrete devastador empunhado por um cavaleiro caído, usado para invocar as almas de soldados caídos."
+			subtitle: "  
+A arma pessoal de Thor, o martelo é uma arma devastadora que pode invocar relâmpagos.  "
 			tasks: [{
 				id: "693BD128F78FBEE5"
 				item: {
@@ -1344,7 +1433,8 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Ergam-se, almas corrompidas"
+			subtitle: "  
+Um maça devastadora empunhada por um cavaleiro caído, usada para invocar as almas de soldados mortos.  "
 			tasks: [{
 				id: "264B1D976D37ADF7"
 				item: {
@@ -1356,7 +1446,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma espada lendária com vida própria e que pode lutar por você sem precisar ser segurada."
+			title: "  
+Levantem-se, ó almas maculadas  "
 			x: 6.5d
 			y: 1.5d
 		}
@@ -1368,7 +1459,8 @@
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Pelo Seu Querer"
+			subtitle: "  
+Uma espada lendária com vontade própria e que pode lutar por você sem ser segurada.  "
 			tasks: [{
 				id: "2382683DB44BBBD8"
 				item: {
@@ -1380,7 +1472,8 @@
 				}
 				type: "item"
 			}]
-			title: "Uma foice evoluída ao absorver almas vermelhas, que permite ao portador se curar quanto mais atacar mobs quando a habilidade não estiver em recarga."
+			title: "  
+Pela sua vontade  "
 			x: 2.0d
 			y: 7.0d
 		}
@@ -1392,7 +1485,8 @@
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "Dançarino de Sangue"
+			subtitle: "  
+Uma foice evoluída ao absorver almas vermelhas, que permite ao usuário se curar quanto mais ataca mobs quando a habilidade não está em recarga.  "
 			tasks: [{
 				id: "4F1CB2F7656D15FF"
 				item: {
@@ -1404,14 +1498,16 @@
 				}
 				type: "item"
 			}]
-			title: "Uma foice evoluída ao absorver almas azuis, que permite ao portador ter velocidade e dano durante os primeiros segundos do combate."
+			title: "  
+Dançarino de Sangue  "
 			x: 11.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["56006B58B4352E97"]
 			id: "07C02F8158472D7C"
-			subtitle: "Entre as Sombras"
+			subtitle: "  
+Uma foice evoluída ao absorver almas azuis, que permite ao usuário ter velocidade e dano durante os primeiros segundos de combate.  "
 			tasks: [{
 				id: "56FE853A6653238B"
 				item: {
@@ -1423,7 +1519,8 @@
 				}
 				type: "item"
 			}]
-			title: "Um monstro perigoso, invocado do pedestal usando o fragmento, irá apodrecer tudo por onde passar, o Monarca do Caos. Derrote-o e receba seu equipamento pessoal."
+			title: "  
+Entre as Sombras  "
 			x: 9.5d
 			y: 1.5d
 		}
@@ -1442,7 +1539,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mate o Monarca do Caos"
+			subtitle: "  
+Um monstro perigoso, invocado do pedestal usando a lasca, fará tudo ao seu redor apodrecer ao caminhar sobre ele, o Monarca do Caos. Derrote-o e receba seu equipamento pessoal.  "
 			tasks: [
 				{
 					id: "364461D455F27A5D"
@@ -1452,7 +1550,7 @@
 				{
 					entity: "soulsweapons:chaos_monarch"
 					id: "073109BDE345ACA6"
-					title: "O cheiro da decomposição está próximo.."
+					title: "Mate o Monarca do Caos"
 					type: "kill"
 					value: 1L
 				}
@@ -1479,7 +1577,7 @@
 					type: "item"
 				}
 			]
-			title: "É aqui que tudo começa, com um único bloco de areia das almas. Você está pronto para enfrentar monstros perigosos e conquistar seu próprio equipamento de alma?"
+			title: "O cheiro de decomposição está próximo.."
 			x: -7.5d
 			y: 3.0d
 		}
@@ -1490,13 +1588,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Tudo Começa"
+			subtitle: "Aqui é onde tudo começa, com uma única Areia das Almas. Você está pronto para lutar contra monstros perigosos e ganhar seu próprio equipamento de alma?"
 			tasks: [{
 				id: "0597F8507AAD83E8"
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			title: "Aqui jaz um cavaleiro caído. Libere-o usando uma alma perdida no altar."
+			title: "Tudo Começa"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -1509,20 +1607,20 @@
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "Encontre a Catedral da Ressurreição"
+			subtitle: "Aqui jaz um cavaleiro caído. Libere-o usando uma alma perdida no altar."
 			tasks: [{
 				id: "1E8CF29780FCE775"
 				item: "soulsweapons:altar_block"
 				type: "item"
 			}]
-			title: "Qual é o custo de uma gota de sangue?"
+			title: "Encontre a Catedral da Ressurreição"
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			description: [
-				"VOCÊ DEVERIA FAZER ILUMINAÇÃO AGORA!!!"
+				"Se esfaquear para esfaqueá-los mais? Não tenho certeza se isso é uma boa ideia, mas tudo bem, vá em frente, sangre para que eles sangrem."
 			]
 			id: "490BC191FDC469D8"
 			rewards: [{
@@ -1530,7 +1628,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: " &bArmas da Alma"
+			subtitle: "Qual é o custo de uma gota de sangue?"
 			tasks: [{
 				id: "30328A0A03B61390"
 				item: {
@@ -1548,7 +1646,7 @@
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			description: [
-				"Clique em mim e leia minha descrição!"
+				"VOCÊ DEVE FAZER ILUMINAÇÃO AGORA!!!"
 			]
 			id: "46992F5363E4577C"
 			tasks: [{
@@ -1566,5 +1664,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Essas pedras podem ser encontradas abaixo da terra, em algum lugar nas camadas de ardósia profunda, elas não são muito comuns."
+	title: " &bArmas de Alma"
 }

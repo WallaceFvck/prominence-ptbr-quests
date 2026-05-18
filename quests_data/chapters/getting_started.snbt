@@ -55,32 +55,32 @@
 	quests: [
 		{
 			description: [
-				"&7O &6questbook&7 é muito importante em Prominence e irá guiá-lo pela maior parte da progressão do jogo."
-				""
-				"&7Para acessar facilmente o &6questbook&7, você pode clicar no ícone de livro no canto superior esquerdo do seu inventário."
-				""
-				"&7Quando você abre uma missão, o lado esquerdo mostra quais tarefas você precisa fazer para concluí-la, e o lado direito mostra quais recompensas você receberá."
+				"&eComo um flameborn, você foi criado e enviado por S'kellak para este lugar; O Overworld, com um propósito importante para o qual você deve buscar respostas."
 			]
 			icon: "minecraft:grass_block"
 			id: "1DD302BB650057E3"
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Entre no Mundo Superior"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "minecraft:grass_block"
 				id: "7B701D980200A661"
-				title: "&aPrimeiros Passos"
+				title: "Entre no Overworld"
 				type: "dimension"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&aPrimeiros Passos"
 			x: 0.0d
 			y: -0.625d
 		}
 		{
 			dependencies: ["1DD302BB650057E3"]
 			description: [
-				"Para abrir a tela de &2Capítulos de Missões&r, feche esta missão e mova o cursor para a esquerda. Cada capítulo tem um conjunto diferente de missões que se encaixam nesse tema."
+				"&7O &6questbook&7 é muito importante em Prominence e irá guiá-lo pela maior parte da progressão do jogo."
+				""
+				"&7Para acessar facilmente o &6questbook&7, você pode clicar no ícone do livro no canto superior esquerdo do seu inventário."
+				""
+				"&7Quando você abre uma missão, o lado esquerdo mostra quais tarefas você precisa concluir para finalizar a missão, e o lado direito mostra quais recompensas você receberá."
 			]
 			id: "6E9F5146EA3F505F"
 			rewards: [{
@@ -88,7 +88,7 @@
 				type: "xp"
 				xp: 2
 			}]
-			subtitle: "Encontre uma fruta ou vegetal!"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "4184344EFBA63388"
 				item: {
@@ -98,10 +98,10 @@
 						value: "c:crops"
 					}
 				}
-				title: "&f&lComo Fazer&r: &aMissões!"
+				title: "Encontre uma fruta ou vegetal!"
 				type: "item"
 			}]
-			title: "Extraia um pouco de cobre e use a &eAtualização de Baú em Branco&r para fazer uma atualização de cobre para seus &6baús&r!"
+			title: "&f&lComo Fazer&r: &aMissões!"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -114,32 +114,20 @@
 				xp_levels: 3
 			}]
 			shape: "rsquare"
-			subtitle: "&e&lMelhorando:&f &fBaús"
+			subtitle: "Minere um pouco de cobre e use o &eBlank Chest Upgrade&r para fazer um upgrade de cobre para seus &6chests&r!"
 			tasks: [{
 				id: "1C2CEDE48DF1D506"
 				item: "ironchests:copper_chest_upgrade"
 				type: "item"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&e&lMelhorando:&f &fBaús"
 			x: 4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6E9F5146EA3F505F"]
 			description: [
-				"Para equipar uma &9mochila&r, clique no ícone Equip no menu da &9mochila&r."
-				""
-				"Depois que uma &9mochila&r estiver equipada, você pode abri-la pressionando &bB&r"
-				""
-				"&9Mochilas&r podem ser aprimoradas em vários níveis. &9Mochilas&r com benefícios especiais podem ser encontradas em baús de saque."
-				""
-				"Para ver todas as variações de &9mochilas&r, pesquise &d@traveler&r na barra de pesquisa do &eREI&r."
-				""
-				"Você pode encontrar essa barra de pesquisa na parte inferior do seu inventário."
-				""
-				"Clicar em itens na lista à direita do seu inventário mostrará suas receitas e usos."
-				""
-				"Você também pode pressionar &bR&r e &bU&r enquanto passa o mouse sobre qualquer item para ver suas Receitas e Usos"
+				"Para abrir a tela de &2Capítulos de Missões&r, feche esta missão e mova o cursor para a esquerda. Cada capítulo possui um conjunto diferente de missões que se encaixam nesse tema."
 			]
 			icon: "minecraft:filled_map"
 			id: "33961F7EE650AA60"
@@ -149,13 +137,13 @@
 				xp_levels: 2
 			}]
 			shape: "diamond"
-			subtitle: "Clique aqui!"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "6E754EF86972872E"
-				title: "&f&lComo Fazer: &r&aCapítulos"
+				title: "Clique aqui!"
 				type: "checkmark"
 			}]
-			title: "Crie um &6baú&r - que poderá ser melhorado posteriormente."
+			title: "&f&lComo Fazer: &r&aCapítulos"
 			x: 0.0d
 			y: -3.5d
 		}
@@ -180,7 +168,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Criar um Baú"
+			subtitle: "Crie um &6baú&r - que pode ser aprimorado posteriormente."
 			tasks: [{
 				id: "17209749B99F5873"
 				item: {
@@ -190,21 +178,29 @@
 						value: "c:chests"
 					}
 				}
-				title: "&f&lComo Fazer&r: &aCriar um Baú"
+				title: "Crie um Baú"
 				type: "item"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&f&lComo Fazer&r: &aCriar um Baú"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2BE6B7EC6F6CC58B"]
 			description: [
-				"Pressione &a[M]&r para abrir o &eMapa do Mundo&r."
+				"Para equipar uma &9mochila&r, clique no ícone Equip no menu da &9mochila&r."
 				""
-				"Para &ereivindicar um chunk&r, você só precisa clicar com o botão direito em cima de um chunk e selecionar &eReivindicar Selecionado&r."
+				"Uma vez que uma &9mochila&r esteja equipada, você pode abri-la pressionando &bB&r"
 				""
-				"Alguns servidores podem ter limites de reivindicação menores do que o normal. Fique atento a esse limite para não ficar sem."
+				"&9Mochilas&r podem ser aprimoradas em vários níveis. &9Mochilas&r com benefícios especiais podem ser encontradas em baús de saque."
+				""
+				"Para ver todas as variantes de &9mochila&r, procure &d@traveler&r na barra de busca do &eREI&r."
+				""
+				"Você pode encontrar esta barra de busca na parte inferior do seu inventário."
+				""
+				"Clicar nos itens na lista à direita do seu inventário mostrará suas receitas e usos."
+				""
+				"Você também pode pressionar &bR&r e &bU&r ao passar o cursor sobre qualquer item para ver suas receitas e usos"
 			]
 			hide_dependency_lines: true
 			id: "702ED6D1B159048D"
@@ -214,7 +210,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&e&lMelhorando:&f Inventário"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "524D333C37CC1E78"
 				item: {
@@ -224,14 +220,18 @@
 				}
 				type: "item"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&e&lMelhorando:&f Inventário"
 			x: 3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["33961F7EE650AA60"]
 			description: [
+				"Pressione &a[M]&r para abrir o &eMapa do Mundo&r."
 				""
+				"Para &eclaim a chunk&r, você só precisa clicar com o botão direito em cima de um chunk e selecionar &eClaim Selected&r."
+				""
+				"Alguns servidores podem ter limites de claim menores do que o normal. Fique atento a esse limite para não ficar sem."
 			]
 			icon: "supplementaries:slice_map"
 			id: "723951CD2A49AEB7"
@@ -241,25 +241,19 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Clique para continuar!"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "1BC73062E2DC9CB8"
-				title: "&e&lMultijogador: &dReivindicação"
+				title: "Clique para continuar!"
 				type: "checkmark"
 			}]
-			title: "&eContinue sua jornada através dos outros Capítulos!"
+			title: "&e&lMultiplayer: &dClaiming"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["002FC90E5914D9C2"]
-			description: [
-				"&7A Árvore de Talentos, junto com o nivelamento, é o método mais importante de progressão do jogador em Prominence, pois com ela você pode aumentar seus atributos e desbloquear novas habilidades."
-				""
-				"&7Ela está diretamente ligada ao nível, já que você receberá um ponto de talento a cada 2 níveis."
-				""
-				"&7Você pode abri-la pressionando &eN&7; para redefini-la, você pode usar um &ePergaminho de Conhecimento&7. Este item será consumido ao usar e seus pontos de talento serão reembolsados."
-			]
+			description: [""]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -275,13 +269,13 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Clique aqui para continuar!"
+			subtitle: "&eContinue sua jornada pelos outros Capítulos!"
 			tasks: [{
 				id: "721111D6BBD02194"
-				title: "&6&lBem-vindo ao Prominence!"
+				title: "Clique aqui para continuar!"
 				type: "checkmark"
 			}]
-			title: "A forma mais fácil de se teleportar entre locais é usar &eWaystones&r. Waystones aparecem naturalmente em vilas e também podem ser fabricadas."
+			title: "&6&lBem-vindo ao Prominence!"
 			x: 3.75d
 			y: -2.25d
 		}
@@ -294,24 +288,28 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Use uma Waystone!"
+			subtitle: "A forma mais fácil de se teletransportar entre locais é usar &eWaystones&r. Waystones geram naturalmente em vilas e também podem ser craftadas."
 			tasks: [{
 				icon: "fwaystones:waystone"
 				id: "70CE3441ADA82DBA"
 				observe_type: 0
 				timer: 0L
-				title: "&f&lO Básico: &dTeleporte"
+				title: "Use uma Waystone!"
 				to_observe: "fwaystones:waystone"
 				type: "observation"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&f&lO Básico: &dTeletransporte"
 			x: 2.017857142857146d
 			y: -2.2207367240089795d
 		}
 		{
 			dependencies: ["33961F7EE650AA60"]
 			description: [
-				"&7Todas as ferramentas terão uma &eraridade&7 aleatória. Isso afetará seus atributos. Para melhorar a raridade, você pode &ereforjar as ferramentas&7 usando a segunda aba na bigorna. Você precisará de &eum material específico da ferramenta&7 e &eum dos 3 minérios&7 para alterar com sucesso sua raridade. &cVocê pode ler o tutorial de "Reforjamento" para mais informações!"
+				"&7A Árvore de Talentos, junto com o nivelamento, é o método mais importante de progressão do jogador em Prominence, pois com ela você pode aumentar seus atributos e desbloquear novas habilidades."
+				""
+				"&7Ela está diretamente ligada ao nivelamento, pois você receberá um ponto de talento a cada 2 níveis."
+				""
+				"&7Você pode abri-la pressionando &eN&7; para redefini-la, você pode usar um &ePergaminho de Conhecimento&7. Este item será consumido ao ser usado e seus pontos de talento serão devolvidos."
 			]
 			icon: "prominent:knowledge_scroll"
 			id: "6F99CB89833D7AA2"
@@ -321,28 +319,20 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Clique aqui para continuar"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "31F7356F773E8E8E"
-				title: "&d&lProgressão: &e&lTalentos"
+				title: "Clique aqui para continuar"
 				type: "checkmark"
 			}]
-			title: "Clique para ler minha descrição!"
+			title: "&d&lProgressão: &e&lTalentos"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["33961F7EE650AA60"]
 			description: [
-				"&7Um aspecto central da progressão do jogador é o nivelamento, exibido no canto superior esquerdo do seu inventário."
-				""
-				"&7Ele aumenta com experiência de combate, como lutar contra inimigos ou derrotar chefes. Ele permite escalar inimigos ao seu nível e serve como requisito de progressão para lutar contra certos chefes."
-				""
-				"&7Cada nível que você ganha aumenta sua vida máxima."
-				""
-				"&eEm algumas lutas contra chefes, é essencial estar no nível exigido! A missão do chefe mostrará em sua descrição o nível recomendado, caso haja um."
-				""
-				"&cO Nível do Jogador é diferente do nível de experiência da sua hotbar!"
+				"&7Todas as ferramentas terão uma &eraridade&7 aleatória. Isso afetará seus atributos. Para melhorar a raridade, você pode &ereforjar as ferramentas&7 usando a segunda aba na bigorna. Você precisará de &eum material específico da ferramenta&7 e &eum dos 3 minérios&7 para alterar com sucesso sua raridade. &cVocê pode ler o tutorial de "Reforja" para mais informações!"
 			]
 			icon: {
 				Count: 1
@@ -366,34 +356,29 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Obtenha uma Bigorna"
+			subtitle: "Clique para ler minha descrição!"
 			tasks: [{
 				id: "2AC258EF05B19E8F"
 				item: "minecraft:anvil"
-				title: "&f&lO Básico: &e&lRaridades \\& Reforjamento"
+				title: "Obtenha uma Bigorna"
 				type: "item"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&f&lO Básico: &e&lRaridades \& Reforja"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["33961F7EE650AA60"]
 			description: [
-				"&7O nível máximo que você pode alcançar está ligado ao seu Progresso de Campanha."
+				"&7Um aspecto central da sua progressão de jogador é o nivelamento, exibido no canto superior esquerdo do seu inventário."
 				""
-				"&7Se você estiver preso em um nível e não conseguir subir, então você ainda não desbloqueou o próximo nível."
+				"&7Ele cresce com experiência de combate, como lutar contra inimigos ou derrotar chefes. Ele permite escalar os inimigos para o seu nível e serve como requisito de progressão para enfrentar certos chefes."
 				""
-				"- &eNíveis 1-10:"
-				"&7Desbloqueado por padrão"
+				"&7A cada nível você recebe um aumento na vida máxima."
 				""
-				"- &eNíveis 11-50:"
-				"&7Desbloqueados ao derrotar o primeiro chefe da campanha &dInvasão do Void&7."
+				"&ePara algumas lutas contra chefes, é essencial estar no nível exigido! A missão do chefe mostrará na descrição o nível recomendado, caso haja um."
 				""
-				"- &eNíveis 51-65:"
-				"&7Desbloqueados ao iniciar a campanha &eEra Hasturiana&7."
-				""
-				"&6O nível 65 é o nível máximo atual."
+				"&cO Nível do Jogador é diferente do nível de experiência da sua barra de atalhos!"
 			]
 			icon: "minecraft:writable_book"
 			id: "72EE0A2E9D410B2C"
@@ -403,13 +388,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Clique aqui para continuar"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "7E40E783D7E377CB"
-				title: "&d&lProgressão:&6&l Subindo de Nível"
+				title: "Clique aqui para continuar"
 				type: "checkmark"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&d&lProgressão:&6&l Subindo de Nível"
 			x: -1.0d
 			y: -5.0d
 		}
@@ -419,9 +404,20 @@
 				"6F99CB89833D7AA2"
 			]
 			description: [
-				"&eVocê pode encontrar a Wiki Oficial do Prominence em &9https://rpg.prominence.wiki &8(Link não é clicável)"
+				"&7O nível máximo que você pode alcançar está ligado à sua Progressão de Campanha."
 				""
-				"&7Ela tem mais de 10 horas de conteúdo que você pode ler, incluindo tutoriais mais detalhados, guias avançados, guias de mods específicos, lore, dicas úteis e muito mais! E o melhor é que ela está crescendo cada vez mais com o tempo!"
+				"&7Se você estiver preso em um nível e não conseguir subir, então você ainda não desbloqueou o próximo nível."
+				""
+				"- &e1-10 Níveis de Nivelamento:"
+				"&7Desbloqueado por padrão"
+				""
+				"- &e11-50 Nivelamento:"
+				"&7Desbloqueado ao derrotar o primeiro chefe da campanha &dInvasão do Void&7."
+				""
+				"- &e51-65 Nivelamento:"
+				"&7Desbloqueado ao iniciar a campanha &eEra Hasturiana&7."
+				""
+				"&6O nível 65 é o nível máximo atual."
 			]
 			icon: {
 				Count: 1
@@ -432,22 +428,22 @@
 			}
 			id: "600F88849D115EDD"
 			shape: "hexagon"
-			subtitle: "Continuar"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "17D457CEC7A4515B"
-				title: "&d&lProgressão:&e&l Limites de Nível"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&d&lProgressão:&e&l Limites de Nível"
 			x: 0.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2F5A3E304ABAADF6"]
 			description: [
-				"&eAs linhas de missões de Tutorial são informações essenciais que você deve conhecer."
+				"&eVocê pode encontrar a Wiki Oficial de Prominence em &9https://rpg.prominence.wiki &8(O link não é clicável)"
 				""
-				"&7Alguns também dizem que é a forma de obter o Conhecimento Eterno."
+				"&7Ele tem mais de 10 horas de conteúdo para ler, incluindo tutoriais mais aprofundados, guias avançados, guias de mods específicos, história, dicas úteis e guias, e muito mais! E a melhor parte é que ele está crescendo cada vez mais com o tempo!"
 			]
 			icon: {
 				Count: 1
@@ -458,24 +454,22 @@
 			}
 			id: "2B96D4BA73511402"
 			shape: "diamond"
-			subtitle: "Continuar"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "6D8469C9D4BE7FB6"
-				title: "&eDica: &7Confira a wiki!"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&eDica Pro: &7Confira a wiki!"
 			x: 5.0535714285714235d
 			y: -2.6135938668661183d
 		}
 		{
 			dependencies: ["2F5A3E304ABAADF6"]
 			description: [
-				"&7Para criar um grupo, use o comando &e/openpac-parties create&7."
+				"&eAs linhas de missão do tutorial são informações essenciais que você deve conhecer."
 				""
-				"&7Para convidar um membro, use &e/openpac-parties member invite [Nome]&7."
-				""
-				"&7E para ativar PvP entre membros do grupo, use &e/opacpvp&7. Lembre-se de que todos os jogadores que participarem de PvP precisam ativá-lo."
+				"&7Alguns também dizem que essa é a forma de obter o Conhecimento Eterno."
 			]
 			icon: {
 				Count: 1
@@ -492,20 +486,24 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Continuar"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "54CE4C73454909E0"
-				title: "&eDica: &7Faça os tutoriais!"
+				title: "Continuar"
 				type: "checkmark"
 			}]
-			title: "Clique em mim e leia minha descrição!"
+			title: "&eDica Pro: &7Faça os tutoriais!"
 			x: 5.053571428571431d
 			y: -1.6850224382946877d
 		}
 		{
 			dependencies: ["33961F7EE650AA60"]
 			description: [
-				"Bem-vindo ao Industrial Revolution, um mod tecnológico que oferece ferramentas, armas e formas de gerar recursos."
+				"&7Para criar uma party, use o comando &e/openpac-parties create&7."
+				""
+				"&7Para convidar um membro, use &e/openpac-parties member invite [Nome]&7."
+				""
+				"&7E para ativar PvP entre membros da party, use &e/opacpvp&7. Tenha em mente que todos os jogadores que participarem de PvP precisam ativá-lo."
 			]
 			icon: "supplementaries:slice_map"
 			id: "239866A8BF58469A"
@@ -515,16 +513,16 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Clique para continuar!"
+			subtitle: "Clique em mim e leia minha descrição!"
 			tasks: [{
 				id: "5216CF72CFF2B653"
-				title: "&e&lMultijogador: &dGrupos"
+				title: "Clique para continuar!"
 				type: "checkmark"
 			}]
-			title: " &eComeçando"
+			title: "&e&lMultiplayer: &dParties"
 			x: -1.482142857142854d
 			y: -3.292165295437549d
 		}
 	]
-	title: "&eComo um flameborn, você foi criado e enviado por S'kellak para este lugar; o Overworld, com um propósito importante sobre o qual você deve buscar respostas."
+	title: " &eComeçando"
 }

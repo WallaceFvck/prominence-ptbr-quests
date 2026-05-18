@@ -16,7 +16,7 @@
 	quests: [
 		{
 			description: [
-				"Olá, jovem explorador! Bem-vindo ao Diário do Explorador, onde você reunirá itens que normalmente não encontraria. Está pronto para o desafio?"
+				"Certifique-se de ler o Livro das Sombras se quiser entender Bewitchment de forma mais aprofundada."
 			]
 			id: "5B558DB5BB091F2C"
 			rewards: [
@@ -46,30 +46,26 @@
 					xp: 10
 				}
 			]
-			subtitle: "  
-Primeiros Passos da Bruxa  "
+			subtitle: "Olá, imagino que você esteja aqui porque quer se tornar uma bruxa, certo? Você veio ao lugar certo... é aqui que tudo começa, jovem bruxa."
 			tasks: [{
 				id: "705D52A6E5A9E57E"
 				item: "bewitchment:book_of_shadows"
 				type: "item"
 			}]
-			title: "  
-Uma árvore interessante, ela possui propriedades únicas que permitem que “sangre”, talvez você a ache útil em seus futuros empreendimentos. Elas são encontradas em Fortalezas do Nether.  "
+			title: "Primeiros Passos de uma Bruxa"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B558DB5BB091F2C"]
 			id: "040B557895367AF3"
-			subtitle: "  
-A Árvore de Sangue  "
+			subtitle: "Uma árvore interessante, ela possui propriedades únicas que permitem que ela “sangre”, talvez você a ache útil para seus futuros empreendimentos. Elas são encontradas em Fortalezas do Nether."
 			tasks: [{
 				id: "6D8C5B0EEA1541D1"
 				item: "bewitchment:dragons_blood_sapling"
 				type: "item"
 			}]
-			title: "  
-Esta árvore contém a essência do conhecimento e da inteligência, talvez isso seja útil em seus futuros empreendimentos. Elas são encontradas espalhadas pelas florestas.  "
+			title: "A Árvore de Sangue"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -81,15 +77,13 @@ Esta árvore contém a essência do conhecimento e da inteligência, talvez isso
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "  
-A Árvore do Conhecimento  "
+			subtitle: "Esta árvore contém a essência do conhecimento e da inteligência, talvez isso seja útil para seus futuros empreendimentos. Elas são encontradas espalhadas pelas florestas."
 			tasks: [{
 				id: "650A616FA6E8AAE3"
 				item: "bewitchment:elder_sapling"
 				type: "item"
 			}]
-			title: "  
-Essas árvores possuem um cheiro de morte ao redor delas, talvez isso seja útil para seus empreendimentos mais tarde. Elas são encontradas em taigas e pântanos.  "
+			title: "A Árvore do Conhecimento"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -101,15 +95,13 @@ Essas árvores possuem um cheiro de morte ao redor delas, talvez isso seja útil
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "  
-A Árvore da Morte  "
+			subtitle: "Essas árvores têm um cheiro de morte ao redor delas, talvez isso seja útil para seus empreendimentos mais tarde. Elas são encontradas em taigas e pântanos."
 			tasks: [{
 				id: "04C1299FBCB9B22B"
 				item: "bewitchment:cypress_sapling"
 				type: "item"
 			}]
-			title: "  
-Esta árvore possui as propriedades da própria vida, talvez seja útil para seus futuros empreendimentos. Elas são encontradas em savanas.  "
+			title: "A Árvore da Morte"
 			x: -2.0d
 			y: -1.5d
 		}
@@ -121,15 +113,13 @@ Esta árvore possui as propriedades da própria vida, talvez seja útil para seu
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "  
-A Árvore da Vida?  "
+			subtitle: "Esta árvore possui as propriedades da própria vida, talvez ela seja útil para seus futuros empreendimentos. Elas são encontradas em savanas."
 			tasks: [{
 				id: "08E08EB8164D241D"
 				item: "bewitchment:juniper_sapling"
 				type: "item"
 			}]
-			title: "  
-Uma faca especial para nós, bruxas. Ela será importante para nossos rituais e para arranhar árvores. Cuide bem dela.  "
+			title: "A Árvore da Vida?"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -141,8 +131,7 @@ Uma faca especial para nós, bruxas. Ela será importante para nossos rituais e 
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "  
-A Faca da Bruxa  "
+			subtitle: "Uma faca especial para nós bruxas, vai ser importante para nossos rituais e para arranhar árvores. Cuide bem dela."
 			tasks: [{
 				id: "2A7C00C48571951E"
 				item: {
@@ -154,8 +143,7 @@ A Faca da Bruxa  "
 				}
 				type: "item"
 			}]
-			title: "  
-Isso será muito divertido para nossos usos. Conseguir taglocks de outros jogadores permitirá vinculá-los a um ritual.  "
+			title: "A Faca da Bruxa"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -167,15 +155,13 @@ Isso será muito divertido para nossos usos. Conseguir taglocks de outros jogado
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "  
-Essência Alvo  "
+			subtitle: "Isso será muito divertido para nossos usos. Obter taglocks de outros jogadores permitirá que os vinculemos a um ritual."
 			tasks: [{
 				id: "30EC959F71E75DFE"
 				item: "bewitchment:taglock"
 				type: "item"
 			}]
-			title: "  
-Eca, essa é uma gosma estranha que você conseguiu de um fantasma... bem, ainda será útil para o que precisamos...  "
+			title: "Essência Alvo"
 			x: -1.5d
 			y: 5.5d
 		}
@@ -187,16 +173,14 @@ Eca, essa é uma gosma estranha que você conseguiu de um fantasma... bem, ainda
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "  
-Essência Fantasma  "
+			subtitle: "Eca, isso é uma gosma estranha que você conseguiu de um fantasma... bem, ainda será útil para o que precisamos..."
 			tasks: [{
 				count: 5L
 				id: "655625747D981397"
 				item: "bewitchment:ectoplasm"
 				type: "item"
 			}]
-			title: "  
-Este é um caixão muito bonito, confortável e escuro o suficiente para um jogador dormir durante o dia até a noite.  "
+			title: "Essência de Fantasma"
 			x: 2.5d
 			y: 3.0d
 		}
@@ -208,15 +192,13 @@ Este é um caixão muito bonito, confortável e escuro o suficiente para um joga
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "  
-Cama de Vampiro  "
+			subtitle: "Este é um caixão muito bom, confortável e escuro o suficiente para um jogador dormir durante o dia até a noite."
 			tasks: [{
 				id: "1FE7146F2C6B8B4A"
 				item: "bewitchment:white_coffin"
 				type: "item"
 			}]
-			title: "  
-Ter um boneco como este fará com que o alvo seja amaldiçoado ou protegido, dependendo de como você o usar, e pode haver mais de um tipo de boneco.  "
+			title: "Cama do Vampiro"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -228,8 +210,7 @@ Ter um boneco como este fará com que o alvo seja amaldiçoado ou protegido, dep
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "  
-Já sentiu que tem bonecos demais no inventário? Essas prateleiras serão perfeitas para suas necessidades.  "
+			subtitle: "Ter um poppet como este fará com que o alvo seja amaldiçoado ou protegido, dependendo de como você o usar, e pode haver mais de um tipo de poppet."
 			tasks: [{
 				id: "77832168836C5A49"
 				item: {
@@ -247,15 +228,13 @@ Já sentiu que tem bonecos demais no inventário? Essas prateleiras serão perfe
 		{
 			dependencies: ["0A7DAD09DE18D900"]
 			id: "7B42BCEB958500A1"
-			subtitle: "  
-Armazenamento de Bonecos  "
+			subtitle: "Já sentiu que você tem muitos poppets no seu inventário? Estas prateleiras serão perfeitas para suas necessidades."
 			tasks: [{
 				id: "5AC910BBD1EBCFB3"
 				item: "bewitchment:oak_poppet_shelf"
 				type: "item"
 			}]
-			title: "  
-Corações Demoníacos são úteis para criar itens mágicos especiais que podem beneficiar a bruxa, embora possam ser difíceis de obter, já que você precisa invocar esses demônios.  "
+			title: "Armazenamento de Poppets"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -266,8 +245,7 @@ Corações Demoníacos são úteis para criar itens mágicos especiais que podem
 				type: "xp"
 				xp: 40
 			}]
-			subtitle: "  
-O caldeirão é perfeito para preparar poções usando ingredientes especiais que você pode cultivar e raspar.  "
+			subtitle: "Corações de Demônio são úteis para criar itens mágicos especiais que podem ser benéficos para a bruxa, embora possam ser difíceis de obter, já que você precisa invocar esses demônios."
 			tasks: [{
 				id: "071299DA2B65D59D"
 				item: "bewitchment:demon_heart"
@@ -284,15 +262,13 @@ O caldeirão é perfeito para preparar poções usando ingredientes especiais qu
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "  
-O Caldeirão Fedorento  "
+			subtitle: "O caldeirão é perfeito para preparar poções usando ingredientes especiais que você pode cultivar e colher."
 			tasks: [{
 				id: "7BE8B29B6762BB65"
 				item: "bewitchment:witch_cauldron"
 				type: "item"
 			}]
-			title: "  
-Isso é Vinho?  "
+			title: "O Caldeirão Fedorento"
 			x: -0.5d
 			y: 8.0d
 		}
@@ -304,8 +280,7 @@ Isso é Vinho?  "
 				item: "bewitchment:bottle_of_blood"
 				type: "item"
 			}]
-			title: "  
-O Besmircher é capaz de se disfarçar diante dos demônios e negociar com eles.  "
+			title: "Isso é vinho?"
 			x: 0.5d
 			y: 5.5d
 		}
@@ -387,8 +362,7 @@ O Besmircher é capaz de se disfarçar diante dos demônios e negociar com eles.
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "  
-Roupas de Besmirchment  "
+			subtitle: "O Manchador é capaz de se disfarçar diante de demônios e consegue negociar com eles."
 			tasks: [
 				{
 					id: "77F363FBF7C865B4"
@@ -435,8 +409,7 @@ Roupas de Besmirchment  "
 					type: "item"
 				}
 			]
-			title: "  
-O Alquimista é um mestre das poções de bruxa e pode dobrar a duração dos efeitos dessas poções ao vestir essas roupas.  "
+			title: "Roupas de Manchamento"
 			x: -4.5d
 			y: 8.0d
 		}
@@ -452,8 +425,7 @@ O Alquimista é um mestre das poções de bruxa e pode dobrar a duração dos ef
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "  
-Roupas de Alquimista"
+			subtitle: "O Alquimista é um mestre das poções de bruxa e pode dobrar a duração dos efeitos dessas poções quando se usa esta roupa."
 			tasks: [
 				{
 					id: "163035D24392B95B"
@@ -500,7 +472,7 @@ Roupas de Alquimista"
 					type: "item"
 				}
 			]
-			title: "A Hedgewitcher é capaz de aumentar a colheita quando se usa esse tipo de roupa."
+			title: "Roupa do Alquimista"
 			x: 3.5d
 			y: 8.0d
 		}
@@ -516,7 +488,7 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 35
 			}]
-			subtitle: "Roupas de Hedgewitch"
+			subtitle: "A Bruxa Campestre é capaz de aumentar a colheita quando se usa esta roupa."
 			tasks: [
 				{
 					id: "3CE518B01D80E6AD"
@@ -563,7 +535,7 @@ Roupas de Alquimista"
 					type: "item"
 				}
 			]
-			title: "Um altar carrega a energia mágica que nós, bruxas, usamos em rituais. Para aumentar sua capacidade, é preciso decorar o altar com os materiais apropriados e plantar mais árvores ao redor dele."
+			title: "Roupa da Bruxa Campestre"
 			x: -0.5d
 			y: 11.0d
 		}
@@ -575,13 +547,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Contêiner de Energia da Bruxa"
+			subtitle: "Um altar carrega a energia mágica que nós bruxas usamos para fazer rituais. Para aumentar a capacidade, é preciso decorar o altar com os materiais apropriados e plantar mais árvores ao redor dele."
 			tasks: [{
 				id: "0C483FD414E64354"
 				item: "bewitchment:stone_witch_altar"
 				type: "item"
 			}]
-			title: "Um braseiro é usado para maldições, incensos e rituais, então ter um será vital se quisermos ter sucesso, jovem bruxa."
+			title: "Recipiente de Energia da Bruxa"
 			x: 2.0d
 			y: 4.5d
 		}
@@ -593,13 +565,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Queimador Ritualístico"
+			subtitle: "Um braseiro é usado para maldições, incenso e rituais, então ter um será vital se quisermos ser bem-sucedidos, jovem bruxa."
 			tasks: [{
 				id: "1B7523FDC014B527"
 				item: "bewitchment:brazier"
 				type: "item"
 			}]
-			title: "O giz é importante para uma bruxa, pois é a base dos rituais, já que é necessário desenhar um círculo para ativá-los. É melhor ter um de cada tipo de giz pronto."
+			title: "Queimador Ritual"
 			x: 3.5d
 			y: 4.5d
 		}
@@ -611,7 +583,7 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Zona de Giz"
+			subtitle: "O giz é importante para uma bruxa, pois é a base dos rituais, já que é preciso desenhar um círculo para ativá-los. É melhor ter um de cada tipo de giz pronto."
 			tasks: [
 				{
 					id: "112FD4CB4AE9DDF2"
@@ -658,7 +630,7 @@ Roupas de Alquimista"
 					type: "item"
 				}
 			]
-			title: "O sal é importante não apenas para temperar comida, mas também é bom para afastar espíritos malignos e demônios que possam vir atrás de você. O sal é ótimo para barreiras."
+			title: "Zona de Giz"
 			x: 3.5d
 			y: 5.5d
 		}
@@ -670,13 +642,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Não coma sal!"
+			subtitle: "O sal é importante não apenas para temperar alimentos, mas também é bom para afastar espíritos malignos e demônios que possam vir atrás de você. O sal é bom para barreiras."
 			tasks: [{
 				id: "394C5E4C34E67F3A"
 				item: "bewitchment:salt"
 				type: "item"
 			}]
-			title: "Pelo menos você pode aproveitar um bom lanche enquanto usa alho para fins mágicos."
+			title: "Não coma sal!"
 			x: -0.5d
 			y: -2.0d
 		}
@@ -688,13 +660,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Cadê a Manteiga?"
+			subtitle: "Pelo menos você pode aproveitar um bom lanche enquanto usa alho para fins mágicos."
 			tasks: [{
 				id: "13DD560CDE2751B0"
 				item: "bewitchment:garlic_bread"
 				type: "item"
 			}]
-			title: "Conseguir esses dois itens é essencial se você quiser usar alguns itens voltados para maldições ou decoração. Eles são encontrados ao matar demônios e cães demoníacos."
+			title: "Cadê a manteiga?"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -705,7 +677,7 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Partes de Demônio"
+			subtitle: "Obter esses dois itens é essencial se você quiser fazer uso de alguns itens que são para maldições ou decoração. Eles são encontrados ao matar demônios e demonhounds."
 			tasks: [
 				{
 					id: "733D85357179B9B2"
@@ -718,7 +690,7 @@ Roupas de Alquimista"
 					type: "item"
 				}
 			]
-			title: "Um item de bruxa para ficar imune ao fogo ao custo de um pouco de energia mágica. Eles também são à prova de fogo."
+			title: "Partes de Demônio"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -730,7 +702,7 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 30
 			}]
-			subtitle: "Isso impedirá que qualquer mob apareça em um raio de 24 blocos."
+			subtitle: "Um item da bruxa para ficar imune ao fogo ao custo de alguma energia mágica. Eles também são à prova de fogo."
 			tasks: [{
 				id: "2E37E9880EA11D4C"
 				item: "bewitchment:hellish_bauble"
@@ -747,13 +719,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Luzes Naturais de Parede"
+			subtitle: "Isso impedirá que qualquer mob apareça em um raio de 24 blocos."
 			tasks: [{
 				id: "7E0C9FFE8A4F16CF"
 				item: "bewitchment:glowing_bramble"
 				type: "item"
 			}]
-			title: "Qualquer mob que entrar em contato com isso será teleportado para dentro de um raio de 64 blocos."
+			title: "Luzes Naturais de Parede"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -765,13 +737,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Para longe com você!"
+			subtitle: "Qualquer mob que entrar em contato com ele será teleportado para dentro de um raio de 64 blocos."
 			tasks: [{
 				id: "59613A7AA45623A6"
 				item: "bewitchment:ender_bramble"
 				type: "item"
 			}]
-			title: "Esse espinheiro crescerá um fruto especial que pode ser usado para criar alimentos que restauram energia mágica quando consumidos."
+			title: "Fora daqui!"
 			x: -3.0d
 			y: 6.5d
 		}
@@ -783,13 +755,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Arbusto de Bruxa"
+			subtitle: "Este espinheiro produzirá uma fruta especial que pode ser usada para criar alimentos que restauram energia mágica quando consumidos."
 			tasks: [{
 				id: "222520A5F47C0EB4"
 				item: "bewitchment:fruiting_bramble"
 				type: "item"
 			}]
-			title: "Impede que qualquer entidade atravesse, a menos que você se agache para passar."
+			title: "Arbusto de Bruxa"
 			x: 2.0d
 			y: 9.5d
 		}
@@ -801,13 +773,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Você NÃO PASSARÁ! facilmente."
+			subtitle: "Impede que qualquer entidade passe por ele, a menos que você se agache para passar."
 			tasks: [{
 				id: "636E535F031DDD36"
 				item: "bewitchment:thick_bramble"
 				type: "item"
 			}]
-			title: "Lança qualquer mob para o alto ao entrar em contato."
+			title: "VOCÊ NÃO PASSARÁ! facilmente."
 			x: 1.0d
 			y: 9.5d
 		}
@@ -819,13 +791,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Trampolim, mas numa parede"
+			subtitle: "Arremessa qualquer mob para o ar ao entrar em contato."
 			tasks: [{
 				id: "1EC1EC2052EA4713"
 				item: "bewitchment:fleeting_bramble"
 				type: "item"
 			}]
-			title: "Queima qualquer mob que entrar em contato com o espinheiro."
+			title: "Trampolim, mas em uma parede"
 			x: 2.0d
 			y: 6.5d
 		}
@@ -837,13 +809,13 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Firewall, mas para entidades, não vírus."
+			subtitle: "Queima qualquer mob que entrar em contato com o espinheiro."
 			tasks: [{
 				id: "13822D8C28661F37"
 				item: "bewitchment:scorched_bramble"
 				type: "item"
 			}]
-			title: "A melhor amiga de uma bruxa. Usada para criar alimentos."
+			title: "Firewall, mas para entidades, não vírus."
 			x: -3.0d
 			y: 9.5d
 		}
@@ -855,7 +827,7 @@ Roupas de Alquimista"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Comida de Witchberry"
+			subtitle: "O melhor amigo de uma bruxa. Usado para criar alimentos."
 			tasks: [{
 				id: "2D70BA17F299C0C9"
 				item: "bewitchment:witchberry"
@@ -884,10 +856,10 @@ Roupas de Alquimista"
 					type: "item"
 				}
 			]
-			title: "&c Bruxaria \\& Rituais"
+			title: "Comida de Frutinhas de Bruxa"
 			x: 5.0d
 			y: 9.5d
 		}
 	]
-	title: "Certifique-se de ler o Livro das Sombras se quiser entender Bewitchment mais a fundo."
+	title: "&c Bruxaria \\& Rituais"
 }

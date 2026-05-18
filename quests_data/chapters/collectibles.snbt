@@ -27,13 +27,13 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Comece a Caçada"
+			subtitle: "Olá jovem explorador! Bem-vindo ao Diário do Explorador, onde você coletará itens que não encontraria ativamente. Você está pronto para o desafio?"
 			tasks: [{
 				id: "5689DA335FBADCD6"
-				title: "Diário do Explorador"
+				title: "Começar a Caçada"
 				type: "checkmark"
 			}]
-			title: "Poseidon perdeu todos os peixes do seu aquário pessoal! Ajude o Deus do Mar encontrando e pescando novos espécimes para ele, e será recompensado."
+			title: "Diário do Explorador"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -54,13 +54,13 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Hora de pescar!"
+			subtitle: "Poseidon perdeu todos os seus peixes do seu aquário pessoal! Ajude o Deus dos Mares encontrando e pescando novos espécimes para ele e ele irá recompensá-lo."
 			tasks: [{
 				id: "4440BB4F65FC9AE0"
-				title: "Aquário de Poseidon"
+				title: "Hora de pescar!"
 				type: "checkmark"
 			}]
-			title: "Peixes das Profundezas do Nether"
+			title: "Aquário de Poseidon"
 			x: -4.5d
 			y: -0.75d
 		}
@@ -142,7 +142,7 @@
 					type: "item"
 				}
 			]
-			title: "Ah sim, Capitã Cornelia, uma grande capitã que navegou até cair nas profundezas dos oceanos congelantes. É preciso ter coragem para encontrar seu navio e levar seus tesouros, se conseguir encontrá-lo."
+			title: "Peixes das Profundezas do Nether"
 			x: -6.5d
 			y: -3.0d
 		}
@@ -163,13 +163,13 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Ao mar!"
+			subtitle: "Ah sim, Capitã Cornelia, uma grande capitã que navegou até cair nas profundezas dos oceanos congelados; é preciso ser destemido para encontrar seu navio e levar seus tesouros, se conseguir encontrá-lo."
 			tasks: [{
 				id: "780A1FBFBD8B7209"
-				title: "Caça ao Tesouro da Capitã Cornelia"
+				title: "Zarpar!"
 				type: "checkmark"
 			}]
-			title: "Você fez um enorme favor ao Deus do Mar! Agora ele irá recompensá-lo por seus esforços."
+			title: "Caça ao Tesouro da Capitã Cornelia"
 			x: -0.25d
 			y: -5.75d
 		}
@@ -212,12 +212,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Pescador do Deus do Mar"
+			subtitle: "Você fez um grande favor ao Deus dos Mares! Agora ele irá recompensá-lo por seus esforços."
 			tasks: [{
 				id: "122390AC8641511B"
 				type: "checkmark"
 			}]
-			title: "Agora que você encontrou um artefato especial, deve estar curioso sobre como ele funciona. Cuidado com os mortos."
+			title: "Pescador do Deus do Mar"
 			x: -10.5d
 			y: -3.0d
 		}
@@ -237,7 +237,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dê descanso a ela"
+			subtitle: "Agora que você encontrou um trinket especial, é natural se perguntar como ele funciona. Cuidado com os mortos."
 			tasks: [
 				{
 					id: "393DA5A29912907B"
@@ -247,12 +247,12 @@
 				{
 					entity: "aquamirae:captain_cornelia"
 					id: "1015E24E756E2C3E"
-					title: "Traga a Capitã de volta dos mortos."
+					title: "Envie-a para descansar"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Essa armadura foi usada pela famosa Capitã Cornelia para sobreviver às profundezas congelantes do oceano. Você fará o possível para coletar o conjunto completo e descer às profundezas?"
+			title: "Traga a Capitã de volta dos mortos."
 			x: 1.5d
 			y: -8.0d
 		}
@@ -277,7 +277,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Armadura da Capitã Cornelia"
+			subtitle: "Esta armadura foi usada pela famosa Capitã Cornelia para sobreviver às profundezas congelantes do oceano. Você fará o seu melhor para coletar o conjunto completo e descer às profundezas?"
 			tasks: [
 				{
 					id: "0CEFC504FCA32CE4"
@@ -324,7 +324,7 @@
 					type: "item"
 				}
 			]
-			title: "Não se encontra muita coisa nessas bolsas desgastadas, mas talvez você tenha sorte?"
+			title: "Armadura da Capitã Cornelia"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -336,7 +336,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Uma armadura que faz alguém agir de forma semelhante a um baiacu, mas parece ser um ótimo conjunto para quem ama ser imprudente e lutar debaixo d’água."
+			subtitle: "Não há muito o que encontrar em tais bolsas gastas, mas talvez você tenha sorte?"
 			tasks: [
 				{
 					id: "05DFDD44BAA57191"
@@ -360,7 +360,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Armadura do Terror Marinho"
+			subtitle: "Uma armadura que faz alguém agir de forma semelhante a um baiacu, mas parece ser um conjunto muito bom para aqueles que amam ser imprudentes e lutar debaixo d’água."
 			tasks: [
 				{
 					id: "1292E7ED391B2005"
@@ -407,7 +407,7 @@
 					type: "item"
 				}
 			]
-			title: "O Labirinto de Gelo não é apenas congelante e enorme, mas também contém as assustadoras profundezas do oceano. Você conseguirá derrotá-las e voltar com os espólios?"
+			title: "Armadura do Terror Marinho"
 			x: 3.5d
 			y: -5.5d
 		}
@@ -428,7 +428,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Terror do Labirinto de Gelo"
+			subtitle: "O Labirinto de Gelo não é apenas congelante e imenso, mas também contém as assustadoras profundezas do oceano. Você conseguirá superá-lo e voltar com os espólios?"
 			tasks: [
 				{
 					entity: "aquamirae:maze_mother"
@@ -443,7 +443,7 @@
 					value: 10L
 				}
 			]
-			title: "Você finalmente encontrou o esconderijo da capitã, mas agora precisa achar o tesouro escondido dentro dele."
+			title: "Terror do Labirinto de Gelo"
 			x: -2.0d
 			y: -8.0d
 		}
@@ -467,7 +467,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Esconderijo da Capitã Cornelia"
+			subtitle: "Você finalmente encontrou o esconderijo da capitã, mas agora precisa encontrar seu tesouro escondido."
 			tasks: [
 				{
 					id: "48DE8F1B675D99FC"
@@ -485,7 +485,7 @@
 					type: "item"
 				}
 			]
-			title: "Essas armas parecem ter sido usadas pela tripulação da Capitã Cornelia, mas acabaram perdidas nas profundezas congeladas. Agora estão em suas mãos para testar seu poder."
+			title: "Esconderijo da Capitã Cornelia"
 			x: 3.0d
 			y: -9.5d
 		}
@@ -616,7 +616,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Arsenal dos Lobos do Mar"
+			subtitle: "Essas armas pareciam ter sido usadas pela tripulação da Capitã Cornelia, mas acabaram perdidas nas profundezas congeladas, e agora estão em suas mãos para testar seu poder."
 			tasks: [
 				{
 					id: "397F03774AC34FF3"
@@ -671,7 +671,7 @@
 					type: "item"
 				}
 			]
-			title: "Se você encara o abismo, o abismo encara você de volta. Mas se tiver coragem para enfrentar qualquer perigo de frente, talvez seja recompensado."
+			title: "Armas dos Cães do Mar"
 			x: -4.0d
 			y: -5.5d
 		}
@@ -683,7 +683,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Arsenal Marinho Abissal"
+			subtitle: "Se você encara o abismo, o abismo também encara você. Mas se tiver coragem para enfrentar qualquer perigo de frente, então talvez ele o recompense."
 			tasks: [{
 				id: "3C8E000E958CA1BB"
 				item: {
@@ -695,7 +695,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ah, um conjunto clássico da vida aquática, do próprio Minecraft. Nada é mais memorável do que os originais."
+			title: "Armas Abissais do Mar"
 			x: -2.0d
 			y: -10.0d
 		}
@@ -720,7 +720,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Aquáticos do Minecraft"
+			subtitle: "Ah, um conjunto clássico de vida aquática, direto do Minecraft. Nada é mais memorável do que os originais."
 			tasks: [
 				{
 					id: "19FF23AA00A59635"
@@ -748,7 +748,7 @@
 					type: "item"
 				}
 			]
-			title: "Deméter espalhou sua vida vegetal pelo mundo e desafia qualquer um disposto a reuni-la para satisfazer a Deusa da Colheita e Agricultura e ser recompensado."
+			title: "Aquáticos do Minecraft"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -763,13 +763,13 @@
 			}]
 			shape: "heart"
 			size: 1.5d
-			subtitle: "Jardinagem"
+			subtitle: "Deméter deixou sua vida vegetal espalhada pelo mundo e está desafiando qualquer um disposto a coletá-la e satisfazer a Deusa da Colheita e Agricultura para ser recompensado."
 			tasks: [{
 				id: "07326B76C991455F"
-				title: "Jardim de Deméter"
+				title: "Jardinagem"
 				type: "checkmark"
 			}]
-			title: "Cara, Deméter exagera muito na quantidade de variedades de plantações que existem no mundo. Bem, é melhor valer a pena no final."
+			title: "Jardim de Deméter"
 			x: 3.75d
 			y: -0.75d
 		}
@@ -799,7 +799,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sementes de Croptopia"
+			subtitle: "Cara, Deméter é muito excessiva com a variedade de culturas que existem no mundo. Bem, é melhor que valha a pena no final."
 			tasks: [
 				{
 					id: "69D130AA122E4A45"
@@ -1092,7 +1092,7 @@
 					type: "item"
 				}
 			]
-			title: "Você nunca se perguntou se a quantidade de variedades de árvores é apenas uma combinação de outras árvores frutíferas para produzir ainda mais?"
+			title: "Sementes Croptopia"
 			x: 6.5d
 			y: -2.5d
 		}
@@ -1111,7 +1111,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Árvores de Croptopia"
+			subtitle: "Você nunca se perguntou se a variedade de árvores é apenas uma combinação de outras árvores frutíferas para produzir mais?"
 			tasks: [
 				{
 					id: "6414055BE32CF4E7"
@@ -1249,7 +1249,7 @@
 					type: "item"
 				}
 			]
-			title: "Embora não exista uma variedade muito grande de plantações em Delight, isso é compensado pelo fato de serem encontradas rapidamente."
+			title: "Árvores Croptopia"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -1268,7 +1268,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Plantações de Delight"
+			subtitle: "Embora não haja uma grande variedade de culturas em Delight, isso é compensado por serem encontradas com bastante rapidez."
 			tasks: [
 				{
 					id: "1B122CC8ABA04C1F"
@@ -1326,10 +1326,10 @@
 					type: "item"
 				}
 			]
-			title: " &2&nDiário do Explorador"
+			title: "Culturas Delight"
 			x: 6.5d
 			y: 0.5d
 		}
 	]
-	title: "Bem-vindo, jovem colecionador, pois aqui diante de você há um lugar onde bugigangas e acessórios são reunidos e admirados por todos ao seu redor. Está pronto para o desafio?"
+	title: " &2&nDiário do Explorador"
 }

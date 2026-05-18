@@ -36,16 +36,16 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Mate um Warden"
+			subtitle: "Encontrado no subsolo no &aMundo Superior&r.  "
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "minecraft:sculk_sensor"
 				id: "37E411F497C9CD71"
-				title: "&lLuta de Chefe:&r &3O Warden"
+				title: "Mate um Warden  "
 				type: "kill"
 				value: 1L
 			}]
-			title: "Antes de acender o portal, você deve primeiro remover todas as &3Veias de Sculk &rda moldura interna. Depois que a moldura estiver limpa, você pode clicar com o botão direito nela usando o &bCoração das Profundezas &rque obteve anteriormente ao matar o Warden."
+			title: "&lLuta de chefe:&r &3O Warden  "
 			x: 7.0d
 			y: 4.0d
 		}
@@ -59,15 +59,15 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Entre no Outro Lado"
+			subtitle: "Antes de acender o portal, você deve primeiro remover todas as &3Veias de Sculk &rda moldura interna. Depois que a estrutura estiver limpa, você pode clicar com o botão direito nela com o &bCoração das Profundezas &rque você obteve anteriormente ao matar o Warden.  "
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "minecraft:reinforced_deepslate"
 				id: "474D2D76F2256297"
-				title: "&lEntrando:&r &8&lO Outro Lado"
+				title: "Entre no Outro Lado  "
 				type: "dimension"
 			}]
-			title: "Mate um Shattered"
+			title: "&lEntrando:&r &8&lO Outro Lado  "
 			x: 7.0d
 			y: 2.0d
 		}
@@ -83,11 +83,11 @@
 				entity: "deeperdarker:shattered"
 				icon: "deeperdarker:soul_dust"
 				id: "5B9501581479A2EC"
-				title: "Mate um &3Shattered"
+				title: "Mate um Fragmentado  "
 				type: "kill"
 				value: 1L
 			}]
-			title: "Chance rara de surgir após quebrar um &8Vaso Antigo&r."
+			title: "Mate um &3Fragmentado  "
 			x: 5.5d
 			y: 0.0d
 		}
@@ -106,16 +106,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mate um Stalker"
+			subtitle: "Pequena chance de aparecer ao quebrar um &8Vaso Antigo&r.  "
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: "deeperdarker:soul_crystal"
 				id: "1D807C8DC05EF208"
-				title: "Mate um &3Stalker"
+				title: "Mate um Espreitador  "
 				type: "kill"
 				value: 1L
 			}]
-			title: "Encontrado ao pisar em Sculk Infestado"
+			title: "Mate um &3Espreitador  "
 			x: 7.0d
 			y: -0.5d
 		}
@@ -127,16 +127,16 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Mate um Shriek Worm"
+			subtitle: "Encontrado ao pisar em Sculk Infestado  "
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
 				icon: "deeperdarker:sculk_bone"
 				id: "3D7BD985875AFF57"
-				title: "Mate um &7Shriek Worm"
+				title: "Mate um Verme Gritador  "
 				type: "kill"
 				value: 1L
 			}]
-			title: "Pode ser domesticado com &cPeitorais de Netherita&r encantados. Quando domesticado, ocasionalmente deixará livros encantados. "
+			title: "Mate um &7Verme Gritador  "
 			x: 8.5d
 			y: 0.0d
 		}
@@ -155,7 +155,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Encontre um Sculk Snapper"
+			subtitle: "Pode ser domesticado com &cPeitoral de Netherita&r encantado. Quando domesticados, eles ocasionalmente dropam livros encantados.  "
 			tasks: [{
 				icon: {
 					Count: 1
@@ -167,14 +167,14 @@
 				id: "1D6626E5E7609F88"
 				observe_type: 5
 				timer: 0L
-				title: "Encontre um &2Sculk Snapper"
+				title: "Encontre um Agarrador de Sculk  "
 				to_observe: "deeperdarker:sculk_snapper"
 				type: "observation"
 			}]
-			title: " &3O Outro Lado"
+			title: "Encontre um &2Agarrador de Sculk  "
 			x: 9.0d
 			y: 2.0d
 		}
 	]
-	title: " &dDominando o Destino"
+	title: " &3O Outro Lado  "
 }

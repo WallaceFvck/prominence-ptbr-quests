@@ -65,7 +65,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Aparece em &1O Covil&r, que pode ser encontrado no subsolo da dimensão da &8Prisão&r. Para causar dano ao &dConjunctivius&r, primeiro você deve matar os tentáculos."
+			subtitle: "Aparece em &1O Covil&r, que pode ser encontrado no subsolo da dimensão da &8Prisão&r. Para causar dano ao &dConjunctivius&r, você primeiro precisa matar os tentáculos."
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: {
@@ -89,32 +89,32 @@
 			id: "3C8D91F2793CECAD"
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Passar pelo elevador encontrado no último andar da prisão levará você ao Calçadão.\\n \\n&eÉ sugerido levar uma waystone ou um buraco de minhoca de bolso para conseguir voltar para casa."
+			subtitle: "Passar pelo elevador encontrado no último andar da prisão levará você até a Promenade.\\n \\n&eÉ sugerido levar uma waystone ou um buraco de minhoca de bolso com você para voltar para sua casa."
 			tasks: [{
 				dimension: "minecells:promenade"
 				icon: "minecells:promenade_torch"
 				id: "3D4982DEF40E26A6"
-				title: "Visite o Calçadão"
+				title: "Visite a Promenade"
 				type: "dimension"
 			}]
-			title: "&7Entre no &cCalçadão"
+			title: "&7Entre na &cPromenade"
 			x: 2.4642857142857153d
 			y: 1.5178571428571388d
 		}
 		{
 			dependencies: ["58E9FDE95BB414C8"]
 			id: "618580FC7F5FFBD0"
-			subtitle: "Criadores de Células permitem fabricar várias armas corpo a corpo e à distância para o seu arsenal nas Células da Mina."
+			subtitle: "Os Fabricadores de Células permitem criar várias armas corpo a corpo e de longo alcance para seu arsenal nas Células da Mina."
 			tasks: [{
 				icon: "minecells:cell_crafter"
 				id: "57DD47C8EC79E9E4"
 				observe_type: 0
 				timer: 0L
-				title: "Use um Criador de Células"
+				title: "Use um Fabricador de Células"
 				to_observe: "minecells:cell_crafter"
 				type: "observation"
 			}]
-			title: "Fabrique um &cCriador de Células"
+			title: "Construa um &cFabricador de Células"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -127,14 +127,14 @@
 				item: "minecells:monster_cell"
 				type: "item"
 			}]
-			title: "Obtenha uma Célula de Monstro"
+			title: "Saqueie uma Célula de Monstro"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["58E9FDE95BB414C8"]
 			id: "364E9528AE5F1047"
-			subtitle: "Algumas armas que podem ser feitas no Criador de Células exigem Aço Infundido com Células. Tenha isso em mente."
+			subtitle: "Algumas armas que podem ser feitas no Fabricador de Células exigem Aço Infundido com Células para serem criadas. Tenha isso em mente."
 			tasks: [{
 				id: "492AFFEA634E0376"
 				item: "minecells:cell_infused_steel"
@@ -147,10 +147,10 @@
 		{
 			dependencies: ["0D23A31DAF3866F4"]
 			description: [
-				"&ePode ser fabricado em célula com Tripas e Células de Monstro."
+				"&ePode ser fabricado com células usando Vísceras e Células de Monstro."
 			]
 			id: "447E7AA3CB192FE4"
-			subtitle: "O Frasco de Vida é um item extremamente útil que cura 10% da sua vida máxima e concede regeneração por alguns segundos."
+			subtitle: "O Frasco de Vida é um item muito útil que cura 10% da sua vida máxima e concede regeneração por alguns segundos."
 			tasks: [{
 				icon: "minecells:health_flask"
 				id: "2D109EBD7B56015A"

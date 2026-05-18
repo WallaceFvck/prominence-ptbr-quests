@@ -337,7 +337,7 @@
 			description: [
 				"&6&lSimply Swords&r &7oferece mais de &a&l15&r &7tipos de armas para o jogador utilizar."
 				""
-				"&7Ele também possui o conjunto de recursos único de &b&n&lPoderes Rúnicos&r, &7que podem ser aplicados às armas via &n&bsockets&r!"
+				"&7Também possui o conjunto único de funcionalidades de &b&n&lPoderes Rúnicos&r, &7que podem ser dados às armas através de &n&bencaixes&r!"
 			]
 			icon: {
 				Count: 1
@@ -367,10 +367,10 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Uma das Muitas Cavidades!"
+			subtitle: "Um dos Muitos Encaixes!"
 			tasks: [{
 				id: "6461B5E43F7DF63E"
-				title: "&d&lEspadas Simples!"
+				title: "&d&lSimply Swords!"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -379,9 +379,9 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&c&lRemanescentes Empoderados&r &7são criados ao derreter armas únicas."
+				"&c&lFragmentos Energizados&r &7são criados ao derreter armas únicas."
 				""
-				"&7Eles são usados na criação de &9&lGemas Rúnicas&r, &7e &6&lGemas Nethéricas&r."
+				"&7Eles são usados na criação de &9&lGemas Rúnicas Fundidas&r, &7e &6&lGemas Fundidas do Nether&r."
 			]
 			hide_until_deps_complete: true
 			id: "5AA2A1E358A18B4E"
@@ -404,7 +404,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Uma Dor para Fazer..."
+			subtitle: "Um Sofrimento para Fazer..."
 			tasks: [{
 				id: "5DF612576542C997"
 				item: "simplyswords:empowered_remnant"
@@ -416,9 +416,9 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"&7Para fazer isso, combine uma &bTábua Rúnica&r &7com um &cRemanescente Empoderado&r &7em uma Mesa de Ferraria."
+				"&7Para fazê-lo, combine uma &bTabuleta Rúnica&r &7com um &cFragmento Energizado&r &7em uma Mesa de Ferraria."
 				""
-				"&7Clique para identificar qual poder você obteve."
+				"&7Clique para identificar qual poder você conseguiu."
 			]
 			hide_until_deps_complete: true
 			id: "3E5207641E8653DC"
@@ -456,9 +456,9 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"&7Para fazer isso, combine um &cRemanescente Empoderado&r &7com um &6Lingote de Netherita&r &7em uma Mesa de Ferraria."
+				"&7Para fazê-lo, combine um &cFragmento Empoderado&r &7com um &6Lingote de Netherita&r &7em uma Mesa de Ferraria."
 				""
-				"&7Clique para identificar qual poder você obteve."
+				"&7Clique para identificar qual poder você recebeu."
 			]
 			hide_until_deps_complete: true
 			id: "47EBDA6516061205"
@@ -480,7 +480,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Feito com Ash."
+			subtitle: "Feito com Cinzas."
 			tasks: [{
 				id: "1F673D38D2BBDA24"
 				item: {
@@ -496,9 +496,9 @@
 		{
 			dependencies: ["0F426527B63F854D"]
 			description: [
-				"&7Este será o primeiro passo em &bdescobrir sockets&r &7e &9poderes rúnicos&r!"
+				"&7Este será o primeiro passo para &bdescobrir encaixes&r &7e &9poderes rúnicos&r!"
 				""
-				"&7Essas armas podem ser encontradas em muitos lugares. Com sorte suficiente, você já pode ter encontrado uma. As histórias dizem que o Wither e Jean, o Dragão do End, podem tê-las. Alguns outros inimigos fortes também podem ainda ter uma de um encontro anterior com um Flameborn."
+				"&7Essas Armas podem ser encontradas em muitos lugares. Com sorte suficiente, talvez você já tenha encontrado uma. As histórias dizem que o Wither e Jean, o Dragão do End, podem possuí-las. Alguns outros inimigos poderosos também podem ainda carregar uma de um encontro anterior com um Flameborn."
 			]
 			hide_until_deps_complete: true
 			id: "574677AD427E33FB"
@@ -507,7 +507,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Realmente único."
+			subtitle: "De fato, Única."
 			tasks: [{
 				id: "0D8720163BD20211"
 				item: {
@@ -517,7 +517,7 @@
 						value: "simplyswords:uniques"
 					}
 				}
-				title: "Obtenha uma &6Arma Única&r."
+				title: "Obtenha uma Arma &6Única&r."
 				type: "item"
 			}]
 			x: -10.0d
@@ -530,18 +530,18 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Esta é uma tarefa bastante difícil. Muitas dessas armas serão cruciais para suas batalhas futuras. As escrituras são bem detalhadas, mas você ainda não reconhece todos os nomes."
+				"&7Esta é uma grande Tarefa. Muitas dessas Armas serão cruciais para suas próximas Batalhas. As Escrituras são muito detalhadas, mas você ainda não reconhece todos os nomes."
 				""
 				""
-				"Você pode encontrar essas armas de várias formas. Após alguns cálculos do antigo livro, você deduz as seguintes chances:"
+				"Você pode encontrar essas armas de várias maneiras. Após alguns cálculos do velho livro, você deduz as seguintes Chances:"
 				"&6Wither 15%"
 				"&6Dragão do End 35%"
 				"&6Night Lich 30%"
-				"&6Manopla do Nether 25%"
+				"&6Nether Gauntlet 25%"
 				"&6Obsidilith 40%"
 				"&6Magus 27%"
 				"&6Conjunctivius 15%"
-				"&6Rei Decadente 15%"
+				"&6Decaying King 15%"
 				"&6Null 20%&r"
 			]
 			hide_details_until_startable: true
@@ -563,10 +563,10 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Colete o resto dos Únicos!"
+			subtitle: "Colete o restante das Únicas!"
 			tasks: [{
 				id: "673BEC88D5083E14"
-				title: "Colete todos!"
+				title: "Colecione Todas!"
 				type: "checkmark"
 			}]
 			title: "&l&bSobrecarga Rúnica..."
@@ -576,7 +576,7 @@
 		{
 			dependencies: ["07DAFC04179A4DA0"]
 			description: [
-				"&7O que você vai escolher? Você vai se arrepender de suas escolhas?"
+				"&7O que você escolherá? Você vai se arrepender das suas escolhas?"
 			]
 			id: "1A59D35015E0BB3F"
 			rewards: [{
@@ -584,7 +584,7 @@
 				item: "simplyswords:empowered_remnant"
 				type: "item"
 			}]
-			subtitle: "Poder dormente jaz abaixo..."
+			subtitle: "Um Poder Adormecido Jaz Abaixo..."
 			tasks: [{
 				id: "0F8DD51E27AD3B4A"
 				item: {
@@ -602,7 +602,7 @@
 		{
 			dependencies: ["1A59D35015E0BB3F"]
 			description: [
-				"&7Olhe para sua retidão. Se ao menos eles pudessem vê-lo agora."
+				"&7Olhe para sua retidão. Se ao menos eles pudessem ver você agora."
 			]
 			hide_until_deps_complete: true
 			id: "1E65DAC37F8D34F9"
@@ -624,7 +624,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Todo poderoso!"
+			subtitle: "Todo-Poderoso!"
 			tasks: [{
 				id: "70287F102D2FE077"
 				item: {
@@ -663,7 +663,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Corrompido e distorcido."
+			subtitle: "Corrompido e Distorcido."
 			tasks: [{
 				id: "7B79D2A0339B4CFC"
 				item: {
@@ -681,7 +681,7 @@
 		{
 			dependencies: ["1E65DAC37F8D34F9"]
 			description: [
-				"&7Onde há Luz, há Escuridão. Tem certeza de que está à altura do desafio?"
+				"&7Onde há Luz, há Escuridão. Tem certeza de que está à altura do Desafio?"
 			]
 			hide_until_deps_complete: true
 			id: "3B50D775CE678833"
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Luz pura."
+			subtitle: "Luz Pura."
 			tasks: [{
 				id: "1CECDA302A1F41AE"
 				item: {
@@ -725,7 +725,7 @@
 		{
 			dependencies: ["10710081934A30C6"]
 			description: [
-				"&7Ele se foi. Eu sou o que restou."
+				"&7Ele se foi. Eu sou o que resta."
 			]
 			hide_until_deps_complete: true
 			id: "3B253027B3A56099"
@@ -752,7 +752,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A morte aguarda."
+			subtitle: "A Morte Aguarda."
 			tasks: [{
 				id: "31C29D8D28776CF2"
 				item: {
@@ -770,7 +770,7 @@
 		{
 			dependencies: ["6A8665FBC017A00F"]
 			description: [
-				"&7“Porque o homem é um lobo para o outro homem”"
+				"&7Porque o Homem é um Lobo para outro Homem"
 			]
 			id: "6B35F27EE277F880"
 			rewards: [
@@ -785,7 +785,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Matar um Dragão"
+			subtitle: "Para matar um Dragão"
 			tasks: [{
 				id: "670A4F7E7CD0C61F"
 				item: {
@@ -803,7 +803,7 @@
 		{
 			dependencies: ["5209EC117C51D5D5"]
 			description: [
-				"&7Esta lâmina olha para você com um senso de propósito sagrado. Algo maior do que ela mesma poderia sequer compreender."
+				"&7Esta lâmina encara você com um senso de propósito Sagrado. Algo maior do que ela própria poderia compreender. "
 			]
 			id: "79714A89BF6B05FC"
 			rewards: [
@@ -824,7 +824,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7Ele observou um grande Paladino matar uma Besta. Mas aquele que mata não pode estar longe de ser uma Besta também."
+			subtitle: "&7Ela observou um grande Paladino matar uma Besta. Mas aquele que mata não pode estar longe de também ser uma Besta."
 			tasks: [{
 				id: "2FE08DA25699E3CC"
 				item: {
@@ -842,7 +842,7 @@
 		{
 			dependencies: ["3940465EE60C2554"]
 			description: [
-				"&7Duas Tempestades, presas por um único cabo. Você pode sentir o quão volátil isso é."
+				"&7Duas Tempestades, acorrentadas juntas por um único Cabo. Você consegue sentir o quão volátil ela é."
 			]
 			id: "3B1D7C24AC35261C"
 			rewards: [
@@ -875,7 +875,7 @@
 		{
 			dependencies: ["3940465EE60C2554"]
 			description: [
-				"&7Deixe a terra trovejar com minha Tempestade!"
+				"&7Que a Terra troveje com minha Tempestade!"
 			]
 			id: "08AEEA46BD870294"
 			rewards: [
@@ -890,7 +890,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "O primeiro Rio foi um Rio de Sangue."
+			subtitle: "O primeiro Rio era um Rio de Sangue."
 			tasks: [{
 				id: "4C6A2AF592747716"
 				item: {
@@ -928,7 +928,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Arde só de segurá-la. Imagino o que essa lâmina fará."
+			subtitle: "Arde só de segurá-la. Imagine o que essa lâmina fará."
 			tasks: [{
 				id: "44506CD76C8EF068"
 				item: {
@@ -946,7 +946,7 @@
 		{
 			dependencies: ["5209EC117C51D5D5"]
 			description: [
-				"&7Um delicado par de olhos, fixados nesta lâmina, para sempre julgar as mortes que você fizer com ela. Quem é você para decidir sobre vida ou morte?"
+				"&7Um delicado par de Olhos, fixados nesta lâmina, para julgar eternamente as mortes que você causa com ela. Quem é você para decidir sobre a vida ou a morte?"
 			]
 			id: "0C2D472551252C55"
 			rewards: [
@@ -967,7 +967,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7Eles nunca vão parar de julgar suas ações."
+			subtitle: "&7Eles nunca vão parar de julgar suas Ações."
 			tasks: [{
 				id: "79FDD6A9D51E6BB8"
 				item: {
@@ -985,7 +985,7 @@
 		{
 			dependencies: ["5AC50DF4F52A548F"]
 			description: [
-				"&7Quem quer que tenha empunhado isso não durou muito. Como você lidará consigo mesmo? As lâminas são tão repugnantes quanto afiadas. A inscrição da lâmina diz que o título de Senhor da Peste foi concedido à pobre alma que a aceitou."
+				"&7Quem quer que tenha empunhado isso não durou muito. Como você se sairá contra si mesmo? A Lâmina é tão nojenta quanto afiada. A inscrição da Lâmina diz que o título de Senhor da Praga foi concedido à pobre alma que a aceitou."
 			]
 			id: "5C6755620140F16B"
 			rewards: [
@@ -1030,7 +1030,7 @@
 		{
 			dependencies: ["18C4F3367A04B882"]
 			description: [
-				"&7Quem quer que tenha prejudicado o portador pagará o preço dez vezes maior."
+				"&7Quem quer que tenha prejudicado o Portador pagará o Preço dez vezes mais."
 			]
 			id: "4636BDC0E4B33561"
 			rewards: [
@@ -1074,7 +1074,7 @@
 		{
 			dependencies: ["6A8665FBC017A00F"]
 			description: [
-				"&7Nenhum mal pensa que é mal. Ninguém escolhe o mal porque ele é mal, eles apenas o confundem com o bem que procuram."
+				"&7Nenhum Mal acredita ser maligno. Ninguém escolhe o Mal porque ele é Mal, apenas o confunde com o bem que procura. "
 			]
 			id: "3343B7550C09C341"
 			rewards: [
@@ -1107,7 +1107,7 @@
 		{
 			dependencies: ["306AAF14EBD13866"]
 			description: [
-				"&7Existem muitas criaturas, mas poucas almas."
+				"&7Seres demais, almas de menos."
 			]
 			id: "666D6FFBD5FD2306"
 			rewards: [
@@ -1122,7 +1122,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&7Se foi roubada, alguma vez foi realmente sua?"
+			subtitle: "&7Se foi roubado, algum dia realmente foi seu?"
 			tasks: [{
 				id: "516BDA2662CF6688"
 				item: {
@@ -1140,7 +1140,7 @@
 		{
 			dependencies: ["07DAFC04179A4DA0"]
 			description: [
-				"&7Qualquer traição que você consiga ver é trivial. Quem matou com isso o fez por esporte ou ganho próprio. Antes uma lâmina reta, esta arma agora imita a mente distorcida de seu criador."
+				"&7Qualquer Traição que você possa ver é trivial. Quem matou com isso, o fez pelo esporte ou por ganho próprio. Antes uma Lâmina Reta, esta Arma agora imita a mente distorcida de seu Criador."
 			]
 			id: "32C591A42D8C3C2E"
 			rewards: [
@@ -1170,7 +1170,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Com um sorriso presunçoso, ele esfaqueou o que eles achavam ser precioso para ele."
+			subtitle: "Com um sorriso arrogante, ele apunhalou aquilo que pensavam ser querido para ele."
 			tasks: [{
 				id: "651060AA26B81291"
 				item: {
@@ -1188,7 +1188,7 @@
 		{
 			dependencies: ["306AAF14EBD13866"]
 			description: [
-				"&7Esta lâmina cheira a uma traição que mudou esta arma para sempre. Uma traição tão dolorosa que não pode ser esquecida nem por aqueles que não a conhecem. As almas nesta arma transbordam culpa."
+				"&7Esta lâmina exala uma Traição que mudou esta Arma para sempre. Uma Traição tão devastadora que não pode nem ser esquecida por aqueles que não a conhecem. As Almas nesta Arma transbordam culpa."
 			]
 			id: "3CFAA0BF10CBEAFD"
 			rewards: [
@@ -1227,7 +1227,7 @@
 		{
 			dependencies: ["306AAF14EBD13866"]
 			description: [
-				"&7Todo poder exige sacrifício e dor."
+				"&7Todo Poder exige Sacrifício e Dor."
 			]
 			id: "1299DA76794F4557"
 			rewards: [
@@ -1248,7 +1248,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7Eu vou dilacerar a carne, até me tornar um deus profano."
+			subtitle: "&7Eu rasgarei a Carne, até me tornar um deus profano."
 			tasks: [{
 				id: "469BBDBE0E523BD3"
 				item: {
@@ -1266,7 +1266,7 @@
 		{
 			dependencies: ["306AAF14EBD13866"]
 			description: [
-				"&7Como um ímã de almas. Ama costurá-las como se fossem tecido."
+				"&7Como um Ímã para Almas. Ama costurá-las juntas como se fossem Tecido."
 			]
 			id: "5B267B7674F91DE8"
 			rewards: [
@@ -1287,7 +1287,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7Uma aglomeração de almas"
+			subtitle: "&7Uma aglomeração de Almas"
 			tasks: [{
 				id: "1A7B5B0CFEE165C6"
 				item: {
@@ -1305,7 +1305,7 @@
 		{
 			dependencies: ["547DCAE28B3968ED"]
 			description: [
-				"&7Qual você teme mais, o eco ou a resposta? Uive sua pergunta melancólica."
+				"&7Qual você teme mais, o Eco ou a resposta. Uive sua Pergunta Melancólica."
 			]
 			id: "54A18E7973F870B7"
 			rewards: [
@@ -1320,7 +1320,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Oh me diga, Grande Um"
+			subtitle: "Oh diga-me Grande Ser"
 			tasks: [{
 				id: "2B17B08CE72BC56D"
 				item: {
@@ -1338,7 +1338,7 @@
 		{
 			dependencies: ["6A8665FBC017A00F"]
 			description: [
-				"&7Você está hipnotizado pela lava fluindo nesta lâmina. Ela lembra você de algo..."
+				"&7Você está hipnotizado pela Lava fluindo nesta Lâmina. Ela te lembra de algo..."
 			]
 			id: "0D8A8981385BAF73"
 			rewards: [
@@ -1376,7 +1376,7 @@
 		{
 			dependencies: ["547DCAE28B3968ED"]
 			description: [
-				"&7Forjada a partir dos restos de uma grande criatura fria, você pode sentir como ela lutou sua última batalha a cada golpe."
+				"&7Forjada dos restos de um grande ser gelado, você consegue sentir como ele lutou sua última Batalha a cada golpe."
 			]
 			id: "2D894DA57337C966"
 			rewards: [
@@ -1409,7 +1409,7 @@
 		{
 			dependencies: ["547DCAE28B3968ED"]
 			description: [
-				"&7Há uma criptografia nesta arma de um de seus antigos portadores. Você consegue distinguir as duas primeiras letras: "Br-". O cabo ainda exala um calor que você não esperaria de uma arma tão estranhamente fria. Ao segurá-la, você sente como se alguém tivesse contado uma piada vezes demais."
+				"&7Há uma Criptografia nesta Arma feita por um de seus antigos Portadores. Você consegue distinguir as duas primeiras letras. \"Br-\". O cabo ainda escorre um calor que você não esperaria de uma arma tão estranhamente fria. Enquanto a segura, você sente como se alguém tivesse contado uma piada algumas centenas de vezes a mais do que deveria."
 			]
 			id: "556C78463DB00269"
 			rewards: [
@@ -1435,7 +1435,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Algumas coisas só precisam ser ditas uma vez."
+			subtitle: "Algumas coisas bastam ser ditas uma vez."
 			tasks: [{
 				id: "3CC26FF5DB804069"
 				item: {
@@ -1453,7 +1453,7 @@
 		{
 			dependencies: ["5209EC117C51D5D5"]
 			description: [
-				"&7Outrora concedida por um grande Mago Arcano. Esta lâmina viu mais do que a maioria."
+				"&7Outrora concedida por um grande Mago Arcano. Esta Lâmina viu mais do que a maioria."
 			]
 			id: "3A333A884ED801AE"
 			rewards: [
@@ -1474,7 +1474,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7Você não pode perder, você é o escolhido."
+			subtitle: "&7Você não pode perder, você foi escolhido."
 			tasks: [{
 				id: "2963F96B9A1741FB"
 				item: {
@@ -1492,7 +1492,7 @@
 		{
 			dependencies: ["5AC50DF4F52A548F"]
 			description: [
-				"&7Até as mentes mais calmas têm uma tempestade dentro de si. Mas cabe à mente aprender quando liberá-la."
+				"&7Mesmo as mentes mais calmas possuem uma Tempestade se formando dentro delas. Mas cabe à mente aprender quando libertá-la."
 			]
 			id: "177CE07DA601DF07"
 			rewards: [
@@ -1507,7 +1507,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&7Antes da Tempestade, sempre há um certo tipo de calma."
+			subtitle: "&7Antes da Tempestade, sempre existe um certo tipo de calmaria."
 			tasks: [{
 				id: "52E9D721F987A254"
 				item: {
@@ -1551,7 +1551,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Uma Dor não sentida pelo Culpado."
+			subtitle: "Uma Dor não sentida pelos Culpados."
 			tasks: [{
 				id: "162BA6204FED68DF"
 				item: {
@@ -1569,7 +1569,7 @@
 		{
 			dependencies: ["547DCAE28B3968ED"]
 			description: [
-				"&7Você pode sentir a morte ao empunhar esta arma. Nenhuma criatura viva ou morta quer estar perto de você. Você sente que esta arma anseia por algo. Ela quer despertar."
+				"&7Você consegue sentir a Morte ao empunhar esta Arma. Nenhuma criatura viva ou morta quer ficar perto de você. Você sente que esta Arma deseja algo. Ela quer despertar."
 			]
 			id: "1C6075524C120092"
 			rewards: [
@@ -1607,7 +1607,7 @@
 		{
 			dependencies: ["1C6075524C120092"]
 			description: [
-				"&7Ela ficou mais forte. Você pode sentir que ainda não atingiu seu potencial máximo. Você deve continuar. Você já foi longe demais para parar agora, certo? Consuma a vida."
+				"&7Ela ficou mais forte. Você sente que ainda não alcançou todo o seu potencial. Você deve continuar avançando. Você já foi longe demais para parar agora, certo? Canibalize a vida."
 			]
 			hide_until_deps_complete: true
 			id: "2629BC0942CC42F6"
@@ -1623,7 +1623,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Está despertando..."
+			subtitle: "Ela está despertando..."
 			tasks: [{
 				id: "5ECB8411482DF1D5"
 				item: {
@@ -1641,7 +1641,7 @@
 		{
 			dependencies: ["1C6075524C120092"]
 			description: [
-				"&7A lâmina sussurra gratidão a você. Materializando algo que &4será de grande utilidade mais cedo ou mais tarde&r&7 para você. Longo será o sofrimento deles. Alegre será sua dor."
+				"&7A Lâmina sussurra gratidão em sua direção. Materializando algo que &4será de grande utilidade mais cedo ou mais tarde&r&7 para você. Longo será o sofrimento deles. Alegre será sua dor."
 			]
 			hide_until_deps_complete: true
 			id: "0395861176F7F402"
@@ -1663,7 +1663,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "NO MÁXIMO DO POTENCIAL"
+			subtitle: "EM POTENCIAL MÁXIMO"
 			tasks: [{
 				id: "5332CA7293781217"
 				item: {
@@ -1681,7 +1681,7 @@
 		{
 			dependencies: ["5AC50DF4F52A548F"]
 			description: [
-				"&7A única coisa que sempre vai te seguir é a sua Sombra."
+				"&7A única coisa que sempre irá te seguir é sua Sombra."
 			]
 			id: "4DD812D8096B5BB7"
 			rewards: [
@@ -1714,7 +1714,7 @@
 		{
 			dependencies: ["3940465EE60C2554"]
 			description: [
-				"&7Uma sede que não pode ser saciada é uma sede da qual você morrerá."
+				"&7Uma Sede que não pode ser saciada é uma Sede da qual você morrerá."
 			]
 			id: "7F9DAA4B9D84E3DC"
 			rewards: [
@@ -1752,7 +1752,7 @@
 		{
 			dependencies: ["6A8665FBC017A00F"]
 			description: [
-				"&7Tornar-se algo superior é a conquista mais solitária de todas."
+				"&7Tornar-se algo maior é a mais solitária das Conquistas."
 			]
 			id: "3ADBA2BF57A23E05"
 			rewards: [
@@ -1796,7 +1796,7 @@
 		{
 			dependencies: ["18C4F3367A04B882"]
 			description: [
-				"&7Nossos corações são monstros. É por isso que nossas costelas são jaulas."
+				"&7Nossos corações são monstros. É por isso que nossas costelas são gaiolas."
 			]
 			id: "1C33DCFADBD4B13F"
 			rewards: [
@@ -1834,7 +1834,7 @@
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
 			description: [
-				"&7Parece que você não é o único interessado na arma. Você não deveria irritar a Colmeia, ou pelo menos dar a eles outra pessoa para ficarem com raiva."
+				"&7Parece que você não é o único interessado na arma. Você não deveria irritar a Colmeia, ou pelo menos deveria dar a eles outra pessoa com quem se irritar."
 			]
 			id: "34BACF93066559BD"
 			rewards: [
@@ -1866,7 +1866,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Você pode ouvir um zumbido vindo da própria arma."
+			subtitle: "Você consegue ouvir um zumbido vindo da própria arma."
 			tasks: [{
 				id: "48F6A613036C90AF"
 				item: {
@@ -1884,7 +1884,7 @@
 		{
 			dependencies: ["5209EC117C51D5D5"]
 			description: [
-				"&7Sua dor é conhecida pelos Deuses?"
+				"&7Sua Dor é conhecida pelos Deuses?"
 			]
 			id: "7272D65052D97F66"
 			rewards: [
@@ -1943,7 +1943,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Uma criança queimada ama o fogo."
+			subtitle: "Uma Criança queimada ama o fogo."
 			tasks: [{
 				id: "5822A36162719CDE"
 				item: {
@@ -1961,7 +1961,7 @@
 		{
 			dependencies: ["18C4F3367A04B882"]
 			description: [
-				"&7A natureza não conhece Reis nem Rainhas. Todos morrem da mesma forma."
+				"&7A Natureza não conhece Reis nem Rainhas. Todos morrem da mesma forma."
 			]
 			id: "222ECAF5058016B3"
 			rewards: [
@@ -1981,7 +1981,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Uma Tempestade tão destrutiva — quem poderia tê-la iniciado?"
+			subtitle: "Uma Tempestade tão destrutiva — Quem poderia tê-la iniciado?"
 			tasks: [{
 				id: "205C61F9FAFED7B8"
 				item: {
@@ -1999,7 +1999,7 @@
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
 			description: [
-				"&7Um fogo só sobe até a altura que seu combustível permite."
+				"&7Um Fogo só sobe tão alto quanto seu Combustível permite."
 			]
 			id: "1E43CA1D1052238D"
 			rewards: [
@@ -2020,7 +2020,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Para entender, ele destruiu a si mesmo."
+			subtitle: "Para compreender, ele destruiu a si mesmo."
 			tasks: [{
 				id: "5EC4FBD1DC595DC8"
 				item: {
@@ -2038,13 +2038,13 @@
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
 			description: [
-				"&7A inscrição, em uma tinta enferrujada e sangrenta diz:"
-				"&4Eu me ligo a você esta noite,&r"
-				"&4Não importa a mudança da lâmina,&r"
+				"&7A inscrição, em uma tinta enferrujada e ensanguentada, diz:"
+				"&4Eu me prendo a você esta noite,&r"
+				"&4Não importa o movimento da faca,&r"
 				"&4Através de sangue e osso,&r"
 				"&4Carne e Coração,&r"
-				"&4A morte pode vir,&r"
-				"&4Mas não nos separaremos.&r"
+				"&4A Morte pode vir,&r"
+				"&4Mas nós não iremos nos separar.&r"
 			]
 			id: "4602FD0E33DD4D5E"
 			rewards: [
@@ -2094,7 +2094,7 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&7Quanto você precisa perder para ser novo? Quanto disso faz você ser você?"
+				"&7Quanto você precisa perder para ser novo? Quanto faz de você quem você é?"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2114,7 +2114,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Antes uma Arma Nobre, agora mal um Relíquia"
+			subtitle: "Antes uma Arma Nobre, agora mal uma Relíquia"
 			tasks: [{
 				id: "4A0FB4F0B04D5E98"
 				item: {
@@ -2132,7 +2132,7 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&7Ir contra o que você sabe é inventar. Mas essa recompensa será alta o suficiente?"
+				"&7Ir contra o que você conhece é inventar. Mas será que essa Recompensa será alta o bastante?"
 			]
 			hide_dependency_lines: true
 			id: "372B6EB1F66455B8"
@@ -2174,7 +2174,7 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&7Uma pergunta nunca feita sempre permanecerá sem resposta."
+				"&7Uma Pergunta nunca feita, sempre ficará sem resposta."
 			]
 			hide_dependency_lines: true
 			id: "730BC7042CFC5627"
@@ -2216,7 +2216,7 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&7Esta arma viu a Ascensão do Deep Dark. Ela emite um pulso de alegria quando vê seu lar."
+				"&7Esta Arma viu a Ascensão da Escuridão Profunda. Ela emite um pulso de Alegria quando vê seu Lar."
 			]
 			hide_dependency_lines: true
 			id: "46EE656C1F9E5CD5"
@@ -2240,7 +2240,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Uma Lâmina que foi ensinada a centenas de técnicas."
+			subtitle: "Uma Lâmina que aprendeu centenas de técnicas."
 			tasks: [{
 				id: "5CED8201A8C06FC1"
 				item: {
@@ -2258,7 +2258,7 @@
 		{
 			dependencies: ["5AC50DF4F52A548F"]
 			description: [
-				"&7Para sempre amaldiçoadas e abençoadas a caminhar entre dois reinos, alguém só pode ter pena dessas pobres almas."
+				"&7Eternamente Amaldiçoados e Abençoados a caminhar entre dois Reinos, só se pode ter pena dessas pobres Almas."
 			]
 			id: "0E959953F768C259"
 			rewards: [
@@ -2292,10 +2292,10 @@
 			dependencies: ["771507AA08194DE6"]
 			dependency_requirement: "one_started"
 			description: [
-				"&7As paredes têm ouvidos."
-				"&7As portas têm olhos."
-				"&7As árvores têm vozes."
-				"&7As feras contam mentiras."
+				"&7Paredes têm ouvidos."
+				"&7Portas têm olhos."
+				"&7Árvores têm vozes."
+				"&7Bestas contam mentiras."
 				"&7Cuidado com a chuva."
 				"&7Cuidado com a neve."
 				"&7Cuidado com o homem."
@@ -2330,7 +2330,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "5AE9AAEE101CE4C8"
-				title: "Tempestade Aproximando"
+				title: "Tempestade que se Aproxima"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -2339,7 +2339,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7Você veste a vingança como armadura, mas ela corrói por dentro. Você se tornará aquilo que destrói."
+				"&7Você veste vingança como armadura, mas ela corrói por dentro. Você se tornará aquilo que destrói."
 			]
 			hide_until_deps_complete: true
 			id: "18C4F3367A04B882"
@@ -2352,7 +2352,7 @@
 			subtitle: "A Ira é um Pecado que corrói por dentro."
 			tasks: [{
 				id: "1384362E58602E2F"
-				title: "Brasas Eternas"
+				title: "Cinzas Eternas"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -2361,7 +2361,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7Alguns dizem que a Alma é a parte mais importante. Outros dizem que você é apenas um amontoado de hormônios e impulsos. E se você não for nenhum dos dois e ambos ao mesmo tempo?"
+				"&7Alguns dizem que a Alma é a parte mais importante. Alguns dizem que tudo o que você é é um amontoado de Hormônios e impulsos. E se você não for nenhum dos dois e ambos ao mesmo tempo?"
 			]
 			hide_until_deps_complete: true
 			id: "306AAF14EBD13866"
@@ -2371,7 +2371,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "São os Olhos. São sempre os Olhos."
+			subtitle: "São os Olhos. Sempre são os Olhos."
 			tasks: [{
 				id: "4E8294EF91FA3E90"
 				title: "Almas Roubadas"
@@ -2383,7 +2383,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7Sempre aprendendo. Sempre estudando. Tudo o que isso sabia foi ensinado. Seu único instinto era aprender."
+				"&7Sempre aprendendo. Sempre estudando. Tudo o que essas coisas conheciam foi ensinado. Seu único instinto era aprender."
 			]
 			hide_until_deps_complete: true
 			id: "5209EC117C51D5D5"
@@ -2393,7 +2393,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&7Eles não eram muitos. Mas eram os Olhos deles."
+			subtitle: "&7Eles não eram muitos. Mas seus Olhos eram."
 			tasks: [{
 				id: "39F7EC8B735A21FC"
 				title: "Lâminas dos Observadores"
@@ -2405,7 +2405,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7Quanto mais você pega, menos você terá. Você irá morrer de fome cercado de ouro."
+				"&7Quanto mais você toma, menos terá. Você morrerá de fome cercado por Ouro."
 			]
 			hide_until_deps_complete: true
 			id: "07DAFC04179A4DA0"
@@ -2415,7 +2415,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Ganância — quão insaciável..."
+			subtitle: "Ganância - quão insaciável..."
 			tasks: [{
 				id: "5C0B0ECEF7BA052B"
 				title: "Pecados dos Perdidos"
@@ -2427,7 +2427,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7Os registros foram bem mantidos, mas a natureza dessas armas faz tudo se deteriorar com o tempo. Ninguém realmente sabe de onde vieram ou quem as fez; o que sabemos é que quando você vê alguém empunhando isso, eles provavelmente estão condenados ao fracasso."
+				"&7Os registros foram bem mantidos, mas a natureza dessas armas faz tudo decair com o tempo. Ninguém realmente sabe de onde vieram ou quem as fez; o que sabemos é que quando você vê alguém empunhando uma dessas, provavelmente está condenado ao fracasso."
 			]
 			hide_until_deps_complete: true
 			id: "5AC50DF4F52A548F"
@@ -2437,7 +2437,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&7Eles vieram voando de um céu que não podíamos nem perceber."
+			subtitle: "&7Eles vieram voando de um céu que nem conseguíamos perceber."
 			tasks: [{
 				id: "0353504AABDB41D8"
 				title: "Pragas do Céu"
@@ -2449,7 +2449,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7Uma promessa quebrada é uma facada no coração. Uma garantia quebrada é uma facada no cérebro. Um coração quebrado é uma facada na alma."
+				"&7Uma Promessa quebrada é uma facada no Coração. Uma Garantia quebrada é uma facada no Cérebro. Um Coração partido é uma facada na Alma."
 			]
 			hide_until_deps_complete: true
 			id: "03E7D9E3CD29B32F"
@@ -2471,7 +2471,7 @@
 		{
 			dependencies: ["771507AA08194DE6"]
 			description: [
-				"&7“Para sempre” é uma palavra perigosa. Como um mortal pode oferecer a eternidade?"
+				"&7Para sempre é uma palavra perigosa. Como um Mortal pode oferecer Eternidade?"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2485,7 +2485,7 @@
 			subtitle: "Algumas coisas não terminam com a Morte."
 			tasks: [{
 				id: "241FA414889A2308"
-				title: "Chamas eternas de arrependimento"
+				title: "Chamas Eternas do arrependimento"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -2494,7 +2494,7 @@
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
 			description: [
-				"&7Adivinha? Ela atravessa um pouco mais do que apenas empunhar. Espero que o bastão não quebre. Desgraça."
+				"&7Adivinha? Ela perfura um pouco mais longe do que apenas empunhá-la. Espero que o Bastão não quebre. Desgraça."
 			]
 			id: "45163F8A6463C455"
 			rewards: [
@@ -2525,7 +2525,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Isso é literalmente só uma Espada num pedaço de pau."
+			subtitle: "Isso é literalmente só uma Espada em um bastão."
 			tasks: [{
 				id: "7808F25B17D75A31"
 				item: {
@@ -2543,7 +2543,7 @@
 		{
 			dependencies: ["0D8A8981385BAF73"]
 			description: [
-				"&7Alimente-a."
+				"&7Alimente-o."
 			]
 			hide_text_until_complete: true
 			hide_until_deps_complete: true
@@ -2573,12 +2573,12 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Ela quer algo de você. Algo tão derretido quanto ela. Algo que fica mais, mas também menos."
+			subtitle: "Ele quer algo de você. Algo tão derretido quanto ele próprio. Algo que aumenta mas também diminui."
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
 				id: "3B2A79DA51FD5FBB"
-				title: "A Arma precisa de Comida. Alimente-a com o que ela quer."
+				title: "A Arma precisa de Comida. Dê a ela o que ela quer."
 				type: "kill"
 				value: 200L
 			}]
@@ -2588,7 +2588,7 @@
 		{
 			dependencies: ["7272D65052D97F66"]
 			description: [
-				"&7Você realmente quer uma noite sem nenhuma confirmação de que não está sozinho? Tudo bem. Como quiser."
+				"&7Você realmente quer uma noite sem nenhuma confirmação de que não está sozinho? Tudo bem. Do seu jeito então."
 			]
 			id: "508A68D4C7383920"
 			invisible: true
@@ -2623,7 +2623,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Mate o que você ama. Mate o que te vê. Você vê seu reflexo no que você mesmo faz?"
+				"&7Mate aquilo que você ama. Mate aquilo que vê você. Você vê seu reflexo nos seus próprios atos?"
 			]
 			id: "17B5281769381237"
 			invisible: true
@@ -2640,7 +2640,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "OS OLHOS, OH DEUS NÃO OS OLHOS"
+			subtitle: "OS OLHOS, MEU DEUS, NÃO OS OLHOS"
 			tasks: [{
 				entity: "eldritch_end:ominous_eye"
 				id: "22B61AA183603949"
@@ -2667,7 +2667,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Esses itens tendem a ser mais difíceis de obter, pois requerem uma Tábua Rúnica e uma arma de Netherita. Forje uma."
+			subtitle: "Esses Itens tendem a ser mais difíceis de obter, pois requerem uma Tábua Rúnica e uma arma de Netherita. Forje uma."
 			tasks: [{
 				id: "10EC2EEDE202DA9B"
 				item: {
@@ -2687,7 +2687,7 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"&7Esta coisa será de alguma utilidade, melhor mantê-la com você enquanto explora o mundo!"
+				"&7Esta coisa será de alguma utilidade, melhor mantê-la com você enquanto explora o Mundo!"
 			]
 			hide_until_deps_complete: true
 			id: "127BAE862AB60CFB"
@@ -2720,7 +2720,7 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&7Não tenha medo da traição que você vê, mas da que você não consegue ver."
+				"&7Não tema a Traição que você vê, mas aquela que você não consegue ver."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2756,5 +2756,5 @@
 			y: -9.5d
 		}
 	]
-	title: " &dArmas Únicas"
+	title: " &dArmamento Único"
 }
